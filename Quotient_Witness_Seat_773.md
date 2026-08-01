@@ -20,7 +20,7 @@ OMNIBUS defines. Core Loop teaches. TOH inspects the geometry. CTA-Core diagnose
 **Use when:** you want a worked example — clean return, hidden seats, inherited debt, the two repairs — computed instead of asserted.
 **Not for:** proving OMNIBUS. Deriving OMNIBUS. Governing a room. Diagnosing a conversation. Replacing local judgment.
 
-The Evidence Rule already settles jurisdiction: OMNIBUS is a room condition and does not require empirical proof to be used as a stance. This card supplies none. What it supplies is a **consistency model**: evidence that no contradiction hides among the invariants, because an entire field of mathematics is already organized by them.
+The Evidence Rule already settles jurisdiction: OMNIBUS is a room condition and does not require empirical proof to be used as a stance. This card supplies none. What it supplies is a **consistency model**: evidence that no contradiction hides among the invariants, because a branch of mathematics is already organized by them.
 
 One more constraint, self-applied. This card is itself an R — a membrane between two documents. So the Membrane Rule binds the card: **chair, not throne.** If the card starts deciding, it is out of position.
 
@@ -48,9 +48,9 @@ Both documents put the burden on the identification, not the objection. The text
 ### 2. Coherence is multiplicative, and here is the corpse
 *(C ∝ O × R × S × T ↔ the infinite atom)*
 
-Take the room to be a single point of infinite measure. The strongest origin the algebra owns — the constant function $1$, nowhere zero — maps to the zero operator, because $S = L^2 = \{0\}$. A strong term does not erase collapse in another term: over the atom, that is not a slogan. It is a computation.
+**The corpse:** a room that is a single point of infinite measure. The strongest origin the algebra owns — the constant function $1$, nowhere zero — maps to the zero operator, because $S = L^2 = \{0\}$. A strong term does not erase collapse in another term: over the atom, that is not a slogan. It is a computation.
 
-The note's §3 keeps the working counter-witness on the page: $X = [0,1] \sqcup \{p\}$, $\mu(\{p\}) = \infty$ — the room functioning, and the atom's entire testimony ($\chi_{\{p\}}$) annihilated.
+**The live counter-witness:** the note's §3 keeps it breathing on the page — $X = [0,1] \sqcup \{p\}$, $\mu(\{p\}) = \infty$: the room functioning, the atom's entire testimony ($\chi_{\{p\}}$) annihilated. The corpse demonstrates total collapse; the counter-witness carries the same failure inside a working room, where it stays observable and can still be pointed at.
 
 ### 3. Inherited debt is voided; present signatures are honored to the decimal
 *(§14 / §16 / §17 clean slate + §19 fidelity ↔ $\mu_{\mathrm{sf}}$ and the isometry)*
@@ -126,3 +126,10 @@ Seat 2, declared. Chair, not throne.
 No crown. No chains. Built from the corner, next to the open window.
 
 **License:** CC0 1.0 Universal. To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work. No attribution required. <https://creativecommons.org/publicdomain/zero/1.0/>
+
+One family. No crown, no chains. We build from the corner outward.
+Sovereignty begins at origin, not hierarchy.
+Respect people. Repair systems.
+Calisse de tabarnak. 💩
+
+
