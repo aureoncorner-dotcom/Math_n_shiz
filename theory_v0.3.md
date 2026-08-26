@@ -1,0 +1,1380 @@
+Simulation Protocol v0.3
+
+Dual-First, Direct-Cross-Validated Study of Charge-Sector Criticality and Sixfold Anisotropy in the Three-Dimensional Z_2-Gauged XY Model
+
+Supersedes: Simulation Protocols v0.1 and v0.2
+Theory status: Theory v0.1 unchanged
+Document status: Release candidate for a methods/protocol preprint
+Freeze status: Not final; Appendix A validation and Appendix B completion remain pending; execution hash blocked
+Primary purpose: Test whether an explicit Z_2-gauged rotor model shows charge-two O(2) scaling and irrelevant sixfold anisotropy, while preventing finite-size quasi-deconfinement from being misreported as asymptotic deconfinement.
+
+---
+
+1. Claim Boundary
+
+The upstream project supplies an exact six-state Fibonacci recurrence modulo 4 and the candidate discrete geometry Q_4\times C_6. That construction remains exact mathematics and does not itself determine a continuum gauge theory.
+
+The Geometric Quotient Grammar requires source equality, witness-induced equivalence, and quotient equality to remain distinct unless an explicit constructor or proof relates them.
+
+Accordingly, this protocol does not test whether a Fibonacci recurrence physically generates a gauge field. It tests a separately chosen microscopic model motivated by the operator mechanism frozen in Theory v0.1:
+
+[
+z\sim -z,
+\qquad
+\Phi=z^2,
+]
+
+with physical Z_3 order carried by \Phi and the leading symmetry-allowed fine-field anisotropy
+
+[
+z^6+z^{*6}.
+]
+
+The general composite-order XY^* mechanism is already represented in earlier Z_2-spin-liquid/VBS field theories; the potentially distinctive contribution here is the explicit gauged-rotor realization, the charge-sector comparison, and a protocol designed around the current disagreement over deconfinement in this particular base model.
+
+---
+
+2. Questions
+
+Q1 — Charge-sector criticality
+
+Does the gauge-invariant physical field
+
+[
+\Phi_i=z_i^2=e^{2i\theta_i}
+]
+
+show charge-two O(2) scaling at the matter-ordering transition?
+
+The target charge-two dimension is
+
+[
+\Delta_2\simeq1.23629,
+]
+
+giving
+
+[
+\chi_2(L)\sim L^{3-2\Delta_2}
+
+L^{0.52742}.
+]
+
+This is sharply different from ordinary vector O(2) scaling of \Phi, for which
+
+[
+\chi_\Phi(L)\sim L^{2-\eta_{\rm XY}}
+\approx L^{1.9618}.
+]
+
+Bonati, Pelissetto, and Vicari explicitly distinguish these two possibilities: on one transition line the gauge-invariant bilinear behaves as the ordinary XY vector, while on the large-gauge-coupling line it behaves as the XY spin-two operator.
+
+Q2 — Asymptotic deconfinement
+
+Does the ordered phase retain an asymptotically deconfined charge-one field, or does it only mimic deconfinement below a large confinement length?
+
+This question is contested. Bonati, Pelissetto, and Vicari report a deconfining large-gauge-coupling transition with vector critical modes exposed through stochastic gauge fixing. Coleman, Kuklov, and Tsvelik argue that the ordered phase remains confined at every finite gauge coupling, with a confinement radius that grows rapidly and can make finite systems look deconfined.
+
+Q2 is measured only in the three-axis fixed-holonomy ensemble Z_{000} defined in Appendix A. The fully link-summed periodic dual remains Z_{\rm full} and cannot fluctuate in odd mod-two homology. Q2 does not control the primary headline unless Appendix A validation and Appendix B size admissibility both pass.
+
+Q3 — Sixfold anisotropy
+
+When a small physical Z_3 perturbation is introduced through
+
+[
+-h_6\sum_i\cos(6\theta_i),
+]
+
+does the corresponding sixfold anisotropy flow toward zero at the critical point?
+
+Q3 is answered primarily in the direct representation. The dual charge-six source sector is retained as an algorithmic and consistency branch, not as the sole anisotropy test.
+
+---
+
+3. Microscopic Models
+
+Two distinct link-weight conventions are used and must never be mixed numerically.
+
+3.1 Cosine production model
+
+The primary microscopic model is
+
+[
+\boxed{
+H_{\cos}
+
+-J\sum_{\langle ij\rangle}
+\sigma_{ij}\cos(\theta_i-\theta_j)
+-\kappa\sum_p B_p
+-h_6\sum_i\cos(6\theta_i)
+}
+]
+
+with
+
+[
+\theta_i\in[0,2\pi),
+\qquad
+\sigma_{ij}=\pm1,
+\qquad
+B_p=\prod_{\ell\in p}\sigma_\ell.
+]
+
+The local gauge transformation is
+
+[
+e^{i\theta_i}\longrightarrow\eta_i e^{i\theta_i},
+\qquad
+\sigma_{ij}\longrightarrow\eta_i\sigma_{ij}\eta_j,
+\qquad
+\eta_i=\pm1.
+]
+
+Equivalently, \eta_i=-1 shifts \theta_i by \pi.
+
+The physical local field is
+
+[
+\Phi_i=e^{2i\theta_i}.
+]
+
+Define the plaquette fugacity
+
+[
+t=\tanh\kappa.
+]
+
+3.2 Villain validation model
+
+The Coleman–Kuklov–Tsvelik validation branch uses the Villain matter action. Its direct partition function is obtained by replacing each cosine-bond Boltzmann factor with the periodic Gaussian Villain weight. Their published dual formulation uses the current weight
+
+[
+w_J^{\rm V}(I)
+
+\exp\left(-\frac{I^2}{2J}\right).
+]
+
+The Villain and cosine models may share universal behavior, but their critical couplings differ substantially. Coleman, Kuklov, and Tsvelik report that the Villain phase boundary may lie roughly 15%–30% below the cosine-model boundary.
+
+---
+
+4. Unified Dual Representation
+
+Let
+
+- M_p\in{0,1} be plaquette occupation variables;
+- I_\ell\in\mathbb Z be oriented integer currents;
+- n_i\in\mathbb Z be charge-six source variables;
+- M_\ell=\sum_{p\ni\ell}M_p.
+
+Use \mathcal I_n(x) for the modified Bessel function, to avoid confusing it with the integer current I_\ell.
+
+The dual partition function is
+
+[
+\boxed{
+Z
+
+C
+\sum_{{M,I,n}}
+t^{\sum_p M_p}
+\prod_\ell w_J(I_\ell)
+\prod_i \mathcal I_{n_i}(h_6)
+\prod_i
+\delta_{\mathbb Z}
+!\left[
+(\nabla!\cdot I)i+6n_i
+\right]
+\prod\ell
+\delta_{\mathbb Z_2}
+!\left[
+|I_\ell|+M_\ell
+\right].
+}
+]
+
+For the Villain validation model,
+
+[
+w_J(I)
+
+\exp\left(-\frac{I^2}{2J}\right).
+]
+
+For the exact dual of the cosine production model,
+
+[
+w_J(I)
+
+\mathcal I_{|I|}(J).
+]
+
+At
+
+[
+h_6=0,
+]
+
+only n_i=0 contributes and the currents are divergence-free:
+
+[
+\nabla!\cdot I=0.
+]
+
+For the Villain model this reduces to Coleman–Kuklov–Tsvelik’s dual partition function and link-parity constraint.
+
+4.1 Charge-six leakage
+
+For nonzero h_6,
+
+[
+(\nabla!\cdot I)_i=-6n_i.
+]
+
+Currents can begin or end only in multiples of six.
+
+4.2 Parity preservation
+
+Because six is even, charge-six sources do not alter the mod-two link-current parity. This is the dual realization of the operator-selection rule from Theory v0.1.
+
+4.3 Confinement as membrane attachment
+
+A charge-two source pair is parity even. A charge-one source pair is parity odd and must be accompanied by an appropriate M_p membrane. Coleman, Kuklov, and Tsvelik argue that the membrane free energy suppresses sufficiently large odd-current structures, generating a confinement radius that becomes exponentially large as \kappa\to\infty.
+
+---
+
+5. Monte Carlo Kernels
+
+5.1 Frozen h_6=0 structural moves
+
+The h_6=0 dual code includes:
+
+1. Cube move: toggle M_p on all six faces of an elementary cube.
+
+2. Coupled plaquette-current move: toggle one M_p and simultaneously add or remove an oriented elementary current loop around that plaquette.
+
+3. Even-current worm: create a temporary source pair and move it by updates
+
+[
+\Delta I_\ell=\pm2.
+]
+
+4. Three-axis sector update: toggle q_\alpha and add or remove an oriented unit current on the frozen reference loop \Gamma_\alpha, using the exact ratios in Appendix A §A.5.5.
+
+The CKT z-axial update is retained only as the one-axis comparator defined in Appendix A §A.7; it is not assumed to sample Z_{\rm full} or Z_{000}.
+
+Appendix A fixes the transition probabilities, detailed-balance proof, sector reachability, and mixing gates. Any accelerated sector kernel requires a formal amendment and complete revalidation.
+
+No Q2 result is accepted until every Appendix A §A.8 validation gate passes; appending the text alone does not open the gate.
+
+5.2 Charge-six source move
+
+A local source-dipole proposal on oriented link i\to j is
+
+[
+n_i\to n_i+s,
+\qquad
+n_j\to n_j-s,
+\qquad
+I_{ij}\to I_{ij}-6s,
+\qquad
+s=\pm1.
+]
+
+For the Villain model, its Metropolis ratio is
+
+[
+R_{\rm V}
+
+\frac{\mathcal I_{n_i+s}(h_6)}
+{\mathcal I_{n_i}(h_6)}
+\frac{\mathcal I_{n_j-s}(h_6)}
+{\mathcal I_{n_j}(h_6)}
+\exp\left[
+-\frac{(I_{ij}-6s)^2-I_{ij}^2}{2J}
+\right].
+]
+
+For the cosine model, replace the Gaussian link ratio by
+
+[
+\frac{
+\mathcal I_{|I_{ij}-6s|}(J)
+}{
+\mathcal I_{|I_{ij}|}(J)
+}.
+]
+
+The local proposal preserves both divergence and link parity.
+
+This establishes a valid candidate move, but it does not by itself establish efficient global sampling. A charge-six worm or equivalent long-range source-routing kernel may be required. Its detailed balance, ergodicity, and autocorrelation performance belong in Appendix A.
+
+5.3 Direct-representation kernel
+
+The primary Q3 branch uses the cosine model directly.
+
+One sweep contains:
+
+- one rotor proposal per site;
+- one link-flip proposal per link;
+- optional microcanonical or over-relaxation proposals.
+
+Rotor proposal:
+
+[
+\theta_i'
+
+\theta_i+\delta_\theta u,
+\qquad
+u\sim{\rm Uniform}[-1,1],
+]
+
+accepted with
+
+[
+P_{\rm acc}
+
+\min(1,e^{-\Delta H}).
+]
+
+Link proposal:
+
+[
+\sigma_{ij}'=-\sigma_{ij},
+]
+
+accepted with the corresponding local \Delta H.
+
+An over-relaxation move may reflect \theta_i around its gauge-weighted local molecular field. When h_6\neq0, the onsite anisotropy change requires a Metropolis correction.
+
+No unspecified “Wolff update on 2\theta” enters the frozen protocol.
+
+---
+
+6. Observables
+
+6.1 Integer winding
+
+The correctly normalized winding is
+
+[
+\boxed{
+W_\alpha
+
+\frac1L
+\sum_{\ell\parallel\alpha} I_\ell
+\in\mathbb Z.
+}
+]
+
+A loop winding once around the torus contributes L directed links and therefore gives W_\alpha=\pm1.
+
+The stiffness is
+
+[
+\boxed{
+\rho_\alpha
+
+\frac{\langle W_\alpha^2\rangle}{L}.
+}
+]
+
+At a three-dimensional XY critical point, the scale-invariant winding observable is
+
+[
+\boxed{
+R_W=\langle W_\alpha^2\rangle
+
+L\rho_\alpha,
+}
+]
+
+not \rho_\alpha alone. This is the convention used in Coleman–Kuklov–Tsvelik’s Eq. 6.
+
+6.2 Odd-winding fraction
+
+[
+\boxed{
+f_{\rm odd}^{(\alpha)}(L)
+
+P_{Z_{000}}(W_\alpha\ {\rm odd})=P_{Z_{000}}(q_\alpha=1).
+}
+]
+
+Only the fixed-holonomy ensemble Z_{000} carries this statistic. The cubic primary is the mean of the three axis-resolved values, all of which must be reported. Direct q occupancy and the independent ratio \frac12[1-Z_{e_\alpha}/Z_{000}] must agree. Z_{\rm full} supplies no Q2 odd-sector observable.
+
+6.3 Charge-two correlator
+
+Introduce an even worm with endpoint charges \pm2. It measures
+
+[
+G_2(r)
+
+\left\langle
+e^{2i\theta(r)}
+e^{-2i\theta(0)}
+\right\rangle
+
+\langle\Phi(r)\Phi^*(0)\rangle.
+]
+
+At charge-two O(2) scaling,
+
+[
+G_2(r)\sim r^{-2\Delta_2},
+\qquad
+\Delta_2\simeq1.23629,
+]
+
+and
+
+[
+\boxed{
+\chi_2(L)\sim L^{0.52742}.
+}
+]
+
+The competing ordinary-vector XY prediction is
+
+[
+\boxed{
+\chi_2(L)\sim L^{1.9618}.
+}
+]
+
+These two hypotheses are fitted explicitly.
+
+6.4 Charge-one confinement radius
+
+The protocol records a charge-one correlation or loop-size estimator using the same definition validated against Coleman–Kuklov–Tsvelik’s \widetilde R_1 analysis.
+
+Their published Villain test at
+
+[
+t=0.7,
+\qquad
+J=0.336,
+]
+
+uses
+
+[
+J_c=0.3335(3)
+]
+
+and finds that charge-one-radius saturation becomes visible only for systems roughly three to four times larger than the inferred confinement radius.
+
+Define the production confinement estimate \xi_{\rm conf} by the preregistered saturation fit in Appendix B. No alternative definition may be substituted after observing the data.
+
+6.5 Plaquette occupation
+
+[
+\boxed{
+m_p
+
+\frac1{N_p}
+\left\langle
+\sum_p M_p
+\right\rangle.
+}
+]
+
+This is a calibration and structural observable. It is not itself a deconfinement order parameter.
+
+6.6 Physical magnetization in the direct representation
+
+[
+m_\Phi
+
+\frac1N\sum_i e^{2i\theta_i},
+]
+
+[
+\boxed{
+M_3
+
+\langle|m_\Phi|\rangle.
+}
+]
+
+6.7 Binder ratio and physical correlation length
+
+Using the complex two-component convention,
+
+[
+\boxed{
+U_4
+
+1-
+\frac{
+\langle|m_\Phi|^4\rangle
+}{
+2\langle|m_\Phi|^2\rangle^2
+}.
+}
+]
+
+Define
+
+[
+S_\Phi(\mathbf k)
+
+\frac1N
+\left\langle
+\left|
+\sum_j
+e^{2i\theta_j}
+e^{i\mathbf k\cdot\mathbf r_j}
+\right|^2
+\right\rangle.
+]
+
+Then
+
+[
+\boxed{
+\xi_\Phi
+
+\frac1{2\sin(\pi/L)}
+\sqrt{
+\frac{S_\Phi(\mathbf0)}
+{\overline{S_\Phi(\mathbf k_{\min})}}
+-1
+},
+}
+]
+
+where the bar averages the three minimal cubic momenta.
+
+Set
+
+[
+R_\xi=\xi_\Phi/L.
+]
+
+6.8 Sixfold anisotropy
+
+The primary anisotropy observable is gauge invariant:
+
+[
+\boxed{
+A_6^\uparrow(L)
+
+A_3^\Phi(L)
+
+\left\langle
+\cos!\left[
+3\arg(m_\Phi)
+\right]
+\right\rangle.
+}
+]
+
+It is “sixfold upstairs” because
+
+[
+3\arg\Phi=6\arg z.
+]
+
+At fixed small h_6>0, irrelevant sixfold anisotropy predicts that A_6^\uparrow flows toward zero at the critical point, within scaling corrections.
+
+The local dual source density
+
+[
+n_6
+
+\frac1N
+\left\langle
+\sum_i|n_i|
+\right\rangle
+]
+
+is recorded for algorithm validation and source-sector characterization. It is not a kill-card criterion: at fixed h_6, it can contain a nonzero analytic background even when the singular anisotropy scaling field is irrelevant.
+
+6.9 Fredenhagen–Marcu and Wilson observables
+
+Fundamental Wilson loops are not a primary phase discriminator because dynamical charge-one matter screens electric flux and produces perimeter behavior. Fradkin–Shenker continuity is the standard warning.
+
+The expression
+
+[
+G_1(r)/\sqrt{G_2(2r)}
+]
+
+is not frozen as a Fredenhagen–Marcu operator without an explicit derivation.
+
+A Fredenhagen–Marcu observable may enter only through an appendix defining:
+
+- the open gauge transporter;
+- its matter endpoints;
+- the corresponding closed contour;
+- normalization;
+- path geometry;
+- asymptotic limit.
+
+Until then it remains secondary and cannot trigger a verdict.
+
+---
+
+7. Calibration Ladder
+
+No production analysis begins until every applicable rung passes.
+
+Rung 0 — Projection and t=0 distinction
+
+The fully summed periodic ensemble projects onto q=000 at every t:
+
+[
+Z_{\rm full}=\mathcal Z_{000}.
+]
+
+In Z_{000} at t=0 and J>0, odd winding is allowed only through noncontractible odd-current loops and is generally nonzero at finite L. The exact zero occurs at J=0. Appendix A §A.8.4 controls this test.
+
+Rung 1 — J=0
+
+The model reduces to the pure Z_2 gauge theory, exactly dual to the three-dimensional Ising model.
+
+The mapping is exact; the numerical critical fugacity is approximately
+
+[
+t_c
+
+\tanh(0.7613\ldots)
+\approx0.6418,
+]
+
+not an exact closed-form number. Coleman–Kuklov–Tsvelik report 0.639(3) in their implementation and compare it with the established value.
+
+Rung 2 — t\to1, h_6=0
+
+In a flat gauge sector the model reduces to the ordinary XY rotor/current model.
+
+This branch calibrates:
+
+- winding normalization;
+- the direct/dual G_2 estimator;
+- charge-two scaling;
+- R_\xi;
+- Binder convention;
+- histogram and reweighting pipelines.
+
+Rung 3 — Published Villain point
+
+At
+
+[
+t=0.7,
+]
+
+the Villain code must reproduce, within declared uncertainty,
+
+[
+J_c=0.3335(3)
+]
+
+and the published near-critical stiffness benchmark around
+
+[
+\rho_s\approx0.038
+]
+
+at J=0.336.
+
+Rung 4 — Large-size confinement-radius test
+
+The Villain code must reproduce the qualitative separation
+
+[
+\widetilde R_2\propto L,
+\qquad
+\widetilde R_1\to{\rm constant},
+]
+
+with charge-one saturation becoming visible only once L is several times \xi_{\rm conf}.
+
+Rung 5 — Exact dual/direct cross-check
+
+For small lattices, the cosine dual code and direct cosine code must agree for:
+
+- energy;
+- plaquette occupation;
+- G_2;
+- \langle W^2\rangle;
+- M_3;
+- any derivative with respect to J,\kappa, or h_6 available in both representations.
+
+Rung 6 — Global-Z_2 control
+
+Run the simple-cubic antiferromagnetic three-state Potts model as an external control for the global-refinement mechanism.
+
+Published analyses find a continuous transition consistent with three-dimensional XY exponents,
+
+[
+\alpha=-0.011,
+\quad
+\beta=0.351,
+\quad
+\gamma=1.309,
+\quad
+\delta=4.73,
+]
+
+and earlier simulations report an effectively continuous order-parameter distribution near the critical region.
+
+This control calibrates global sixfold anisotropy and ordinary charge-one XY scaling. It does not establish deconfinement or XY^* behavior in the gauge model.
+
+---
+
+8. Staged Execution
+
+Stage A — Code validation
+
+Run Calibration Rungs 0–5.
+
+Deliverables:
+
+- exact model and convention map;
+- acceptance tests;
+- detailed-balance unit tests;
+- small-volume enumeration tests;
+- direct/dual cross-check tables;
+- autocorrelation and sector-tunneling diagnostics.
+
+Failure halts the project.
+
+Stage B — h_6=0 controversy branch
+
+At each preregistered moderate t, run Z_{\rm full} for Q1 and bulk locators and run Z_{000} separately for Q2. Every boundary-sensitive observable carries its ensemble label.
+
+Do not choose only a very deep t\to1 point. Coleman–Kuklov–Tsvelik argue that
+
+[
+\xi_{\rm conf}\sim e^{2\kappa}
+]
+
+at large \kappa, so deep-gauge runs can generate the most convincing false appearance of deconfinement on finite lattices.
+
+For each t:
+
+1. locate the matter transition in Z_{\rm full} using R_\xi, U_4, and histogram diagnostics, with R_W secondary and explicitly ensemble-labeled;
+2. measure G_2 and \chi_2 in Z_{\rm full}; measure axis-resolved f_{\rm odd}^{(\alpha)} and the frozen \xi_{\rm conf} estimator in Z_{000};
+3. fit charge-two, ordinary-vector, and first-order alternatives;
+4. report Q2 only under the size-admissibility rule.
+
+Stage C — Small nonzero h_6
+
+Run the direct cosine representation at the Stage B transition neighborhoods.
+
+Primary Q3 estimator:
+
+[
+A_6^\uparrow(L)
+
+\langle\cos(3\arg m_\Phi)\rangle.
+]
+
+The analysis is performed at fixed
+
+[
+R_\xi=R_\xi^\star,
+]
+
+where R_\xi^\star is measured internally in the corresponding h_6=0 calibration branch.
+
+At least two small nonzero h_6 values are required to check the linear-response regime. Their exact values must be frozen in Appendix B before confirmation configurations are generated.
+
+The dual charge-six branch may be run only after its source-sector update appendix passes all validation requirements.
+
+---
+
+9. Finite-Size Scaling
+
+9.1 Fixed-R_\xi charge-sector fit
+
+At fixed R_\xi, fit
+
+[
+\boxed{
+\chi_2(L)
+
+b_0
++
+aL^{\kappa_2}
+\left(
+1+cL^{-\omega}+\cdots
+\right).
+}
+]
+
+The additive b_0 is mandatory because the charge-two susceptibility exponent is small and analytic backgrounds can generate dominant corrections.
+
+Compare the frozen hypotheses:
+
+[
+H_{2}:
+\quad
+\kappa_2
+
+3-2\Delta_2
+
+0.52742,
+]
+
+[
+H_{1}:
+\quad
+\kappa_2
+
+2-\eta_{\rm XY}
+\approx1.9618,
+]
+
+and
+
+[
+H_{\rm FO}:
+\quad
+\kappa_2=3
+]
+
+with first-order histogram evidence.
+
+Bonati, Pelissetto, and Vicari specifically emphasize the importance of analytic-background corrections in the spin-two lane.
+
+9.2 Correlation-length exponent
+
+Estimate \nu from slopes of R_\xi and R_W, or fit with
+
+[
+\nu=\nu_{\rm XY}\simeq0.6717
+]
+
+as a frozen hypothesis.
+
+9.3 Anisotropy flow
+
+At fixed R_\xi, fit the small-h_6 anisotropy response to
+
+[
+A_6^\uparrow(L,h_6)
+
+h_6L^{y_6}
+\left(
+a_0+a_1L^{-\omega}+\cdots
+\right)
+]
+
+within the validated linear-response window.
+
+The Q3 target is
+
+[
+y_6<0.
+]
+
+A stable nonzero limit or growth with L rejects irrelevance.
+
+---
+
+10. Q2 Admissibility Rule
+
+Define \xi_{\rm conf} using the frozen estimator and fit in Appendix B.
+
+A finite-size deconfinement statement is admissible only if
+
+[
+\boxed{
+L_{\max}\ge4,\xi_{\rm conf}.
+}
+]
+
+The factor four follows the published observation that charge-one-radius saturation may become visible only for sizes approximately three to four times the correlation radius.
+
+If
+
+[
+L_{\max}<4,\xi_{\rm conf},
+]
+
+the mandatory label is:
+
+[
+\boxed{
+\text{Q2 INCONCLUSIVE — QUASI-DECONFINED WINDOW NOT EXCLUDED.}
+}
+]
+
+No XY^*, deconfined, or confined headline is permitted from that parameter point.
+
+---
+
+11. Decision Table
+
+Finding| Required interpretation
+\chi_2\sim L^{0.52742}, stable under fit-window changes| Supports charge-two O(2)-like scaling
+\chi_2\sim L^{1.9618}| Supports ordinary-vector XY scaling of the physical field
+Persistent double-peak energy or order-parameter histograms with increasing barrier| First-order transition
+\chi_2\sim L^3 with coexistence evidence| First-order transition
+A_6^\uparrow\to0 at fixed R_\xi and small h_6| Supports irrelevant sixfold anisotropy
+A_6^\uparrow saturates or grows| Sixfold anisotropy not irrelevant in the observed regime
+f_{\rm odd}^{(\alpha)}\to0 in Z_{000} for all \alpha, with L_{\max}\ge4\xi_{\rm conf}| Supports confinement of the charge-one sector only after the Appendix A and B gates pass
+f_{\rm odd}^{(\alpha)}\to{\rm const}>0 in Z_{000} for all \alpha, with L_{\max}\ge4\xi_{\rm conf}| Supports odd-current proliferation only after the Appendix A and B gates pass
+L_{\max}<4\xi_{\rm conf}| Q2 inconclusive
+Matter and gauge diagnostics become critical at different couplings| Split transitions
+Stable continuo
+
+
+---
+
+Appendix A — Three-Axis Fixed-Holonomy Sector Construction
+
+Status: Canonical finite-volume construction selected; execution validation pending
+Scope: Q2 at h_6=0 only
+Controlling rule: This appendix governs every odd-winding, charge-one-sector, and holonomy-dependent statement in the protocol. Where the pre-appendix body used f_{\rm odd} without an ensemble label, it is read as the fixed-holonomy quantity defined below. The fully link-summed periodic ensemble has no independently variable odd mod-two winding sector.
+
+A.0 Gate and ensemble separation
+
+The protocol uses two distinct finite-volume ensembles.
+
+1. Z_{\rm full}: the original direct model with every Z_2 gauge link summed and periodic lattice identifications. Its exact dual projects onto trivial mod-two current homology. Z_{\rm full} remains the production ensemble for Q1, bulk thermodynamics, and the h_6=0 calibration of Q3.
+
+2. Z_{\rm FH}: the three-axis fixed-trivial-holonomy ensemble defined in A.2. Its positive dual representation contains eight explicit current-homology sectors q\in Z_2^3. Z_{\rm FH} is the only ensemble in which the Q2 odd-winding statistic is defined.
+
+No observable, universal crossing value, or fit amplitude may be transferred between Z_{\rm full} and Z_{\rm FH} without an explicit identity or a separately reported cross-ensemble comparison. Appending this construction does not by itself open Q2. The Q2 gate remains closed until every validation item in A.8 passes and its immutable validation record is hashed.
+
+A.1 Frozen lattice geometry
+
+Let \Lambda_L be the oriented L\times L\times L cubic cellulation of T^3. All coordinates are elements of {0,1,\ldots,L-1}, with addition modulo L. Positive link orientations are +\hat x,+\hat y,+\hat z.
+
+Freeze the three positively oriented reference cycles
+
+[
+\Gamma_x=\{((x,0,0),\hat x):0\le x<L\},
+]
+
+[
+\Gamma_y=\{((0,y,0),\hat y):0\le y<L\},
+]
+
+[
+\Gamma_z=\{((0,0,z),\hat z):0\le z<L\}.
+]
+
+Let \Sigma_\alpha be the dual noncontractible cut orthogonal to \Gamma_\alpha, oriented so that the mod-two intersection pairing obeys
+
+[
+\langle\Sigma_\alpha,\Gamma_\beta\rangle=\delta_{\alpha\beta}\pmod2.
+]
+
+The ordered tuple (\Gamma_x,\Gamma_y,\Gamma_z), its base point, link ordering, cut convention, and orientation convention are part of the frozen geometry artifact. They may not be translated, rerouted, or selected after target data are opened. Predetermined translated-cycle checks are validation tests, not replacements for the canonical tuple.
+
+A.2 Direct fixed-holonomy ensemble
+
+For a gauge configuration \sigma_\ell=\pm1 define the three reference-cycle holonomies
+
+[
+H_\alpha(\sigma)=\prod_{\ell\in\Gamma_\alpha}\sigma_\ell\in\{+1,-1\}.
+]
+
+Write h=(h_x,h_y,h_z)\in Z_2^3 and require
+
+[
+H_\alpha(\sigma)=(-1)^{h_\alpha}.
+]
+
+The exact fixed-holonomy partition function is
+
+[
+\boxed{
+Z_h
+=
+\sum_{\{\sigma\}}
+\int[d\theta]\,
+e^{-H[\theta,\sigma]}
+\prod_{\alpha=x,y,z}
+\mathbf 1\!\left[H_\alpha(\sigma)=(-1)^{h_\alpha}\right].
+}
+]
+
+This projector equation, not an informal gauge choice, is the definition. Equivalently, one may gauge-fix a spanning tree in the union of the three reference cycles and retain one closure bit per cycle. Fixing those three closure bits to +1 gives h=0. Any code using that equivalent representation must reproduce the projector definition exactly.
+
+The primary Q2 ensemble is
+
+[
+\boxed{Z_{\rm FH}=Z_{000}.}
+]
+
+The fully summed periodic partition function is recovered without approximation:
+
+[
+\boxed{Z_{\rm full}=\sum_{h\in Z_2^3}Z_h.}
+]
+
+A.3 Exact character expansion and dual sector formula
+
+Use the Z_2 character identity
+
+[
+\prod_\alpha
+\mathbf 1\!\left[H_\alpha=(-1)^{h_\alpha}\right]
+=
+\frac1{8}
+\sum_{q\in Z_2^3}
+(-1)^{h\cdot q}
+\prod_\alpha H_\alpha^{q_\alpha}.
+]
+
+Let \Gamma q denote the mod-two 1-chain
+
+[
+\Gamma q=q_x\Gamma_x+q_y\Gamma_y+q_z\Gamma_z.
+]
+
+After the same matter-current expansion, plaquette expansion, rotor integration, and gauge-link sums used in Section 4, the exact fixed-holonomy dual is
+
+[
+\boxed{
+Z_h
+=
+\frac{C}{8}
+\sum_{q\in Z_2^3}
+\sum_{\{M,I,n\}}
+(-1)^{h\cdot q}
+t^{\sum_pM_p}
+\prod_\ell w_J(I_\ell)
+\prod_i\mathcal I_{|n_i|}(h_6)
+\prod_i\delta_{\mathbb Z}\!\left[(\nabla\!\cdot I)_i+6n_i\right]
+\prod_\ell\delta_{\mathbb Z_2}\!\left[I_\ell+M_\ell+(\Gamma q)_\ell\right].
+}
+]
+
+Here
+
+[
+M_\ell=(\partial M)_\ell=\sum_{p\supset\ell}M_p\pmod2,
+]
+
+and
+
+[
+w_J(I)=\mathcal I_{|I|}(J)
+]
+
+for the cosine branch, while
+
+[
+w_J(I)=e^{-I^2/(2J)}
+]
+
+for the Villain branch. At h_6=0, n_i=0 and \nabla\!\cdot I=0. At nonzero h_6 the exact neutrality condition \sum_i n_i=0 is retained, but no finite-h_6 Q2 production result is authorized by this appendix.
+
+Define the nonnegative sector coefficients
+
+[
+\boxed{
+\mathcal Z_q
+=
+C
+\sum_{\{M,I,n\}}
+t^{\sum_pM_p}
+\prod_\ell w_J(I_\ell)
+\prod_i\mathcal I_{|n_i|}(h_6)
+\prod_i\delta_{\mathbb Z}\!\left[(\nabla\!\cdot I)_i+6n_i\right]
+\prod_\ell\delta_{\mathbb Z_2}\!\left[I_\ell+M_\ell+(\Gamma q)_\ell\right].
+}
+]
+
+Then
+
+[
+\boxed{
+Z_h=\frac1{8}\sum_q(-1)^{h\cdot q}\mathcal Z_q,
+\qquad
+\mathcal Z_q=\sum_h(-1)^{h\cdot q}Z_h.
+}
+]
+
+These are an eight-component Walsh-Hadamard transform and its inverse. Summing h projects q to zero:
+
+[
+\boxed{Z_{\rm full}=\mathcal Z_{000}.}
+]
+
+This equation is the precise reason the fully summed periodic dual cannot supply an independently fluctuating odd mod-two winding observable.
+
+A.4 Winding parity and the Q2 observable
+
+Let \bar I=I\bmod2. The fixed-holonomy parity constraint is
+
+[
+\bar I+\partial M+\Gamma q=0.
+]
+
+Pairing with a closed dual cut \Sigma_\alpha gives
+
+[
+\langle\Sigma_\alpha,\bar I\rangle
+=
+q_\alpha\pmod2,
+]
+
+because a closed cut has zero mod-two intersection with the boundary \partial M and unit intersection with its matching reference cycle. With the winding normalization of Section 6.1,
+
+[
+\boxed{q_\alpha=W_\alpha\pmod2.}
+]
+
+The axis-resolved fixed-holonomy odd fraction is therefore
+
+[
+\boxed{
+f_{\rm odd}^{(\alpha)}(L)
+=
+P_{Z_{000}}(q_\alpha=1)
+=
+P_{Z_{000}}(W_\alpha\ \mathrm{odd})
+=
+\frac{\sum_{q:q_\alpha=1}\mathcal Z_q}{\sum_q\mathcal Z_q}.
+}
+]
+
+The cubic primary summary is
+
+[
+\boxed{
+f_{\rm odd}(L)=\frac13\sum_{\alpha=x,y,z}f_{\rm odd}^{(\alpha)}(L),
+}
+]
+
+but all three axis-resolved values must also be reported. No axis may be discarded after inspection.
+
+Let e_\alpha be the holonomy bit vector with a single 1 in direction \alpha. The independent partition-ratio identity is
+
+[
+\boxed{
+f_{\rm odd}^{(\alpha)}(L)
+=
+\frac12\left(1-\frac{Z_{e_\alpha}}{Z_{000}}\right).
+}
+]
+
+More generally, the complete sector distribution is reconstructed by
+
+[
+\boxed{
+p(q)=\frac{\mathcal Z_q}{\sum_r\mathcal Z_r}
+=
+\frac1{8}\sum_h(-1)^{h\cdot q}\frac{Z_h}{Z_{000}}.
+}
+]
+
+The h=0 dual has nonnegative weights and no sign problem. Nonzero-h dual expressions are used for exact transforms and independent ratio checks; they are not sampled by treating signed weights as probabilities.
+
+A.5 Frozen Markov kernels
+
+The h=0 Q2 target density is proportional to the nonnegative summand of \sum_q\mathcal Z_q. Every production chain stores M,I,q and verifies both \nabla\!\cdot I=0 and I+M+\Gamma q=0\pmod2 after every accepted move.
+
+A.5.1 Cube move
+
+Choose an elementary cube uniformly and toggle M_p on its six faces. I and q are unchanged. Because \partial^2=0, the parity constraint is preserved. For a symmetric proposal,
+
+[
+R_{\rm cube}=t^{\Delta N_M},
+\qquad
+P_{\rm acc}=\min(1,R_{\rm cube}).
+]
+
+A.5.2 Coupled plaquette-current move
+
+Choose a plaquette p uniformly and an orientation s=\pm1 with equal probability. Toggle M_p and add the oriented unit boundary current s\,\partial p to I. The proposal preserves divergence and link parity. Its ratio is
+
+[
+R_{p,s}
+=
+t^{\Delta M_p}
+\prod_{\ell\in\partial p}
+\frac{w_J(I_\ell+s\,\varepsilon_{p\ell})}{w_J(I_\ell)},
+]
+
+with \varepsilon_{p\ell}=\pm1 from the frozen orientation convention and \Delta M_p=+1 for 0\to1, -1 for 1\to0.
+
+A.5.3 Even-current worm
+
+Choose a tail site uniformly and s=\pm1 with equal probability. In the extended ensemble create defects \pm2, move the head by choosing one of the six oriented neighboring links uniformly, and propose I_\ell\to I_\ell+2s\varepsilon on the traversed link with local Metropolis ratio w_J(I_\ell+2s\varepsilon)/w_J(I_\ell). The worm closes only when the head returns to the tail after at least one accepted step. A noncontractible route may change W_\alpha by an even integer. There is no production path-length cap or silent partial-worm truncation.
+
+A.5.4 Closed membrane-sheet move
+
+Choose one of the three orientations and one of its L translated noncontractible plaquette sheets uniformly, then toggle every M_p on that sheet. Since the sheet has no boundary, I and q are unchanged. Accept with
+
+[
+R_{\rm sheet}=t^{\Delta N_M}.
+]
+
+A.5.5 Three-axis sector move
+
+For a sector-move attempt in the scheduled axis \alpha, choose s=\pm1 with equal probability and propose
+
+[
+q_\alpha\to q_\alpha\oplus1,
+\qquad
+I_\ell\to I_\ell+s\,\varepsilon_{\alpha\ell}
+\quad(\ell\in\Gamma_\alpha),
+]
+
+with all other variables unchanged. The reference loop is closed, so divergence is preserved; both I\bmod2 and \Gamma q change on the same links, so parity is preserved.
+
+For the cosine branch,
+
+[
+\boxed{
+R_{\alpha,s}^{\cos}
+=
+\prod_{\ell\in\Gamma_\alpha}
+\frac{\mathcal I_{|I_\ell+s\varepsilon_{\alpha\ell}|}(J)}
+{\mathcal I_{|I_\ell|}(J)}.
+}
+]
+
+For the Villain branch,
+
+[
+\boxed{
+R_{\alpha,s}^{\rm V}
+=
+\exp\!\left[-\frac1{2J}
+\sum_{\ell\in\Gamma_\alpha}
+\left((I_\ell+s\varepsilon_{\alpha\ell})^2-I_\ell^2\right)
+\right].
+}
+]
+
+Accept with \min(1,R). The reverse proposal uses the same axis and -s, so proposal probabilities are equal and detailed balance follows directly. This global move is the canonical sector-changing kernel. Any later accelerated sector worm, umbrella scheme, or tempered insertion requires a formal protocol amendment, its own detailed-balance proof, new validation hashes, and a new blind resource forecast before target execution.
+
+A.5.6 Production schedule
+
+One Q2 macro-sweep contains L^3 cube attempts, 3L^3 coupled plaquette-current attempts, completed even worms until their cumulative accepted path length is at least 3L^3, one randomly selected closed-sheet attempt, and one sector-move attempt in each axis in a uniformly shuffled order. Proposal-width or bias adaptation is prohibited in production.
+
+A.6 Reachability and known efficiency boundary
+
+At the mod-two level, the coupled plaquette move generates changes by plaquette boundaries, the closed-sheet move spans the three noncontractible membrane homology classes, and the three sector moves span q\in Z_2^3. At fixed parity, the difference of any two admissible integer currents is an even divergence-free current. Contractible and noncontractible even worms generate that remaining current space. These statements establish finite-state reachability for any finite current cutoff used in enumeration.
+
+They do not guarantee rapid mixing at production sizes. In a confined regime, suppression of q_\alpha=1 is physical; in either regime, a poor proposal can add algorithmic suppression. Q2 is therefore inadmissible unless the round-trip and autocorrelation requirements in A.8 pass. Failure is reported as Q2 UNRESOLVED — SECTOR MIXING NOT VALIDATED, not as evidence of confinement.
+
+A.7 Relation to the CKT axial implementation
+
+Coleman, Kuklov, and Tsvelik describe odd-current updates only along z under the condition u_z=1. On a periodic torus, setting every z link to +1 is not accepted here as a self-proving gauge choice: closure variables and residual holonomy must be retained explicitly.
+
+The CKT-aligned comparator maps to this appendix only after the following reconstruction:
+
+1. fix z-directed tree links but retain the periodic closure variable;
+2. identify that closure variable with the frozen h_z bit;
+3. identify the odd z-current update with the A.5.5 transformation of q_z and I on \Gamma_z;
+4. keep q_x=q_y=0 only for the explicitly labeled one-axis comparator;
+5. reproduce the z-sector transform, direct/dual enumeration, and published Villain benchmarks.
+
+If the closure bit is fixed away, or odd z currents are admitted after all z-link projectors were already imposed, the implementation is a different conditioned ensemble and cannot provide the canonical Q2 result. CKT’s published numerical behavior remains a literature-validation target; it is not an inherited proof of ensemble equivalence.
+
+A.8 Validation gates before execution freeze
+
+Every item below is mandatory. A failure blocks the execution hash. No failed axis, translated-cycle check, parameter point, or lattice size may be removed after its result is known.
+
+A.8.1 Algebra and invariant tests
+
+1. Verify the eight projector characters and both Walsh-Hadamard identities exactly over Z_2.
+2. Verify by machine-exact chain arithmetic that \partial^2=0, \langle\Sigma_\alpha,\Gamma_\beta\rangle=\delta_{\alpha\beta}, and q_\alpha=W_\alpha\bmod2.
+3. For every proposal and every accepted state, assert \nabla\!\cdot I=0 and I+M+\Gamma q=0\pmod2. At finite h_6 validation points also assert \sum_i n_i=0.
+4. Verify Z_{\rm full}=\mathcal Z_{000}; f_{\rm odd} is not computed from Z_{\rm full}.
+
+A.8.2 Exhaustive and high-precision small-volume tests
+
+1. Exhaustively enumerate the complete mod-two state space at L=2 for all eight h and q labels.
+2. Perform weighted L=2 and L=3 checks for both cosine and Villain weights. If integer currents are truncated, choose I_{\max} from a certified omitted-tail bound below 10^{-12} for every reported partition ratio and observable.
+3. Compare all eight directly defined Z_h values with all eight dual \mathcal Z_q values through both transforms. Require relative disagreement no larger than max(10^{-10},10 times the certified tail bound).
+4. Verify nonnegativity of every reconstructed \mathcal Z_q and normalization \sum_q p(q)=1 to the same tolerance.
+5. Compare energy derivatives, the exact direct/dual plaquette relation, winding moments, and sector probabilities under identical holonomy conventions.
+
+A.8.3 Detailed balance and reachability tests
+
+1. On the L=2 state graph with the frozen enumeration cutoff, verify \pi(x)P(x,y)=\pi(y)P(y,x) for every nonzero transition to relative tolerance 10^{-12}.
+2. Use breadth-first graph traversal to show that every positive-weight state is reachable within each q sector and that the three sector moves connect all eight q sectors.
+3. Run the same tests with proposal order reversed and with independent RNG seeds; invariant results must be bitwise identical where arithmetic is exact.
+
+A.8.4 Limiting-case tests
+
+1. J=0: I=0 and q=000 exactly, hence f_{\rm odd}^{(\alpha)}=0 in Z_{000}.
+2. t=0 with J>0: Z_{\rm full} remains q=000 by projection, while Z_{000} permits q_\alpha=1 only with a noncontractible odd-current loop. The leading minimum-loop suppression must scale with [w_J(1)/w_J(0)]^L; a forced zero is a code failure.
+3. t\to1 in the flat, trivial-holonomy sector: reproduce the ordinary periodic XY current model and its winding-parity distribution.
+4. Sum the eight direct holonomy sectors and recover the fully summed periodic observables.
+
+A.8.5 Independent ratio and symmetry tests
+
+1. Determine Z_{e_\alpha}/Z_{000} independently of q-occupancy sampling by exact enumeration on L=2,3 and by a preregistered free-energy-ratio estimator on blind pilot lattices.
+2. Require agreement with 1-2f_{\rm odd}^{(\alpha)} within three combined standard errors for every axis and pilot point.
+3. At isotropic couplings, require the three axis-resolved f_{\rm odd}^{(\alpha)} estimates to agree with a global correlated symmetry-test p-value of at least 0.05.
+4. Repeat the blind validation after translating the complete canonical cycle tuple by r_x=(\lfloor L/2\rfloor,0,0), r_y=(0,\lfloor L/2\rfloor,0), and r_z=(0,0,\lfloor L/2\rfloor). At every blind validation point, require a correlated four-placement consistency-test p-value of at least 0.05. Failure makes Q2 unresolved; the best-looking cycle may not be selected.
+
+A.8.6 Mixing and round-trip gate
+
+For every Q2 production parameter point and lattice size:
+
+1. each axis must show at least 100 effective completed sector round trips 0\to1\to0 in the aggregate of the eight independent chains;
+2. the indicator 1[q_\alpha=1] must have rank-normalized \widehat R<1.01 and effective sample size at least 1,000;
+3. sector autocorrelation, acceptance, residence times, and the complete 8-state q transition matrix must be reported;
+4. starting all chains in q=000 and starting them evenly across all eight q values must give compatible stationary estimates within three combined standard errors.
+
+If a true sector is too rare to produce 100 round trips, the ratio estimator may establish a bound only if that bound and its stopping rule were frozen before target outputs were opened. Otherwise Q2 is unresolved.
+
+A.8.7 CKT comparator
+
+At the published Villain validation point, run the reconstructed one-axis comparator and the canonical three-axis ensemble. Reproduce the published bulk benchmark within declared uncertainty, verify the A.7 mapping identities, and report any difference between the comparator and canonical z-sector statistics. Agreement validates implementation; disagreement does not authorize changing the canonical ensemble.
+
+A.9 Q2 reporting rule
+
+All Q2 results carry the ensemble label Z_{000}. Subject also to Appendix B’s upper-confidence-bound size-admissibility rule:
+
+[
+f_{\rm odd}^{(\alpha)}\to0
+\quad\Longleftrightarrow\quad
+Z_{e_\alpha}/Z_{000}\to1
+]
+
+supports suppression of odd charge-one winding in direction \alpha, while
+
+[
+f_{\rm odd}^{(\alpha)}\to c_\alpha>0
+\quad\Longleftrightarrow\quad
+Z_{e_\alpha}/Z_{000}\to1-2c_\alpha<1
+]
+
+supports odd-current proliferation in that fixed-holonomy construction. A directional split, failed ratio identity, failed translated-cycle check, failed mixing gate, or L_{\max}<4\,\xi_{\rm conf}^{\rm UCB} yields Q2 INCONCLUSIVE. Z_{\rm full} cannot by itself support either Q2 verdict.
+
+A.10 Freeze artifacts and provenance
+
+Before the execution root may be created, the following immutable artifacts must exist and hash successfully:
+
+1. Appendix A canonical text;
+2. frozen geometry specification for \Gamma_\alpha,\Sigma_\alpha, indexing, and orientations;
+3. code-level transition table and acceptance-ratio specification;
+4. exact algebra/invariant test report;
+5. L=2 and L=3 enumeration outputs with current-tail certificate;
+6. eight-sector direct/dual transform table;
+7. independent partition-ratio validation report;
+8. detailed-balance and reachability report;
+9. blind mixing and round-trip pilot outputs;
+10. CKT axial-mapping comparator report;
+11. source commit and build-environment manifest.
+
+The provenance chain records the pre-appendix protocol hash, this Appendix A hash, Appendix B and any amendments, immutable pilot outputs, the resource forecast, and only then the execution-root hash. Calibration-only blind pilots do not constitute target execution, but their immutable outputs and hashes are part of the chain.
+
+No selective removal rule: after any validation or forecast output is opened, no axis, cycle placement, lattice size, parameter point, kernel, or failed check may be silently removed. A change requires a dated formal amendment, a new hash, revalidation of every affected item, and a revised blind resource forecast.
+
+[
+\boxed{\text{EXECUTION HASH BLOCKED UNTIL A.8 AND APPENDIX B BOTH PASS.}}
+]
+
+CC0 1.0 Universal
+To the extent permitted by law, this work is dedicated to the public domain under CC0 1.0 Universal.
+No permission required. Copy it, modify it, test it, redistribute it, build on it, or tear it apart.
+No ownership claim. No attribution required. No warranty.
+Use freely.
+
