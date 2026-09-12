@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>Geometry Lab · What survives the record?</title>
+<style>
+:root{color-scheme:light dark;--bg:#f5f4ef;--surface:#fffefa;--ink:#182825;--muted:#4b625b;--line:#c8d2cc;--accent:#176951;--soft:#e1efe8;--collision:#825018;--collision-soft:#fff0d8;--track:#dbe2dd;--focus:#175a8b;--shadow:0 12px 40px #16382a08}
+@media(prefers-color-scheme:dark){:root{--bg:#121c19;--surface:#192720;--ink:#edf3ef;--muted:#b1c6ba;--line:#41564b;--accent:#91dfba;--soft:#243f32;--collision:#ffd293;--collision-soft:#44331d;--track:#3e5046;--focus:#94cef6;--shadow:none}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:1140px;margin:auto;padding:clamp(20px,4.2vw,60px)}header{padding:10px 0 34px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:.17em;text-transform:uppercase;color:var(--muted);font-weight:650}h1{font-size:clamp(32px,5vw,57px);letter-spacing:-.045em;line-height:1.07;font-weight:560;margin:15px 0 18px;max-width:800px}header p{max-width:730px;margin:0;color:var(--muted);font-size:18px}.source-tag{margin-top:18px;font-size:13px;color:var(--muted)}section{padding-top:38px}.section-head{display:flex;align-items:baseline;gap:18px;margin-bottom:16px}.section-number{font-size:13px;font-variant-numeric:tabular-nums;color:var(--accent)}h2{font-size:27px;line-height:1.2;font-weight:580;letter-spacing:-.025em;margin:0}p{margin:9px 0}.intro{max-width:810px;color:var(--muted)}.control-box{margin-top:24px;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.controls-top{display:grid;grid-template-columns:1fr 1fr;gap:20px}.control-label{display:block;font-size:13px;letter-spacing:.015em;color:var(--muted);margin-bottom:7px}select{width:100%;min-height:44px;padding:9px 34px 9px 12px;border:1px solid var(--line);border-radius:7px;color:var(--ink);background:var(--bg);font:inherit}fieldset{margin:0;padding:0;border:0;min-width:0}legend{padding:0}.coordinate-controls{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;min-height:44px}.coordinate-controls label,.repair-control{display:flex;align-items:center;gap:9px;cursor:pointer;min-height:44px}.coordinate-controls input,.repair-control input{accent-color:var(--accent);width:18px;height:18px;margin:0}.fixed-coordinate{font-size:14px;color:var(--muted)}.repair-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}.repair-control{font-size:15px}.micro{font-size:13px;color:var(--muted)}button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.readout{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin:22px 0 14px;min-height:42px}.readout strong{font-size:18px;font-weight:620}.status{font-size:13px;padding:3px 10px;border-radius:30px;color:var(--collision);background:var(--collision-soft)}.status.clean{color:var(--accent);background:var(--soft)}.fibers{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,235px),1fr));gap:12px}.fiber{padding:15px;border:1px solid var(--line);border-radius:11px;background:var(--surface);min-width:0}.fiber-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:12px}.fiber-label{font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}.fiber-kind{font-size:12px;white-space:nowrap;color:var(--accent)}.fiber.collision .fiber-kind{color:var(--collision)}.state-list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}.state{flex:1 1 110px;min-width:0;padding:11px;background:var(--soft);border-radius:7px}.fiber.collision .state{background:var(--collision-soft)}.state-title{display:flex;justify-content:space-between;gap:8px;font-size:14px}.state-id{font-weight:650}.state-witness{font-variant-numeric:tabular-nums}.state-facts{font-size:12px;color:var(--muted);margin-top:4px}.explanation{padding:13px 0 5px;font-size:15px}.repair-hint{font-size:13px;color:var(--muted)}details{margin-top:15px;border-top:1px solid var(--line);padding-top:13px}summary{cursor:pointer;min-height:36px;color:var(--muted);font-size:14px}details p,details li{font-size:14px;max-width:850px}code{font: .95em ui-monospace,SFMono-Regular,Consolas,monospace}table{border-collapse:collapse;width:100%;font-size:13px;margin-top:12px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:9px 5px;font-variant-numeric:tabular-nums}th{font-weight:600}.table-wrap{overflow-x:auto}.padding-section{margin-top:18px;border-top:1px solid var(--line)}.pad-layout{display:grid;grid-template-columns:1fr .95fr;gap:30px;margin-top:25px}.slider-label{display:flex;justify-content:space-between;gap:16px;font-size:15px}.slider-label output{font-size:19px;font-variant-numeric:tabular-nums;font-weight:620}input[type=range]{width:100%;margin:15px 0 8px;accent-color:var(--accent);height:28px}.range-ends{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}.pad-equation{margin:18px 0 0;font:15px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace}.timelines{padding-top:0}.lane{margin-bottom:20px}.lane-title{font-size:13px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:9px}.lane-title strong{font-weight:500}.lane-title span{color:var(--muted);font-variant-numeric:tabular-nums}.track{height:17px;background:var(--bg);position:relative;border-radius:3px;overflow:hidden}.ready-bar,.wait-bar{position:absolute;top:0;bottom:0}.ready-bar{left:0;background:var(--track)}.wait-bar{background:var(--accent)}.time-axis{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-top:-8px}.legend{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:14px}.legend span{display:inline-flex;align-items:center;gap:6px}.swatch{width:15px;height:9px;background:var(--track)}.swatch.wait{background:var(--accent)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0 0}.metric{padding:15px 0;border-top:1px solid var(--line)}.metric-label{display:block;color:var(--muted);font-size:13px}.metric-value{display:block;font-size:28px;line-height:1.3;letter-spacing:-.035em;font-weight:580;font-variant-numeric:tabular-nums}.metric-value small{font-size:14px;letter-spacing:0;font-weight:400}.metric-note{font-size:12px;color:var(--muted)}.frontier-note{margin-top:15px;font-size:15px}.scope{color:var(--muted);font-size:13px}footer{border-top:1px solid var(--line);padding-top:20px;margin-top:42px;font-size:12px;color:var(--muted)}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:720px){.controls-top,.pad-layout{grid-template-columns:1fr}.pad-layout{gap:24px}h2{font-size:24px}.control-box{padding:17px}.repair-row{align-items:flex-start}.metrics{gap:10px}.metric-value{font-size:24px}header p{font-size:16px}}
+@media(max-width:390px){main{padding:20px}.section-head{gap:12px}.metrics{grid-template-columns:1fr}.metric{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding:10px 0}.metric-note{grid-column:1/-1}.state{flex-basis:90px}}
+</style>
+</head>
+<body>
+<main id="geometry-lab">
+<header>
+  <div class="eyebrow">Geometry lab · constructed examples</div>
+  <h1>What survives<br>the record?</h1>
+  <p>A small record can hide a decisive difference. Add one distinction, watch the groups split, and see exactly which question becomes answerable.</p>
+  <div class="source-tag">Synthetic finite states and an exact timing model. No physical or human results.</div>
+</header>
+
+<section aria-labelledby="fiber-heading">
+  <div class="section-head"><span class="section-number">01 /</span><h2 id="fiber-heading">Same label. Different answer.</h2></div>
+  <p class="intro">The retained record π groups states into fibers. A witness W descends through π exactly when every state in each group gives the same witness value.</p>
+  <div class="control-box">
+    <div class="controls-top">
+      <label><span class="control-label">Question / witness</span><select id="witness"><option value="w">What is the signed load W?</option><option value="m">What is the membrane flag M?</option><option value="next">What is the next sector q(Ux)?</option></select></label>
+      <fieldset><legend class="control-label">Keep more in the record</legend><div class="coordinate-controls"><span class="fixed-coordinate">q always kept</span><label><input type="checkbox" value="sign" class="coordinate">Sign</label><label><input type="checkbox" value="load" class="coordinate">Load |W|</label><label><input type="checkbox" value="m" class="coordinate">Membrane</label></div></fieldset>
+    </div>
+    <div class="repair-row"><label class="repair-control"><input id="repair" type="checkbox">Also retain the witness itself</label><span class="micro">The formal repair (π, W)</span></div>
+  </div>
+  <div class="readout" aria-live="polite" aria-atomic="true"><strong id="fiber-count"></strong><span id="collision-status" class="status"></span></div>
+  <div id="fibers" class="fibers" aria-label="States grouped by retained label"></div>
+  <p id="fiber-explanation" class="explanation"></p>
+  <p id="repair-hint" class="repair-hint"></p>
+  <p id="prediction-note" class="micro" hidden>The next-sector witness tests one next output. Even retaining it does not prove that the expanded record predicts its own future.</p>
+  <details><summary>See the six states and the exact update</summary>
+    <p>The finite domain is A–F. Here q is the parity of signed load, and M is a separate 0/1 flag. The deterministic update U is an arbitrary, declared map within these six states; it represents no physical kernel.</p>
+    <div class="table-wrap"><table><caption class="sr-only">Synthetic state data and deterministic next states</caption><thead><tr><th>State</th><th>q</th><th>W</th><th>M</th><th>U(state)</th><th>Next q</th></tr></thead><tbody id="state-table"></tbody></table></div>
+    <p>A and B share q=0, yet their next sectors are 1 and 0. This certifies one-step non-closure of q in this finite model. It says nothing about infinite Markov order.</p>
+    <p>The pair (π,W) is the coarsest refinement retaining both existing values. It is a mathematical repair for this witness, not a guarantee that W is available to measure. Coordinate repairs shown above are sufficient only on this six-state domain.</p>
+  </details>
+</section>
+
+<section class="padding-section" aria-labelledby="pad-heading">
+  <div class="section-head"><span class="section-number">02 /</span><h2 id="pad-heading">Spend waiting. Reduce spread.</h2></div>
+  <p class="intro">Half the responses are ready at 40 ms, half at 400 ms. A threshold can hold an early answer, but cannot release a late answer before it exists.</p>
+  <div class="pad-layout">
+    <div>
+      <label class="slider-label" for="threshold"><span>Release threshold T</span><output id="threshold-value" for="threshold">180 ms</output></label>
+      <input id="threshold" type="range" min="0" max="500" step="10" value="180" aria-describedby="pad-rule">
+      <div class="range-ends"><span>0 ms</span><span>500 ms</span></div>
+      <p id="pad-rule" class="pad-equation">Release = max(readiness, T)</p>
+      <p class="micro">Every slider position is an exact constructed calculation.</p>
+    </div>
+    <div class="timelines" role="img" id="timeline" aria-label="Readiness and added waiting for two equally likely responses">
+      <div class="lane"><div class="lane-title"><strong>Fast response · 50%</strong><span id="fast-caption"></span></div><div class="track"><div class="ready-bar" style="width:8%"></div><div id="fast-wait" class="wait-bar" style="left:8%"></div></div></div>
+      <div class="lane"><div class="lane-title"><strong>Slow response · 50%</strong><span id="slow-caption"></span></div><div class="track"><div class="ready-bar" style="width:80%"></div><div id="slow-wait" class="wait-bar" style="left:80%"></div></div></div>
+      <div class="time-axis"><span>0</span><span>250</span><span>500 ms</span></div>
+      <div class="legend"><span><i class="swatch" aria-hidden="true"></i>Waiting for readiness</span><span><i class="swatch wait" aria-hidden="true"></i>Added wait</span></div>
+    </div>
+  </div>
+  <div class="metrics" aria-live="polite" aria-atomic="true">
+    <div class="metric"><span class="metric-label">Mean delay</span><span class="metric-value"><span id="mean"></span> <small>ms</small></span><span class="metric-note">Unpadded: 220 ms</span></div>
+    <div class="metric"><span class="metric-label">Population SD</span><span class="metric-value"><span id="sd"></span> <small>ms</small></span><span class="metric-note">Unpadded: 180 ms</span></div>
+    <div class="metric"><span class="metric-label">Extra mean waiting</span><span class="metric-value">+<span id="extra"></span> <small>ms</small></span><span class="metric-note">Added after readiness</span></div>
+  </div>
+  <p class="frontier-note" id="frontier-note"></p>
+  <p class="scope">Scope: fixed readiness distribution, add-only waiting, finite variance, no queue feedback. This does not predict human benefit.</p>
+  <details><summary>Why this is an optimal variance frontier</summary>
+    <p>Fix any mean release time m. Among all releases Y ≥ R with that mean, choose T so Y* = max(R,T) has mean m. Then <code>Var(Y) − Var(Y*) ≥ E[(Y − Y*)²] ≥ 0</code>. The threshold is the unique minimum-variance release, up to events of probability zero.</p>
+    <p>For each readiness value, Y* minimizes <code>y² − 2Ty</code> over y ≥ R. Taking expectations cancels the equal means and proves the bound. It does not optimize task completion, content errors, interruption rates, or human experience.</p>
+  </details>
+</section>
+<footer>Geometry is witness-relative. Finite constructions stay finite. A computed timing benefit is different from a measured user benefit.</footer>
+</main>
+<script>
+(function(){
+  'use strict';
+  const states=[{id:'A',q:0,w:-2,m:0,next:'D'},{id:'B',q:0,w:2,m:0,next:'A'},{id:'C',q:0,w:2,m:1,next:'E'},{id:'D',q:1,w:-1,m:0,next:'B'},{id:'E',q:1,w:1,m:0,next:'F'},{id:'F',q:1,w:3,m:0,next:'C'}];
+  const index=Object.fromEntries(states.map(s=>[s.id,s]));
+  const coordinateNames={sign:'sign',load:'load |W|',m:'membrane'};
+  const signed=n=>n>0?'+'+n:String(n);
+  function witnessValue(s,witness){return witness==='w'?s.w:witness==='m'?s.m:index[s.next].q;}
+  function record(s,coordinates){return [s.q,...coordinates.map(c=>c==='sign'?Math.sign(s.w):c==='load'?Math.abs(s.w):s.m)];}
+  function groupStates(coordinates,witness,repair){
+    const groups=new Map();
+    states.forEach(s=>{const label=record(s,coordinates);if(repair)label.push(witnessValue(s,witness));const key=JSON.stringify(label);if(!groups.has(key))groups.set(key,{label,states:[]});groups.get(key).states.push(s);});
+    return [...groups.values()].map(g=>({...g,values:[...new Set(g.states.map(s=>witnessValue(s,witness)))]}));
+  }
+  function smallestAdditions(coordinates,witness){
+    const available=['sign','load','m'].filter(c=>!coordinates.includes(c));let answer=[];let size=Infinity;
+    for(let mask=0;mask<(1<<available.length);mask++){const added=available.filter((_,i)=>mask&(1<<i));if(added.length>size)continue;if(groupStates([...coordinates,...added],witness,false).every(g=>g.values.length===1)){if(added.length<size){answer=[];size=added.length;}answer.push(added);}}
+    return answer;
+  }
+  function padding(T){const fast=Math.max(40,T),slow=Math.max(400,T),mean=(fast+slow)/2,sd=Math.abs(slow-fast)/2;return {T,fast,slow,mean,sd,variance:sd*sd,extra:mean-220};}
+  globalThis.GeometryLab=Object.freeze({states,record,witnessValue,groupStates,smallestAdditions,padding});
+  if(typeof document==='undefined')return;
+  const root=document.getElementById('geometry-lab');
+  const el=id=>root.querySelector('#'+id);
+  function labelText(label,coordinates,witness,repair){const pieces=['q='+label[0]];coordinates.forEach((c,i)=>pieces.push((c==='sign'?'sign':c==='load'?'|W|':'M')+'='+(c==='sign'?signed(label[i+1]):label[i+1])));if(repair)pieces.push((witness==='w'?'W':witness==='m'?'M':'next q')+'='+label[label.length-1]);return pieces.join(' · ');}
+  function renderFibers(){
+    const coordinates=[...root.querySelectorAll('.coordinate:checked')].map(i=>i.value),witness=el('witness').value,repair=el('repair').checked;
+    const groups=groupStates(coordinates,witness,repair),collisions=groups.filter(g=>g.values.length>1),wlabel=witness==='w'?'W':witness==='m'?'M':'next q';
+    el('fiber-count').textContent=groups.length+' retained groups';
+    el('collision-status').textContent=collisions.length?collisions.length+' with a witness collision':'The chosen witness descends';
+    el('collision-status').className='status'+(collisions.length?'':' clean');
+    el('fibers').replaceChildren(...groups.map(g=>{const card=document.createElement('div');card.className='fiber'+(g.values.length>1?' collision':'');const heading=document.createElement('div');heading.className='fiber-header';const label=document.createElement('span');label.className='fiber-label';label.textContent=labelText(g.label,coordinates,witness,repair);const kind=document.createElement('span');kind.className='fiber-kind';kind.textContent=g.values.length>1?'Different answers':'One answer';heading.append(label,kind);const list=document.createElement('ul');list.className='state-list';g.states.forEach(s=>{const li=document.createElement('li');li.className='state';const title=document.createElement('div');title.className='state-title';const id=document.createElement('span');id.className='state-id';id.textContent=s.id;const value=document.createElement('span');value.className='state-witness';value.textContent=wlabel+' = '+(witness==='w'?signed(witnessValue(s,witness)):witnessValue(s,witness));title.append(id,value);const facts=document.createElement('div');facts.className='state-facts';facts.textContent='q '+s.q+' · W '+signed(s.w)+' · M '+s.m;li.append(title,facts);list.append(li);});card.append(heading,list);return card;}));
+    if(collisions.length){const first=collisions[0],a=first.states[0],b=first.states.find(s=>witnessValue(s,witness)!==witnessValue(a,witness));el('fiber-explanation').textContent=a.id+' and '+b.id+' share the same retained record, but '+wlabel+' is '+witnessValue(a,witness)+' versus '+witnessValue(b,witness)+'. That pair certifies non-descent on this domain.';}
+    else{el('fiber-explanation').textContent=repair?'Keeping (π, W) separates exactly the witness values that the current record mixed. This repairs this witness.':'Every group now gives one answer to the chosen question. Other questions may still need distinctions that this record omits.';}
+    const additions=smallestAdditions(coordinates,witness);
+    el('repair-hint').textContent=repair?'This formal repair need not be available to measure and need not predict its own next state.':collisions.length?'Smallest added coordinate repair on these six states: '+additions.map(a=>a.map(c=>coordinateNames[c]).join(' + ')).join(' or ')+'.':'No extra coordinate is needed for this witness on these six states.';
+    el('prediction-note').hidden=witness!=='next';
+  }
+  function renderPadding(){const p=padding(Number(el('threshold').value));el('threshold-value').textContent=p.T+' ms';el('mean').textContent=p.mean;el('sd').textContent=p.sd;el('extra').textContent=p.extra;el('fast-caption').textContent='Ready 40 → release '+p.fast+' ms';el('slow-caption').textContent='Ready 400 → release '+p.slow+' ms';el('fast-wait').style.width=(p.fast-40)/5+'%';el('slow-wait').style.width=(p.slow-400)/5+'%';el('timeline').setAttribute('aria-label','Equally likely responses: ready at 40 and 400 milliseconds; released at '+p.fast+' and '+p.slow+' milliseconds.');el('frontier-note').textContent=p.sd===0?'Both answers are ready by release. At mean '+p.mean+' ms, the spread is zero.':'At mean '+p.mean+' ms, no add-only release policy has lower variance in this model.';}
+  el('state-table').replaceChildren(...states.map(s=>{const tr=document.createElement('tr');[s.id,s.q,signed(s.w),s.m,s.next,index[s.next].q].forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.append(td);});return tr;}));
+  el('witness').addEventListener('change',renderFibers);el('repair').addEventListener('change',renderFibers);root.querySelectorAll('.coordinate').forEach(i=>i.addEventListener('change',renderFibers));el('threshold').addEventListener('input',renderPadding);renderFibers();renderPadding();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "GEOMETRY_Corpus_Map.json": {
+    "bytes": 100013,
+    "sha256": "84dacbd206d0aa2c6bb87924c32a1ca0a3622ddfa3185df0010e2b2c447e11ba"
+  },
+  "GEOMETRY_Corpus_Map.md": {
+    "bytes": 26089,
+    "sha256": "9c5ef2b51a73b220397f35290d9aba53bc935003681ab8d5b24b10f85c0e481f"
+  },
+  "geometry_engine.py": {
+    "bytes": 9196,
+    "sha256": "cb42d10f30d94aa6fc44bb1d64b6daebdf9ea41a9c267a98d227c087ab721d3b"
+  },
+  "GEOMETRY_Lab.html": {
+    "bytes": 21066,
+    "sha256": "4e940295b8f46722a0af724505186381d42e5f42908cb07ec73441ce52c30e32"
+  },
+  "geometry_padding_checks.json": {
+    "bytes": 459,
+    "sha256": "5fd1cb6d0522bed050d896dd95ebb816c80acefcbfbd4bc4462fa86e88f4bc96"
+  },
+  "GEOMETRY_Proofs_and_Review.md": {
+    "bytes": 49806,
+    "sha256": "b94fcba37fcb9d2ea8bf736f72159ce703746af34eec57961c8ebe825c770d72"
+  },
+  "GEOMETRY_Search_Index.json": {
+    "bytes": 262758,
+    "sha256": "48380b5ab499b9d0d96c361a9c0bbb3bac63121520c4a31ca3970d29ddb181c9"
+  },
+  "geometry_tests.py": {
+    "bytes": 13376,
+    "sha256": "4f8ce500441f3343b15c04b337bb9dfdcebc886601bb83dd4d279a182ddba224"
+  },
+  "geometry_verification.json": {
+    "bytes": 1271,
+    "sha256": "7c8509e0b7277418f7718f62bb90b47fda7aa9fa893930f82ae2122b0a3725db"
+  },
+  "GEOMETRY_Working_Master_v2.3_source.md": {
+    "bytes": 14562,
+    "sha256": "0cc04b21ee68c43e977b5c4d920a6a0db0d119bf85979d95d6b5fc1687b93bb7"
+  },
+  "GEOMETRY_Working_Master_v2.4.md": {
+    "bytes": 27438,
+    "sha256": "cb3caa3e26b9623dae14b9f6cf5c2ea8f07209a3b4cb9a61dcdd1d5cb522354b"
+  },
+  "START_HERE.md": {
+    "bytes": 2804,
+    "sha256": "415038cd77240bb2e2f97a9a5d4ebe13d62eb687fbe1e8d649427d76c3ea8e29"
+  }
+}

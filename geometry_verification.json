@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "Exact synthetic finite examples and exhaustive small declared tables only.",
+  "python_version": "3.12.14",
+  "test_methods": 16,
+  "failures": 0,
+  "errors": 0,
+  "exhaustive_case_counts": {
+    "D1": 512,
+    "D2": 256,
+    "D3": 1728,
+    "D4": 512,
+    "D5": 216,
+    "coordinate_repairs": 512,
+    "deterministic_compiler": 216,
+    "strong_lumpability_compiler": 512
+  },
+  "exhaustive_cases_total": 4464,
+  "duration_seconds": 0.0891,
+  "demonstration": {
+    "scope": "synthetic finite examples only",
+    "delayed_split_class_counts": [
+      2,
+      3,
+      4
+    ],
+    "inclusion_minimal_repairs": [
+      [
+        "a"
+      ],
+      [
+        "b",
+        "c"
+      ]
+    ],
+    "minimum_cardinality_repairs": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "historical_replay_performed": false,
+  "physical_experiment_performed": false,
+  "temporal_experiment_performed": false,
+  "limitations": [
+    "No finite test proves an unrestricted theorem.",
+    "Declared table completeness does not establish empirical coverage.",
+    "Coordinate repair search is exponential and menu-relative.",
+    "Strong lumpability is different from history-level finite Markov order."
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "case": "40/400 readiness; target mean 290ms; integer-ms add-only releases",
+    "bestVariance": 12100,
+    "minimizer": [
+      180,
+      400
+    ],
+    "thresholdPrediction": [
+      180,
+      400
+    ]
+  },
+  {
+    "case": "0/2/5 equally likely readiness; target mean 4; half-unit releases",
+    "bestVariance": 0.5,
+    "minimizer": [
+      3.5,
+      3.5,
+      5
+    ],
+    "thresholdPrediction": [
+      3.5,
+      3.5,
+      5
+    ]
+  }
+]
