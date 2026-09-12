@@ -1,0 +1,250 @@
+# Triadic Overlap Hypothesis · v2.1
+
+**Shared context, memory, and transformed return**
+Geometry integration revision · Original v2 edition: Sep 6, 2026
+
+> Same place, different state. Return does not require repetition, and return does not guarantee progress.
+
+## Abstract
+
+The Triadic Overlap Hypothesis proposes that coordination can benefit when the context of an encounter preserves distinctions needed for prediction, correction, and recovery. Translation, memory, and feedback are possible functions within that context. Whether a particular arrangement improves a specified system at an acceptable cost is the empirical question.
+
+The current formulation distinguishes **O** and **S**, the two interacting endpoints; **ℒ**, their declared shared context or coupling field; and **T**, elapsed time and dynamics. Contact is written **O ↔_ℒ S**. A local interface or translator may operate within ℒ, without becoming a compulsory third authority. A returning observation can match an earlier one while the underlying state, retained history, or available choices differ.
+
+The geometry work gives this proposal an exact information-loss test: two encounters may share a retained description while differing in a required witness. Twin Timelines and the toroidal constructions supply mathematical examples on their own domains. The corrected spectral increment supplies further examples of lost operator or path information. These examples make the hypothesis more testable; they do not establish a universal stability law or a biological cause of social organization.
+
+## 1. The revised hypothesis
+
+**Where coordination depends on distinctions erased by a chosen observation, retaining the relevant context and enabling effective correction may improve prediction and recovery at an acceptable cost.**
+
+This is a conditional claim. Declare the system, task, observation, available context, update rule, disturbance, sampling schedule, and measures of improvement. Added memory or mediation can introduce delay, amplify errors, or obscure responsibility. A direct connection can perform well. The value of preserving information and the value of a particular mediation architecture must be tested separately.
+
+The original intuition survives: meaningful cooperation often needs room for translation. The upgrade is to ask what that room actually preserves and changes.
+
+“Sovereignty” expresses a design value: distinguish the participants' roles, preserve their ability to challenge an interpretation, and make exit or replacement possible where applicable. It is not a mathematical invariant established by drawing three nodes.
+
+## 2. Two endpoints, shared context, and time
+
+| Symbol | Role | What must be identified in an application |
+|---|---|---|
+| **O** | Origin / requesting endpoint | The source of a request, interpretation, or constraint |
+| **ℒ** | Shared context / coupling field | The declared records, channels, constraints, and opportunities through which contact occurs |
+| **S** | Responding / structural endpoint | The participant or process receiving the interaction and supporting action |
+| **T** | Time | The interval and dynamics through which the state changes before return |
+
+O, S, and ℒ are distinct terms in the description. This does not assert three physically separate entities or three sovereign seats. T records elapsed time and dynamics. Common membership in a shared setting does not itself prove reciprocal contact; the relation and its usable channels must be specified or observed.
+
+This formulation follows OMNIBUS v7.79-r1: ℒ is a shared non-sovereign field, not the earlier mandatory R mediator. A translator, interface, router, or memory service P may operate within ℒ. Its local function and route must be declared; performing that function gives it no independent authority over the endpoints. Direct contact is permitted. R is retained only when explicitly discussing the earlier mediation model; R_n in OMNIBUS denotes a return-residual record.
+
+In a human–software example, O is the requester, S the responding system, and ℒ the declared interaction setting, including any shared record and correction channel. The interface is a possible implementation within that setting. Calling the setting a field or membrane supplies no physical metric, topology, causal mechanism, or mandatory intermediary. Each application must identify its actual variables and operations. See the linked OMNIBUS source in §13.
+
+## 3. The loop: transformation before return
+
+```text
+O ↔_ℒ S;   x_n →[u_n, Δt_n] x_(n+1)
+                       ↘ observation, feedback, next interaction
+```
+
+Subscripts index successive interactions. Primes, when used, mark changed or returning stages; they do not establish identity continuity, consent, or progress. The displayed update is a process within the declared setting. It need not factor through a separate mediation node, and the return operation need not invert the outward operation.
+
+At interaction n, a model might retain
+
+$$
+x_n=(o_n,s_n,\ell_n,h_n),\qquad
+x_{n+1}=F_{\Delta t_n,u_n}(x_n),\qquad y_n=B(x_n),
+$$
+
+where ℓ records the declared context variables, h the relevant available history, u the input, and B the observation. The model must specify how these variables evolve over the chosen interval and where memory is stored. “Preserve,” “decay,” “distort,” “integrate,” and “resonate” name candidate transformation modes; each needs an actual rule before it is a model.
+
+The distinction between mirror and transform becomes operational: an echo reproduces a specified representation, while modulation changes it according to a stated map. Neither automatically implies understanding or improvement.
+
+Three kinds of return must be distinguished:
+
+- **Observed return:** the recorded output matches an earlier output.
+- **State return:** the declared full state matches an earlier state.
+- **Functional recovery:** performance returns to a defined acceptable region after a disturbance.
+
+One can occur without the others. Iteration preserves a lineage only to the extent that its identifiers and records do so; it does not guarantee preserved content.
+
+## 4. When an observation can predict its own future
+
+For a fixed deterministic update F on a forward-invariant domain D, an observed state B(x) has a well-defined autonomous successor precisely when
+
+$$
+B(x)=B(y)\ \Longrightarrow\ B(Fx)=B(Fy)
+\quad\text{for all }x,y\in D.
+$$
+
+In plain language: **states that look the same must also produce the same next observation**. Otherwise the visible label omits something needed for exact prediction. With external inputs or a changing schedule, compare successors under the same declared input and interval, or include those variables in the predictive state.
+
+For a stochastic full-state model, compare entire next-observation probability laws, not just their means. On a finite or countable state space with transition kernel P, the universal condition is
+
+$$
+P(x,B^{-1}(A))=P(y,B^{-1}(A))
+\quad\text{whenever }B(x)=B(y),
+$$
+
+for every set A of possible observations. This is the strong lumpability condition. A transition table estimated from a short trace does not establish it.
+
+If closure fails, retaining context c(x) changes the observation to (B(x),c(x)). That can repair the failure, but only if the refined observation passes the same test. More memory is not automatically better: its availability, precision, storage cost, and relevance to the task matter. Future outcomes cannot be used as inputs to a present prediction.
+
+This provides a precise interpretation of one kind of “pinch”: an observation merges states whose differences matter to the next step. Predictive closure and dynamical stability remain different properties. The witness formulation and a complete correction example follow in §§4.1–4.3; the current geometry and OMNIBUS proofs are linked in §13.
+
+### 4.1 Witnesses locate the missing distinction
+Fix total maps π:D→Q=π(D) and W:D→Y on a declared encounter or history domain. The observation π records what the description retains; W is the specified answer, next response, correction outcome, or other quantity to recover. Define
+N_W(π) = {q∈Q : there exist x,y∈D with π(x)=π(y)=q and W(x)≠W(y)}.
+A located same-label/different-witness pair proves that W cannot be recovered exactly from π on that domain. With a declared metric and tolerance ε, a certified separation greater than ε proves within-label variation beyond that tolerance. It does not alone rule out a common approximation within ε of both values; separation greater than 2ε does, by the triangle inequality.
+The choice of W matters. For deterministic dynamics F, the next-output witness is B∘F. Universal stochastic closure uses the next-observation probability law. Finite-memory prediction for an initialized observed process instead compares conditional laws given histories; a hidden-state collision alone is not a proof of infinite observed-process Markov order.
+
+### 4.2 Constructed example: agreement can lose a correction
+Let D={e_keep,e_drop}. Both episodes receive the same correction, “the required answer is now 1,” and display the acknowledgement “Understood.” Their stored context bits differ: c(e_keep)=1 and c(e_drop)=0. Under the same next request, the specified response rule outputs the stored bit, so W(e)=c(e).
+With π(e)=the displayed acknowledgement, π(e_keep)=π(e_drop), but W(e_keep)=1 and W(e_drop)=0. Thus the acknowledgement label lies in N_W(π). Define the correction-success witness C(e)=1 exactly when W(e)=1; it also differs on that fiber.
+Retaining π′(e)=(π(e),c(e)) repairs this one-step witness on D: read its second coordinate. This proves an information-loss mechanism in the constructed model. It does not establish a measured benefit, a stable recurrent system, or a required third entity. The bit could be stored at an endpoint or in a shared record.
+
+### 4.3 What a repair proves
+The attained image S_W(π)=im(π,W) is the coarsest set-level refinement that retains π and this W. For a practical predictor, use an available context variable c and prove that W factors through (π,c); retaining a future answer by definition is not a way to obtain it in advance. Exact witness recovery does not automatically supply measurable implementation, low storage cost, predictive autonomy for every horizon, or dynamical stability.
+Different memories can induce the same future law, so storing all history or a full posterior is not automatically the smallest useful representation. The predictive-sufficiency connection is developed in Shalizi–Crutchfield, linked in §13. Preserving another requirement may still distinguish memories that are predictively equivalent.
+For finitely many declared witnesses W₁,…,W_k, D1 gives N_(W₁,…,W_k)(π)=⋃ᵢN_Wᵢ(π). Equal answers can coexist with different correction opportunities, usable exit, upkeep, or capacity. Keep those quantities and their units separate; a joint record does not create a universal scalar “coherence” measure.
+
+### 4.4 What this establishes about triadic overlap
+If a specified endpoint-only observation loses a required witness and a declared context refinement restores it, that observation needs the additional information for this task. Attributing a practical improvement to the shared context requires isolating the context change from other omitted variables. Neither the collision nor its repair proves that every system needs exactly three physical entities, a mandatory mediator, or a vesica, helix, or torus.
+The current spectral increment adds two exact examples: equal squared spectra can lose eta, and equal endpoint spectra can lose spectral flow. These extend the witness vocabulary. An application here must first declare its encounter-to-operator or path map and the target functional; a computed spectral value alone does not establish non-descent or triadic stability.
+
+## 5. What geometry means here
+
+The original vesica, cylinder, helix, cone, and torus remain a vocabulary for exploration. Their scientific role depends on what has actually been specified.
+
+| Geometric language | What would make it operational |
+|---|---|
+| Balanced overlap | Defined domains, an overlap measure, and evidence connecting that measure to an outcome |
+| Pinched channel or lost context | Separately measured capacity, delay, information loss, or restriction of available actions |
+| Symmetry | A stated transformation under which specified quantities or laws remain unchanged |
+| Toroidal motion | A specified periodic state space, trajectory, and relevant topological quantities |
+| Recurrence across scales | Explicit variables and maps between models, with tests of what those maps preserve |
+
+A loop drawn on a page does not establish torus topology. Two overlapping domains do not establish a vesica in a physical metric. Similar shapes across scales do not establish common dynamics or causation.
+
+Even an exact change of coordinates preserves the observation sequence only when the observation is transported consistently. Redrawing a phase space and imposing new equal-width bins can change the question being measured. The Geometry Maximization work makes this distinction explicit.
+
+## 6. Twin Timelines: equal history, different next step
+
+The exact phase model uses
+
+$$
+\alpha=\frac{3-\sqrt5}{2},\qquad
+\tau=15-39\alpha=\frac{39\sqrt5-87}{2}.
+$$
+
+For a reduced phase $0\le\rho_n<1$,
+
+$$
+\sigma_n=\mathbf1_{[0,\tau)}(\rho_n),\qquad
+\rho_{n+1}=\{\rho_n-\tau\}.
+$$
+
+The interval is half-open: phase zero slips; phase τ does not. Twin Timelines selects two different starting phases whose first **39 slip observations agree**, while observation **40 differs**. The mathematical construction extends to every finite history length; the released implementation supports lengths through 1,024.
+
+This is a constructed counterexample to exact prediction from a fixed finite slip history on the full phase circle. It demonstrates an information limitation, not physical branching, agency, or chaos. Once the exact phases are supplied, the next observations are computable. Practical prediction with finite precision still requires attention to observation boundaries.
+
+The open demonstration and verification are recorded; no blind human trial result is claimed. Prime lengths in the rematch schedule are a presentation choice, not a requirement of the construction. The deterministic irrational rotation is not mixing under its uniform invariant measure, despite its recurring patterns. [Exact construction and count identity](MATHEMATICAL_NOTES.md); [recorded evidence](evidence/LOCAL_EVIDENCE.json).
+
+## 7. Toroidal work: mathematical lesson and historical checks
+
+In the tested source-free periodic lattice model, a conserved integer current has signed winding W given by its oriented cut sums. Its parity sector is
+
+$$
+q=W\bmod2.
+$$
+
+Parity discards sign and magnitude. Equal q therefore does not mean equal W or equal full state. Even W alone need not be an autonomous state. Open-path wrap counts also require different treatment from the winding of a closed conserved current.
+
+**Tiny-system validation:** at L=2 and the chosen engineering point $J=1,t=1/2,h_6=0$, the implementation passed its declared comparison with an independent Monte Carlo reference after a separately planned follow-up cohort. The initial reference was unresolved because a rare event had insufficient coverage. All 80,000 retained dual states passed conservation and signed-winding checks; 12 exact-conditional consistency checks passed. The global reference was numerical sampling, not an exact solution of the full partition function.
+
+**Historical sampler pilot:** 48 chains at L=2, 3, and 4 produced 192,000 retained states over 65,040,000 attempted updates, as reported in the original v2 account. Every chain visited all eight parity sectors. Its sector diagnostics passed, while signed-winding diagnostics did not pass at the larger sizes:
+
+| L | Lowest signed-W effective sample size | Highest signed-W R-hat | Overall pilot screen |
+|---|---:|---:|---|
+| 2 | 2,344 | 1.00395 | PASS |
+| 3 | 741 | 1.01551 | UNRESOLVED |
+| 4 | 336 | 1.03469 | UNRESOLVED |
+
+These are the worst diagnostics across the two initialization groups. The frozen screens require effective sample size at least 1,000 and R-hat below 1.01. Effective sample size estimates how much correlated sampling contributes to precision; R-hat checks agreement across chains. Passing either is a diagnostic result, not a convergence proof.
+
+The original v2 account reports zero invariant failures in those retained pilot states. The table retains that historical cohort's diagnostics; it is not a new execution or a result for a different kernel. The current TOROIDAL master separates L=3 engineering-validation PASS, original-pilot UNRESOLVED, and physical Q2 NOT_RUN. The reported engineering follow-up does not resolve the earlier mixing or coverage questions. No new sampler, longer winding pilot, or physical run was performed for this revision. Current source: §13.
+
+The lesson for this hypothesis is specific: a coarse visible pattern can conceal a slower observable. The field sampler does not test whether social, biological, or conversational mediation creates stability.
+
+## 8. Stability needs a definition and a test
+
+Mediation and symmetry are insufficient by themselves. For example, a symmetric three-node chain with state z and update z′=Mz, where M has diagonal entries 1, adjacent off-diagonal entries 1, and other entries 0, has no direct first-to-third coupling. Yet M(1,√2,1)=(1+√2)(1,√2,1), so that initial state grows without bound. Conversely, direct averaging a′=(a+b)/2 and b′=(a+b)/2 preserves the mean and removes disagreement in one step. These are constructed linear models; graph shape alone does not select stability.
+
+This revision therefore separates boundedness, recovery, accurate prediction, reversibility, mixing, and agency. They are not interchangeable forms of “coherence.” A mathematically invertible update need not provide a practical undo operation; a well-mixed sampler need not represent a desirable social system.
+
+For the shared setting and any optional mediation function, record several measures instead of one undefined balance score:
+
+| Property | Example measurement |
+|---|---|
+| Predictive information | Cases with equal recorded states and unequal successors; held-out prediction error |
+| Translation fidelity | Which input distinctions survive the transform, and which are lost |
+| Capacity and timing | Throughput, delay, queue growth, and dropped messages |
+| Recovery | Time and cumulative error after a specified disturbance |
+| Correction and participation | Whether correction, refusal, replacement, and exit actually remain available |
+
+“Pinch” becomes a family of candidate failure mechanisms. Reduced bandwidth, delayed feedback, erased state, and concentrated decision power require different measurements and may require different repairs. Restoring visual symmetry is not itself a demonstrated repair.
+
+## 9. A testable next experiment
+
+Use a controlled software or dynamical-model experiment with a known state, a specified target, and a correction or disturbance whose consequences can be scored. The example in §4.2 is an exact benchmark for acknowledgement-only information loss; a performance experiment needs additional tasks and costs.
+
+Compare three implementations. A: direct interaction with the declared task-relevant context available. B: an optional mediation function with the same usable context and matched resource limits. C: the same mediated design with one predeclared context distinction erased. A versus B tests the architecture's contribution; B versus C tests the contribution of that context distinction. Treat delayed feedback as a separate condition if tested, rather than changing loss and delay together.
+
+Use matched inputs, initial conditions, and observation intervals; predeclare randomization and repeated trials when dynamics are stochastic. Before evaluation, choose workloads, corrections, disturbances, training and held-out data, metrics, tolerances, and a run budget. Include tasks expected to benefit and tasks where mediation may add overhead. Charge memory, latency, and computation to every variant. Preserve raw records separately from summaries, and use only information available before the predicted outcome.
+
+Test witness recovery and practical utility separately. A same-label pair with different deterministic target values disproves exact recovery from that label; under stochastic dynamics, compare target laws rather than treating two random outcomes as proof of different laws. Measure held-out error, correction success, recovery time, and cost separately. If A performs as well as or better than B, the extra mediation has shown no advantage on that workload. If B fails to outperform C within the declared tolerance and coverage, the proposed context benefit is unsupported by that test. A finite test with no observed collision does not prove universal descent.
+
+Twin Timelines and the spectral examples can supplement the benchmark set on their own declared domains. They do not supply evidence that an added mediation layer improves an application. **The comparative A/B/C performance experiment has not yet been run.** The exact correction example is a mathematical construction, not an experimental result.
+
+## 10. Recursive Geometric Imbalance: an untested extension
+
+The earlier companion hypothesis proposed a chain from chromosome fusion through molecular “pinching,” neural coordination, and social hierarchy. This revision retains that chain as an unanswered research idea, not as an explanation supported by the geometry calculations.
+
+Human chromosome 2 has molecular evidence of an ancestral **telomere-to-telomere fusion**. That is the description used here in place of the draft's Robertsonian label. The unsourced narrow date range is removed. The fusion evidence does not establish a cone-shaped DNA overlap, an electromagnetic imbalance, or impaired cognition. [Ijdo et al., 1991, *Origin of human chromosome 2*](https://pubmed.ncbi.nlm.nih.gov/1924367/).
+
+The fixed assignment of an analytical left hemisphere to O and a holistic right hemisphere to S is also removed. Functional lateralization exists, but a study of 1,011 people found local patterns of lateralization without the proposed whole-brain left-brained/right-brained network-strength phenotype. It does not support that simple role division. [Nielsen et al., 2013](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071275).
+
+To develop the biological branch, each proposed connection needs separate evidence: a defined structural variable at the locus; an independently supported effect on molecular function; a demonstrated link to a specific neural process; and, separately, a justified account of any social outcome. Similar language or shape cannot substitute for these links. The supplied work establishes none of that causal chain.
+
+The proposed test target is therefore a specific, measurable mechanism. There is presently no basis here for claiming that human evolution introduced a geometric defect or that “restoring cylindrical symmetry” would correct biological or social instability.
+
+## 11. Experience and design values
+
+Conversational flow, shared authorship, curiosity, and reversible disagreement remain useful experiences to notice. They can be collected as participant reports alongside performance and recovery measures. Feeling coherent does not establish predictive accuracy or causal understanding.
+
+Voluntary participation and freedom from coercion are design commitments in the core notes. A symbol such as “coercion = 0” expresses that commitment; it is not an observed numerical result without an operational measure. The shared setting should keep correction, refusal, and exit usable. Optional interpretation or memory functions acquire no unquestionable authority through their usefulness.
+
+## 12. The Play Clause
+
+> If the framework begins to feel inevitable, sacred, or correct, it has stopped functioning as a tool.
+
+The framework remains a playable lens. A failed prediction, an effective direct connection, or a useful asymmetry should be allowed to change it.
+
+Keep the loop open to inspection. Keep the return distinguishable from the display. Let the evidence decide where the geometry earns its place.
+
+## 13. Sources for the geometry integration
+Shared-field formulation and residual closure: OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair
+Geometry overview and service connection: GEOMETRY + GQG — Working Master
+Corrected locus calculus, §§16–17: New geometry 
+Current toroidal scope and source-status distinctions: TOROIDAL — Working Master
+Spectral examples and analytical import rules: GEOMETRY — Upgrade v2.2grok
+Output, upkeep, and capacity: # Thermodynamic Coordination + Reflex Geometry · v3
+Service answers, ablation, and correction records: Geometry_Direct_Service_Update
+Predictive sufficiency: Shalizi–Crutchfield, Computational Mechanics: Pattern and Prediction, Structure and Simplicity.
+The relative filenames retained in the earlier Twin Timelines paragraphs identify the original v2 companion bundle. MATHEMATICAL_NOTES.md and evidence/LOCAL_EVIDENCE.json were not independently retrieved for this update; those references are not live Drive links or evidence of a new verification run. The linked current masters provide the geometry definitions and scope used in this revision.
+
+---
+
+**Attribution and reuse:** The original draft's CC0 declaration is retained for this revised text: “Use freely, modify freely, break freely.” Linked publications retain their own attribution and terms.
+
+**Revision record:** v2.1 updates the existing document in place. It integrates the corrected non-descent calculus, the shared-field formulation in OMNIBUS v7.79-r1, the service/thermodynamic distinction between equal outputs and different capacities, and the spectral increment's import limits. It adds the explicit correction example, separates architectural benefit from information benefit in the proposed experiment, and aligns toroidal status language with the current master. Earlier Twin Timelines and sampler reports retain their stated source scope. No comparative performance experiment, biological study, or new physical run is claimed.
+
+
