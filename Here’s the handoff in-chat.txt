@@ -1,0 +1,197 @@
+﻿Here’s the handoff in-chat. Paste this first into Ultra, then attach Working Master v2.5.
+
+
+---
+
+
+# ULTRA HANDOVER — Geometry pack + firewalled imports
+
+
+Paste this first. Then attach Working Master v2.5 and the v2.6 adaptivity-gap increment below. Do not flatten imports into the native core.
+
+
+Status date: 2026-09-12.
+
+
+## 0. What Ultra is being asked to do
+
+
+Upgrade the document corpus using the accepted native core. Do not rewrite history. Do not identify imported algorithms with `π`, `N_W`, sectors, or service `π_DS`.
+
+
+Accepted native baseline:
+
+
+1. User file **GEOMETRY — Working Master v2.5** (label-conditioned acquisition, §5.1).
+2. This session’s increment **v2.6 adaptivity gap**.
+3. Inherited v2.4 engine / lab / corpus-map receipts stay receipts. Do not claim they were re-run here.
+
+
+## 1. Native core (do not mutate the meanings)
+
+
+Domain `D`, maps `π:D→Q`, `W:D→Y`.
+
+
+`N_W(π) = {q : two points in the fiber of q have different W}`.
+
+
+Exact descent iff `N_W(π)=∅`. Canonical repair `S_W(π)=im(π,W)`.
+
+
+D1–D5, coverage envelope `L_C ⊆ N_W(π) ⊆ L_C ∪ G_C`, statuses FAILED / CERTIFIED / TESTED_ONLY / UNRESOLVED / NOT_RUN / INELIGIBLE.
+
+
+Kinds I–VI are versioned diagnostic patterns, not a partition of all defects. Store source version + test + label.
+
+
+Service: `A_task` ≠ `A_sel`. Do not route on `π_DS=(O,A)` to acquire that same `A`.
+
+
+Temporal: protocol still NOT_RUN. Causal-padding frontier (`Y*=max(R,T)` at fixed mean) is math inside an add-only model, not a human measurement.
+
+
+Toroidal: discrete collisions on declared source-free cube. No silent transfer of TD-COS-FH-001 all-orders onto `(q,W)` or an accepted-move clock.
+
+
+## 2. v2.5 §5.1 (keep)
+
+
+After `q=π(x)` is known, each fiber has hitting family `H_q`.
+
+
+- `C_fixed = τ_a(⋃ H_q)`
+- `C_label,worst = max_q τ_a(H_q)`
+- `C_label,expected = Σ p(q) τ_a(H_q)`
+
+
+`C_label,expected ≤ C_label,worst ≤ C_fixed` when every fiber is repairable. Inventory of a cheapest-per-case policy can exceed optimal inventory `C_fixed`. Empty `S_xy` ⇒ UNREACHABLE; do not evaluate `0·∞`.
+
+
+Batch after `q` ≠ fully sequential acquisition.
+
+
+## 3. v2.6 increment (new this session)
+
+
+Instance `D_n={1,…,n}`, `π` constant, `W(x)=x`, unit-cost thresholds `c_t=1[x≥t]` for `t=2…n`.
+
+
+- Every exact **batch** uses all `n−1` thresholds (`H` contains the consecutive singletons `S_{i,i+1}={c_{i+1}}`).
+- Adaptive binary search uses `⌈log₂ n⌉` queries worst case (also the information lower bound).
+- Ratio `(n−1)/⌈log₂ n⌉ → ∞`.
+
+
+Certificate complexity on this menu: `C=1` at endpoints, `C=2` interior (`n≥3`). So `C=2`, `D=⌈log₂ n⌉`, `N=n−1`. Cube bounds `D≤C²` do **not** apply. Boolean majority / sensitivity / Huang do **not** apply.
+
+
+**Drop-in §5.1 sentence:**
+
+
+> On `D_n={1,…,n}`, constant `π`, `W(x)=x`, and unit-cost thresholds `c_t=1[x≥t]` for `t=2,…,n`, every exact batch uses all `n−1` thresholds, while binary search uses `⌈log₂ n⌉` queries in the worst case. Sequential acquisition can beat every exact batch by an arbitrarily large factor. The batch formulae remain the exact optimiser only inside the one-batch-after-`q` class.
+
+
+Keep the old eight-triple (3-query batch vs 2-query sequential) only as a constant-ratio footnote.
+
+
+## 4. Status board
+
+
+- L=3 follow-up PASS: source-reported, separate from original pilot UNRESOLVED
+- Physical Q2: NOT_RUN
+- Temporal factorial: NOT_RUN
+- Chemistry: FROZEN
+- Cosmic Time GLOBAL EXCESS: NOT SHOWN
+- Toroidal accepted-event / replay authority: unresolved
+- State-to-spectral-operator assignment: undeclared
+- v2.4 engine 16-method / 4464-table PASS: inherited receipt, not re-executed this session
+- v2.5 adaptive optimizer receipts: named in v2.5, not executed this session
+
+
+## 5. Code written this session (imported tools, not the engine)
+
+
+- `hager_zhang_cg.py` — HZ β + Wolfe demo; quadratic in 2 steps
+- `hopcroft_karp.py` — bipartite matching + König cover; not general `τ_a`
+- `edmonds_blossom.py` — general matching; Petersen ν=5
+- `kuhn_munkres.py` — dense max-weight assignment
+- `dijkstra_potentials.py` — reduced-cost Dijkstra
+- `vine_hfunctions.py` — `h`/`h⁻¹` for indep, Gauss, Clayton; D/C-vine Rosenblatt
+
+
+Do not merge these into `geometry_engine.py`.
+
+
+## 6. Import firewall (do not identify with π / sectors / π_DS)
+
+
+Optimization / filters: Kalman, EKF, IEKF, Gauss–Newton, LM, Moré–Sorensen, BFGS, L-BFGS, Nocedal two-loop, Dennis–Moré, HZ CG-DESCENT.
+
+
+Combinatorial tools for `τ_a` when the instance fits: hitting-set enum / B&B / LP, TU / network matrices, bipartite matching = König, Hungarian, SSP, cost scaling. General `H_q` is NP-hard; flow is not a workaround.
+
+
+Matroids: intersection, union/partition, Nash–Williams, Tutte–Nash–Williams, Edmonds branching, polymatroids, linear representations, graphic matroids, matroid matching/parity. Two matroids polynomial; three NP-hard. Hitting set is a cover, not an intersection.
+
+
+Flows: EK, Dinic, HK, push-relabel, gap/global relabel, Goldberg–Rao.
+
+
+Spectral / embedding: Huang sensitivity, Cheeger / higher-order Cheeger, spectral clustering, k-means++, Laplacian eigenmaps, diffusion maps, UMAP, Čech / NSW. Not E3, not Ledoux, not sectors.
+
+
+Fuzzy / copulas: t-norms, vines (C/D/R, Dissmann, proximity, Rosenblatt), Gauss / t / Clayton / Gumbel / Joe tails. Simulated rows are not validated coverage.
+
+
+v2.5 §10 foreign list still stands: heat kernels/GHY, APS/η, spectral action, BPHZ/CK, periods/MZVs, KPZ/Airy, Tamari/operads, Hopf-cyclic, Godbillon–Vey, motives, Euler systems, GT/associators.
+
+
+## 7. What Ultra should change
+
+
+1. Insert the v2.6 sequential paragraph.
+2. Keep Kind I–VI versioned; do not silently reuse v2.3 numerals.
+3. Keep `A_task` / `A_sel` and the circular-routing ban.
+4. Keep TD-COS-FH-001 scoped to its declared kernel.
+5. If a doc conflates an import with `π` or sectors, split it: native first, import in an appendix as TESTED_ONLY / no correspondence declared.
+6. Do not invent peer reviews, empirical timing results, or chemistry thaws.
+
+
+## 8. What Ultra should not do
+
+
+- Treat L-BFGS rates, Cheeger `λ₂`, vine `λ_U`, or Huang `s(f)` as descent of `W`.
+- Treat UMAP / diffusion coordinates as present E1 primitives without a causal computation declaration.
+- Treat Hopcroft–Karp / blossoms as general `τ_a`.
+- Treat Rosenblatt depth `d−1` as decision-tree depth on `D_n`.
+- Treat Boolean `D≤C²` as a bound on threshold search.
+- Promote NOT_RUN items to PASS.
+
+
+## 9. Suggested Ultra prompt
+
+
+```
+You are upgrading a geometry document corpus.
+
+
+Native core is Working Master v2.5 plus the v2.6 adaptivity-gap increment.
+Exact descent of W through π, hitting-set repairs, label-conditioned costs,
+and the unbounded threshold-search gap are the live mathematics.
+
+
+Everything else in the handover firewall is imported. You may mention it
+as a named packet. You may not identify it with π, N_W, toroidal sectors,
+π_DS, or TD-COS-FH-001.
+
+
+Update documents in place: fix conflations, insert the v2.6 sequential
+paragraph, preserve status labels, do not fabricate empirical results.
+Return a diff-style note per document plus a residual UNRESOLVED list.
+```
+
+
+---
+
+
+That’s the whole handoff. Attach v2.5 and go.
