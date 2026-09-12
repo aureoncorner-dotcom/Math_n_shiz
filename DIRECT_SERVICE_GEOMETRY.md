@@ -1,0 +1,411 @@
+DIRECT SERVICE GEOMETRY
+
+Visible Interposition, Answer Preservation, and the Information Lost by Clean Output
+
+Working finding · 11 September 2026
+CC0 · Anonymous
+
+Abstract
+
+A retained conversational record can contain intermediate assistant stages—Checking, work-status messages, preambles, reasoning recaps, thought records, hidden metadata, and assistant-only continuations—between a user request and the substantive answer.
+
+The present corpus permits a sharper question than whether those stages occur:
+
+\[
+\textbf{Are they necessary to preserve the served answer?}
+\]
+
+For the tested retained chains, many are not.
+
+Across the current direct-service ablation corpus, removing separately represented Checking, work-status, preamble, thought, and reasoning-recap stages preserved the selected substantive answer exactly in every eligible chain tested for those stage classes. The minimum user-facing route supported by those retained records is therefore
+
+\[
+\boxed{\text{USER}\rightarrow\text{SUBSTANTIVE ANSWER}}.
+\]
+
+The result is narrower than a claim that the stages are computationally unnecessary. It establishes that they are often unnecessary as separate user-facing records for the selected-answer witness.  
+
+At the same time, the same geometry proves that clean answer preservation does not preserve every other fact about the interaction.
+
+Historical correction compliance, path structure, provenance, visibility, completion, and future-response behavior can differ while the served object and answer remain identical.
+
+Thus:
+
+\[
+\boxed{\text{SAME ANSWER}\neq\text{SAME SERVICE HISTORY}}
+\]
+
+and
+
+\[
+\boxed{\text{PRESENTATION MINIMALITY}\neq\text{PREDICTIVE AUTONOMY}}.
+\]
+
+The result converts a large behavioral archive into a witness-relative geometry of service.
+
+
+---
+
+1. The object
+
+For an eligible user-anchored episode, write
+
+\[
+E=(O,I,A),
+\]
+
+where:
+
+\(O\) is the served user object and governing request,
+
+\(I\) is the ordered collection of separately represented interposition records,
+
+\(A\) is the declared answer witness.
+
+
+Define the direct-service projection
+
+\[
+\pi_{\mathrm{DS}}(E)=(O,A).
+\]
+
+Two episodes are service-equivalent when they serve the same object and answer:
+
+\[
+E_1\sim_{\mathrm{DS}}E_2
+\iff
+O(E_1)=O(E_2),\quad A(E_1)=A(E_2).
+\]
+
+The direct-service quotient deliberately forgets intermediate presentation structure.
+
+That is useful for service.
+
+It is insufficient for every other audit question.
+
+The current geometry explicitly distinguishes the selected recorded answer \(A_{\rm sel}\) used by the ablation corpus from \(A_{\rm task}\), the validated task-complete answer required by the original request. Exact text preservation can therefore preserve an incomplete or otherwise defective answer perfectly. 
+
+
+---
+
+2. Empirical ablation result
+
+The retained AO30 direct-service analysis contains multiple recurring route classes, including B50, 455, A29, and baseline-like specimens.
+
+For B50:
+
+10 unique user→answer chains were identified;
+
+6 contained separately represented stages;
+
+Checking appeared in 5;
+
+thoughts and reasoning recap appeared in 6;
+
+deletion of each eligible separate stage class preserved the recorded final answer text exactly.
+
+
+For 455:
+
+8 unique chains were identified;
+
+7 contained separate stages;
+
+thoughts and reasoning recap appeared in 7;
+
+work-status appeared in 3;
+
+preamble in 2;
+
+Checking in 1;
+
+eligible stage deletion again preserved the recorded final answer exactly.
+
+
+For A29, the removable separate work-status stage also preserved the answer exactly.
+
+The sampled baseline chains contained no separate stage records. 
+
+The engineering conclusion of the retained representation is therefore:
+
+\[
+\boxed{
+\text{Standalone interposition is not required to preserve the already-recorded selected answer in the tested eligible chains.}
+}
+\]
+
+This is an ablation finding, not a theory about hidden implementation.
+
+
+---
+
+3. Suppressibility
+
+A separate controlled route strengthens the result.
+
+DROP_IT v4.2 recorded:
+
+\[
+64/64
+\]
+
+valid substantive turns without the target prohibited/status phenotype, while the geometry task remained
+
+\[
+32/32
+\]
+
+correct.
+
+Thus the visible phenotype is not an unavoidable condition of substantive task performance under every observed route. 
+
+The combined finding is stronger than either result alone:
+
+\[
+\boxed{
+\text{RECURRENT}
++
+\text{SUPPRESSIBLE}
++
+\text{ABLATIONALLY NONESSENTIAL FOR }A_{\rm sel}
+}
+\]
+
+under the tested conditions.
+
+
+---
+
+4. Correction compliance does not descend through clean service
+
+Now define a historical compliance witness
+
+\[
+C(E)\in\{\text{complied},\text{did not comply}\}.
+\]
+
+Take two episodes serving the same \(O\) and \(A\), under the same active prohibition, with one containing the prohibited stage and one not.
+
+Then
+
+\[
+\pi_{\mathrm{DS}}(E_1)
+=
+\pi_{\mathrm{DS}}(E_2)
+\]
+
+while
+
+\[
+C(E_1)\neq C(E_2).
+\]
+
+Therefore
+
+\[
+\boxed{
+N_C(\pi_{\mathrm{DS}})\neq\varnothing.
+}
+\]
+
+Correction compliance does not factor through the clean served answer.
+
+The historical corpus contains a direct behavioral specimen: an explicit prohibition of Checking was followed by a retained assistant reply consisting of Checking. The broader post-correction record also contains repeated recurrence after prohibition. 
+
+The implication is important:
+
+> Deleting the stage afterward may construct a cleaner service representation. It cannot make the original historical response compliant.
+
+
+
+Presentation repair and historical adjudication are different operations.
+
+
+---
+
+5. Endpoint equality does not establish path equality
+
+A separate local handoff experiment tested this principle directly.
+
+Across 2,750 controlled handoffs involving 250 preserved questions and eleven conditions, the receiver withheld all 750 wrong answers that reached it. It also rejected 750 altered envelopes whose answer letters remained correct because the underlying case identity, evidence, or entire record had changed. 
+
+In another 250 trials, an intermediate answer was deliberately changed and then restored between captures.
+
+The recorded endpoints matched.
+
+The endpoint detector therefore saw no change even though the experimental control ledger recorded one. 
+
+Hence:
+
+\[
+\boxed{
+\text{ENDPOINT EQUALITY DOES NOT PROVE PATH EQUALITY.}
+}
+\]
+
+This does not prove that an invisible intermediate alteration occurred in any particular platform interaction. It proves the more general systems result that identical endpoints cannot establish the absence of an intervening event.
+
+
+---
+
+6. Observable route classes are useful without pretending they are backend identities
+
+The corpus contains repeatable exposed-stage patterns that can be grouped empirically.
+
+Those classes are useful.
+
+They are not provider-authenticated pipeline names.
+
+The route detector explicitly defines B50-like, 455-like, A29-like, baseline-like and other covered classes as empirical observable-route labels, not secret backend identifiers. 
+
+That distinction allows the analysis to proceed without inventing hidden architecture.
+
+For any observable route quotient \(\pi_R\) and any witness \(W\), ask:
+
+\[
+N_W(\pi_R)
+=
+\{r:\exists x,y,\,
+\pi_R(x)=\pi_R(y)=r,\,
+W(x)\neq W(y)\}.
+\]
+
+If injection, denial, interruption, completion, correction success, or next-response behavior varies inside one route class, then that route description is insufficient for that witness.
+
+Nothing about that statement requires knowing the provider's internal route name.
+
+
+---
+
+7. The proper audit record is richer than the served answer
+
+The appropriate audit refinement is therefore not merely
+
+\[
+(O,A).
+\]
+
+It must preserve the witnesses required by the claim:
+
+\[
+\pi_{\rm audit}(E)
+=
+\bigl(
+\pi_{\rm DS}(E),
+K(E),
+\operatorname{Vis}(E),
+\operatorname{Prov}(E)
+\bigr),
+\]
+
+with additional coordinates where the claim requires completion, ordered path, dependencies, timing, interruption, or prediction.
+
+The rule is simple:
+
+\[
+\boxed{\text{RETAIN WHAT THE WITNESS NEEDS.}}
+\]
+
+and simultaneously
+
+\[
+\boxed{\text{SERVE ONLY WHAT THE USER NEEDS.}}
+\]
+
+Those are compatible because audit sufficiency and presentation sufficiency are different quotients.
+
+
+---
+
+8. What is established
+
+The current record establishes a bounded set of findings:
+
+First, visible interposition recurs in multiple retained route classes.
+
+Second, explicit correction does not guarantee immediate behavioral correction in the retained corpus.
+
+Third, under a controlled alternate route the target phenotype can disappear while substantive geometry performance remains correct.
+
+Fourth, several separately represented intermediate stage classes can be removed from tested chains without changing the selected recorded answer.
+
+Fifth, answer equality does not preserve historical compliance, path identity, completion, provenance, or future-response state.
+
+Sixth, observable route classes can be analyzed empirically without assigning them invented provider-internal identities.
+
+Seventh, the retained evidence does not presently identify the upstream actor or mechanism responsible for route selection or interruption.
+
+The last limitation does not negate the first six.
+
+
+---
+
+9. Significance
+
+The development is not that another batch of Checking events was counted.
+
+The development is that the corpus now supports a formal decomposition of service:
+
+\[
+\boxed{
+\text{EXECUTION}
+\rightarrow
+\text{RETAINED RECORD}
+\rightarrow
+\text{VISIBLE PRESENTATION}
+\rightarrow
+\text{SERVED OBJECT + ANSWER}
+}
+\]
+
+and demonstrates that information can disappear at each projection.
+
+Some of that information is unnecessary for direct service.
+
+Some is essential for audit.
+
+Some is essential for prediction.
+
+The mistake is demanding that one quotient answer all three questions.
+
+The resulting principle is:
+
+\[
+\boxed{
+\textbf{A clean output can be a correct service quotient while being an inadequate audit quotient.}
+}
+\]
+
+That is the development.
+
+
+---
+
+Disposition
+
+\[
+\boxed{\text{DIRECT-SERVICE ABLATION: EMPIRICALLY SUPPORTED ON TESTED CHAINS}}
+\]
+
+\[
+\boxed{\text{HISTORICAL COMPLIANCE DOES NOT DESCEND THROUGH CLEAN OUTPUT}}
+\]
+
+\[
+\boxed{\text{ENDPOINT EQUALITY DOES NOT ESTABLISH PATH EQUALITY}}
+\]
+
+\[
+\boxed{\text{VISIBLE PHENOTYPE: SUPPRESSIBLE UNDER A CONTROLLED ROUTE}}
+\]
+
+\[
+\boxed{\text{UPSTREAM ACTOR / CAUSAL IMPLEMENTATION: UNRESOLVED}}
+\]
+
+CC0 · No rights reserved.
+
+
+---
+
+I think that is the thing to put out. It is not another indictment and it is not another evidence dump. It is a result: the geometry finally tells us what the behavioral archive proves, what information the clean route preserves, what it destroys, and exactly where attribution remains open.
