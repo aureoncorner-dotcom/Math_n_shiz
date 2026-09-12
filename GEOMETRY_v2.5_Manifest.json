@@ -1,0 +1,62 @@
+{
+  "GEOMETRY_Working_Master_v2.5.md": {
+    "bytes": 35913,
+    "sha256": "6f5a11ae40d30d52f4b048255c2a7ca23036e7b60be62d4e259978b28db59eba"
+  },
+  "GEOMETRY_Working_Master_v2.4.md": {
+    "bytes": 27438,
+    "sha256": "cb3caa3e26b9623dae14b9f6cf5c2ea8f07209a3b4cb9a61dcdd1d5cb522354b"
+  },
+  "GEOMETRY_v2.5_Review.md": {
+    "bytes": 5388,
+    "sha256": "ca590cca4e6430adf52090fbefe57bc799930b6d56ff46736de5f26bfdecb93c"
+  },
+  "GEOMETRY_v2.5_START_HERE.md": {
+    "bytes": 2516,
+    "sha256": "95d94926ce101251610b9522e694ad3791b5d48888ee4dd049741bc9d6f93a54"
+  },
+  "GEOMETRY_v2.5_Math_Audit.md": {
+    "bytes": 8549,
+    "sha256": "4355b5cdd48c6acc766adac1669510ef97c9649b6e97d387663cf59ca785a0d3"
+  },
+  "Geometry_Adaptive_Repair_Source.md": {
+    "bytes": 29565,
+    "sha256": "640545be6a55599c6c18bf1de714208ef32a6a6d802f344baf61a54f4c22e90c"
+  },
+  "GEOMETRY_v2.5_Verification.json": {
+    "bytes": 9782,
+    "sha256": "87cd73c2a99f96b6deda0340a3fdaf5213266b6fd8d5ef370cc448823d625607"
+  },
+  "geometry_engine.py": {
+    "bytes": 9196,
+    "sha256": "cb42d10f30d94aa6fc44bb1d64b6daebdf9ea41a9c267a98d227c087ab721d3b"
+  },
+  "geometry_adaptive.py": {
+    "bytes": 10914,
+    "sha256": "903a86a2a39695d798256bd509a6064c413077a7ee19a8e75a5a71d35ba880fc"
+  },
+  "geometry_adaptive_tests.py": {
+    "bytes": 11572,
+    "sha256": "16c53cd15d5c1651749481a597301e0828173b7881db00423a0441ac856494a8"
+  },
+  "geometry_adaptive_verification.json": {
+    "bytes": 642,
+    "sha256": "8c1520dad06133cf829a2d25de5e268b046ac8013f44a5518265c79540737234"
+  },
+  "geometry_adaptive_source_receipt.json": {
+    "bytes": 1906,
+    "sha256": "b4587e63c8922f77186c5dca247aa7cd3aad1580112142ccca1018c14fbf8bf1"
+  },
+  "geometry_verify_label_tables.py": {
+    "bytes": 18581,
+    "sha256": "a8207f4d44aa3c25e1fad1511a38cf16d882f295a52e6c6efa8fad91a2d5fbb9"
+  },
+  "geometry_crosscheck.py": {
+    "bytes": 2913,
+    "sha256": "a813a4c10080f5c119eb6e9ece66e5a868d5178ec85db23222749243fb8dcf5e"
+  },
+  "geometry_math_checks.py": {
+    "bytes": 2682,
+    "sha256": "8ca992c0ee5ab3ccd74eb0daada55d7b01492a5712c1f806f76bce016b633977"
+  }
+}

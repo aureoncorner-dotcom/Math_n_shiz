@@ -1,0 +1,371 @@
+{
+  "status": "PASS",
+  "verification_kind": "Independent synthetic finite reconstruction; no existing source verifier or geometry engine imported/executed.",
+  "scope": "All binary target/c1/c2 columns on four states, labels A,A,B,B. Exact integer and rational arithmetic; queries read one fixed state without changing it.",
+  "source_review": {
+    "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-12\\vh\\outputs\\Geometry_Adaptive_Repair_Review.md",
+    "sha256": "640545be6a55599c6c18bf1de714208ef32a6a6d802f344baf61a54f4c22e90c"
+  },
+  "source_reported_receipt": {
+    "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-12\\vh\\work\\adaptive_repair_verification.json",
+    "sha256": "b4587e63c8922f77186c5dca247aa7cd3aad1580112142ccca1018c14fbf8bf1"
+  },
+  "checker": {
+    "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-12\\alr\\work\\verify_label_repairs.py",
+    "sha256": "eba445e7bf27814e3a0d9294b27cc2b39005b18aa51621f9232c903741c2fa27"
+  },
+  "cost_profiles": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "four_state": {
+    "counts": {
+      "binary_tables": 4096,
+      "fixed_set_sufficiency_comparisons": 16384,
+      "policy_sufficiency_comparisons": 65536,
+      "unrepairable_tables": 960,
+      "tables_with_an_already_clean_fiber": 3072,
+      "empty_bad_pair_families": 4096,
+      "weighted_objective_bundles": 12288,
+      "individual_objective_equalities": 49152,
+      "cost_ordering_checks": 9408,
+      "label_factor_bound_checks": 9408,
+      "strict_unit_cost_worst_advantage_tables": 128
+    },
+    "profiles": {
+      "(1, 1)": {
+        "tables": 4096,
+        "unrepairable": 960,
+        "strict_worst_cost_advantage": 128,
+        "strict_expected_cost_advantage": 1664,
+        "zero_fixed_cost_repairable": 1024
+      },
+      "(1, 3)": {
+        "tables": 4096,
+        "unrepairable": 960,
+        "strict_worst_cost_advantage": 128,
+        "strict_expected_cost_advantage": 1792,
+        "zero_fixed_cost_repairable": 1024
+      },
+      "(0, 2)": {
+        "tables": 4096,
+        "unrepairable": 960,
+        "strict_worst_cost_advantage": 0,
+        "strict_expected_cost_advantage": 768,
+        "zero_fixed_cost_repairable": 2304
+      }
+    },
+    "ordered_result_sha256": "a72b1220ec4b0ad339c57c4a9fa1468b855faa3c238b3d414c4c02a4541602cc",
+    "label_probabilities": {
+      "A": "1/4",
+      "B": "3/4"
+    }
+  },
+  "k_label_separation": {
+    "cases": [
+      {
+        "labels": 1,
+        "states": 2,
+        "fixed_cost": 1,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 1,
+        "local_policy": {
+          "0": [
+            0
+          ]
+        }
+      },
+      {
+        "labels": 2,
+        "states": 4,
+        "fixed_cost": 2,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 2,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ]
+        }
+      },
+      {
+        "labels": 3,
+        "states": 6,
+        "fixed_cost": 3,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 3,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ]
+        }
+      },
+      {
+        "labels": 4,
+        "states": 8,
+        "fixed_cost": 4,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 4,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ]
+        }
+      },
+      {
+        "labels": 5,
+        "states": 10,
+        "fixed_cost": 5,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 5,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ]
+        }
+      },
+      {
+        "labels": 6,
+        "states": 12,
+        "fixed_cost": 6,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 6,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ],
+          "5": [
+            5
+          ]
+        }
+      },
+      {
+        "labels": 7,
+        "states": 14,
+        "fixed_cost": 7,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 7,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ],
+          "5": [
+            5
+          ],
+          "6": [
+            6
+          ]
+        }
+      },
+      {
+        "labels": 8,
+        "states": 16,
+        "fixed_cost": 8,
+        "label_worst_cost": 1,
+        "label_expected_uniform": "1",
+        "inventory_cost": 8,
+        "local_policy": {
+          "0": [
+            0
+          ],
+          "1": [
+            1
+          ],
+          "2": [
+            2
+          ],
+          "3": [
+            3
+          ],
+          "4": [
+            4
+          ],
+          "5": [
+            5
+          ],
+          "6": [
+            6
+          ],
+          "7": [
+            7
+          ]
+        }
+      }
+    ],
+    "counts": {
+      "global_mask_checks": 510,
+      "local_mask_checks": 3586,
+      "composed_policy_record_checks": 8,
+      "inventory_mask_checks": 510
+    },
+    "scope": "All global and local batch masks plus every inventory mask enumerated for k=1..8; the exponentially larger Cartesian product of all k-label policies was not enumerated. Selected optimal policies were checked by direct full-record collisions."
+  },
+  "sequential_example": {
+    "fixed_batch_cost": 3,
+    "label_batch_cost": 3,
+    "sequential_worst_cost": 2,
+    "states_replayed": 8,
+    "counts": {
+      "decision_subproblems": 27,
+      "decision_query_options": 21
+    },
+    "method": "Exhaustive dynamic program over all state-consistent query choices; stop only on target-constant residual sets."
+  },
+  "edge_and_service_cases": [
+    {
+      "name": "empty_families",
+      "result": "PASS",
+      "minimum_cost": 0
+    },
+    {
+      "name": "zero_probability_unrepairable_fiber",
+      "result": "PASS",
+      "probabilities": {
+        "A": "0",
+        "B": "1"
+      },
+      "globally_exact_policy_exists": false
+    },
+    {
+      "name": "free_coordinate_nontrivial_repair",
+      "result": "PASS",
+      "minimum_cost": 0,
+      "empty_selection_sufficient": false
+    },
+    {
+      "name": "service_answer_already_in_label",
+      "result": "PASS",
+      "minimum_cost": 0,
+      "interpretation": "A is already a coordinate of pi_DS=(O,A)."
+    },
+    {
+      "name": "service_pre_answer_observation",
+      "result": "PASS",
+      "minimum_unit_cost": 1,
+      "interpretation": "pi_pre excludes the unknown answer; this is a synthetic fixed target, not task validation data."
+    },
+    {
+      "name": "post_answer_audit_acquires_existing_evidence",
+      "result": "PASS",
+      "minimum_unit_cost": 1
+    },
+    {
+      "name": "post_answer_audit_uncaptured_evidence",
+      "result": "PASS",
+      "globally_exact_policy_exists": false
+    }
+  ],
+  "comparison_with_source_reported_counts": {
+    "tables": {
+      "source_reported": 4096,
+      "independently_reproduced": 4096,
+      "matches": true
+    },
+    "fixed_mask_checks": {
+      "source_reported": 16384,
+      "independently_reproduced": 16384,
+      "matches": true
+    },
+    "policy_checks": {
+      "source_reported": 65536,
+      "independently_reproduced": 65536,
+      "matches": true
+    },
+    "weighted_objective_checks": {
+      "source_reported": 12288,
+      "independently_reproduced": 12288,
+      "matches": true
+    },
+    "unrepairable_tables": {
+      "source_reported": 960,
+      "independently_reproduced": 960,
+      "matches": true
+    },
+    "strict_unit_cost_gap_tables": {
+      "source_reported": 128,
+      "independently_reproduced": 128,
+      "matches": true
+    }
+  },
+  "errors": [],
+  "elapsed_seconds": 0.866643,
+  "completed_at_utc": "2026-09-12T08:03:38.026410+00:00",
+  "limitations": [
+    "Finite synthetic checks support the implemented identities; the general theorem still rests on its proof and hypotheses.",
+    "No real service episode, historical conversation, sampler, timing intervention, energy use or human outcome was measured.",
+    "The batch policy selects from q only; the separate sequential example permits branching on earlier acquired values.",
+    "Probability zero does not remove a state from the declared exactness domain.",
+    "Acquisition cost is not installation cost, visible deletion cost, latency or predictive autonomy.",
+    "A_task must be a separately specified and validated target; the synthetic fixtures do not validate real task completion."
+  ]
+}

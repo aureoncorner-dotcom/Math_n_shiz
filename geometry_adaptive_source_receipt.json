@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "scope": "Complete binary four-state tables; retained labels fixed to [0,0,1,1]; two binary primitive coordinates; exact integer arithmetic.",
+  "tables": 4096,
+  "fixed_mask_checks": 16384,
+  "policy_checks": 65536,
+  "weighted_objective_checks": 12288,
+  "cost_profiles": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "expected_label_probabilities": [
+    0.25,
+    0.75
+  ],
+  "unrepairable_tables": 960,
+  "strict_unit_cost_gap_tables": 128,
+  "separation_examples": [
+    {
+      "fibers": 1,
+      "global_cost": 1,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 1
+    },
+    {
+      "fibers": 2,
+      "global_cost": 2,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 2
+    },
+    {
+      "fibers": 3,
+      "global_cost": 3,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 3
+    },
+    {
+      "fibers": 4,
+      "global_cost": 4,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 4
+    },
+    {
+      "fibers": 5,
+      "global_cost": 5,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 5
+    },
+    {
+      "fibers": 6,
+      "global_cost": 6,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 6
+    },
+    {
+      "fibers": 7,
+      "global_cost": 7,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 7
+    },
+    {
+      "fibers": 8,
+      "global_cost": 8,
+      "adaptive_worst": 1,
+      "adaptive_expected": 1,
+      "inventory_cost": 8
+    }
+  ],
+  "sequential_example": {
+    "fixed_global": 3,
+    "label_only": 3,
+    "sequential_worst": 2
+  },
+  "limitations": "Synthetic finite validation, not an empirical service experiment. The general results rest on the accompanying proofs."
+}
