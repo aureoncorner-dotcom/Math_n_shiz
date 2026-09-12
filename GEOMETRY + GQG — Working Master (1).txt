@@ -1,0 +1,99 @@
+﻿GEOMETRY + GQG
+Working master
+Updated: Sep 11, 2026
+CC0 • Anonymous
+Start here
+This is the current reading entry point for Geometry Maximization, witness-relative geometry, GQG, and the Hidden Quotient. It condenses their common definitions and current status; detailed proofs, instruments, and historical editions remain in the source folder. The “Geometry v2 source” tab preserves this document’s previous body.
+The useful common question is: which distinctions must a retained record preserve for the claim or prediction being made? Combining these projects into one document does not identify their state spaces or transfer proof status between them.
+Current source map
+Witness-relative geometry and non-descent locus: New geometry 
+Predictive fibers and minimal-phase companion: Geometry Upgrade v0.1 — Predictive Fibers and Minimal Phase
+GQG v0.12 instrument and residual closure: Open source
+Hidden Quotient v1.7, qualified theorem and worked restoration: Open source
+Earlier Hidden Quotient native synthesis: # THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE
+Toroidal working master and validation status: TOROIDAL — Working Master
+Cosmic Time working master: # Cosmic Time Architecture III · v07
+1. Retain the distinction the claim needs
+Declare a source domain D, retained map π, and witness W. Work on attained labels Q=π(D). The non-descent locus is
+N_W(π)={q∈Q : some x,y∈π⁻¹(q) satisfy W(x)≠W(y)}.
+A same-label pair with different witnesses shows that W cannot be recovered from that label. The canonical exact witness-resolving refinement is the image of (π,W), with its projection back to Q. It is coarsest for retaining this witness; it need not be a causal state or a practical predictor.
+The no-shape result is essential: without additional assumptions, any subset of Q can occur as the non-descent locus. A local collision does not determine its global geometry. Metric witness diameters support tolerance-dependent questions; a tested pair gives a lower bound. Openness, regularity, vertical-derivative criteria, and transport require their stated topological, smooth, connected-fiber, and lifting assumptions. Disconnected fibers may conceal discrete differences. Nonzero witness holonomy implies non-descent under the declared transport; non-descent alone does not establish holonomy.
+The ideal string example makes the distinction concrete: at fixed length, (T,μ) and (cT,cμ) have equal pitch but different tension. Keeping μ repairs tension recovery in that model. It supplies no general mechanism claim.
+Arithmetic witness examples
+On y²=x³+2x+2 over F₁₃, the pairs (P,Q) and (P,−Q), with P=(2,1) and Q=(3,3), have retained coordinates (2,3) but x(P+Q)=12 and x(P−Q)=11. Retaining both y-coordinates recovers the signed inputs and their sum on the declared affine domain; no minimality is claimed. An existential signed-sum relation is a different target from the x-coordinate of that specified sum.
+In O=Z[√2], 1 and u=1+√2 generate the same ideal. Under √2↦3 into F₇, their base-3 logarithms modulo 3 are 0 and 1. On D={1,u}, the √2 coefficient c of L(α)=(α⁸−1)/3 mod 3O recovers exactly this target: W=c. Recovery on this two-element domain does not establish global recovery on a larger domain.
+Both named constants, Belphegor’s Prime and 42×10⁴²+43, are established primes. The primality qualification concerns what a probable-prime test proves, not the mathematical status of these two integers.
+Full domains, arithmetic checks, and corrections to the packet's primality, Semaev, Weil-descent, and unit-character claims are in New geometry §15: New geometry 
+Integration provenance: # Geometry research packet: comparison and integration review (corrected examples 1–2). The substantive examples remain in New geometry §§15.1–15.2 under the existing framework and claim limits.
+Typed calculus and the scope of a repair
+New geometry §16 integrates the supplied Typed Defects v0.2 with corrected statements. D1: N_(W₁,W₂)(π)=N_W₁(π)∪N_W₂(π). D2: N_(f∘W)(π)⊆N_W(π). D3: if π=r∘π′, then r(N_W(π′))⊆N_W(π). D4: N_(W|C)(π|C)⊆N_W(π)∩π(C). D5: deterministic autonomy is N_(π∘U)(π)=∅.
+For a current output B, next-output recovery uses B∘U. These are set-level claims; topological or measurable descent needs the corresponding structure. The five diagnostic patterns are not an exhaustive partition: relation/output loss, unit loss, restriction-relative injectivity, componentwise versus whole-fiber constancy, and missing representation. The last requires an ambient j:A→Z and an explicit object outside j(A); enlarging Z alone does not supply it.
+The local v2.1 master and both typed-defect formats are now available. Their formulas and organizing labels were reviewed; file availability is not a new empirical result. Detailed corrections and the toroidal application are integrated in their existing documents.
+Corrected calculus, §16: New geometry 
+Thermodynamic coordination: # Thermodynamic Coordination + Reflex Geometry · v3
+Service and ablation: Geometry_Direct_Service_Update
+
+
+Spectral witnesses and foreign imports (v2.2)
+The v2.2 increment adds spectral family VI without changing the non-descent test: a computed eta or spectral-flow value alone does not prove information loss. Declare (D,π,W), the operator or path, and sufficient analytical conventions; then demonstrate variation within a retained-label fiber. Paths may themselves be points of D.
+Two exact examples retain identical squared spectra but lose eta, and retain identical endpoint spectra but lose spectral flow. Heat densities can also be witnesses after a domain-to-operator map and evaluation rule are declared. The import table keeps KPZ, Connes–Kreimer, GHY, APS, and the native constructions distinct unless a correspondence is proved. Detailed proofs and sources remain in the existing increment: GEOMETRY — Upgrade v2.2grok
+
+
+2. Predictive closure and finite-horizon loss
+For deterministic U:D→D, an autonomous retained update exists exactly when
+π(x)=π(y) ⇒ π(Ux)=π(Uy).
+For a stochastic kernel P, require equal next-observation laws for every measurable target set whenever the retained labels agree. A transition table fitted to one trace does not establish this universal condition.
+For a fixed output B, retained record r, kernel, clock, and horizon h, define δh(z) as the supremum of total-variation distances between future B-output laws from states in r⁻¹(z). Increasing h cannot decrease this diameter; refining r cannot increase the diameter within a refined fiber. When B=r, zero one-step diameter on every fiber is universal predictive closure. For a different, coarser B, matching its next output alone does not establish autonomy of r.
+In deterministic systems, equality of the entire future output sequence defines the coarsest autonomous refinement retaining the output. This characterizes required information; it does not permit future outcomes as predictor inputs.
+Worked counterexample: one-step primality is not closure
+Let D={n∈Z:n≥2} and U(n)=2n+1. Let q(n) indicate primality and let r(n)=(q(n), q(n)∧q(U(n))); the second component indicates Sophie Germain primality.
+Both 3 and 5 have r=(true,true). Their successors are 7 and 11, with r(7)=(true,false) because 15 is composite, and r(11)=(true,true) because 23 is prime. Thus equal retained states can have unequal next retained states: r is not autonomous. This corrects the research packet's claim that the Sophie Germain label is the required exact predictive refinement.
+For a chosen observation q, agreement of q(Uᵏ(n)) for every k≥0 defines a forward-invariant equivalence. It characterizes a predictive quotient without guaranteeing a finite or efficiently computable representation. The exact counterexample is an illustration of this section's criterion, not evidence for a new general closure theorem.
+3. Exact 39-screen reference model
+Phases are cycles. Set α=(3−√5)/2 and τ=15−39α≈0.103325561245899. Then
+θn={θ0+nα}, bn=⌊39θn⌋, ρn={39θn}, sn=bn mod 3.
+For the departing transition, σn=1_[0,τ)(ρn):
+ρn+1=ρn−τ+σn; sn+1=sn−σn mod 3.
+The pair phase zn={13θn}=(sn+ρn)/3 rotates by −τ/3. Full bins require θ, strand-plus-slip requires z, and slips require ρ, under the full-circle domain and boundary convention.
+The exact count identity is SN=Nτ+ρN−ρ0, hence |SN−Nτ|<1. At θ0=0, the counts are 5/39, 53/507, and 1,034/10,000 departures. Complete slip gaps are 9 or 10. The stationary slip process is nonmixing and has no finite Markov order; the detailed proofs and algebra remain in the source editions.
+A smooth conjugacy preserves these observations only when the observations are transported too. Equal-width bins in the new physical coordinate define a different observation. Analytic approximation bounds and finite numerical verification remain distinct from certified floating-point interval computation. The algebraic extensions do not establish a physical central charge.
+4. GQG: one operational record, distinct meanings
+GQG v0.12 retains separate namespaces for theorem geometry, dyadic admissibility, retained context, and empirical instrumentation. Witness fidelity is claim-relative; fidelity, resolution, and provenance strength are separate properties. A system report records what was said unless its implementation claim is independently supported.
+An external residual can establish observable condition dependence under a frozen comparison. It does not reconstruct hidden states or identify the generating mechanism. Source, derived view, detector, decision, action, and outcome remain separately located.
+For empirical constraint-response work, determine eligibility before forming the denominator. Retain Object, Standing, Response, and Route separately. Standing, event compliance, window binding rate, and derived demotion are different quantities. UNKNOWN, PARTIAL, exclusions, and censoring remain explicit. Historical counts cannot become successor rates by relabeling. Confirmatory promotion retains the independent, framework-naive sealed first pass and coordinate-level agreement requirements.
+The Open-Seam Atlas records typed partial transitions, provenance, discarded distinctions, correction, alternate routes, and path order. Endpoint equality does not establish path equality or a global manifold.
+5. Residual dynamics and the clock correction
+The unified record R=(δC,δD,δK) carries chart, dyadic, and retained-context comparisons. Each channel declares its own comparator; subtraction and a common metric are not automatic.
+Let qR observe a state pair and Ψn advance it. A fixed-time residual update exists only if qR(z)=qR(z′) implies qR(Ψn(z))=qR(Ψn(z′)). A single time-homogeneous map additionally requires agreement across times. Adding a clock can repair cross-time ambiguity; it cannot repair a collision already present at the same time.
+UP/DOWN/FLAT/MIXED are coordinate-direction records. Progressive/regressive interpretations require separate polarity and provenance. Residual labels cannot substitute for the empirical eligibility, response, window, and confirmation rules.
+6. Hidden Quotient and current limits
+The multiplication-representation theorem is relative to the fixed L² witness: its kernel consists of locally null functions, and ∥Mf∥ uses the locally essential supremum. Semifinite reduction and localizable completion are different operations. The v1.7 Radon–Nikodym face retains ν≪λ and strong λ-semifiniteness, with λ=μsf. For finite ν, λ-semifiniteness still remains; absolute continuity alone does not replace that finite-piece condition. Use the full qualified statement in v1.7 when citing the theorem.
+Three worked examples distinguish loss of information from missing representations. A: an infinite-mass point invisible to the multiplication witness becomes visible by adding actual point evaluation, giving L∞([0,1])⊕ℂ without changing μ. Keep W(f)=f(p) fixed while enlarging π to (π,W). The alternative singleton encoding loses every point identity, since interval singletons are also null.
+B: the full uncountable direct-sum representation is faithful on almost-everywhere classes and localizable despite being non-σ-finite. Restricting observation to countably many slices loses the omitted field. This is a spatial restriction, not a claim about finite temporal memory.
+C: counting measure on the countable/co-countable σ-algebra gives an injective but non-surjective inclusion of measurable bounded functions into ℓ∞(I)=(ℓ¹(I))*. A nonmeasurable χJ defines an omitted functional; finite subset projections converge strongly to its multiplier outside the original algebra. This is a completeness/representability gap. It is not N_W(π), which is defined inside the attained image of a total map.
+Prediction additionally requires declared dynamics. In the corrected investigation’s identity-update example, the partial record is autonomous even though it cannot recover the full field. Swapping an omitted slice into a retained slice breaks that autonomy; retaining both swapped slices repairs it. These are specified illustrative models, separate from the toroidal kernel.
+The corrected investigation 1.1 restores the existing v1.7 qualification, supplies the exact examples and counterexamples, and records the repair history. Its edition number does not supersede the v1.7 core. The Seat 2 and Seat 5 readings remain declared interpretations.
+Corrected investigation 1.1 — PDF
+The separate toroidal kernel has no exact finite-order sector process under its specified unbounded-current, fixed attempted-microtick assumptions. That result does not rule out every finite-dimensional hidden-state representation. A belief state is a formal repair; finite practical compression still needs an output, horizon, tolerance, and error assessment.
+The L=3 follow-up reports PASS; the original pilot remains UNRESOLVED and physical Q2 remains NOT_RUN. Chemistry’s freeze is unchanged. Global non-descent shape, general holonomy, and physical mechanisms receive no new empirical certification from this consolidation.
+7. Service, upkeep, and predictive information
+On eligible user-anchored episodes E=(O,I,A), π_DS(E)=(O,A). Distinguish A_sel, the selected source text, from A_task, the validated content required by the governing request. Unknown eligibility or completion remains unresolved. Fixed-stage ablation preserves the service class only when the declared object and answer remain equal and the derived presentation is admissible.
+The S1–S5, C, and P labels in local v2.1 index existing service results. Correct the minimum's class to [E]_DS. Deletion cost is a function of representatives and fails to descend when two same-service representatives have different costs. Historical compliance, provenance, visibility, and necessary dependencies require their own retained witnesses; offline deletion cannot rewrite historical behavior.
+Equal served output can conceal different resource margins, capacities, or participation conditions. The product-witness union rule describes that possibility without treating energy, hours, capacity, and consent as one quantity. The thermodynamic companion keeps physical balances, resource bookkeeping, and interpretation separate. No joule, time, or entropy saving follows from deleting a displayed record.
+A causal posterior is a sufficient predictive representation, not automatically the coarsest one: different posteriors may predict the same future observations. Finite observed-process Markov order requires factorization of the next-symbol law from observed histories through a fixed finite suffix, under the specified law. A hidden-state collision alone establishes failure of universal lumpability, not every history-level claim. Use the toroidal all-orders proof under its own hypotheses.
+The current source statuses remain unchanged: 39-screen algebra, qualified Hidden Quotient v1.7, separate L=3 engineering PASS, original-pilot UNRESOLVED, physical Q2 NOT_RUN, and historical accepted-event discrepancy −1,352. This integration did not replay experiments or supply a global non-descent shape.
+
+
+8. Temporal witnesses and scheduling
+The temporal increment applies the existing witness tests to timed interactions. A mean latency, an SD, a distinct-duration count, and a next-response law are different observables. The finite example in its §4.1 retains the same mean, SD, and current gap while losing the next gap; it supplies a concrete D5 collision without a universal memory or stability claim.
+Treat a live pad as a causal scheduling policy. It can preserve a task answer while changing when it becomes usable, but that preservation and the available readiness information must be checked. Raw event times, release times, correction outcomes, and resource costs remain separately available.
+The revised experiment tests a practical delay-for-regularity tradeoff and a mean-by-irregularity interaction separately. A diagonal improvement does not prove the interaction. Domain transfer, physical clock repair, and empirical benefit require their own tests; the proposed user experiment remains NOT_RUN.
+Temporal exchange rate v0.3 — definitions, examples, and sources: # Temporal exchange rate
+
+
+Use this master going forward
+Edit this first tab for current definitions and status. Keep full proofs, exact schemas, execution receipts, and historical wording in the sources. Record substantive corrections here with the source and scope; create a separate release only when there is a reason to freeze one.
+
+
+Project sources and earlier versions
+All active projects

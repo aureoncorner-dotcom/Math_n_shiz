@@ -1,0 +1,641 @@
+﻿The Clock Is a Bifurcation Machine
+
+
+Geometry-corrected provenance version
+
+
+This v0.4 is an append-only successor to the geometry-corrected v0.3 clock note. It preserves the register-consistency patch and adds the residual-descent criterion from GQG v0.12 / OMNIBUS v7.77. “Clock Model Correction Note” remains the governing earlier correction; the v0.3 predecessor remains preserved.
+
+
+Scope: this version preserves the clock-state/readout geometry and complete tick gate, and adds one new requirement: a compact projected successor or residual state is not called Markov-closed until its state-pair dynamics pass a residual-descent test. Frozen Theory v0.1, the bifurcation classifications, the three-position dial, and D1’s status as a separate physical-time dynamics protocol are unchanged.
+
+
+Correction note
+
+
+The clock model no longer treats “synchronized” as a single binary condition. Synchronization can appear and disappear through different bifurcations depending on the state space, oscillator count, frequency distribution, forcing, inertia, delay, phase lag and observable.
+
+
+The same sine coupling can therefore produce several mathematically distinct clocks.
+
+
+[
+\boxed{
+\text{Same law. Different quotient. Different bifurcation. Different clock.}
+}
+]
+
+
+1. Mean field, pair and triad are different machines
+
+
+The infinite-population Kuramoto transition is an instability of the incoherent mean field:
+
+
+[
+R=0\longrightarrow R>0.
+]
+
+
+For a symmetric unimodal frequency distribution, this is ordinarily a pitchfork-type onset of collective amplitude.
+
+
+Two oscillators reduce to the Adler equation,
+
+
+[
+\dot\phi=\Delta\omega-K\sin\phi.
+]
+
+
+Their locking transition is a saddle-node on the circle: a stable locked point and an unstable threshold are created together. Below threshold, the relative phase runs and repeatedly slips.
+
+
+A triad has two independent relative phases,
+
+
+[
+\boldsymbol\varphi
+
+
+(\theta_2-\theta_1,\theta_3-\theta_1)
+\in T^2.
+]
+
+
+Its generic locking transition is a saddle-node of relative equilibria on the two-torus. A sink and saddle appear together. The sink supplies stable relative locking; the saddle and its stable manifold remain as the slip boundary.
+
+
+Therefore,
+
+
+[
+\boxed{
+R=0\text{ pitchfork}
+\neq
+\text{Adler SNIPER}
+\neq
+\text{triad saddle-node}
+\neq
+\text{bimodal Hopf or homoclinic transition}.
+}
+]
+
+
+These are not different names for the same event. They occur in different reduced state spaces and create coherence by different mechanisms.
+
+
+2. The clock has a hand and a gear state
+
+
+The triad must be decomposed into collective phase and relative phase:
+
+
+[
+\dot\Theta
+
+
+\Omega(\boldsymbol\varphi;\mu),
+\qquad
+\dot{\boldsymbol\varphi}
+
+
+F(\boldsymbol\varphi;\mu),
+]
+
+
+where \mu denotes the frozen control parameters.
+
+
+The relative state \boldsymbol\varphi determines whether the oscillators remain locked. The collective phase \Theta advances the hand.
+
+
+This repairs an earlier mistake: a locked relative equilibrium cannot repeatedly cross a section in relative-phase space. At lock,
+
+
+[
+\dot{\boldsymbol\varphi}=0.
+]
+
+
+The relative gears have stopped moving against one another, while the collective hand may continue rotating.
+
+
+Accordingly:
+
+
+- A tick is an oriented crossing of a section in collective physical phase.
+- A slip is a crossing of the saddle separatrix in relative-phase space.
+- A lock is confinement of \boldsymbol\varphi to the basin of the stable relative equilibrium.
+- Clock failure is loss of that equilibrium, uncontrolled winding slips, or loss of coherent collective phase advance.
+
+
+For the frozen field construction, the physical hand is
+
+
+[
+\Theta_\Phi
+
+
+\arg\sum_i z_i^2.
+]
+
+
+Because \Phi=z^2, the six minima of the fine-field anisotropy fold under
+
+
+[
+\theta\sim\theta+\pi
+]
+
+
+to three physical positions. The gauge-invariant ticks are therefore
+
+
+[
+\widetilde\Theta_\Phi(t_n)
+=
+\Theta_*+\frac{2\pi n}{3},
+\qquad
+\Omega_\Phi(t_n)>0,
+\qquad
+R_\Phi(t_n)\ge R_{\min}.
+]
+Six physical ticks would require an additional gauge-invariant witness. Until such a witness exists, the defensible dial has three positions.
+
+
+3. Ticks and slips are different witnesses
+
+
+Lift the relative phase trajectory from T^2 to its covering space. Its winding record is
+
+
+[
+\mathbf m\in\mathbb Z^2.
+]
+
+
+A relative-phase slip produces
+
+
+[
+\Delta\mathbf m\neq0.
+]
+
+
+A parity register may be defined by
+
+
+[
+\mathbf q_{\mathrm{tri}}=\mathbf m\bmod2\in\mathbb Z_2^2,
+]
+
+
+but \(\mathbf q_{\mathrm{tri}}\) is derived. It erases both direction and even winding increments. It cannot distinguish clockwise from counterclockwise slips.
+
+
+This triad register must not be silently identified with the field protocol’s
+
+
+[
+W\in\mathbb Z^3,\qquad q_{\mathrm{gauge}}=W\bmod2\in\mathbb Z_2^3.
+]
+
+
+The triad lives on T^2; the finite-volume gauge construction has three noncontractible spatial axes in T^3. Relating them requires an explicit constructor.
+
+
+Likewise, the global Kuramoto transformation
+
+
+[
+\theta_i\mapsto\theta_i+\chi
+]
+
+
+is a global S^1 symmetry. It is not the frozen field theory’s local Z_2 gauge redundancy. Both permit a quotient, but they are different equivalence relations.
+
+
+4. The proper clock geometry
+
+
+Let \(\mathcal X_{\S 9.1}\) be the state space of the complete D1 state \(X_{\S 9.1}\), and write \(x(t)\in\mathcal X_{\S 9.1}\). On the domain where the triad comparator is declared, it supplies the readout
+
+
+\[
+\rho_{\mathrm{tri}}:\mathcal X_{\S 9.1}\longrightarrow T^2,
+\qquad
+x\longmapsto\boldsymbol\varphi(x).
+\]
+
+
+Let
+
+
+\[
+p_{\mathrm{tri}}:\mathbb R^2\longrightarrow T^2,
+\qquad
+p_{\mathrm{tri}}(\widetilde{\boldsymbol\varphi})
+=
+\widetilde{\boldsymbol\varphi}\bmod 2\pi
+\]
+
+
+be the universal covering map. The geometry-corrected lifted state is the pullback cover
+
+
+\[
+\boxed{
+\widehat{\mathcal X}_{\mathrm{tri},1}
+=
+\mathcal X_{\S 9.1}\times_{T^2}\mathbb R^2
+=
+\left\{
+(x,\widetilde{\boldsymbol\varphi}):
+\rho_{\mathrm{tri}}(x)
+=
+p_{\mathrm{tri}}(\widetilde{\boldsymbol\varphi})
+\right\}.
+}
+\]
+
+
+After an initial lift is chosen, each continuous D1 trajectory lifts uniquely. The deck group is \(\mathbb Z^2\), acting by
+\(\widetilde{\boldsymbol\varphi}\mapsto\widetilde{\boldsymbol\varphi}+2\pi\mathbf k\).
+Relative winding is therefore a lifted-path history
+
+
+\[
+\mathbf m(t)\in\mathbb Z^2,
+\qquad
+\mathbf q_{\mathrm{tri}}(t)
+=
+\mathbf m(t)\bmod2
+\in\mathbb Z_2^2.
+\]
+
+
+The pair \((\mathbf m,\mathbf q_{\mathrm{tri}})\) is derived after fixing the initial lift and branch convention. It is not an independent instantaneous factor of the state space.
+
+
+For the overdamped comparator M_0, the corresponding record is
+
+
+\[
+\mathcal R_{\mathrm{tri},0}(t)
+=
+\left(
+R_\Phi,
+\widetilde\Theta_\Phi,
+\Omega_\Phi[F],
+\boldsymbol\varphi(t);
+\mathbf m(t),
+\mathbf q_{\mathrm{tri}}(t);
+\mu
+\right),
+\]
+
+
+where \(\dot{\boldsymbol\varphi}=F(\boldsymbol\varphi;\mu)\) is derived. For D1, retain the complete §9.1 state and attach the triad readout and lift history:
+
+
+\[
+\boxed{
+\mathcal R_{\mathrm{tri},1}(t)
+=
+\left(
+X_{\S 9.1}(t);
+\boldsymbol\varphi(t),
+\dot{\boldsymbol\varphi}(t);
+\mathbf m(t),
+\mathbf q_{\mathrm{tri}}(t)
+\right).
+}
+\]
+
+
+The semicolons mark attached readout and history witnesses, not extra Cartesian factors. No coordinate of \(X_{\S 9.1}\) is replaced or deleted. In particular, it retains the load-bearing witnesses \(R_\Phi\), \(\widetilde\Theta_\Phi\), and \(\Omega_\Phi\), together with the separately named field-gauge register
+
+
+\[
+W\in\mathbb Z^3,
+\qquad
+q_{\mathrm{gauge}}=W\bmod2\in\mathbb Z_2^3.
+\]
+
+
+Thus \(\mathbf m\) and \(W\) may coexist in the complete record, but they are not identified. No map between them is assumed without an explicit constructor.
+
+
+Let \(\pi_X:\widehat{\mathcal X}_{\mathrm{tri},1}\to\mathcal X_{\S 9.1}\) be the pullback projection. Tick scoring on the extended state is inherited from §9.1:
+
+
+\[
+T_{\mathrm{tri}}
+=
+T_{\S 9.1}\circ\pi_X,
+\]
+
+
+with the complete gate
+
+
+\[
+\widetilde\Theta_\Phi(t_n)
+=
+\Theta_*+\frac{2\pi n}{3},
+\qquad
+\Omega_\Phi(t_n)>0,
+\qquad
+R_\Phi(t_n)\ge R_{\min}.
+\]
+
+
+Tick scoring does not factor through the triad projection, or through any projected register that deletes \(R_\Phi\) or \(\Omega_\Phi\). Lock and slip scoring use the lifted \(T^2\) trajectory.
+
+
+The operational question is no longer merely whether the oscillators are synchronized. It is: Which section was crossed, in which direction, from which basin, with what winding change, and what state followed?
+
+
+5. What the saddle-node does
+
+
+Before the triad’s locking threshold, the relative state runs or wanders across T^2. Phase crossings may still occur, but their intervals are degraded by relative drift and slips.
+
+
+At the saddle-node threshold, a sink and saddle appear together.
+
+
+Above threshold:
+
+
+- the sink stabilizes the relative phase offsets;
+- the collective phase can advance coherently;
+- the saddle’s stable manifold remains the boundary of the locked basin;
+- a sufficiently large perturbation can cross that boundary and produce a slip.
+
+
+The saddle therefore continues to matter after synchronization. It is the clock’s escape threshold.
+
+
+The frozen bifurcation test should:
+
+
+1. continue equilibria of F(\boldsymbol\varphi;K);
+2. show the sink and saddle appearing at the same K_c;
+3. verify that one real Jacobian eigenvalue crosses zero;
+4. exclude an earlier Hopf instability;
+5. reconstruct the saddle separatrix;
+6. record every crossing as a signed winding event;
+7. test pre-onset slip-time scaling without assuming the Adler exponent in advance.
+
+
+Triad saddle-node onset is generic, not universal. Symmetry, delay, phase lag, forcing or inertia can instead produce pitchforks, Hopf bifurcations, heteroclinic cycles or other global transitions.
+
+
+6. M_0, M_1, D_0 and D_1
+
+
+The lanes are now separate.
+
+
+M_0: fixed-coupling triad comparator
+
+
+[
+K=\text{constant}.
+]
+
+
+This identifies the basic running-to-locking transition and its saddle separatrix.
+
+
+M_1: geometry-dependent coupling
+
+
+[
+K=K(\psi).
+]
+
+
+If K(\psi) is merely a smooth frozen modulation, it moves the existing bifurcation through parameter space. It does not automatically create a new universality class.
+
+
+If \psi is itself dynamical, feeds back into the coupling, or periodically forces the system, the enlarged system may acquire bifurcation delay, hysteresis, parametric locking, Hopf onset or torus dynamics. Those effects require their own declaration.
+
+
+D_0: overdamped relaxation
+
+
+D0 measures relaxation, diffusion and phase-slip kinetics. It does not establish a self-sustaining clock. Without a drive, it relaxes toward equilibrium.
+
+
+D_1: the escapement
+
+
+D1 requires a declared physical-time law containing:
+
+
+- inertia or another phase-storage mechanism;
+- damping;
+- drive;
+- the threefold/sixfold teeth;
+- noise rules;
+- a gauge-link evolution law;
+- a gauge-invariant hand;
+- and preregistered tick, slip and failure predicates.
+
+
+Its necessary tests include:
+
+
+[
+\omega
+
+
+\lim_{T\to\infty}
+\frac{\widetilde\Theta_\Phi(T)-\widetilde\Theta_\Phi(0)}{T}
+\neq0,
+]
+
+
+finite phase diffusion D_\Theta, stable tick intervals, recovery after perturbation, declared locking regions and explicit winding-slip accounting.
+
+
+A useful coherence measure is
+
+
+[
+Q_{\mathrm{clk}}
+
+
+\frac{|\omega|}{2D_\Theta}.
+]
+
+
+Drive removal must make the asymptotic drift die after inertial relaxation. Drive reversal must reverse the tick direction outside any preregistered pinning interval. A local Z_2 gauge transformation must leave the tick record unchanged.
+
+
+7. Relation to the frozen field theory
+
+
+Frozen Theory v0.1 supplies equilibrium gears:
+
+
+- the fine field z;
+- the physical field \Phi=z^2;
+- local Z_2 redundancy;
+- global Z_3 order;
+- and the first allowed phase-selecting operator z^6+z^{*6}.
+
+
+Appendix A supplies the exact finite-volume T^3 sector architecture and its \mathbb Z_2^3 winding-parity register.
+
+
+TTSC supplies a prescribed periodic spatial throat profile.
+
+
+None of those objects supplies physical-time evolution. Monte Carlo steps sample an equilibrium distribution; they are not clock time.
+
+
+D1 is therefore a new dynamics protocol. It does not amend frozen Theory v0.1 and cannot borrow physical-time meaning from equilibrium currents.
+
+
+8. Residual-descent gate for the compact successor state
+
+
+The phrase “Markov-closed compact successor state” is now tied to an executable quotient/descent criterion rather than to interpretability of the chosen variables.
+
+
+Let the full D1 state be S_n and let P(S_n) be any declared compact projection or readout. For consecutive state pairs define Z_n=(S_{n-1},S_n), and let q_R(Z_n)=R_n be the declared projected residual record. The state-pair update is Ψ_n(S_{n-1},S_n)=(S_n,Φ_n(S_n)).
+
+
+An autonomous projected residual law exists only if
+
+
+[\boxed{q_R(z)=q_R(z')\Longrightarrow q_R(\Psi_n(z))=q_R(\Psi_n(z'))}]
+
+
+for every eligible pair of state pairs in the declared domain. When this implication holds, a well-defined factor F_{R,n} exists and one may write R_{n+1}=F_{R,n}(R_n). When it fails, the descent test status is FAIL, the residual-closure claim remains UNRESOLVED, and the compact projection is marked REFINE REQUIRED rather than silently treated as complete.
+
+
+This criterion sharpens the existing projected-state-memory test. Equal current residuals that produce different next residuals are direct evidence that the projection erased a dynamically relevant distinction. Candidate missing context includes local amplitudes, gauge-invariant bond phases, momenta, defect state, signed winding rather than parity alone, route/phase position, or another D1 variable retained by the full state.
+
+
+In particular, q=W mod 2 is a valid parity register but is not automatically a successor state: +1 and -1 share parity, as do 0 and ±2, while their next transitions may differ under a signed or history-sensitive D1 law.
+
+
+The first executable residual-closure run is coverage-first: scan the declared evaluation record for repeated equal residuals, compare their next residuals, retain every counterexample, and if no eligible repeated residuals exist report INSUFFICIENT ELIGIBLE REPEATS / CLOSURE UNRESOLVED. No smoothing, averaging, or post-hoc context deletion may manufacture descent.
+
+
+Closure namespace firewall:
+
+
+[\boxed{\text{spatial periodic return}\neq\text{clock recurrence}\neq\text{residual closure}}]
+
+
+The periodic throat profile U(s+L)=U(s) is a spatial statement. Repeated ticks are temporal events. Residual closure is the representative-independence condition above. None substitutes for another.
+
+
+TTSC chart firewall: material-streamtube and fixed-Eulerian-control-tube throat statements remain separate. Material flow has constant total sectional flux and zero side flux at its moving boundary; the Eulerian tube may have peak sectional flux at s_0 with sign-changing side compensation. D1 may use either comparator only under an explicitly declared chart.
+
+
+Frozen conclusion
+
+
+The discovery is not that every Kuramoto system has one synchronization switch.
+
+
+The discovery is that a clock is assembled from separate witnesses:
+
+
+[
+\boxed{
+\text{collective phase}
++
+\text{relative locking}
++
+\text{saddle separatrix}
++
+\text{winding slips}
++
+\text{successor law}.
+}
+]
+
+
+The saddle-node creates the relative lock. The collective phase advances the hand. The separatrix defines the escape threshold. Winding records the slips. D1 supplies the physical-time successor law.
+
+
+[
+\boxed{
+\text{Same sine coupling. Different quotient. Different bifurcation. Different clock.}
+}
+]
+
+
+Append-only execution extension — field-gauge parity equality/successor preflight
+
+
+Scope and frozen boundaries
+
+
+This extension records the first executable preflight for the selected residual projection. It does not rewrite or amend the preserved clock-state/readout geometry, bifurcation classifications, three-position dial, complete tick gate, or D1’s status as a separate physical-time dynamics protocol. The triad lift register m and q_tri remain distinct from the field-gauge register W and q_gauge. The TTSC chart firewall and the separation among spatial periodic return, clock recurrence, and residual closure remain unchanged.
+
+
+Primary residual projection
+
+
+q_gauge(W)=W mod 2 in Z_2^3.
+
+
+For each eligible consecutive D1 transition, the scan would compute the current residual r_n=q_gauge(W_n) and successor residual r_{n+1}=q_gauge(W_{n+1}), group rows by exact r_n, enumerate every pair within each repeated class, and retain every pair whose successor residuals differ. Equality is exact. No smoothing, averaging, tolerance merging, or post-hoc context deletion is permitted.
+
+
+Declared evaluation record
+
+
+No declared machine-readable D1 sequence providing eligible consecutive transitions (W_n,W_{n+1}) was present in the target note or in the linked D1/§9.1 material located in the accessible Drive corpus. The executable input is therefore the declared empty record. No synthetic trajectory, inferred transition, or equilibrium Monte Carlo step was substituted for physical-time D1 data.
+
+
+Executed scan
+
+
+Input rows: 0.
+Eligible consecutive transitions: 0.
+Residual classes with multiplicity at least 2: 0.
+Equal-current residual pairs compared: 0.
+Divergent-successor counterexamples retained: 0.
+
+
+Result
+
+
+INSUFFICIENT ELIGIBLE REPEATS / CLOSURE UNRESOLVED.
+
+
+Descent status: NOT EVALUATED. This result is neither PASS nor FAIL. Zero retained counterexamples cannot establish descent when zero eligible equal-current pairs were compared. The factor law R_{n+1}=F_{R,n}(R_n) is not certified, and q_gauge remains a valid parity register rather than a demonstrated Markov-closed successor state.
+
+
+Next executable condition
+
+
+A non-empty run requires a provenance-bearing D1 evaluation record containing a declared eligibility predicate and domain, ordered transition identifiers, signed W_n and W_{n+1} values in Z^3, and enough full-state provenance to recover every divergent-successor witness without identifying W with the triad winding m. Once supplied, the same exact equality/successor scan is to be rerun and every counterexample retained.
+
+
+9. Temporal delivery and underlying ticks
+
+
+The temporal increment adds a delivery witness to a declared event record. If a physical event occurs at t_n and its report is released at s_n=t_n+d_n on the same calibrated time scale, then s_(n+1)−s_n=(t_(n+1)−t_n)+(d_(n+1)−d_n). A smoother report interval need not mean that the physical event interval became smoother. Distinct clocks require an explicit alignment before this subtraction.
+
+
+Keep the physical hand, oriented-crossing gate, amplitude, velocity, relative lock/slip record, and signed winding under their existing definitions. Preserve raw timestamps and missed events. Buffering or interpolating a display cannot manufacture a tick, fill an unresolved crossing, or establish residual descent.
+
+
+Mean delay, SD, duration count, and a next-gap law are different witnesses. The increment's finite sequence example demonstrates loss of the next observation despite equal current timing summaries. Any proposed compact physical-clock state still needs §8's test under the actual D1 dynamics.
+
+
+Here D1 denotes the physical-time protocol; the temporal note's D1 product lemma is a different label. The existing empty-record preflight remains INSUFFICIENT ELIGIBLE REPEATS / CLOSURE UNRESOLVED. The temporal user experiment remains NOT_RUN.
+
+
+Temporal delivery hypothesis and exact examples: # Temporal exchange rate

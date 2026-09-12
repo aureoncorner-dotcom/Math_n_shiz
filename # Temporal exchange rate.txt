@@ -1,0 +1,315 @@
+﻿# Temporal exchange rate
+## Working increment v0.3 — Sep 12, 2026
+CC0 • Anonymous
+
+
+Revises v0.2 in place. Separates irregularity metrics, corrects the Weber interpretation, adds a causal padding rule and an exact sequence collision, and distinguishes a useful tradeoff from a mean-by-irregularity interaction.
+Status: hypothesis card with exact constructed examples. Applies the corrected calculus in New geometry §16 and the existing service and clockwork models. Source links and integration points appear below.
+Scope: timing witnesses and scheduling policies. Existing chemistry, Hidden Quotient v1.7, 39-screen, TD-COS-FH-001, and spectral-family results keep their own domains and evidence status.
+
+
+---
+
+
+## 0 Claim
+
+
+**Temporal exchange rate.** On a declared task and action-to-usable-update clock, spending an extra mean delay Δ to reduce a specified irregularity J may improve the primary user outcome. A second hypothesis is that the penalty from the same increase in J is greater at low mean latency than at high mean latency. A scheduling policy and its available information must be declared; a deterministic duration-to-effector code is a separate intervention.
+
+
+Two claims are tested separately: the practical tradeoff and the mean-by-irregularity interaction. Either can hold without the other.
+
+
+| Symbol | Meaning |
+|---|---|
+| \(\mu\) | mean action-to-usable-update latency on a declared clock |
+| J | One named irregularity measure with units and a fixed window: SD, jitter amplitude, interrupt rate, or distinct-duration count; these are different witnesses |
+| Δ | Predeclared extra mean latency budget, in the same time units as μ |
+| Region | Predeclared low and high μ levels, J levels, workloads, and tolerances |
+
+
+**Evaluation.** Define the primary outcome and its direction, the tested region, and minimum meaningful effects before the run. A missing significant result is inconclusive unless the uncertainty bounds exclude the declared effect. No finite grid establishes failure in every possible low-latency region. Section 5 gives separate tradeoff and interaction contrasts.
+
+
+The earlier source review did not locate this exact phrase; that is not a novelty search or priority claim. Related timing and predictability effects already exist. This card proposes a named, task-specific test.
+
+
+Version lineage: v0.2 separated injected jitter from buffering and temporal coding. v0.3 retains that split and corrects the metric, causal, and experimental distinctions below.
+
+
+---
+
+
+## 1 Identification table
+
+
+| Object | Role | Do not call it |
+|---|---|---|
+| μ | Mean latency on the declared clock | A complete account of speed, usability, or future response |
+| J | Exactly one declared irregularity statistic | An interchangeable name for SD, duration count, TBW, eta, or MOS-LQO |
+| Duration-set reduction | Fewer permitted release durations; a timing intervention | Guaranteed reduction of statistical variance |
+| Metronome | One realized duration under a stated readiness bound | A usable response before its information exists |
+| Thomaschke deterministic map | duration \(\leftrightarrow\) effector; *which* | smoothing |
+| 0.8 map | noisy *which* | “pretty deterministic” |
+| Normoyle et al. 2014 | Inject delay variation at a controlled mean on a platformer task | A buffering-benefit experiment |
+| Playout / occupancy buffer | Queue and release a stream under a specified policy | A unique algorithm identified by “Claypool buffer” |
+| NetEQ / percentile target | Adaptive target plus possible time stretching or concealment | Exact preservation of content or zero residual jitter |
+| P.863 MOS-LQO | listening quality of a speech pair | interactivity; game feel |
+| TBW | SOA contour for two cues | theory of padding |
+| BCI \(p(C=1)\) | one source vs two | descent through \(\pi\) |
+| Intentional binding | judged action–outcome compression | TBW |
+| \(\pi_{\mathrm{DS}}\) | served object + answer | a latency law |
+
+
+---
+
+
+## 2 Related measurements
+
+
+**Normoyle, Guerrero, Jörg (SAP 2014).** Platformer. Constant delay vs delay-plus-jitter applied independently to character pose. Constant \(\mu\) to ~300 ms often left experience intact. \(\mu=200\) ms plus jitter: noticed more, blocked practice, more goal failures, worse motion quality. This is a **damage operator**, not a pad.
+
+
+**TAP 2025 (target acquisition).** Mean × jitter amplitude. Jitter hurt completion time a little; that hurt *shrank as mean rose*. Mean carried most of the impairment. Exchange-rate *shape*, mean still bigger.
+
+
+**Schmid, Halbhuber et al.** FPS, ±50 ms on 50 vs 150 ms base: no performance effect. Small-amplitude null. Do not test only this cell and declare victory or death.
+
+
+**Weber, Haering, Thomaschke (2013).** “Variability” means number of distinct SRTs, not statistical variance: seven durations versus two. From Table 1, the prescribed mean rises 1,272→1,965 ms and population SD rises approximately 811.798→1,121.394 ms (calculations from the published frequencies, not participant measurements). Table 4 reports human task-execution time 1,537→1,306 ms, but total trial time 2,660→3,039 ms. Nonsignificant rating/error differences do not establish equivalence. This supports a preparation benefit under that manipulation; it does not demonstrate SD reduction, an overall speedup, or the proposed low-latency crossover. The paper used first-session comparisons after a carryover check. See the linked paper below.
+
+
+**Thomaschke & Haering (2014).** Constant beats variable non-predictive *and* beats 0.8 predictivity. Deterministic duration-to-target beats constant.
+
+
+**Thomaschke & Dreisbach (2013).** In speeded two-choice, the duration map paid off when it named the **effector**, not the stimulus or an abstract goal. Foreperiod / CNV / LRP: *when* vs *which finger* are different preparations.
+
+
+**Buffering and latency compensation.** Precision, deadlines, prediction, time warp, and playout buffering describe different mechanisms. “Claypool line,” “QM,” and “E-policy” in the earlier note are broad literature labels, not a frozen implementation. A run must identify its actual algorithm and source revision. An occupancy policy can trade waiting against stalls or dropped frames; its realized delay, interruption rate, and content loss must be measured. The linked NetEQ documentation supplies a concrete adaptive-buffer example.
+
+
+**TBW / BCI.** A temporal binding window is a task-dependent range of sensory offsets associated with fusion or simultaneity judgments. A Bayesian causal-inference model distinguishes common versus separate causes; connecting its posterior to an observed window requires a likelihood, prior, and decision rule. A window is not automatically a posterior contour. Use these measures only for a declared multisensory task. Intentional binding is a separate action–outcome timing judgment.
+
+
+**Queueing variance → delay** is a production claim, not UX support.
+
+
+---
+
+
+## 3 Operators (name one before the run)
+
+
+**Damage (Normoyle-type).** Vary a named J while controlling realized μ. Specify the delay distribution, temporal dependence, and handling of negative or infeasible delays. This tests the cost of variation, not the benefit of a repair.
+
+
+**Single-threshold causal pad.** For independently scheduled responses ready after a finite-variance delay R≥0, release at R′=max(R,T) with fixed T. This only adds waiting. It raises or preserves the mean and cannot increase population SD under these assumptions. A p95 threshold still leaves a tail; it does not guarantee a constant interval. Feedback, queues, or changing readiness require a richer policy model.
+
+
+**Duration-set reduction.** Round ready responses up to members of a declared finite set of release times. This can reduce the number of possible durations while increasing SD. It is distinct from a single-threshold pad.
+
+
+**Metronome.** A constant action-to-usable-response duration T requires every response to be ready by T, or an explicitly different predictive/preloaded protocol. A stream emitted at constant cadence may still have variable action-to-update latency. Specify which interval is constant.
+
+
+**Signal pad.** A duration codes the next effector or response class. The class and usable content must be available by the chosen release time; name the fallback for missed deadlines. Score timing predictivity separately from smoothing.
+
+
+**Adaptive buffer (NetEQ-class).** Freeze the implementation revision and target-update rule. Log target delay T(t), realized latency, packet ordering, interruptions, dropped or concealed content, and time-stretching operations. Smooth audio playout is a joint timing-and-signal result; its target is not a guarantee of constant latency. See the official documentation below.
+
+
+**Occupancy buffer.** Steer queue length under a named rule. Record added waiting, stalls, drops, and task fidelity. Policy names alone do not determine those outcomes.
+
+
+A probabilistic duration code, including a 0.8 condition, is a legitimate separate comparison. If duration spread and predictivity change together, their contributions cannot be attributed to smoothing alone.
+
+
+---
+
+
+## 4 Witnesses
+
+
+Declare D, the actual time source, action onset, readiness, first usable release, fixed observation window, retained map π, W_μ, W_J, one primary user witness W, and the update U or stochastic kernel. Preserve raw and served timestamps separately. Decide whether the predictive target is the next timing observation or the human next-action law.
+
+
+**D1 — Product.** For fixed total maps on the same D, N_(W_μ,W_J)(π)=N_Wμ(π)∪N_WJ(π). The retained map and the chosen J are part of the statement. Different timing summaries need not determine each other.
+
+
+**D2 — Coarsening; Kind I when its test is supplied.** A threshold label such as “mean ≤ m₀” is an explicit function of W_μ, so D2 applies to that coarsening. A next-gap usability witness is not automatically a function of mean latency. A relation-retained/output-lost label requires a located pair and the specified witnesses.
+
+
+**D5 — Prediction.** For a deterministic U, test N_(π∘U)(π). For a current output B, the next-output witness is B∘U. For stochastic models compare conditional laws, not two random outcomes. Equal means, or equal means and SDs, do not by themselves establish predictive closure.
+
+
+**D4 — Restriction.** The lemma applies to C⊆D with the same maps restricted. Moving from pointing to FPS, GUI, tokens, or voice requires a newly declared domain/model or an explicit transfer map. A domain change is not established by citing D4.
+
+
+A live pad is a causal scheduling policy on timed executions. It may preserve a declared object and answer while changing their delivery; this must be checked. It is not merely a quotient or offline stage deletion. Score A_task separately from A_sel, preserve a fixed usability criterion, and record human execution time and total completion time separately. Versioning identifies a protocol; timing and performance need measurements.
+
+
+### 4.1 Exact sequence collision
+Let D contain all cyclic rotations of x=(40,40,160,160) and y=(40,160,40,160), in milliseconds. Let U shift each four-entry record left cyclically, and let π retain its population mean, population SD, and first entry. This is a finite deterministic model.
+π(x)=π(y)=(100,60,40), but π(Ux)=(100,60,40) and π(Uy)=(100,60,160). Thus N_(π∘U)(π) is nonempty: even mean, SD, and current latency can lose the next timing observation.
+Retaining the cycle identity and phase supplies a sufficient finite predictive record for this constructed domain. This is not a claim about human response laws, infinite Markov order, measured utility, or a physical clock. It illustrates the same representative-independence test used by the clock and geometry masters.
+
+
+### 4.2 Voice-only secondary: P.863
+
+
+For speech, P.863 MOS-LQO may be a secondary witness for listening damage caused by warping or concealment. Freeze the algorithm version (the earlier note specifies Ed. 3) and the P.863.1 protocol: NB versus FB mode, reference 3–6 s active and at most 12 s total, −26 dBov reference level, 16-bit PCM, paired files, and a declared measurement tap; no silent peak normalization. Do not mix score scales; their approximate maxima are 4.5 NB and 4.8 FB. A constant time shift without waveform alteration is not a conversational-delay assessment. Conversational delay and two-way communication performance are outside scope. A better listening score cannot substitute for the primary interaction outcome. See the linked ITU guide.
+
+
+---
+
+
+## 5 Factorial and separate contrasts
+
+
+| | Low J | High J |
+|---|---|---|
+| Low μ | Low-delay / low-irregularity cell | Low-delay / high-irregularity cell |
+| High μ | High-delay / low-irregularity cell | High-delay / high-irregularity cell |
+
+
+**Common setup.** Write L(μ,J) for the expected primary loss, with lower values better; orient ratings explicitly if needed. Fix the delay distribution family, temporal dependence, cue predictivity, workload, window, and outcome units, except for factors deliberately varied. Validate realized μ and J. Choose μ_L<μ_H and J_L<J_H, an extra-delay budget Δ>0, minimum meaningful effects ε_T and ε_I, and an uncertainty rule.
+
+
+**Tradeoff contrast.** T=L(μ_L,J_H)−L(μ_L+Δ,J_L). A positive value favors spending Δ on the smoother condition. The registered support criterion is T>ε_T with the declared uncertainty requirement. Add the μ_L+Δ condition if it is not already one of the factorial levels.
+
+
+**Interaction contrast.** I=[L(μ_L,J_H)−L(μ_L,J_L)]−[L(μ_H,J_H)−L(μ_H,J_L)]. I>ε_I supports a larger irregularity penalty at low mean latency on this outcome scale. Full support for this card's combined claim requires both tests to pass; a partial result supports only its corresponding claim. A diagonal comparison alone does not test I.
+
+
+**Constructed separation.** Let L(μ,σ_SD)=μ+σ_SD with both inputs measured in milliseconds. The point (70,0) scores 70 and beats (40,60), which scores 100, spending Δ=30 ms. Yet the irregularity penalty is the same at every μ, so I=0. This is an exact additive model, not empirical evidence.
+
+
+**Failure and uncertainty.** Report each contrast separately. Evidence excluding its registered minimum effect counts against that scoped claim; an interval compatible with both success and failure is inconclusive. An interaction can exist while mean delay remains the larger cost. No result on the tested grid proves or disproves a universal temporal exchange law.
+
+
+Do not compare “one unit” of unlike irregularity measures. Name the J contrast and Δ in their own units. Jitter amplitude, frequency, duration count, SD, and predictivity remain separately controlled or measured quantities.
+
+
+Twelve adversarial reviews ≠ twelve external reviews.
+
+
+---
+
+
+## 6 What v0.3 corrects and retains
+
+
+1. Retains the separation of injected variation, buffering, duration-set reduction, and temporal coding.
+2. Corrects the irregularity metric and adds causal readiness and release rules.
+3. Keeps voice listening quality secondary and adds direct source links.
+4. Separates the practical tradeoff from the interaction, adds an exact sequence collision, and preserves domain-specific evidence status.
+
+
+Established here: the stated finite constructions and definitions. Empirical tradeoff and interaction on a declared task in this card: NOT_RUN. No global locus shape, domain transfer, physical-clock repair, or universal triadic-stability result is claimed.
+
+
+\[
+\boxed{\text{CLAIM + OPERATORS + FALSIFIER: STATED}}
+\]
+\[
+\boxed{\text{EMPIRICAL INTERACTION: NOT RUN HERE}}
+\]
+\[
+\boxed{\text{SOURCE FREEZES: UNCHANGED}}
+\]
+
+
+---
+
+
+## 7 Use
+
+
+Use one declared task, one primary outcome, a named irregularity measure, and an executable causal policy. Register the contrasts and their scope. A coefficient or a pair that separates two cases is not a global recovery theorem.
+
+
+
+
+**GUI SRT** is system response time in a graphical interface: the gap from a user act to the first usable on-screen consequence of that act.
+
+
+## Clock
+
+
+Start: key down, click down, or tap — the moment the user committed.
+
+
+Stop: the first update they can use (character appears, list populates, button state changes, caret moves). Not “the HTTP 200,” not “the spinner started,” not server RTT.
+
+
+One SRT is the action-to-usable-update interval. For a declared session window, μ is its mean and J is the selected irregularity statistic. Record the sequence itself when prediction depends on order.
+
+
+The office experiment cited in §2 illustrates why the human portion of a task and total completion time need separate outcome records.
+
+
+## What it is not
+
+
+| Term | Clock |
+|---|---|
+| Network RTT / ping | packet out and back |
+| Server latency | request received → response sent |
+| Time to first byte | connection → first byte |
+| Frame time / input lag (games) | input → pose / photon (Normoyle / TAP live here) |
+| Token latency | key → first new token on screen (closer to SRT if the UI is a transcript) |
+| GUI SRT | action → usable widget change |
+
+
+A fast backend with a slow paint still has a long SRT. A padded UI with a fast backend has a longer SRT *on purpose*.
+
+
+## Why the timing pattern matters
+
+
+For an equally frequent 40/400 ms readiness sequence, padding to a 180 ms threshold yields 180/400 ms: mean 220→290 ms and population SD 180→110 ms. It cannot yield 180/180 ms because the late answer is not yet ready. Any gain in preparation or task performance is a separate empirical question. A duration that predicts which action to take is a temporal code, not merely a pad.
+
+
+Spinners, skeletons, and optimistic displays can change presentation, but they do not automatically change the declared usable-stop event. If the spinner cannot support the required action, the SRT clock continues. If an optimistic result is genuinely usable, predeclare its error and correction criteria and score those as part of A_task. Visible output alone is not completed service.
+
+
+## How you would run the factorial on this \(D\)
+
+
+1. Instrument action onset and first usable paint (not DevTools TTFB).
+2. Pick a sequential task with many SRTs (mail triage, form, file ops) — Weber’s setting.
+3. Choose one causal policy from §3. Keep content, cue predictivity, and resources controlled unless they are explicit factors.
+4. Choose one primary outcome. Always record human execution time and total completion time separately; ratings, errors, and correction costs have their declared roles.
+5. Register Δ, J, the low/high levels, both contrasts, and the uncertainty rule; check realized timings before interpreting the result.
+
+
+Transfer to FPS, tokens, or voice needs its own domain and validation; D4 alone does not supply it.
+
+
+## One line
+
+
+GUI SRT measures action-to-usable-widget delay. This card tests whether a specified timing policy improves a declared outcome at an acceptable cost, and separately whether the irregularity penalty changes with mean delay.
+
+
+## Sources and integration
+Weber, Haering, Thomaschke — Improving the Human–Computer Dialogue With Increased Temporal Predictability.
+Normoyle, Guerrero, Jörg — Player Perception of Delays and Jitter in Character Responsiveness.
+Target acquisition — How Changes in the Mean Latency, Jitter Amplitude, and Jitter Frequency Impact Target Acquisition Performance.
+Schmid, Halbhuber et al. — Small Latency Variations Do Not Affect Player Performance in First-Person Shooters.
+Thomaschke–Haering — Predictivity of system delays shortens human response time.
+Thomaschke–Dreisbach — Temporal Predictability Facilitates Action, Not Perception.
+WebRTC — NetEq documentation.
+ITU-T — P.863.1 application guide.
+
+
+Geometry overview: GEOMETRY + GQG — Working Master
+Corrected calculus, §16: New geometry 
+Physical clock and residual descent: The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent
+Source, model, and sampled time: COSMIC TIME — Working Master
+Shared context and coordination test: # Triadic Overlap Hypothesis · v2
+Resource and capacity accounting: # Thermodynamic Coordination + Reflex Geometry · v3
+Service projection and answer fidelity: Geometry_Direct_Service_Update
+
+
+Source status: literature results retain their own tasks and protocols. The finite sequence, causal-pad arithmetic, and additive-loss counterexample are constructions in this revision. The proposed user experiment has not been run. These additions neither supply physical-time D1 data nor alter its unresolved closure preflight.

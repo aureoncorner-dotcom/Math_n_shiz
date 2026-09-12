@@ -1,0 +1,66 @@
+﻿COSMIC TIME
+Working master
+Updated: Sep 8, 2026
+CC0 • Anonymous
+Start here
+This is the current entry point for Cosmic Time Architecture, planetary recurrence, and the weave comparator. It incorporates the September 7 recovery and September 8 input-verification records. The “CTA v0.7 source” tab preserves this document’s previous body, including the executed signed rematch.
+Timekeeper audits clocks: name the clock, identify the timestamp or parameter’s source, specify the witness, and state the observable consequence. Geometry, physical mechanism, history, and symbolism remain separate evidence lanes.
+Current source map
+CTA III baseline, definitions and §§24–26: COSMIC TIME ARCHITECTURE III
+PRP source-recovery record: # CTA III §26 — PRP-0
+PRP input-provenance verification: # CTA III §26 — PRP-0
+Modular Planetary Recurrence Geometry: Modular Planetary Recurrence Geometry
+Time toroid and earlier post-freeze record: Time toroid
+Timekeeper research-lane audit: Timekeeper Ledger - Research-Lane Appendix
+Geometry + GQG working master: # Geometry Maximization v2
+1. Current status
+Planetary recurrence: saved results report module recurrence, episode structure, and differences between directed and orientation-forgetting witnesses. GLOBAL EXCESS SYNCHRONIZATION: NOT SHOWN.
+PRP source recovery: the saved numerical dictionary and named upstream script are RECOVERED / VERIFIED by the cited September records. Historical execution-time identity, runtime-target equality, and exact replay remain UNRESOLVED.
+Weave comparator: the signed rematch is reported PASS as deterministic model verification under the declared symmetric initialization. It is not a planetary scan, physical-clock calibration, or blind human prediction trial.
+Physical mechanism and historical interpretation: no promotion follows from these geometric or recovery results. Physical Q2 remains NOT_RUN. Older Q2 sampler screens belong to separate pilot records and do not alter that physical-test status.
+This consolidation reviews and organizes the records; it does not rerun their simulations, regenerate an ephemeris, or independently repeat their byte checks.
+2. The geometry and its witnesses
+A three-phase model θ∈T³ has two independent relative phases:
+φ=(θ2−θ1,θ3−θ1)∈T².
+The quotient removes common rotation. Keep absolute phase whenever the selected witness needs it. The collective phase carries a clock hand; the relative state diagnoses lock, slip, or drift.
+A directed witness preserves signed geometry; a shell witness forgets orientation. A recurrence means return under the specified witness and tolerance or score, not identity of the full sky. Historical and symbolic views are downstream records.
+Lift continuous relative paths after choosing an initial lift. Weave winding m∈ℤ² records that path history. It is distinct from gauge winding W∈ℤ³ and parity q=W mod 2; shared terminology supplies no map between them.
+Recurrence, crossing, slip, lock, and tick are different event classes. A tick requires a declared hand and oriented crossing rule. Sampling must resolve the chosen event; wrapped samples alone can hide turns or direction.
+3. What the weave actually establishes
+The exploratory coupled comparator is
+θ̇i=ωi+(K/3)Σj sin(θj−θi).
+On the invariant branch θ1=θ2, the relative phase a=θ3−θ1 obeys ȧ=δ−K sin a. It is a model law with declared parameters, not an ephemeris-derived planetary interaction.
+The collective overlap squared is C(a)=(5+4 cos a)/9. States a=±π/2 both give C=5/9, but their derivatives differ by −8δ/9. At δ=0.003 and K=0.0015, the rates are −1/1500 and +1/500. Thus the same overlap can be falling or rising under the same law. For sufficiently small positive sampling intervals, overlap is not an autonomous predictive state on the full symmetric circle. Keeping (cos a,sin a) restores the branch phase record.
+The CTA3-SIGNED-REMATCH-001 record reports 18 trajectories: δ=+0.003, −0.003, and 0 at K/d=0, 0.5, 0.9, 1, 1.1, and 2, with d=0.003, θ(0)=(0,0,0), and fixed u=0.003t through u=600. Half-step runs and the analytic scalar flow provided checks.
+Signed pairs had equal overlap and opposite lifted phase. Drifting pairs completed ±95, ±82, and ±41 turns. At K/d=0.5, principal-cut slip counts were ±83, distinct from complete turns. The maximum reported primary phase error was 1.616×10⁻⁸ radians against a frozen 5×10⁻⁷ tolerance. The symmetry was predicted analytically before verification.
+4. PRP: recovered specification and saved findings
+The recovered freeze declares Swiss Ephemeris 2.10.03, Moshier, apparent geocentric ecliptic coordinates of date, on daily samples from proleptic Gregorian 0001-01-01 through 2026-08-27 inclusive at 12:00 UT. UT is the source wording; a historical UTC realization is not independently established.
+The eight primary bodies are Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto. The saved dictionary contains 72 entries: 61 primary across 16 source families and 11 extended.
+The implementation compares all unordered index pairs within each ordered body tuple to numerical source templates. Ideal motif names do not replace those targets. Empirical rank probabilities, component Bonferroni adjustment, and strict contiguous K01≥2 episodes govern acceptance; 2° motif assignment is not a universal episode tolerance.
+The null uses 500 family-shift controls per witness, moving family modules and exclusions together. The implementation resets the same seed, 437113, for each witness: separate evaluation does not mean independently seeded schedules. Upper-tail scalar p-values use (1+count)/501.
+Saved results, as checked in the recovery record:
+Directed witness — 724,920 eligible days; 2,455 strict episodes; 338.6581 episodes per 100,000 days; episode-rate p=1.0; reported maximum-peak p≈0.47106.
+Shell witness — 724,920 eligible days; 3,336 strict episodes; 460.1887 episodes per 100,000 days; episode-rate p=1.0; reported maximum-peak p≈0.32136.
+These support the retained status: GLOBAL EXCESS SYNCHRONIZATION: NOT SHOWN.
+5. What recovery settled—and what remains
+The September 8 verification reports byte equality for the 110,892-byte dictionary and 30,928-byte upstream script against separately retrieved copies of the original archive. All 72 static definitions and 650 stored pair targets passed the stated consistency checks. Those copies remain evidence of the same historical artifacts, not independently generated runs.
+The episode runner is manifest-bound, but its imported upstream dependency is not. It calls build_modules() to regenerate targets; it does not load the saved dictionary as its runtime input. Consequently, saved-target consistency does not establish historical runtime-target equality.
+The historical manifest matches 15 of 16 entries. The full run.log differs, while its first 425 bytes match the recorded hash; an appended output suffix is consistent with the runner’s ordering. Preserve the exception.
+The source prose and code also differ in directed operand order and seam convention. Keep that discrepancy visible; its effect on the historical scores has not been established.
+Remaining recovery targets are the 61 original directed probability arrays, the original daily position-cache bytes and provenance, an execution-linked upstream digest, runtime targets, pinned numerical environment and launch record, and actual shifts or complete lexicographic controls. A regenerated replacement would be a new reconstruction run with new identities.
+6. Rules for the next claim
+Freeze bodies, interval, frame, source-to-phase constructor, witness, module dictionary, scoring, tolerances, orientation, exclusions, null, multiplicity handling, and code/run identities before inspecting the evaluation. Freeze geometric episodes before joining event labels.
+Keep raw timestamps, coordinates, frame, and source immutable; each derived view gets its own identity. Label parameter custody: source-given, exact-derived, legacy, exploratory, fitted, or arbitrary control.
+The legacy ≈43-day and ≈21.5-day arithmetic is not a detected cosmic periodicity. Days and degrees require an explicit conversion model. Timing adjacency alone does not establish historical causation or common control.
+Use this first tab for current status. Keep source details and older editions behind it. The next research step is recovery of the remaining execution-linked inputs, or an explicitly new frozen reconstruction—not another summary claiming the old replay is complete.
+
+
+7. Temporal presentation and sampling
+The temporal exchange-rate increment is an application to interaction timing. In a Cosmic Time tool, distinguish the source timestamp, model parameter, sampling instant, computation completion, and user-visible release. A change in interface latency is not a change in astronomical or model time.
+Preserve the raw sample times and orientation/lift information before buffering, resampling, or interpolation. Regular-looking output cannot recover an unobserved turn or crossing. The sampling requirements in source §29 and the existing source-to-phase constructor remain necessary.
+For a declared interface task, test mean latency and one named irregularity measure against a primary user outcome. A benefit from added waiting and a stronger effect of irregularity at low latency are separate claims. The temporal note supplies exact examples and a test design, not a new ephemeris run, planetary mechanism, historical association, or physical-clock calibration.
+Temporal exchange rate v0.3 — interface timing application: # Temporal exchange rate
+
+
+Project sources and earlier versions
+All active projects

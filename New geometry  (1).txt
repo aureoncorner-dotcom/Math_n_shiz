@@ -1,0 +1,2022 @@
+﻿Geometry integration: observation, load, and predictive state
+Updated: Sep 11, 2026
+
+
+Current integration note. The following worked connections extend the witness-relative geometry in §§13–14. The isotope construction keeps its own domain, measurements, and evidence status.
+Arithmetic companion: §15 below gives corrected sign-loss, unit-loss, and predictive-closure examples from the research packet, with the conditions for reuse.
+
+
+
+
+Present-state equality and future-state equality
+
+
+Let π:D→Q be the declared observation and W:D→Y the witness. W descends through π exactly when π(x)=π(y) implies W(x)=W(y). For a deterministic update U:D→D, choose W=π∘U to test autonomy. For a Markov kernel P, compare the entire next-observation laws P(x,π⁻¹A) over all measurable A. A common label, plot, or finite trace does not itself establish that equality.
+
+
+A concrete load witness from the resonator
+
+
+In the ideal stretched-string model, f=(1/(2L))√(T/μ). Hold length L fixed and choose c>0, c≠1. States (T,μ) and (cT,cμ) have the same pitch but different tension. Thus pitch does not determine the load witness W=T. Retaining μ restores T=4L²f²μ on this declared ideal-model domain. This is an exact constructed example; it does not establish the load capacity or acoustic behavior of the built resonator.
+
+
+The G1 resonator geometry supplies a useful application check: the five-string bar envelope, with the stated one-inch radial allowance, sets a 14.5-inch inner diameter. That is a fit calculation under the recorded dimensions, separate from strength, damping, transfer, or measured sound. Use the Geometry update G1 tab for the source dimensions.
+
+
+Predictive obstruction in the toroidal companion
+
+
+The TD-COS-FH-001 note proves that sector observations q(Xdn), at every fixed positive integer attempted-microtick spacing d, have no exact finite Markov order for the specified unbounded-current kernel. This is a worked failure of replacing predictive state with a finite sector history. Its hypotheses belong to that sampler; they do not transfer to isotope data, to an acoustic device, or to arbitrary quotient maps.
+
+
+What to carry into a new application
+
+
+Declare the source domain, retained observation, target witness, update or sampling clock, and comparison rule. Exhibit an admissible same-observation pair with different witness values to prove non-descent. A sampled pair gives a lower bound on loss; failure to find a pair is not a global descent proof. Retain an actually available extra witness when it repairs the distinction; do not substitute future outcomes for present inputs.
+
+
+Sources and verification
+
+
+The algebraic string example and the recorded G1 dimension arithmetic were checked in the review. The toroidal proof was reviewed and its character-return arithmetic checked independently; the full simulation runs were not replayed. Existing empirical status labels remain scoped to their original records.
+
+
+Linked sources
+Resonator; see Geometry update G1 tab: Five_String_Acoustic_Resonator_Rev_B
+Toroidal all-orders memory proof: # TD-COS-FH-001- the sector process has no finite Markov order
+Geometry Maximization v2: # Geometry Maximization v2
+
+
+Document body
+
+
+
+
+EMPIRICAL QUOTIENT COMPILER
+
+
+Isotope Perturbations, Signed Responses, and Witness-Relative Context
+
+
+Status: freeze-ready methods/result synthesis
+Scope: isotope/material/nuclear response lane only
+Theory effect: none
+Purpose: identify when a reduced description preserves a physical response and when erased context must be restored.
+
+
+1. Core result
+
+
+The chemistry run began with atomic-number and prime/Fibonacci patterns. Those were useful finder coordinates, but systematic hostile controls repeatedly showed that they do not determine material phase, topology, carrier sign, Berry-curvature sign, spin-orbit strength, or isotope-response sign.
+
+
+The surviving object is different:
+
+
+\[
+\boxed{
+\text{source state}
+\rightarrow
+\text{physical witness}
+\rightarrow
+\text{projection}
+\rightarrow
+\text{descent test}
+}
+\]
+
+
+The governing distinction already exists in the project grammar. An exact quotient, a quotient-valued transition component, a driven cocycle, an augmented closed state, and an empirically observed realization are explicitly different relation types. Formal closure does not automatically confer physical validity. 
+
+
+The chemistry program therefore asks a precise question:
+
+
+\[
+\boxed{
+\text{What is the smallest state that must remain visible
+for a specified physical witness to remain well defined?}
+}
+\]
+
+
+
+
+---
+
+
+2. Nuclear mass can reach electromagnetic material behavior
+
+
+The strongest positive result is oxygen-isotope substitution in SrTiO_3.
+
+
+Replacing
+
+
+\[
+{}^{16}O\rightarrow{}^{18}O
+\]
+
+
+leaves
+
+
+\[
+Z_O=8
+\]
+
+
+unchanged while changing nuclear mass. Yet \(^{18}_3\) from its quantum-paraelectric regime into a ferroelectric state. The original experiment observed a dielectric peak near \(23\) K, electrical hysteresis, and a Raman-active soft mode consistent with isotope-induced ferroelectricity. 
+
+
+A 2026 first-principles treatment reproduces this isotope-induced ferroelectric transition when quantum and anharmonic phonon effects are included. 
+
+
+The physically supported chain is therefore
+
+
+\[
+\boxed{
+\Delta N
+\rightarrow
+\Delta M_{\rm nucleus}
+\rightarrow
+\Delta D_{\rm lattice}
+\rightarrow
+\Delta(\omega_\nu,e_\nu)
+\rightarrow
+\text{polar instability}
+\rightarrow
+P\neq0
+}
+\]
+
+
+where \(D_{\rm lattice}\) is the mass-weighted dynamical operator.
+
+
+This is not neutron magnetic moments creating the ferroelectric field directly. It is a nuclear-mass perturbation propagating through quantum lattice dynamics into an electromagnetic order parameter.
+
+
+Doped SrTiO_3 supplies the superconducting counterpart: partial ^{18}O substitution increased \(T_c\) by approximately \(1.5\times\), with the sign opposite the elementary conventional isotope effect; the authors connect the unusual response to proximity to ferroelectric instability and polaronic/electron-phonon physics. 
+
+
+So nuclear mass has a demonstrated route into both
+
+
+\[
+\boxed{P}
+\]
+
+
+and
+
+
+\[
+\boxed{T_c,\ H_{c2}}
+\]
+
+
+through the lattice/electronic system.
+
+
+
+
+---
+
+
+3. Response sign is not a property of isotope mass alone
+
+
+Compressed rule:
+
+
+\[
+M_{\rm isotope}\rightarrow\operatorname{sgn}\Delta O
+\]
+
+
+fails.
+
+
+Lithium supplies a direct counterexample. Between roughly \(18\) and \(21.5\) GPa, ^{6}Li has higher superconducting \(T_c\) than ^{7}Li and the isotope coefficient is positive and unusually large. Above about \(21.5\) GPa the coefficient reverses sign,
+
+
+\[
+\boxed{\alpha\approx-1.5\pm0.5}.
+\]
+
+
+Pressure/compressed-state context therefore cannot be discarded for that witness. 
+
+
+Thus
+
+
+\[
+\boxed{
+(\text{Li isotope},T_c)
+\not\to
+\text{unique isotope-response sign}
+}
+\]
+
+
+but
+
+
+\[
+\boxed{
+(\text{Li isotope},P,\text{compressed state},T_c)
+}
+\]
+
+
+is a legitimate augmented state to test.
+
+
+This gives a located descent failure:
+
+
+\[
+\pi_{\neg P}(x)=\pi_{\neg P}(y)
+\]
+
+
+while
+
+
+\[
+\operatorname{sgn}\Delta T_c(x)
+\neq
+\operatorname{sgn}\Delta T_c(y).
+\]
+
+
+
+
+---
+
+
+4. The witness itself is part of the state type
+
+
+La_{2-x}\(Ba\)_x\(CuO\)_4 at \(x=1/8\) is an unusually clean demonstration.
+
+
+The same ^{16}\(O/\)^{18}O intervention produces
+
+
+\[
+\boxed{\alpha_{T_{\rm so}}=-0.57(6)}
+\]
+
+
+for static spin-stripe ordering but
+
+
+\[
+\boxed{\alpha_{T_c}=+0.46(6)}
+\]
+
+
+for superconductivity. 
+
+
+The signs are opposite.
+
+
+Consequently the sentence
+
+
+\[
+\text{“the isotope response of this material is positive/negative”}
+\]
+
+
+is not well typed.
+
+
+The appropriate object is
+
+
+\[
+\boxed{
+R_I(W)
+}
+\]
+
+
+where \(W\) explicitly identifies the measured order parameter.
+
+
+This produces a general rule:
+
+
+\[
+\boxed{
+\textbf{response sign belongs to a typed witness,
+not to the specimen in isolation.}
+}
+\]
+
+
+
+
+---
+
+
+5. A measured response can itself be a quotient
+
+
+MoS_2 gives the cleanest decomposition.
+
+
+Increasing Mo isotope mass from ^{92}Mo toward ^{100}Mo produces an experimentally observed optical-gap redshift of
+
+
+\[
+\boxed{13\pm7\ {\rm meV}}.
+\]
+
+
+But the calculation resolves competing components. The electronic-gap contribution changes by about \(+6\) meV, while the exciton binding-energy contribution changes by about \(+17\) meV. Because
+
+
+\[
+E_{\rm opt}=E_g-E_b,
+\]
+
+
+the result is approximately
+
+
+\[
+\Delta E_{\rm opt}
+=
+(+6)-(+17)
+=
+\boxed{-11\ {\rm meV}},
+\]
+
+
+consistent with experiment. 
+
+
+Therefore
+
+
+\[
+\boxed{
+\operatorname{sgn}\Delta E_{\rm opt}
+}
+\]
+
+
+is a perfectly valid observable while being an incomplete mechanistic description.
+
+
+For a descriptive task,
+
+
+\[
+E_{\rm opt}
+\]
+
+
+may be sufficient.
+
+
+For a mechanistic task,
+
+
+\[
+\boxed{(E_g,E_b)}
+\]
+
+
+must remain visible.
+
+
+That establishes claim-relative context without requiring a universal monster state.
+
+
+
+
+---
+
+
+6. Context can matter in one system and descend away in another
+
+
+The compiler must not assign coordinates permanent labels like “pressure always matters.”
+
+
+A 2026 study of Pr_4\(Ni\)_3\(O\)_{10} measured the oxygen-isotope effect on its SDW transition under pressure. The isotope offset remains essentially pressure invariant within experimental resolution. 
+
+
+That provides the complementary case to lithium:
+
+
+\[
+\boxed{
+P:\text{ RETAIN for Li isotope-}T_c
+}
+\]
+
+
+but
+
+
+\[
+\boxed{
+P:\text{ approximate descent candidate for the
+Pr}_4\text{Ni}_3\text{O}_{10}\text{ isotope offset}
+}
+\]
+
+
+over its measured pressure domain.
+
+
+Hence:
+
+
+\[
+\boxed{
+\textbf{context relevance is witness- and domain-relative.}
+}
+\]
+
+
+
+
+---
+
+
+7. Interactions among context coordinates are real
+
+
+LSCO provides the first strong interaction example.
+
+
+For
+
+
+\[
+\mathrm{La}_{2-p}\mathrm{Sr}_p
+\mathrm{Cu}_{1-y}\mathrm{Zn}_yO_4,
+\]
+
+
+Zn increases the oxygen-isotope exponent much more strongly in heavily underdoped \(p=.09\) material than in overdoped \(p=.22\) material. The underdoped branch can be described reasonably by impurity pair breaking, while the same treatment fails for the overdoped branch even though Zn remains an efficient pair breaker. 
+
+
+Therefore a separable representation
+
+
+\[
+\alpha(p,y)=A(p)+B(y)
+\]
+
+
+is insufficient.
+
+
+The appropriate interaction object is
+
+
+\[
+\boxed{
+J_{py}
+=
+[
+\alpha(p_1,y_1)-\alpha(p_1,y_0)
+]
+-
+[
+\alpha(p_0,y_1)-\alpha(p_0,y_0)
+].
+}
+\]
+
+
+Current evidence supports a nonseparable
+
+
+\[
+\boxed{
+\{p,\mathrm{Zn\ disorder}\}\rightarrow\alpha_O
+}
+\]
+
+
+interaction qualitatively. Exact numerical \(J_{py}\) remains separate unless all four ordinates and uncertainties are recovered directly.
+
+
+A related LSCO pseudogap study independently shows that the oxygen-isotope response changes strongly with Sr doping; both the isotope exponent and the critical endpoint of \(T^*\) vary substantially with \(x\). 
+
+
+
+
+---
+
+
+8. Failed compression is itself a result
+
+
+A prettier physical coordinate cannot replace an ugly experimental coordinate merely because the two correlate.
+
+
+If over domain \(D\),
+
+
+\[
+T^*=a+bx,
+\]
+
+
+then replacing doping \(x\) by \(T^*\) does not demonstrate that \(T^*\) is mechanistically fundamental. They are observationally collinear there.
+
+
+Therefore:
+
+
+\[
+\boxed{
+\textbf{mechanistic compression requires an orthogonal perturbation.}
+}
+\]
+
+
+To distinguish
+
+
+\[
+x\rightarrow R
+\]
+
+
+from
+
+
+\[
+T^*\rightarrow R,
+\]
+
+
+one must change \(T^*\) while approximately holding \(x\) fixed—or vice versa—and observe the response.
+
+
+Correlation is not sufficient state reduction.
+
+
+
+
+---
+
+
+9. Compiler formalism
+
+
+Let the complete source state be
+
+
+\[
+X=(c_1,c_2,\ldots,c_n)
+\]
+
+
+on declared domain \(D\).
+
+
+For retained coordinate set \(S\), define projection
+
+
+\[
+\pi_S:X\rightarrow X_S.
+\]
+
+
+For physical witness \(W\), exact descent requires
+
+
+\[
+\boxed{
+\pi_S(x)=\pi_S(y)
+\Longrightarrow
+W(x)=W(y)
+}
+\]
+
+
+for all allowed source states.
+
+
+For empirical measurements replace equality with a preregistered tolerance/statistical-equivalence condition.
+
+
+Then define
+
+
+\[
+\boxed{
+S^*(W,D,C)
+}
+\]
+
+
+as an inclusion-minimal retained coordinate set sufficient for witness \(W\), domain \(D\), and declared question type \(C\).
+
+
+A coordinate is:
+
+
+\[
+\boxed{\texttt{RETAIN}}
+\]
+
+
+when deleting it yields a located counterexample;
+
+
+\[
+\boxed{\texttt{DESCENT\_CANDIDATE}}
+\]
+
+
+when tested deletion leaves the witness invariant within the frozen tolerance;
+
+
+\[
+\boxed{\texttt{UNRESOLVED}}
+\]
+
+
+when coverage is insufficient.
+
+
+For context interactions,
+
+
+\[
+\boxed{
+J_{ij}[W]
+=
+\Delta_i\Delta_jW
+}
+\]
+
+
+tests whether independent context effects are separable.
+
+
+If
+
+
+\[
+J_{ij}\neq0,
+\]
+
+
+the state contains an earned interaction edge/hyperedge rather than two independent context coordinates.
+
+
+
+
+---
+
+
+10. What failed
+
+
+The chemistry run explicitly did not establish:
+
+
+\[
+\text{prime atomic number}
+\rightarrow
+\text{electronic response},
+\]
+
+
+\[
+\text{Fibonacci proximity}
+\rightarrow
+\text{SOC strength},
+\]
+
+
+\[
+\text{isotope mass}
+\rightarrow
+\text{universal response sign},
+\]
+
+
+\[
+\text{nuclear magnetic-moment sign}
+\rightarrow
+\text{Rashba/valley physics},
+\]
+
+
+or
+
+
+\[
+\text{one universal context vector for every material}.
+\]
+
+
+Those failures are useful because they leave the surviving mechanism much narrower.
+
+
+
+
+---
+
+
+11. What survived
+
+
+The strongest empirical synthesis is:
+
+
+\[
+\boxed{
+\textbf{nuclear isotope state can perturb electromagnetic material behavior
+through quantum lattice dynamics.}
+}
+\]
+
+
+And the strongest methods result is:
+
+
+\[
+\boxed{
+\textbf{a reduced physical state is admissible only relative to
+a witness, a question, and a domain.}
+}
+\]
+
+
+More compactly:
+
+
+\[
+\boxed{
+\textbf{Retain context until deletion survives a descent test.}
+}
+\]
+
+
+Not forever.
+
+
+Not because it sounds physically important.
+
+
+Not because it correlates.
+
+
+Until deletion survives.
+
+
+That is the Empirical Quotient Compiler.
+
+
+
+
+---
+
+
+12. Freeze disposition
+
+
+I would freeze the chemistry/material lane here as:
+
+
+\[
+\boxed{\text{EMPIRICAL QUOTIENT COMPILER — v0.1}}
+\]
+
+
+with these four high-level results:
+
+
+Result        Status
+
+
+isotope mass → lattice → electromagnetic response        EMPIRICALLY INSTANTIATED
+response sign determined by isotope mass alone        FAILED
+witness/domain-relative minimal context        SUPPORTED BY MULTIPLE COUNTEREXAMPLES
+universal predictive closure        NOT SHOWN
+
+
+
+
+The project relation grammar already has the appropriate boundary: exact quotients and formal augmented closure remain separate from empirical instantiation. 
+
+
+Now geometry
+
+
+And now we get to do the fun shit. 😂
+
+
+The geometry target is no longer vague “toroids look cool.” We now have a concrete mathematical object to geometrize:
+
+
+\[
+\boxed{
+X
+\xrightarrow{\pi}
+Q
+}
+\]
+
+
+with fibers
+
+
+\[
+\boxed{
+\pi^{-1}(q)
+}
+\]
+
+
+containing source states that the coarse witness identifies.
+
+
+Descent failure occurs when a fiber contains states with different future/physical witness values:
+
+
+\[
+x,y\in\pi^{-1}(q),
+\qquad
+W(x)\neq W(y).
+\]
+
+
+That means the next geometry lane is naturally about:
+
+
+\[
+\boxed{
+\text{fiber geometry}
++
+\text{sector geometry}
++
+\text{branching}
++
+\text{holonomy}
++
+\text{context attachment}
++
+\text{where quotient fibers cease to be dynamically homogeneous}.
+}
+\]
+
+
+Chemistry freeze. Boots back on. Geometry next. 😂🔥🐒
+
+
+Absolutely. Make Section 13 the actual bridge into geometry:
+
+
+13. The Non-Descent Locus
+
+
+The chemistry/material audit suggests a geometric object that can be defined independently of any particular material system.
+
+
+Let
+
+
+\[
+\pi:X\rightarrow Q
+\]
+
+
+be a projection from the retained source state \(X\) to a reduced description \(Q\), and let
+
+
+\[
+W:X\rightarrow Y
+\]
+
+
+be the declared physical witness.
+
+
+Define the non-descent locus
+
+
+\[
+\boxed{
+\mathcal N_W(\pi)
+=
+\left\{
+q\in Q:
+\exists\,x,y\in\pi^{-1}(q)
+\text{ with }
+W(x)\neq W(y)
+\right\}.
+}
+\]
+
+
+This is the set of quotient states whose fibers contain physically distinguishable source states.
+
+
+If
+
+
+\[
+\boxed{\mathcal N_W(\pi)=\varnothing},
+\]
+
+
+then \(W\) descends through the quotient and there exists a well-defined reduced witness
+
+
+\[
+\bar W:Q\rightarrow Y
+\]
+
+
+such that
+
+
+\[
+\boxed{
+W=\bar W\circ\pi.
+}
+\]
+
+
+If instead
+
+
+\[
+\boxed{\mathcal N_W(\pi)\neq\varnothing},
+\]
+
+
+then the projection erased context required by that witness.
+
+
+The empirical compiler therefore becomes a geometric refinement procedure:
+
+
+\[
+X
+\xrightarrow{\pi}
+Q
+\]
+
+
+\[
+\Downarrow\quad\mathcal N_W(\pi)\neq\varnothing
+\]
+
+
+\[
+X
+\xrightarrow{\pi'}
+Q'
+\xrightarrow{r}
+Q
+\]
+
+
+where \(Q'\) retains enough additional context to split the heterogeneous fibers.
+
+
+The goal is not maximal refinement. It is the smallest refinement for which
+
+
+\[
+\boxed{
+\mathcal N_W(\pi')=\varnothing
+}
+\]
+
+
+on the declared domain and at the declared experimental resolution.
+
+
+This gives three geometrically distinct regions:
+
+
+\[
+\boxed{
+Q_{\rm clean}
+=
+Q\setminus\mathcal N_W
+}
+\]
+
+
+where the quotient is sufficient;
+
+
+\[
+\boxed{
+\mathcal N_W
+}
+\]
+
+
+where hidden context remains physically relevant; and
+
+
+\[
+\boxed{
+\partial\mathcal N_W
+}
+\]
+
+
+where a parameter change can cause a previously sufficient reduced description to fail.
+
+
+That boundary is particularly interesting experimentally. Lithium's pressure-dependent isotope-sign reversal is an example of crossing such a boundary: a reduced isotope/\(T_c\) description that appears adequate in one pressure regime ceases to be adequate in another.
+
+
+Thus the chemistry lane hands geometry a sharply defined target:
+
+
+\[
+\boxed{
+\textbf{Find the shape, connectivity, boundaries, and transport structure of the non-descent locus.}
+}
+\]
+
+
+And that gives us a clean Section 13 instead of sticking a decorative number on the document. 😂🔥
+
+
+---
+
+
+14. First Rigorous Geometry of the Non-Descent Locus
+
+
+Status: formal geometric extension only
+Chemistry effect: none — the Section 12 freeze is unchanged
+Empirical effect: none — no new material result, phase boundary, mechanism, or universal closure is inferred
+
+
+14.1 Standing domain and the no-shape lemma
+
+
+All statements below are relative to a declared source domain \(D\subseteq X\), witness \(W\), and projection \(\pi\). Replace \(X\) by \(D\) and \(Q\) by \(\pi(D)\). Thus \(\pi:X\to Q\) is surjective. This removes empty fibers and makes any descended witness unique on all of \(Q\).
+
+
+The definition in Section 13 is exact at the level of sets, but it does not by itself determine a geometry.
+
+
+Proposition 14.1 — No-shape lemma.
+
+
+For every set \(Q\) and every subset \(A\subseteq Q\), there exist a source set \(X\), a surjection \(\pi:X\to Q\), and a witness \(W:X\to\{0,1\}\) such that
+
+
+\[
+\mathcal N_W(\pi)=A.
+\]
+
+
+Proof. Take
+
+
+\[
+X=(Q\times\{0\})\cup(A\times\{1\}),
+\qquad
+\pi(q,i)=q,
+\qquad
+W(q,i)=i.
+\]
+
+
+Every fiber contains \((q,0)\), and it contains a second witness value precisely when \(q\in A\). Therefore the non-descent locus is exactly \(A\). \(\square\)
+
+
+Consequently, shape, openness, connectivity, boundary regularity, branching, and transport must be earned by additional topological or smooth hypotheses. None follows from the bare definition alone.
+
+
+14.2 Fiber-image field and sector space
+
+
+For \(q\in Q\), write
+
+
+\[
+F_q=\pi^{-1}(q)
+\]
+
+
+and define the fiber-image field
+
+
+\[
+\mathcal A_W(q)=W(F_q)\subseteq Y.
+\]
+
+
+Then
+
+
+\[
+\boxed{
+q\in\mathcal N_W(\pi)
+\iff
+|\mathcal A_W(q)|>1.
+}
+\]
+
+
+The geometric object carrying all witness sectors at once is
+
+
+\[
+\boxed{
+\mathsf S_W(\pi)
+=
+\operatorname{im}(\pi,W)
+=
+\{(q,y)\in Q\times Y:
+\exists x\in X,\ \pi(x)=q,\ W(x)=y\}.
+}
+\]
+
+
+Let
+
+
+\[
+r:\mathsf S_W(\pi)\to Q,
+\qquad
+r(q,y)=q,
+\]
+
+
+and
+
+
+\[
+w:\mathsf S_W(\pi)\to Y,
+\qquad
+w(q,y)=y.
+\]
+
+
+Its fiber is
+
+
+\[
+r^{-1}(q)=\{q\}\times\mathcal A_W(q).
+\]
+
+
+Thus:
+
+
+\[
+Q_{\rm clean}
+=
+\{q:|r^{-1}(q)|=1\},
+\]
+
+
+while
+
+
+\[
+\mathcal N_W(\pi)
+=
+\{q:|r^{-1}(q)|>1\}.
+\]
+
+
+Over \(Q_{\rm clean}\), the sector space is the graph of a single reduced witness. Over \(\mathcal N_W\), it is multivalued, multisheeted, or vertically extended. The branch/singular locus should be distinguished from the non-descent locus itself:
+
+
+\[
+\mathcal B_W
+=
+\{q\in Q:
+r\text{ is not locally trivial near }q\}.
+\]
+
+
+A region can lie inside \(\mathcal N_W\) while carrying a constant number of locally trivial sheets. Branching occurs where the sector structure changes, not merely wherever more than one sector exists.
+
+
+14.3 Exact descent, canonical refinement, and monotonicity
+
+
+Define the kernel relation of a map \(f\) by
+
+
+\[
+\operatorname{Eq}(f)
+=
+\{(x,y)\in X\times X:f(x)=f(y)\}.
+\]
+
+
+Theorem 14.2 — Exact descent criterion.
+
+
+The following are equivalent:
+
+
+1. \(\mathcal N_W(\pi)=\varnothing\).
+2. \(W\) is constant on every fiber \(F_q\).
+3. \(\operatorname{Eq}(\pi)\subseteq\operatorname{Eq}(W)\).
+4. There exists a unique map \(\bar W:Q\to Y\) such that
+   \[
+   W=\bar W\circ\pi.
+   \]
+
+
+Proof. Conditions 1–3 restate the absence of a same-fiber pair with distinct witness values. If they hold, define \(\bar W(q)=W(x)\) for any \(x\in F_q\); fiber constancy makes this well defined. Conversely, a factorization forces equal witness values on equal \(\pi\)-fibers. Surjectivity gives uniqueness. \(\square\)
+
+
+Theorem 14.3 — Canonical witness-resolving refinement.
+
+
+Define
+
+
+\[
+\pi_W:X\to\mathsf S_W(\pi),
+\qquad
+\pi_W(x)=(\pi(x),W(x)).
+\]
+
+
+Then
+
+
+\[
+\pi=r\circ\pi_W,
+\qquad
+W=w\circ\pi_W,
+\qquad
+\mathcal N_W(\pi_W)=\varnothing.
+\]
+
+
+Moreover, if a surjection \(\rho:X\to R\) resolves both maps,
+
+
+\[
+\pi=a\circ\rho,
+\qquad
+W=b\circ\rho,
+\]
+
+
+then there is a unique map
+
+
+\[
+h:R\to\mathsf S_W(\pi),
+\qquad
+h(u)=(a(u),b(u)),
+\]
+
+
+such that
+
+
+\[
+\pi_W=h\circ\rho.
+\]
+
+
+Therefore \(\mathsf S_W(\pi)\) is the coarsest exact refinement that simultaneously retains the quotient state and the witness value.
+
+
+This is a formal completion, not yet a physical explanation. It can remove witness ambiguity by retaining \(W\) itself, but it does not identify the smallest causal or mechanistic context coordinate. That stronger compression still requires the deletion tests and empirical boundaries frozen above.
+
+
+Proposition 14.4 — Refinement monotonicity.
+
+
+Suppose
+
+
+\[
+\pi=r\circ\pi'
+\]
+
+
+for a refinement \(\pi':X\to Q'\). Then
+
+
+\[
+\boxed{
+r\bigl(\mathcal N_W(\pi')\bigr)
+\subseteq
+\mathcal N_W(\pi).
+}
+\]
+
+
+Proof. If two states share a \(\pi'\)-fiber and have different witness values, they also share the coarser \(\pi\)-fiber. \(\square\)
+
+
+A refinement can split or eliminate heterogeneous fibers. It cannot create a witness defect whose image was clean at the coarser level.
+
+
+14.4 Metric shape and tolerance
+
+
+Assume \(Y\) is a metric space with distance \(d_Y\). Define the fiber diameter
+
+
+\[
+\boxed{
+\delta_W(q)
+=
+\operatorname{diam}\mathcal A_W(q)
+=
+\sup_{x,y\in F_q}
+d_Y\bigl(W(x),W(y)\bigr).
+}
+\]
+
+
+Then
+
+
+\[
+\mathcal N_W(\pi)
+=
+\{q\in Q:\delta_W(q)>0\}.
+\]
+
+
+For a declared tolerance \(\varepsilon\ge0\), define
+
+
+\[
+\boxed{
+\mathcal N_{W,\varepsilon}(\pi)
+=
+\{q\in Q:\delta_W(q)>\varepsilon\}.
+}
+\]
+
+
+This is the resolution-relative non-descent locus. Its complement contains fibers whose witness spread does not exceed the frozen tolerance. Exact descent is the special case \(\varepsilon=0\).
+
+
+Theorem 14.5 — Openness and boundary theorem.
+
+
+Let \(X,Q,Y\) be topological spaces, let \(Q\) and \(Y\) be Hausdorff, and suppose \(\pi:X\to Q\) is a continuous, surjective, open map while \(W:X\to Y\) is continuous. Then
+
+
+\[
+\boxed{
+\mathcal N_W(\pi)\text{ is open in }Q.
+}
+\]
+
+
+If, in addition, \(X\) and \(Q\) are locally compact Hausdorff, \(\pi\) is proper, and \(Y\) is metric, then every fiber is compact, \(\delta_W\) is finite and continuous, and for every \(\varepsilon\ge0\),
+
+
+\[
+\mathcal N_{W,\varepsilon}(\pi)
+=
+\delta_W^{-1}\bigl((\varepsilon,\infty)\bigr)
+\]
+
+
+is open, with
+
+
+\[
+\boxed{
+\partial\mathcal N_{W,\varepsilon}(\pi)
+\subseteq
+\delta_W^{-1}(\varepsilon).
+}
+\]
+
+
+Proof. Form the kernel-pair space
+
+
+\[
+R_\pi=X\times_QX
+=
+\{(x,y):\pi(x)=\pi(y)\}
+\]
+
+
+and the defect set
+
+
+\[
+D_W
+=
+\{(x,y)\in R_\pi:W(x)\neq W(y)\}.
+\]
+
+
+Because \(Y\) is Hausdorff, its diagonal is closed, so \(D_W\) is open in \(R_\pi\). The map
+
+
+\[
+p:R_\pi\to Q,
+\qquad
+p(x,y)=\pi(x),
+\]
+
+
+is open because it is built from \(\pi\) and a pullback of \(\pi\). Hence
+
+
+\[
+\mathcal N_W(\pi)=p(D_W)
+\]
+
+
+is open.
+
+
+Under properness, \(p\) is also proper. For each \(a\), the set where the pairwise witness distance is \(>a\) has open image, while the set where it is \(\ge a\) has closed image. These two statements give lower and upper semicontinuity of the fiberwise maximum \(\delta_W\), hence continuity. The boundary inclusion follows. \(\square\)
+
+
+Without these hypotheses, \(\mathcal N_W\) need not be open or closed, and \(\partial\mathcal N_W\) need not be regular. The no-shape lemma remains the controlling warning.
+
+
+14.5 Connectivity and multiscale shape
+
+
+The tolerance loci form a nested filtration:
+
+
+\[
+\varepsilon_2>\varepsilon_1
+\quad\Longrightarrow\quad
+\mathcal N_{W,\varepsilon_2}
+\subseteq
+\mathcal N_{W,\varepsilon_1}.
+\]
+
+
+This gives precise shape targets:
+
+
+\[
+\pi_0\bigl(\mathcal N_{W,\varepsilon}\bigr)
+\]
+
+
+for connected components,
+
+
+\[
+H_k\bigl(\mathcal N_{W,\varepsilon}\bigr)
+\]
+
+
+for holes and higher topology, and the component merge tree across \(\varepsilon\) for the stability of sectors under changing resolution.
+
+
+If \(Q\) is locally path connected and \(\mathcal N_{W,\varepsilon}\) is open, its connected components are open path components. If the domain, maps, and metric test are semialgebraic, then \(\mathsf S_W\), \(\mathcal N_{W,\varepsilon}\), and their boundaries are semialgebraic. They therefore have finitely many connected components and admit finite stratifications on the declared domain.
+
+
+Corollary 14.6 — Boundary crossing along a path.
+
+
+Assume \(\delta_W\) is continuous and let \(\gamma:[0,1]\to Q\) be continuous. If
+
+
+\[
+\delta_W(\gamma(0))\le\varepsilon
+\]
+
+
+and
+
+
+\[
+\delta_W(\gamma(1))>\varepsilon,
+\]
+
+
+then \(\gamma\) meets the level set
+
+
+\[
+\delta_W^{-1}(\varepsilon).
+\]
+
+
+If the path has clean points immediately before its first entry and non-descent points immediately after, that first-entry point lies in
+
+
+\[
+\partial\mathcal N_{W,\varepsilon}.
+\]
+
+
+This is the exact condition required before calling a parameter value a boundary crossing.
+
+
+14.6 Smooth specialization
+
+
+Now assume \(X,Q,Y\) are smooth manifolds, \(\pi:X\to Q\) is a smooth surjective submersion, and \(W:X\to Y\) is smooth. The vertical tangent bundle is
+
+
+\[
+V=\ker d\pi\subseteq TX.
+\]
+
+
+Define the vertical witness differential
+
+
+\[
+\boxed{
+A_W=dW|_V.
+}
+\]
+
+
+Theorem 14.7 — Vertical differential criterion.
+
+
+If every fiber \(F_q\) is connected, then
+
+
+\[
+\boxed{
+q\in\mathcal N_W(\pi)
+\iff
+\exists x\in F_q
+\text{ such that }
+A_W(x)\neq0.
+}
+\]
+
+
+Equivalently,
+
+
+\[
+\mathcal N_W(\pi)
+=
+\pi\bigl(\{x\in X:A_W(x)\neq0\}\bigr).
+\]
+
+
+Proof. \(A_W=0\) on \(F_q\) exactly when the restriction \(W|_{F_q}\) has zero differential. A connected manifold is path connected, so this is equivalent to \(W|_{F_q}\) being constant. Apply Theorem 14.2. \(\square\)
+
+
+For disconnected fibers, \(A_W=0\) detects constancy on each connected component but is not sufficient for descent. The componentwise constants must also agree. Thus disconnected fibers contribute a discrete sector defect that differential tests alone can miss.
+
+
+If \(\pi\) is also proper, the proper-submersion theorem makes it a locally trivial bundle with compact fibers. The hypotheses of Theorem 14.5 then hold, so \(\delta_W\) is continuous.
+
+
+The diameter need not be smooth: maximizing pairs can exchange, collide, or cease to be unique. On a smooth stratum where a unique maximizing pair varies smoothly and avoids metric singularities, \(\delta_W\) is smooth. If \(\varepsilon\) is a regular value on that stratum, then
+
+
+\[
+\delta_W^{-1}(\varepsilon)
+\]
+
+
+is a smooth codimension-one boundary there. Sheet collisions or competing maximizers can instead produce corners, cusps, or lower-dimensional strata. Those are geometric possibilities, not empirical findings.
+
+
+14.7 Transport, branching, and holonomy
+
+
+At the topological level, let \(\gamma:[0,1]\to Q\) be a path. Define the witness-transport relation
+
+
+\[
+\boxed{
+\mathcal T_W(\gamma)
+=
+\left\{
+\bigl(W(\widetilde\gamma(0)),W(\widetilde\gamma(1))\bigr):
+\pi\circ\widetilde\gamma=\gamma
+\right\}.
+}
+\]
+
+
+This relation uses all continuous lifts \(\widetilde\gamma\) that exist. If \(\pi\) has path lifting and \(\gamma\) lies entirely in \(Q_{\rm clean}\), then
+
+
+\[
+\mathcal T_W(\gamma)
+=
+\{(\bar W(\gamma(0)),\bar W(\gamma(1)))\}.
+\]
+
+
+Transport is therefore lift-independent at the witness level on the clean locus.
+
+
+In the smooth bundle setting, choose an Ehresmann connection
+
+
+\[
+TX=V\oplus H.
+\]
+
+
+For a path \(\gamma\), horizontal lifting gives a parallel-transport map
+
+
+\[
+P_\gamma:F_{\gamma(0)}\to F_{\gamma(1)}
+\]
+
+
+whenever the chosen connection is complete along that path. For a loop based at \(q\), define the witness-holonomy defect
+
+
+\[
+\boxed{
+\mathfrak h_W(\gamma)
+=
+\sup_{x\in F_q}
+d_Y\bigl(W(P_\gamma x),W(x)\bigr).
+}
+\]
+
+
+Proposition 14.8.
+
+
+If
+
+
+\[
+\mathfrak h_W(\gamma)>0,
+\]
+
+
+then
+
+
+\[
+q\in\mathcal N_W(\pi).
+\]
+
+
+Proof. The points \(x\) and \(P_\gamma x\) lie in the same fiber over \(q\) and have different witness values. \(\square\)
+
+
+The converse need not hold: a heterogeneous fiber may have no selected loop whose holonomy moves between its witness sectors. Holonomy is therefore a detector of transport-sensitive non-descent, not a complete replacement for the fiber test.
+
+
+If the sector projection
+
+
+\[
+r:\mathsf S_W\to Q
+\]
+
+
+restricts over a region \(U\) to a finite covering, path lifting permutes its sheets. Loops define a monodromy representation
+
+
+\[
+\mu:\pi_1(U,q)\to
+\operatorname{Sym}\bigl(r^{-1}(q)\bigr).
+\]
+
+
+A nontrivial \(\mu\) records global twisting of witness sectors even when their local number stays constant. This is the rigorous transport structure corresponding to the earlier branching-and-holonomy target.
+
+
+14.8 Coarse boundary versus hidden-coordinate transition
+
+
+Three objects must remain separate:
+
+
+\[
+q\in\mathcal N_W(\pi),
+\]
+
+
+which is a heterogeneous coarse fiber;
+
+
+\[
+q\in\partial\mathcal N_{W,\varepsilon}(\pi),
+\]
+
+
+which is a boundary in the retained quotient space \(Q\); and a transition along an erased coordinate in \(X\) or in a refinement \(Q'\).
+
+
+Suppose \(Q'\) retains pressure and
+
+
+\[
+r:Q'\to Q
+\]
+
+
+forgets it. A pressure path \(\gamma'(P)\) can cross a witness transition in \(Q'\) while \(r\circ\gamma'\) collapses the entire path to one coarse point \(q\). In that case the observations establish
+
+
+\[
+q\in\mathcal N_{W,\varepsilon}(\pi)
+\]
+
+
+but do not by themselves locate
+
+
+\[
+\partial\mathcal N_{W,\varepsilon}(\pi)
+\subseteq Q.
+\]
+
+
+This is the strict reading of the lithium example. If states drawn from the compared pressure regimes match on every retained coordinate under the frozen same-fiber rule, and their isotope responses differ beyond the declared tolerance, they provide a located non-descent counterexample for pressure deletion. The reported response-sign change near the pressure threshold is a transition in the pressure-refined description. Calling it a boundary of the coarse non-descent locus additionally requires a retained-base path whose fiber diameter crosses the tolerance level.
+
+
+No frozen chemistry status changes here. The distinction only prevents a source-space transition, a refined-space sheet transition, and a quotient-space boundary from being treated as the same geometric object.
+
+
+14.9 Empirical estimator and first geometry gate
+
+
+A finite dataset does not reveal the exact set \(\mathcal N_W(\pi)\) without coverage assumptions. The empirical object must be tied to a frozen tuple
+
+
+\[
+(D,W,\pi,d_Y,\varepsilon,\mathcal E),
+\]
+
+
+where \(\mathcal E\) specifies the preregistered same-fiber equivalence or binning rule, measurement uncertainty, and required coverage.
+
+
+For observations \(i,j\) assigned to the same empirical fiber, let
+
+
+\[
+[L_{ij},U_{ij}]
+\]
+
+
+be an uncertainty interval for
+
+
+\[
+d_Y(W_i,W_j).
+\]
+
+
+A certified empirical non-descent point requires at least one located pair with
+
+
+\[
+L_{ij}>\varepsilon.
+\]
+
+
+This gives the inner, confidence-qualified estimate
+
+
+\[
+\boxed{
+\widehat{\mathcal N}^{\,\rm cert}_{W,\varepsilon}
+=
+\left\{
+q:
+\exists i,j\in F_q^{\rm obs}
+\text{ with }
+L_{ij}>\varepsilon
+\right\}.
+}
+\]
+
+
+Failure to find such a pair is not proof of cleanliness. A tested deletion remains \(\texttt{DESCENT\_CANDIDATE}\) only when the frozen tolerance and coverage rule are satisfied; insufficient coverage remains \(\texttt{UNRESOLVED}\). A located counterexample supports \(\texttt{RETAIN}\). These are the existing Section 9 classifications, now given a geometric readout rather than replaced.
+
+
+The first admissible geometry run is therefore:
+
+
+1. Freeze \(D\), \(W\), \(\pi\), the same-fiber rule, \(d_Y\), \(\varepsilon\), and coverage.
+2. Construct the observed sector space \(\widehat{\mathsf S}_W\).
+3. Compute certified fiber diameters and sector multiplicities without filling unobserved fibers.
+4. Estimate components and boundary candidates for the certified locus, with uncertainty labels.
+5. Specify a path-lifting rule or connection before estimating transport or holonomy.
+6. Report source-space transitions, refined-space branch changes, and quotient-space boundaries separately.
+7. Leave global shape, unobserved connectivity, and universal closure unresolved unless the declared coverage test is passed.
+
+
+14.10 First rigorous disposition
+
+
+The first geometric treatment establishes:
+
+
+1. The bare definition permits an arbitrary non-descent locus; regular shape requires regular hypotheses.
+2. The sector space \(\mathsf S_W(\pi)=\operatorname{im}(\pi,W)\) is the canonical object encoding clean fibers, multiple sectors, branching, and context attachment.
+3. Exact descent is equivalent to fiber constancy and admits a unique reduced witness.
+4. The canonical witness-resolving refinement is universal at the set-theoretic level, but it is not automatically a mechanistic compression.
+5. Refinement is monotone: finer descriptions can remove coarse defects but cannot project a new defect into a coarse clean point.
+6. Under an open quotient, the exact non-descent locus is open. Under open proper metric hypotheses, the fiber diameter is continuous and tolerance boundaries lie on diameter level sets.
+7. Under connected smooth fibers, non-descent is detected by a nonzero vertical witness differential somewhere in the fiber.
+8. Connectivity is measured by the components and topology of the tolerance filtration, not inferred from isolated examples.
+9. Transport becomes a lift relation generally, parallel transport after choosing a connection, and monodromy when witness sectors form a covering.
+10. The current chemistry record supplies located examples motivating the object, but it does not yet determine the global shape, connectivity, boundary stratification, or holonomy of \(\mathcal N_W(\pi)\).
+
+
+Accordingly:
+
+
+\[
+\boxed{
+\text{FORMAL GEOMETRIC OBJECT: ESTABLISHED}
+}
+\]
+
+
+\[
+\boxed{
+\text{GLOBAL NON-DESCENT GEOMETRY: NOT YET MEASURED}
+}
+\]
+
+
+\[
+\boxed{
+\text{CHEMISTRY FREEZE: UNCHANGED}
+}
+\]
+
+
+\[
+\boxed{
+\text{UNIVERSAL PREDICTIVE CLOSURE: NOT SHOWN}
+}
+\]
+
+
+15. Arithmetic witnesses: signs, units, and target-relative recovery
+
+
+These exact constructed examples extend §§13–14. Each declares a retained map and a target witness. They illustrate information loss and recovery; they provide no new empirical measurement or physical mechanism.
+Source of §§15.1–15.2: # Geometry research packet: comparison and integration review (examples 1–2), adapting the user-supplied research packet. These examples instantiate §13 and Theorems 14.2–14.3. The explicit calculation steps and recovery maps added in this integration are derivations from those examples, with the same targets and limits.
+
+
+15.1 A coordinate can preserve a relation while losing an operation
+
+
+On the nonsingular elliptic curve E: y²=x³+2x+2 over F₁₃, let P=(2,1), Q=(3,3), and −Q=(3,10). The discriminant is 9 modulo 13. The addition slopes are (3−1)/(3−2)=2 and (10−1)/(3−2)=9. Thus P+Q=(2²−2−3, 2(2−12)−1)=(12,5) and P−Q=(9²−2−3, 9(2−11)−1)=(11,9), with coordinates reduced modulo 13.
+
+
+Let D={(R,S)∈E(F₁₃)² : R, S and R+S are affine}, π(R,S)=(x(R),x(S)), and W(R,S)=x(R+S). The inputs (P,Q) and (P,−Q) have π=(2,3), but W=12 and W=11. By Theorem 14.2 this is a located non-descent witness; it does not determine the whole non-descent locus. The refinement π̃(R,S)=(x(R),x(S),y(R),y(S)) recovers the signed inputs and hence their sum and W on D. This is a sufficient refinement, with no minimality claim.
+
+
+The Semaev condition asks a different question: whether there exist points with the specified x-coordinates, over an algebraic closure, whose signed sum is zero. This existential relation survives passage to coordinates even though the output for specified signed inputs does not. A solution over the algebraic closure need not be a decomposition over a chosen smaller field. Source: Saito et al., Theorem 1.
+
+
+15.2 Principal ideals forget units needed by some logarithms
+
+
+In O=Z[√2], u=1+√2 has norm −1 and inverse √2−1, so π(1)=π(u)=O for π(α)=(α); all their ideal valuations agree. Define ρ:O→F₇ by ρ(√2)=3, valid because 3²≡2 (mod 7). On D={1,u}, set W(α)=log₃(ρ(α)) mod 3. The powers 3⁰,…,3⁵ modulo 7 are 1,3,2,6,4,5, so 3 generates F₇*, ρ(1)=1, ρ(u)=4, and W(1)=0, W(u)=4 mod 3=1. Therefore W does not descend through π on D.
+
+
+Since X²−2 has no root in F₃, O/3O≅F₉. On M={α∈O : α mod 3O≠0}, define A(α)=(α⁸−1)/3∈O and L(α)=A(α) mod 3O. The exponent 8 is justified by |F₉*|=8. For α,β∈M, A(αβ)=A(α)+A(β)+3A(α)A(β), hence L(αβ)=L(α)+L(β). Here u⁸=577+408√2 gives A(u)=192+136√2, so L(u)=√2 and L(1)=0.
+
+
+Let c(α) be the √2 coefficient of L(α) in F₃. On D={1,u}, c(1)=0 and c(u)=1, and W(α)=c(α). Thus π̃(α)=(π(α),c(α)) resolves this target, with W̄(π(α),c(α))=c(α). This equality is asserted only on D. Distinguishing this pair does not prove recovery of every target logarithm on a larger domain. General Schirokauer-map applications must establish their own unit-rank, kernel, modulus, and precision conditions. Source: Thomé, NFS course.
+
+
+15.3 Preserve the declared target subgroup
+
+
+For a group homomorphism φ:G→H and a subgroup C≤G, the restriction φ|C is injective exactly when ker(φ)∩C={e}. Indeed, φ(c₁)=φ(c₂) exactly when c₁c₂⁻¹ lies in that intersection. Full injectivity on G is unnecessary for information recovery within C.
+
+
+Applying this observation requires an actual map and subgroup. Weil restriction, a subsequent map to a Jacobian, and a computational speedup are separate assertions. Arithmetic-geometric descent and factorization of a witness through a retained map are distinct uses of the word descent.
+
+
+15.4 Predictive closure: corrected prime-sequence example
+
+
+For U(n)=2n+1 on integers n≥2, let r(n) record primality of n and whether n is Sophie Germain. Then r(3)=r(5)=(true,true), but r(U(3))=r(7)=(true,false), while r(U(5))=r(11)=(true,true). The Sophie Germain label supplies one-step prime information without making r autonomous. The full explanation belongs in Working Master §2: GEOMETRY + GQG — Working Master
+
+
+15.5 Corrections governing reuse of the research packet
+
+
+The packet is a source of examples and outlines, not a new verified master. Apply these qualifications whenever its arithmetic survey is reused:
+
+
+Primality: both specified constants are prime. P1=1000000000000066600000000000001 is Belphegor’s Prime, with 31 digits and thirteen zeros on either side of 666. P2=42000000000000000000000000000000000000000043 is the 44-digit prime 42×10⁴²+43. Sources: OEIS A232448; Prime Curios!, p. 234.
+The qualification concerns the evidence supplied by a particular test. SymPy’s documented large-input strong BPSW test alone is not a primality proof; that limitation does not undo the established primality of P1 or P2. For a new large candidate, distinguish probable-prime testing from a proof-producing test or a separately certified prime entry. Source: SymPy isprime documentation.
+Prime Curios! describes P2 as the only known prime of the form n×10ⁿ+n+1 in that edition. This is a historical catalogue statement, not a uniqueness theorem or a claim that a current exhaustive search has been verified here.
+
+
+Semaev recurrence: the standard S₄ resultant has degree four in each coordinate, without a generic diagonal-factor removal step. The elliptic-net norm identity also retains Sₙ² and explicit additional factors; do not replace it with an unqualified equality to Sₙ. Source: Saito et al., Theorems 1 and 4.
+
+
+Weil descent: prime extension degree removes proper intermediate fields, not the base field. The original GHS paper includes restriction from F₂¹²⁷ to F₂; usefulness still depends on the curve and resulting genus. Source: Gaudry, Hess and Smart, §7.1.
+
+
+Unit characters: a fixed choice of coefficients is not automatically sufficient. State the necessary rank/kernel and precision assumptions; finite-precision behavior is not interchangeable with Leopoldt's conjecture. Any formula using h⁻¹ modulo ℓ requires gcd(h,ℓ)=1. Source: Thomé, NFS course.
+
+
+The packet's S1–S5, C, and P service labels largely organize existing service results. The previously unlocated Working Master v2.1 Markdown has now been supplied and read; §16 records its integration. Its availability does not establish a new proof release or any additional empirical result.
+
+
+15.6 Exact checks and evidence boundary
+
+
+The integration review reports independent integer and finite-field checks of both point sums, all 182 affine input pairs with affine sum for S₃ on E(F₁₃), and the unit calculations above. It also reports that, at A=B=2, the standard S₄ resultant has degree four in each variable and total degree twelve, and value −2544 at (0,0,1,2), excluding a generic x₁−x₂ factor. These are the review's reported checks; the general polynomial claims rely on the cited theorem.
+Verification in this integration: the point memberships, discriminant, two slopes and sums, unit inverse and eighth power, F₇ powers, and target-log and local-character values were recomputed exactly. The review's separate geometry_packet_exact_checks.json was not located in targeted Drive and Library searches and was not inspected; the S₃/S₄ checks above are attributed to the review, not claimed as reruns.
+
+
+The exact arithmetic checks recorded here did not generate a primality certificate. The prime status of P1 and P2 is supported separately by the cited references. These checks add no live service ablation, cryptographic security assessment, or change to the chemistry or toroidal evidence status.
+
+
+16. Typed defect calculus — corrected integration
+The supplied Typed Defects v0.2 Markdown and its shorter PDF supply a useful organizing calculus. The two Markdown copies are identical, and the two PDF copies are identical; the PDF is an abridgment, not a second proof. The following corrected formulation is the integrated reference.
+16.1 Set-level locus calculus
+Fix total maps π:D→Q=π(D) and W:D→Y. Write S_W(π)=im(π,W). These statements are in Set; measurable, continuous, or smooth factorization requires the corresponding additional structure.
+D1 — Product: N_(W₁,W₂)(π)=N_W₁(π)∪N_W₂(π). A pair of witness values varies on a fiber exactly when at least one coordinate varies.
+D2 — Coarsening: N_(f∘W)(π)⊆N_W(π). Different f∘W values imply different W values. The converse need not hold. Applying this lemma requires an actual map f on the same domain; merely calling one question coarser does not supply f.
+D3 — Refinement: if π=r∘π′, then r(N_W(π′))⊆N_W(π). A collision in a refined fiber is also a collision in its containing coarse fiber.
+D4 — Restriction: for C⊆D, N_(W|C)(π|C)⊆N_W(π)∩π(C). Removing points can remove a collision, but says nothing about pairs outside C. Changing a transition kernel is not this restriction lemma.
+D5 — Prediction: for U:D→D, an autonomous set-level retained update exists exactly when N_(π∘U)(π)=∅. Define the update by π(x)↦π(Ux); fiber constancy is precisely what makes it well defined.
+For a current output B:D→Y, one-step output recovery uses B∘U, hence N_(B∘U)(π), not N_B(π). The latter tests the current output. In stochastic models use W_P(x)=P(x,π⁻¹·), a probability-law-valued witness; equality on fibers gives universal law-level closure, with measurability separately required for a reduced Markov kernel.
+16.2 Five diagnostic patterns, with explicit tests
+I — Relation retained, specified output lost. On one declared source, a relation witness is constant on observation fibers while a requested output witness is not. Section 15.1 supplies signed addition loss. To compare with Semaev existence formally, add a candidate x₃ to the source and retain (x(P),x(Q),x₃); the existence predicate then depends on those coordinates. Do not assert it is a function of x(P+Q) alone.
+II — Unit information lost. Exhibit a unit u and admissible a,au with π(a)=π(au), but W(a)≠W(au). The principal-ideal projection in §15.2 has this property. A norm or ideal-class map needs its own demonstration; those maps are not interchangeable. The extra character must establish target recovery on the declared domain, not merely separate one pair.
+III — Restriction restores injectivity. For a homomorphism φ:G→H, φ|C is injective iff ker φ∩C={e}. This is a restriction pattern, not automatically a non-descent locus for every W. For W=id_G a nontrivial kernel creates collisions on G, while restriction to C removes them. If W is constant, its locus is empty even on G.
+IV — Componentwise constancy without fiber constancy. Under declared smooth/submersion hypotheses, dW vanishes on vertical tangent directions, yet W takes different constants on different connected components of a fiber. A component label can resolve that defect. Discrete labels or many membrane states alone do not establish these differential hypotheses; describe an unqualified discrete collision as such.
+V — Missing representation. Specify an ambient map j:A→Z and z∈Z\j(A). An injective j has no collisions, yet may omit required objects. Enlarging Z alone leaves j(A) unchanged. A repair must extend A or its representation, or supply a stated completion with the missing object. Keep Z separate from the attained-label set Q=π(D).
+These patterns can overlap and are not an exhaustive partition. “Unclassified” is allowed. S_W has a multi-valued fiber precisely when this W fails to descend, irrespective of its diagnostic name. There is no unconditional statement that all examples of patterns I–IV have such a fiber.
+16.3 Static repair, predictive repair, and belief states
+The image of (π,W) is the coarsest set-level refinement retaining π and this W. It is not automatically measurable in a required category, computationally available, minimal-dimensional, or sufficient for a different future witness.
+Given an initial law and a hidden-state kernel, the causal posterior ν_n=P(X_n∈· | observations through n) determines the future observation law. It is a sufficient predictive representation. Distinct posteriors can induce exactly the same future observation law; identifying those posteriors gives a potentially coarser predictive representation. Example: two distinct absorbing hidden states both emit only 0. Their point-mass posteriors differ, but both predict the deterministic all-zero future. Thus the posterior is not automatically the canonical coarsest refinement.
+For a fixed observed-process law, finite Markov order m requires the next-symbol conditional law given the whole observed past to be measurable with respect to its last m symbols, almost surely. A same-label pair of hidden states with different next-observation laws instead refutes universal strong lumpability. That pair alone does not refute finite Markov order under a special observed-process law. The toroidal all-orders result requires its own full proof.
+16.4 Topology and measurable structure
+On the discrete eight-sector base every subset is open and closed, so ∂N=∅ in that topology. Openness and boundary are defined but supply no nontrivial continuous shape there. Graph transitions, graph transport, and gauge holonomy can be defined with additional discrete structure; they are not the smooth connection of §14. A parameter-space boundary requires a separately declared parameterized observation and topology.
+A set quotient canonically identifies with an attained image as a set. In Top that bijection need not be a homeomorphism with the image's subspace topology. Likewise, set-level fiber constancy does not alone certify a measurable reduced map. Record the category and the needed quotient or measurability hypotheses.
+16.5 Integration and evidence
+The local Working Master v2.1 is now available and was read. Its S1–S5, C, and P labels organize service results already present in the Drive service document; the file's arrival resolves availability, not novelty or empirical verification. Its finite-family minimum is over admissible representatives of the particular class [E]_DS, not the undefined expression [𝓔]_DS.
+The local toroidal increment is integrated with the history, posterior, topology, and classification corrections above. The CCBHC architecture note supplies a possible workflow example: a displayed status may lose the evidence source or next-action distinction. It is a design illustration, not a clinical, regulatory, or deployment result.
+D1–D5 follow by the short arguments above. No new simulation, live ablation, global-locus measurement, primality certificate, or chemistry result was produced. Existing toroidal and empirical status labels keep their source scope.
+Toroidal application: TOROIDAL — Working Master
+
+
+17. Spectral witness family — v2.2 integration
+Spectral family VI extends the diagnostic vocabulary of §16, not its descent logic. Eta, reduced eta, and spectral flow may define W on declared operator or path domains. Their well-definedness, numerical evaluation, and non-descent are separate claims. A nonzero value is not a non-descent certificate; same-label witness variation, or an equivalent non-factorization proof, remains necessary.
+The existing v2.2 increment supplies E1: equal squared spectral multisets and full unsigned heat traces with eta values 1/2 and −1/2; and E2: equal endpoint spectral multisets with spectral flow 0 and +1. Each declares its domain and conventions. These are analytical examples under the native calculus, without an identification with the toroidal kernel or service quotient.
+Its corrected import table covers heat coefficients, GHY versus APS, spectral action, renormalization, Connes–Kreimer, motivic periods, KPZ/landscape, TASEP, SHE, and Φ⁴₃. Heat densities may be witnesses; local boundary terms and eta require distinct definitions; any application to service or toroidal geometry needs an explicit model map. The discrete membrane correction in §16.2 remains in force.
+Detailed proofs, import table, and analytical sources: GEOMETRY — Upgrade v2.2grok
+
+
+18. Temporal witnesses and causal scheduling
+Apply §16 to a declared domain of timed episodes. Let W_μ retain mean latency and W_J retain exactly one named irregularity measure, with its units and window. D1 gives N_(W_μ,W_J)(π)=N_Wμ(π)∪N_WJ(π). Statistical SD, duration count, cue predictivity, and primary task outcome are separate witnesses.
+The temporal increment §4.1 supplies an exact D5 example: cyclic records (40,40,160,160) and (40,160,40,160) have equal mean, population SD, and current entry, yet different next entries under the same cyclic-shift update. This proves non-descent for that observation on the declared finite domain; it does not prove infinite Markov order or human benefit.
+A causal pad on ready responses may change delivery without changing a validated answer. Its live policy is distinct from the observation quotient and from offline ablation; feedback may change the subsequent execution. D2 needs an actual coarsening function, and D4 applies to a subset with restricted maps, not arbitrary transfer between tasks.
+Section 5 of the increment separates a practical tradeoff from an interaction and states their scoped uncertainty rules. No new topology, physical-time mechanism, or empirical run follows from these constructions.
+Temporal definitions, causal policies, and comparison design: # Temporal exchange rate
+
+
+Sources
+
+
+Saito et al. — Summation polynomials and elliptic nets
+
+
+Thomé — Number Field Sieve course
+
+
+Gaudry, Hess and Smart — Weil descent on elliptic curves
+
+
+SymPy — isprime documentation
