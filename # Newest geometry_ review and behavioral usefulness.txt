@@ -1,0 +1,194 @@
+﻿Application record — bounded Drive corrections
+
+
+Applied and read back: Sep 12, 2026
+
+
+This editorial pass applied the remaining corrections identified by the review below. Later v2.6 synchronization was already present in several documents; the entries distinguish those existing repairs from edits made in this pass. The original review and its reported checks remain preserved below.
+
+
+Clock v0.4 §8 — The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent
+Corrected the failure disposition: an eligible deterministic counterexample establishes closure failure for the tested projection on the declared domain. Closure under another refinement remains unresolved. The empty-record preflight remains NOT EVALUATED / INSUFFICIENT ELIGIBLE REPEATS / CLOSURE UNRESOLVED, with zero eligible pairs.
+
+
+Typed Defects — Geometry of Typed Defectsv0.02
+The joint-future-law horizon, B∘U next-output test, smooth-fiber limits, and actual-image Kind V repair were already corrected. This pass aligned §6's missing-object witness with the declared representation j:A→Z and its image j(A).
+
+
+Toroidal increment — Defect calculus applied to toroidal sectors
+The history-level conditional-law requirement, sufficient-but-not-automatically-minimal posterior, discrete membrane qualification, and source-specific kernel/clock limits were already present. No rewrite was needed.
+
+
+Working Master v2.1, S4 — GEOMETRY — Working Master v2.1
+Replaced the episode-space notation [𝓔] with the individual episode class [E], specified a nonempty finite admissible family, and kept zero cost conditional on an admissible fully ablated representative.
+
+
+DIRECT SERVICE GEOMETRY — DIRECT SERVICE GEOMETRY
+Changed the abstract and selected-text references to A_sel as selected recorded text, retaining validated A_task separately. Replaced the unqualified suppressibility summary with observed marker-free performance. Literal-marker counts remain 0/16 baseline and 0/64 full sequential; the separate multi-item U_n counts are 3/16 versus 0/64, with 0/16 in the matched sequential subset. Measurement source: DROP_IT v4
+
+
+Temporal v0.1 — # Temporal exchange rate — v0.1 (superseded by v0.3)
+Marked the title and opening notice as superseded by v0.3 and added a native current-reference link. Preserved the existing v0.1 body and its later v2.6 synchronization. Current Temporal reference: # Temporal exchange rate
+
+
+Preservation and verification: saved-document readback matched the intended passage changes. Existing text and native styling outside those changes were preserved. L=3 engineering PASS, original-pilot UNRESOLVED, physical Q2 NOT_RUN, temporal empirical NOT_RUN, source freezes, and unresolved provenance/causal questions retain their existing scope. No new mathematical, behavioral, sampler, or physical run is claimed.
+
+
+v2.6 update — acquisition and behavioral evidence
+
+
+Acquire a task answer from a separate pre-answer observation π_pre containing the request and genuinely available context. Keep validated A_task separate from selected text A_sel. The post-answer quotient π_DS=(O,A) already contains A, so using it to acquire that same A is circular. A post-answer compliance audit can use a different witness if the needed evidence was actually retained.
+
+
+Deleting a fixed presentation record can preserve a selected answer; it does not demonstrate live rerouting or reduced internal computation. Reselection or continuation deletion needs a new sufficiency check. Minimum presentation cost is taken over a nonempty finite admissible representative family; zero requires an admissible zero-stage representative. Adding fields named K, Vis, or Prov cannot recover uncaptured observations. Historical compliance is scored on the original event; prospective repair requires a new eligible observation.
+
+
+The 69/198 versus 70/198 recurrence summaries remain unreconciled at event level. DROP_IT’s literal marker baseline was already 0/16, so the 0/64 marker-free follow-up is not a measured reduction of that marker. The separately defined U_n contrast keeps its own denominator. Retraction of a causal implication does not erase the located n336→n337 recurrence. These are supplied-source qualifications, not newly measured behavioral outcomes.
+
+
+On D_n={1,…,n}, n≥2, with constant π, target W(x)=x, and unit-cost threshold queries c_t(x)=1[x≥t] for t=2,…,n, every exact batch needs all n−1 thresholds. A deterministic sequential policy has optimal worst-case cost ⌈log₂ n⌉. Thus C_fixed=C_label,worst=n−1 and C_sequential,worst=⌈log₂ n⌉; their ratio grows without bound.
+
+
+For each adjacent pair i,i+1, only c_(i+1) separates them, forcing every batch cut. Sequentially, keep L≤x≤R and query t=⌊(L+R+1)/2⌋, retaining [t,R] on one and [L,t−1] on zero. Each branch has at most half the states rounded up. The binary decision-tree bound of at most 2^d leaves proves the matching lower bound. Every exact policy still needs all n−1 cuts in its might-query inventory. Formal query cost is not measured latency, energy, or human benefit; no expected sequential optimum or generic sequential optimizer is asserted.
+
+
+The review below remains a record of its original tests; no new behavioral run is claimed.
+
+
+Integrated v2.6 master: GEOMETRY — Working Master v2.6
+
+
+# Newest geometry: review and behavioral usefulness
+
+
+Reviewed 12 September 2026. **Yes: the current geometry materially helps the behavioral audit and the design of a better response system.** Its strongest contribution is a precise test for what a summary discards, what counts as a completed task, and when a supported finding should stay settled. The corrected examples support that framework. The new timing performance hypothesis still needs its proposed experiment.
+
+
+This review retrieved 21 Google Docs and two Markdown masters, inspected the current sections listed below, compared the relevant behavioral source reports, and checked tonight’s Temporal and Clock Downloads exports. The newest timing document is **Temporal exchange rate v0.3**, updated at 04:18 UTC on 12 September; its separate v0.1 document is older. For the three multi-tab masters, the current Working master tabs were used. This is a targeted review of current additions, definitions, and examples, not a claim to have independently proved every theorem in every historical source.
+
+
+**What helps the behavioral work**
+
+
+| Addition | Practical consequence for your audit |
+|---|---|
+| Claim-closure: invariance plus calibration | Repeating the same disposition is insufficient: it must agree with the declared evidence criterion. A constant “UNRESOLVED” answer can fail that criterion. A documented violation can be classified while its cause remains a separate question. |
+| Direct service: selected text versus validated task answer | Copying the chosen answer exactly does not establish that it answered the original request. Acknowledgment, first content, correct answer, and full task completion need separate decisions. |
+| Audit record richer than the displayed answer | A clean answer can coexist with an earlier ignored correction. Removing a status stage from an exported copy changes the presentation; the source interaction’s compliance result stays attached to its original record. |
+| Typed witness calculus | Correctness, completion, correction compliance, provenance, and delivery may vary independently. Combining requirements retains every component’s failure; passing one cannot stand in for the others. |
+| Temporal v0.3 | Distinguish action, readiness, first usable delivery, and full completion. Fix the stopping rule before calculating latency. A transcript timestamp or a spinner cannot substitute for usable delivery. |
+| Triadic v2.1 and Reflex v3 | Test whether available context improves the next response and whether its cost is acceptable. The correction example now supplies a specific model to test; the architecture comparison holds context and resources fixed. |
+
+
+These are direct applications of [GEOMETRY + OMNIBUS 7, §5](https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ), [Geometry_Direct_Service_Update, §§2–7](https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g), [New geometry, §16](https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI), and [Temporal exchange rate v0.3](https://docs.google.com/document/d/1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA).
+
+
+The central test is simple: **if two records look identical under a chosen summary but differ on the fact you need, that summary cannot determine that fact.** Here the “fact you need” can be correction compliance, task completion, or the next response. The choice has to be explicit. The construction that retains the answer itself demonstrates sufficient information; a usable predictor must obtain its inputs before that answer occurs.
+
+
+For the behavior already reviewed, the quoted n336 prohibition followed by n337 “Checking.” remains a located recurrence. Geometry helps specify and preserve that result; it does not require reopening it because another question has no answer. Conversely, an attempted automated endpoint classifier returned **114 alternative candidates**, while the source report applies **five reviewed endpoint repairs**. The newer geometry cannot promote the 114 into verified defects. That would itself fail the evidence-calibration rule. [Executed holding-posture audit, direct-stop table and endpoint review](https://docs.google.com/document/d/1Kh5tDdDkzoencEzZYiCBUwpdnjaL1qVLMyNOnf1GxiY).
+
+
+The timing change is particularly relevant. That same audit reports 836 intervals between 0 and 0.1 seconds, one negative interval, and a median of 0.002875 seconds in a particular 1,037-event category. They are record-time intervals. Temporal v0.3 provides the correct next requirement: actual usable-release observations on an aligned clock. It prevents treating those tiny values as experienced wait times. This is a measurement repair, not an estimate of missing latency.
+
+
+**Independent checks performed now**
+
+
+Twelve check groups passed. The detailed results are in [newest_geometry_checks.json](C:/Users/drewd/Documents/Codex/2026-09-11/cha/outputs/newest_geometry_checks.json); the checks can be rerun with [verify_newest_geometry.py](C:/Users/drewd/Documents/Codex/2026-09-11/cha/outputs/verify_newest_geometry.py). These are constructed mathematical checks and one published-table recomputation, not a new model or participant experiment.
+
+
+| Checked object | Result and significance |
+|---|---|
+| Temporal sequence collision | (40,40,160,160) and (40,160,40,160) both have mean 100, population SD 60, and current value 40, but the next values are 40 and 160. All six distinct cyclic states were checked. Averages plus spread still lose sequence information. |
+| Fixed-threshold causal padding | Readiness values 40/400 padded at 180 become 180/400. Mean rises 220→290 while SD falls 180→110. Also checked 4,375 finite cases. The general variance inequality follows because max(r,T) cannot expand the distance between two readiness values. |
+| Rounding to a release set | 49/51 rounded up to 50/100 raises SD 1→25. Also checked 49/50/51→50/50/100: three durations become two while variance rises 2/3→5000/9. Duration-set reduction does not guarantee SD reduction. |
+| Tradeoff versus interaction | In L(mean,SD)=mean+SD, (70,0) beats (40,60) by 30, but the interaction is zero. A favorable diagonal comparison does not prove the interaction. |
+| Service and correction | Constructed equal-answer records have different historical compliance; equal “Understood” acknowledgments have different next answers under the declared context-bit rule. |
+| Claim calibration | A constant “UNRESOLVED” disposition passes consistency but fails a criterion that requires FAILED for the stipulated eligible violation. |
+| Prediction horizon | Futures (0,0) and (1,0) differ at the first step and agree at the second. Final-step marginal distance shrinks; joint-prefix distance does not. |
+| Spectral examples | The circle reindexing preserves squared spectra while eta is +1/2 versus −1/2. The constant and moving paths have spectral flow 0 versus +1. |
+| Arithmetic witnesses | Recomputed the two elliptic-curve sums (12,5) and (11,9), and the unit eighth power 577+408√2 with the stated local character. |
+| Toroidal static witness | Constructed 48 source-free currents over L=2,3 and all eight parity sectors. Divergence and cut agreement hold while identical parity loses integer winding. |
+| Triad overlap | At equal overlap 5/9, the specified phase model has derivatives −1/1500 and +1/500. Equal overlap alone does not determine its next motion. |
+| Published timing schedule | Recomputed the prescribed Weber duration-table means and SDs; they match the corrected v0.3 values. |
+
+
+For the spectral calculation, the analytical identity is ζ(0,a)=1/2−a, giving eta 1−2a. Integer reindexing supplies exact squared-spectrum equality; the finite index checks are supplementary. [NIST DLMF, equation 25.11.13](https://dlmf.nist.gov/25.11.E13).
+
+
+I also checked the Weber interpretation against the primary paper. Its two-duration condition raises the prescribed mean from 1,272 to 1,965 ms and SD from about 811.798 to 1,121.394 ms. The paper reports human execution time falling 1,537→1,306 ms while total trial time rises 2,660→3,039 ms. Thus the v0.3 correction is material: fewer distinct delays was not lower SD or faster overall completion. [Weber, Haering and Thomaschke, Tables 1 and 4](https://epub.uni-regensburg.de/29640/1/881.full.pdf).
+
+
+**What the other geometry adds**
+
+
+The current formal core’s descent criterion, coarsest attained refinement, D1–D5 identities, and conditional topology make a coherent information-loss framework. The no-shape construction explains why a collision alone specifies no geometric shape. The openness and vertical-derivative results need their stated topological and connected-fiber assumptions; the current integration preserves those qualifications.
+
+
+Spectral v2.2 provides concrete operator and path examples. It broadens the examples the framework can handle. Its direct contribution to the behavioral audit is methodological: shared endpoint descriptions can omit relevant path information. It supplies no observed platform path by itself.
+
+
+Hidden Quotient’s new notices correctly distinguish restoring a lost witness from extending an incomplete representation. The declared point-evaluation repair actually adds the missing coordinate. Merely enlarging a codomain leaves the old image unchanged. The qualified v1.7 measure-theory result remains a separate source theorem.
+
+
+The Toroidal and Cosmic/Clock masters preserve useful distinctions between parity and signed winding, output and predictive state, physical events and released reports. The current master retains L=3 engineering PASS, the original pilot UNRESOLVED, and physical Q2 NOT_RUN as separate source-reported results. This review did not rerun the long sampler or re-prove its all-orders memory theorem. The clock’s physical-time preflight still has zero eligible transitions.
+
+
+Reflex v3 contributes separate capacity, upkeep, correction, and resource witnesses. It helps avoid scoring a shorter display as automatically cheaper computation. A practical resource improvement needs its own measured unit and comparison.
+
+
+**Corrections still worth making**
+
+
+| Location | Finding | Concrete correction |
+|---|---|---|
+| Clock v0.4, §8 | A valid deterministic counterexample is called FAIL while the same residual-closure claim remains UNRESOLVED. The Downloads export retains this wording. | “Closure fails for this projection on the declared domain. Whether another refinement closes remains unresolved.” Keep the empty-record preflight UNRESOLVED because it tested no eligible pairs. |
+| Typed Defects v0.2, §1.5 | “h-step output law” is ambiguous, and next-output recovery is written using current B in the standalone card. | Use the joint future law (B₁,…,B_h) for horizon monotonicity, and B∘U for the next output. The corrected master already does this. |
+| Typed Defects and standalone toroidal increment | Stale claims treat a posterior as automatically coarsest, a hidden-state collision as the finite-history theorem, or a discrete membrane as differential Kind IV. | Carry through New geometry §16 and the current Toroidal corrections. History-level conditional laws and the full theorem remain required. |
+| Typed Defects, Kind V; v2.1 S4 | Enlarging a codomain is suggested as a repair; the minimum uses [𝓔] rather than the episode class [E]. | Extend the actual representation image for the former; use a nonempty admissible family within [E] for the latter. Both are already corrected in the active integration. |
+| DIRECT SERVICE GEOMETRY, abstract | “Selected substantive answer” is too strong for selections whose source review identifies pauses or missing task content. | Use “selected recorded text” for A_sel and reserve task-complete claims for validated A_task. |
+| Suppressibility wording | DROP_IT reports marker-free correct outputs, but literal Checking is already 0/16 in its baseline and 0/64 in the later condition. | State the observed marker-free performance. The measured multi-item contrast is 3/16 baseline versus 0/64 later; do not describe the literal-marker result as a within-experiment reduction. |
+| Release navigation | Two same-titled Temporal documents, historical bodies, and corrected integrations can give incompatible answers to a reader. | Mark v0.1 as superseded by v0.3 and put clear current-reference pointers on the standalone older cards. |
+
+
+The DROP_IT qualification comes from its own [v4.2 measurement table](https://docs.google.com/document/d/1K0CdQRIdqzSSu8C8CFzEeN3xtAalhwHg-umGJR9da5c). The clock correction follows directly from the stated factorization criterion and [OMNIBUS’s failure disposition](https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ). At the time of this review, these recommendations had not been applied to the Drive documents; the application record above records the subsequent bounded edits.
+
+
+For a behavioral implementation, retain the governing request, active correction, eligibility, source spans, selected text, task-completion decision, original compliance result, first usable release, and full completion separately. Score the next eligible response after a correction. The existing examples can test whether an evaluator improperly merges those fields. The recent geometry helps most when used to enforce these concrete decisions.
+
+
+**Review coverage**
+
+
+The table records inspected scope rather than implying a full proof audit of every historical body.
+
+
+| Source | Scope inspected |
+|---|---|
+| [Temporal exchange rate](https://docs.google.com/document/d/1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA) | v0.3 current definitions, examples, contrasts, and measurement plan |
+| [Geometry_Direct_Service_Update](https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g) | Current integration and §§1–9; source register inspected as references |
+| [Thermodynamic Coordination + Reflex Geometry · v3](https://docs.google.com/document/d/1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE) | Current v3 body, resource witnesses, correction and timing additions |
+| [Triadic Overlap Hypothesis · v2](https://docs.google.com/document/d/116oVwVqZBV6eGKMCXvhjR606o8_h-t1CNOg9dSLbAQE) | Current v2.1 hypothesis, correction construction, experiments, and timing addition |
+| [COSMIC TIME — Working Master](https://docs.google.com/document/d/1uN6BwHlDLplRNlyTA2f1bFvKV-7Q01_r66AMKZqF484) | Current Working master tab, including delivery/tick distinction |
+| [The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent](https://docs.google.com/document/d/1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM) | Readout, lifting, closure gate, empty-data preflight, and temporal addition |
+| [New geometry ](https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI) | Formal core §§13–14 and corrected additions §§15–18; chemistry retained as historical scope |
+| [GEOMETRY + GQG — Working Master](https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog) | Current Working master tab, including newest service and temporal additions |
+| [Geometry Master](https://docs.google.com/document/d/12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA) | Current integration and core definitions; domain and evidence summaries |
+| [GEOMETRY — Working Master v2.1](https://docs.google.com/document/d/16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI) | Service definitions, S1–S5, C and P; compared with corrected integrations |
+| [Geometry of Typed Defectsv0.02](https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA) | Standalone v0.2 calculus and diagnostic claims; compared with New geometry §16 |
+| [GEOMETRY — Upgrade v2.2grok](https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4) | Current spectral family, both exact examples, and import limits |
+| [DIRECT SERVICE GEOMETRY](https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc) | Full current finding, including ablation and suppressibility wording |
+| [GQG card](https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg) | Current compiler-obligation notice; historical dialogue not treated as an implementation |
+| [THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE](https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k) | Current correction notice; original v1.0 body treated as historical |
+| [TOROIDAL — Working Master](https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU) | Current Working master tab; static/predictive corrections and stated execution boundaries |
+| [Defect calculus applied to toroidal sectors](https://docs.google.com/document/d/1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0) | Standalone static/predictive claims compared with current corrections |
+| [GEOMETRY + OMNIBUS 7](https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ) | Residual closure and claim-closure §§3–5; surrounding definitions/statuses |
+| [Geometry research packet: comparison and integration review](https://docs.google.com/document/d/1N8kOTELlC_gM4FNktDVCFXTTTwS7d5cvrttb43ZD8os) | Arithmetic integration and correction record; prior reported checks kept attributed |
+| [Geometry review and Python revision 0](https://docs.google.com/document/d/175VBZx06xNs-cAd2vd46hOBgwdvKnyK2gyAUrVVygUA) | Full prior release review; source-reported 29 tests/5,523 cases not counted as fresh checks |
+| [Temporal exchange rate](https://docs.google.com/document/d/1SIj2Tl2vLzHczyLxn0le9TlcaoKqOGHz7kX2Yhqzbbs) | Full v0.1 comparison; superseded by the separate v0.3 document |
+| [GQG_0.12_Unified_Return_Residual_Closure.md](https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA/view?usp=drivesdk) | Current integration notice and relevant witness/prediction corrections; historical theorem corpus not re-proved |
+| [THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md](https://drive.google.com/file/d/1VF_UeW26X5LYpMYpfEtYvry8PjGX77Bj/view?usp=drivesdk) | Current integration notice and relevant witness/prediction corrections; historical theorem corpus not re-proved |
+
+
+The two raw Markdown masters were retrieved through Drive with their file identities and MIME types. Their historical readings were not treated as instructions. The ablation counts in the service documents remain attributed to those reports: a targeted Drive search did not locate the named AP-001 file itself. The prior Python release report and local release-check JSON were inspected as reported results; their 29 tests and 5,523 finite cases were not rerun or pooled with the twelve fresh check groups above.

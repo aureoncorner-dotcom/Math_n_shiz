@@ -1,0 +1,228 @@
+﻿Superseded — Temporal v0.1; use v0.3
+
+
+This v0.1 card is retained for version provenance, including its later v2.6 synchronization. Temporal exchange rate v0.3 is the current temporal reference. Protocol design remains incomplete; the empirical tradeoff and interaction remain NOT_RUN.
+
+
+Current Temporal v0.3: # Temporal exchange rate
+
+
+v2.6 synchronization — causal timing and evidence
+
+
+The causal-padding frontier has been added in the timing-policy section. Tradeoff and interaction remain separate hypotheses; protocol design is incomplete and the empirical test remains NOT_RUN. Existing source links, native dates, and prior review scope are retained.
+
+
+Integrated v2.6 master: GEOMETRY — Working Master v2.6
+
+
+# Temporal exchange rate
+## Working increment v0.1 — 12 September 2026
+CC0 • Anonymous
+
+
+Status: hypothesis card, corrected against temporal v0.3 and Working Master v2.6 §9. Protocol design incomplete; empirical tradeoff and interaction: NOT_RUN. Earlier attachments to Working Master v2.1, Typed Defects v0.2, and Upgrade v2.2 remain version lineage; the corrected operator, contrast, and frontier statements below govern this update.
+Does not alter: chemistry freeze, Hidden Quotient v1.7, 39-screen, TD-COS-FH-001, Kind VI spectral witnesses.
+
+
+---
+
+
+## 0 Claim
+
+
+**Temporal exchange rate.** On a declared task and action-to-usable-update clock, spending an extra mean delay Δ to reduce a specified irregularity J may improve the primary user outcome. A separate hypothesis is that the penalty from the same increase in J is greater at low mean latency than at high mean latency. Declare the scheduling policy and the information available to it; a deterministic duration-to-effector code is a separate intervention.
+
+
+The practical tradeoff and the mean-by-irregularity interaction are separate claims. Either can hold without the other; §5 gives their distinct contrasts.
+
+
+- \(\mu\): mean action-to-usable-update latency on a declared clock.
+- J: one named irregularity measure, with units and a fixed observation window. SD, jitter amplitude, interrupt rate, and distinct-duration count are different witnesses. Existing σ notation below denotes the selected J; σ_SD denotes SD specifically.
+- Region of interest: low \(\mu\).
+- Intervention: a pad or a duration-to-event map, named before the run.
+
+
+Evaluate the predeclared tradeoff and interaction contrasts separately on an achievable timing grid. Fix minimum meaningful effects and an uncertainty rule before the run. An inconclusive result does not establish absence, and no finite grid establishes failure in every possible low-latency region.
+
+
+Exact phrase “temporal exchange rate” is not in the sources checked for this card. Related interactions are. Novelty, if any, is the named tradeoff, the explicit pad, and the pre-registered fail region — not the observation that jitter exists.
+
+
+---
+
+
+## 1 What must not be identified
+
+
+| Object | Role here | Do not call it |
+|---|---|---|
+| \(\mu\) | mean on the declared clock | “the system is fast” as a recovered specified output |
+| \(\sigma\) | irregularity on the same clock | TBW width; eta; spectral flow |
+| Weber duration-set reduction | fewer distinct release durations; mean and SD can rise | proof of variance reduction or of this card's crossover |
+| Metronome (constant SRT) | *when* only | a *which*-cue |
+| Deterministic duration \(\leftrightarrow\) effector | *which*-cue (Thomaschke) | smoothing |
+| 0.8 duration \(\leftrightarrow\) event | noisy *which* | “pretty deterministic” |
+| TBW | SOA contour for two sensory cues | the theory of padding |
+| BCI \(p(C=1)\) | one source vs two | descent of \(W\) through \(\pi\) |
+| Intentional binding | judged compression of action–outcome | TBW |
+| Service \(\pi_{\mathrm{DS}}\) | served object + answer | a latency distribution |
+
+
+No-shape still applies: a low-\(\mu\) interaction in one \(D\) does not give \(N_W\) a topology.
+
+
+---
+
+
+## 2 Related measurements (not ownership)
+
+
+**Variance can punch above its mean.** Platform-style work: constant delay to ~300 ms often moves enjoyment little; jitter stacked on ~200 ms mean is noticed more and can block practice gains relative to a larger constant delay.
+
+
+**Interaction in the predicted direction, mean still bigger.** ACM TAP target-acquisition (2025): jitter amplitude impaired completion time a little; that impairment *shrank as mean latency rose*. Mean carried most of the damage. This is an exchange-rate *shape* with the opposite emphasis from a “variance dominates” slogan.
+
+
+**Small jitter null.** Schmid, Halbhuber et al. (FPS): ±50 ms on 50 vs 150 ms base did not move performance. Cite their own pointers to “low mean + high variation can beat high mean + low variation,” then treat their null as a real small-amplitude cell.
+
+
+**Duration-set reduction already studied.** In the source review carried by v0.3, Weber, Haering, Thomaschke (2013) reduced the number of distinct SRTs from seven to two; this was not an SD reduction. Calculations from published frequencies give mean 1,272→1,965 ms and population SD approximately 811.798→1,121.394 ms. Reported human task-execution time fell 1,537→1,306 ms while total trial time rose 2,660→3,039 ms. Nonsignificant rating/error differences do not establish equivalence. This is a preparation result under that source manipulation, not evidence that this card's tradeoff or interaction has been measured.
+
+
+**Signal ≠ smooth.** Thomaschke & Haering (2014): constant beats variable non-predictive *and* beats 0.8 predictivity; deterministic duration-to-target beats constant. Thomaschke & Dreisbach (2013): in speeded two-choice, the duration map paid off when it named the *effector*, not the stimulus or an abstract goal.
+
+
+**Binding is another clock.** TBW = SOA range for integrating or judging two sensory events simultaneous (tens to a few hundred ms; wider for speech; plastic; asymmetric). BCI: \(p(C=1)\) vs two causes; the window is a posterior contour. Intentional binding is judged action–outcome compression, not a TBW.
+
+
+Queueing papers that cut service-time variance to cut *queueing delay* are a different claim (variability produces delay). They are not UX support for this card.
+
+
+---
+
+
+## 3 Three operators (name one)
+
+
+1. **Single-threshold causal pad.** For readiness R≥0, release at Y=max(R,T) with fixed T. This adds waiting and, for a fixed finite-variance readiness distribution, cannot increase population SD. A p95 threshold leaves a tail and does not guarantee constant latency. The exact mean/variance frontier is given below.
+2. **Metronome.** A constant action-to-usable-response duration T requires every response to be ready by T, or a separately declared predictive/preloaded protocol. Constant stream cadence need not imply constant action-to-update latency.
+3. **Signal pad.** Duration is a 1–1 code for the next *effector* or stable response class. Tests Thomaschke, not smoothing. Illegal to report as “we smoothed.”
+
+
+0.8 maps are a confound, not a fourth operator. They add variance and invalid motor prep.
+
+
+---
+
+
+### 3.1 Exact causal-padding frontier (Working Master v2.6 §9)
+
+
+Let R≥0 be a readiness delay with finite second moment. Permitted releases satisfy Y≥R almost surely and E[Y]=m≥E[R]. The readiness distribution is fixed; queue feedback and content changes are outside this model. If m=E[R], only Y=R is feasible. Otherwise choose T≥0 with E[max(R,T)]=m and put Y*=max(R,T). Such a T exists because this expectation is continuous, starts at E[R] at T=0, and diverges as T grows.
+
+
+Optimality and stability: Var(Y)−Var(Y*)≥E[(Y−Y*)²]≥0. Thus Y* uniquely minimizes variance at the declared mean, up to almost-sure equality.
+
+
+Proof. Pointwise, Y²−Y*²−2T(Y−Y*)=(Y−Y*)²+2(Y−Y*)(Y*−T). The last product is nonnegative: if R≤T its second factor is zero; if R>T, Y*=R and both factors are nonnegative. Taking expectations cancels the linear term because the means agree and gives the inequality. This proof applies directly to finite-second-moment candidates; an infinite-variance candidate cannot improve the finite-variance optimum.
+
+
+Write m(T)=E[max(R,T)], v(T)=Var(max(R,T)), and a(T)=E[(R−T)₊]. Almost everywhere m′(T)=Pr(R<T) and v′(T)=−2Pr(R<T)a(T). Where m′>0, −dv/dm=2a(T). At atoms use one-sided derivatives. For positive SD s, −ds/dm=a(T)/s(T) wherever differentiable. The variance/mean slope has time units; the SD/mean slope is dimensionless. Neither is a human preference coefficient.
+
+
+Synthetic illustration: equally likely readiness 40/400 ms has mean 220 ms and population SD 180 ms. Mean budget 290 ms gives T=180 ms, release times 180/400 ms, and SD 110 ms. A constant 180/180 ms release is infeasible because the slow response is not ready. These are exact model calculations, not measured user or platform outcomes.
+
+
+## 4 Witnesses and descent
+
+
+Declare, in order:
+
+
+1. Domain \(D\) (pointing / FPS / sequential GUI / token stream — one per run).
+2. Clock: user-action onset → first usable update. Not server RTT.
+3. Static witnesses \(W_\mu\), \(W_\sigma\) on that clock.
+4. Primary user witness \(W\) (one of: task time, error, abandon, next-action RT, pre-registered rating). Secondary measures do not rescue a miss.
+5. Update / stream \(U\).
+6. Predictive question: does equal retained *mean* imply equal next-action law? (D5)
+
+
+**D1.** \(N_{(W_\mu,W_\sigma)}=N_\mu\cup N_\sigma\). A mean-only service label does not clean irregularity.
+
+
+**D2.** “Fast on average” can descend while “next gap is usable” does not. Kind I: surviving relation vs specified output.
+
+
+**D5.** If next-action law depends on the realized gap, a mean-only record is not autonomous.
+
+
+**D4.** A pointing result is not a chat-token result.
+
+
+A live pad is a causal scheduling policy on timed executions. It may preserve a declared object and answer while changing delivery; this requires a check and is not merely a quotient or offline stage deletion. Score A_task separately from A_sel, keep a fixed usability criterion, and record human execution time and total completion time separately. Versioning identifies a protocol; timing and performance need measurements.
+
+
+Kind VI (eta, spectral flow) is off this card.
+
+
+---
+
+
+## 5 Factorial that can fail
+
+
+Cells:
+
+
+| | Low \(\sigma\) | High \(\sigma\) |
+|---|---|---|
+| Low \(\mu\) | fast + smooth | **variance-dominates candidate** |
+| High \(\mu\) | delay-dominates | both-bad |
+
+
+**Tradeoff and interaction.** Let L(μ,J) be expected primary loss, lower is better. The tradeoff contrast is T_trade=L(μ_L,J_H)−L(μ_L+Δ,J_L), with Δ>0. The interaction contrast is I_interact=[L(μ_L,J_H)−L(μ_L,J_L)]−[L(μ_H,J_H)−L(μ_H,J_L)]. Declare minimum meaningful effects ε_T, ε_I and an uncertainty requirement. T_trade>ε_T supports the budgeted tradeoff; I_interact>ε_I supports a larger irregularity penalty at low mean latency. Add the μ_L+Δ cell if needed. A diagonal comparison alone does not test the interaction.
+
+
+**Failure and uncertainty.** Report each contrast separately. Evidence excluding its registered minimum effect counts against that scoped claim; an interval compatible with success and failure is inconclusive. An interaction can exist while mean delay remains the larger cost. Neither contrast implies the other, and no tested grid proves or disproves a universal temporal exchange law.
+
+
+Pin jitter **amplitude**, not frequency, unless frequency is the claim (TAP: frequency inert).
+
+
+Twelve adversarial reviews are a structured red-team of the design. They are not twelve external reviews. Say so.
+
+
+---
+
+
+## 6 What this increment establishes
+
+
+1. Two named hypotheses with separate scoped contrasts: a practical tradeoff and a mean-by-irregularity interaction.
+2. A split of pad / metronome / signal, so 2013 and 2014 are not one intervention.
+3. Attachment to D1, D2, D5, Kind I, and the service representation-map lemma.
+4. An identification table that blocks TBW / BCI / IB / eta / \(Q_{\mathrm{DS}}\) collapse.
+
+
+It does not establish either empirical claim on a declared task, a shape of N_W, transfer from office SRTs to tokens, or a chemistry unfreeze. Protocol design remains incomplete; the tradeoff and interaction experiment is NOT_RUN.
+
+
+\[
+\boxed{\text{CONTRASTS STATED; PROTOCOL DESIGN INCOMPLETE}}
+\]
+\[
+\boxed{\text{EMPIRICAL TRADEOFF AND INTERACTION: NOT\_RUN}}
+\]
+\[
+\boxed{\text{SOURCE FREEZES: UNCHANGED}}
+\]
+
+
+---
+
+
+## 7 Use
+
+
+Pointer from Working Master: timing witnesses \(W_\mu,W_\sigma\) and the pad-vs-signal split live here. Run one \(D\), one primary \(W\), one operator. Do not promote a coefficient that separates one pair into a global recovery theorem.

@@ -1,0 +1,135 @@
+﻿v2.6 synchronization — corrected definitions and scope
+
+
+The current text now separates static sector collisions, strong lumpability, and Markov order of an initialized observed process. The posterior is a sufficient predictive state, with minimality a separate claim. A changed kernel or clock is not merely a D4 restriction, and discrete membrane loss does not establish differential Kind IV. Existing examples and source-reported outcomes retain their domain and provenance.
+
+
+Integrated v2.6 master: GEOMETRY — Working Master v2.6
+
+
+Defect calculus applied to toroidal sectors
+Working increment v0.1 — 11 September 2026
+CC0 • Anonymous
+Status: formal application of Typed Defects v0.2 to objects already declared in TOROIDAL Working Master / Geometry Master §§7–9.
+Does not alter: TD-COS-FH-001 within its declared kernel, initialization and clock; source-reported L=3 follow-up PASS; original-pilot UNRESOLVED; physical Q2 NOT_RUN; chemistry freeze; Hidden Quotient v1.7; 39-screen algebra.
+
+
+0 Declared objects (do not mix)
+Fix cubic (L\ge 2), the ideal cosine kernel TD-COS-FH-001 at (J=1), (t=1/2), (h_6=0), fixed-reference (Z_{000}), unbounded integer currents.
+Name        Object
+Source domain (D)        Constraint-satisfying states (X=(I,M,q)) on the (L^3) lattice: (\operatorname{div}I=0), membrane constraint
+Kernel (K)        Attempted-microtick mixture of Geometry Master §8; identities and rejections both advance the clock
+Spacing (d\in\mathbb Z_{>0})        Attempted-microtick stride; (R=K^d)
+Sector map (\pi_q)        (\pi_q(X)=q\in(\mathbb Z/2)^3)
+Signed winding (W)        (W_\alpha=F_\alpha(k)), integer, cut-independent on this divergence-free domain
+Membrane (M)        Mod-two 2-chain
+Full state        (X) itself; (K) is Markov on (D)
+Sector process        (Y_n=\pi_q(X_{dn}))
+History record        At time n, H_n=(Y_0,\ldots,Y_n); r_m(H_n) is its suffix of m observations, when defined.
+Belief state        (\nu_n=\mathrm{Law}(X_{dn}\mid H_n)), the causal posterior on (D) for a declared kernel and initial law.
+The L=3 rotor/gauge follow-up is a different kernel (angle proposals then link flips; accepted-sweep clock). This is a model and clock change, not Lemma D4 alone. D4 restricts a domain while keeping the same maps; a result for the follow-up does not transfer to TD-COS-FH-001.
+
+
+1 Static loci
+1.1 Sector from winding (coarsening)
+On this source-free divergence-free domain, (q) is the parity of the integer cut class. Write
+[
+\pi_q ;=; \operatorname{parity}\circ W.
+]
+Lemma T1 (D2). (N_{\pi_q}(\pi_W)=\varnothing).
+Parity is a function of signed winding. The coarser label always descends through the finer one.
+Lemma T2 (D2 converse fails). (N_W(\pi_q)=(\mathbb Z/2)^3) on this domain, for the natural range of (W).
+Each sector fiber contains currents of every compatible even (or odd) winding of arbitrarily large (|W|). Distinct signed windings share a sector. Recovering load-like (W) from sector (q) fails everywhere. This is Kind I: the relation (parity / sector) survives; the specified output (signed winding) does not.
+Do not identify (q) with (W). Geometry Master already forbids replacing signed (W) by a volume average or by parity when sources are present. Here sources are zero and the identification still fails in the reverse direction.
+1.2 Product of static witnesses (D1)
+[
+N_{(q,W)}(\pi_q)=N_q(\pi_q)\cup N_W(\pi_q)=N_W(\pi_q),
+]
+since (N_q(\pi_q)=\varnothing) tautologically. Retaining only (q) loses (W). Retaining ((q,W)) kills the static Kind I defect for (W), and creates a different predictive question. The all-orders theorem is not a theorem about ((q,W)). Geometry Master §8 states this limit explicitly. Defect calculus repeats it as D1: cleaning the sector witness does not clean the winding witness, and adding winding changes the predictive locus.
+1.3 Membrane
+(M) is discrete data subject to the constraint. A nonzero cube-boundary addition can preserve the constraints and q while changing M, giving a located collision for (N_M(\pi_q)). This is descriptive membrane-witness loss; it does not establish the smooth hypotheses of Kind IV in Typed Defects v0.2. Retaining M repairs that witness; retaining only a functional of M repairs only the declared functional unless its sufficiency for M is proved. Sector frequencies, membrane frequencies, dual-sector probabilities and direct holonomy counts are distinct observables.
+1.4 Source convention and witness domain
+With charge-six sources, the source convention changes: sourced states are not a subset of the standing divergence-free domain. The source states that integer cut-independent winding is then unavailable and cuts agree only modulo six; the modular class is a different witness requiring its own declared domain. This is a model/witness change, not repair of the source-free integer W by restriction. Kind III applies only when a stated homomorphism is injective on a declared subgroup despite a nontrivial ambient kernel. Modular reduction alone supplies neither that proof nor a GHS identification or speedup.
+
+
+2 Predictive loci (the actual theorem)
+The kernel is stochastic. Equal retained labels giving equal next-retained-label laws for every measurable target is the strong lumpability criterion: it gives autonomous retained dynamics for every initial law. Markov order of one fixed initialized observed process is a separate history-conditional question.
+2.1 Full state
+Lemma T3. (N_{\mathrm{Law}(X_1\mid X_0)}(\mathrm{id}_D)=\varnothing).
+(K) is Markov on (D). The full state is a clean predictive record. This is not new; it is the standing fact that the all-orders result is about a quotient, not about (X).
+2.2 One-step sector
+At declared stride d, put R=K^d and define (W^\rightarrow_q(X)=R(X,\pi_q^{-1}(\cdot))), the law of the next sampled sector given the current full state.
+Lemma T4 (source-reported hidden-state obstruction). The source asserts (N_{W^\rightarrow_q}(\pi_q)\ne\varnothing) for its declared kernel and stride. A same-sector pair with different R-pushforward sector laws directly witnesses this claim.
+Different currents in one sector can witness different next-sector laws when those laws are proved unequal for the declared stride. TD-COS-FH-001 uses a quantitative Bessel-tail family, including states with current (2N) on every positive edge as (N\to\infty). That source proof and its initialization hypotheses must be checked for its all-orders conclusion; a hidden-state pair by itself is only a one-step lumpability obstruction. The declared witness here is next-sector law, distinct from signed winding.
+2.3 Finite sector history
+For a declared initial law, use positive-probability observed histories H_n. Let r_m(H_n) be the last m sectors and let (W^\rightarrow_{q,\mathrm{hist}}(H_n)=\mathrm{Law}(Y_{n+1}\mid H_n)). This conditional law is determined by the observed history and initialized process, not by separately supplying its hidden current or membrane.
+Lemma T5 (source-reported all-orders statement). For every fixed L\ge2 and attempted-microtick spacing d\ge1 covered by TD-COS-FH-001, with the source's initialization and remaining hypotheses, no finite retained suffix determines the required next-sector conditional law. In this notation, for every finite m,
+[
+N_{W^\rightarrow_{q,\mathrm{hist}}}(r_m)\ne\varnothing.
+]
+Here the non-descent test compares positive-probability histories sharing r_m. To rule out order m even with a time-dependent transition rule, the differing histories must have the same length; a homogeneous order-m rule additionally requires agreement across times. The source-reported all-orders theorem remains subject to its initialized-process proof. Equal-suffix hidden states with different future laws do not substitute for these observed-history comparisons.
+Classification: descriptive predictive information loss. Under the original Kind I test, also identify the coarser relation that survives. An eight-point base or discrete hidden coordinates alone do not establish differential Kind IV. This is not an outside-image Kind V example: the sector labels are attained, and the obstruction concerns differing predictive witnesses inside a retained-record fiber.
+2.4 Sufficient causal predictive state
+Given the declared kernel and initial law, the causal posterior (\nu_n) is sufficient to determine future sector-path laws and to update after the next observation. It is not generally identical to the canonical pair-image refinement for the future-law witness and need not be minimal: distinct posteriors can have the same observable predictive law. Its representation may be unbounded. A finite compression requires its own exact sufficiency test or a declared approximation guarantee.
+The filter uses only the observed past, declared kernel and initial law. Future sectors are unavailable as present inputs.
+2.5 Horizon diameters
+Define (\delta_h^q(z)) using the full future sector-path law through h steps and total variation. It is then nondecreasing in h by marginalization; terminal-only laws need not have this property. A tested same-record pair lower-bounds that record's predictive diameter. Extending a current-indexed family as N grows does not alone prove failure of every finite observed-memory order; that conclusion requires the initialized-history argument in §2.3 and the source theorem.
+2.6 What the theorem does not say (D4 / D3)
+Change        Calculus        Status
+Finite-current truncation        D4 only if the same maps and kernel law are retained on the restricted source; a modified boundary/update rule changes the model        Source theorem not transferred; status for the declared truncated model remains UNRESOLVED
+Accepted-move clock        different (\pi) / different (K)        Not covered
+Adaptive schedule        different (K)        Not covered
+Record ((q,W))        D3 for the refined retained record; D1 separately describes product witness loss        Predictive claim not covered by sector-only theorem
+L=3 rotor/gauge sweep        different kernel and clock        Separate source-reported follow-up PASS; not this locus
+Belief-state finite compression        new retained record        May lose exact predictive descent; declare (B,h,\varepsilon), coverage and an exact or approximate test
+Physical Q2        different ensemble, estimator, claim        NOT_RUN
+
+
+3 Kind table for this kernel
+Kind        Toroidal instance        Legal repair        Illegal repair
+I Specified-output loss        q=parity(W) loses W while parity survives; predictive loss uses the separately declared history witness        Retain W for winding; use the sufficient posterior for prediction; other current functionals need proof of sufficiency        Treat sector string as winding or a fitted finite Markov table as the declared kernel
+II Unit / character        No native unit group here. Character transform (\mathcal Z_q\leftrightarrow Z_h) is an ensemble change, not a local log        Keep (Z_h) and (\mathcal Z_q) as separate witnesses        Call a dual coefficient a Schirokauer map
+III Subgroup-relative injectivity        No native instance established merely by changing source convention        Declare a homomorphism and subgroup with trivial kernel intersection before claiming this pattern        Infer sourced winding from source-free formulas or call modular reduction an injective restriction
+Discrete membrane / holonomy witness loss        Membrane collisions over a sector; holonomy counts are a separate observable        Retain the specified membrane or holonomy witness when available        Treat H_h counts as p-hat(q), or assert differential Kind IV without its smooth hypotheses
+V Outside-image representability        Requires a declared j:A→Z and an object z outside j(A); no such example follows merely from finite history or a current cutoff        Change the representable class or map to attain the missing object        Call an attained-fiber predictive collision a missing object; enlarge only an unused codomain
+Kind II is listed to forbid a false identification with the NFS packet, not because a unit character is required on this kernel.
+
+
+4 Transport, holonomy, shape
+(Q=(\mathbb Z/2)^3) is a discrete eight-point set. Every subset, including any non-descent locus, is open and closed and has empty boundary. These valid but trivial topological facts supply no continuous geometry. A continuous holonomy or differential claim needs additional declared structure and hypotheses.
+Witness-holonomy in the sense of Prop. 14.8 would require a declared connection on the fibers (F_q={X:\pi_q(X)=q}) and loops in a continuous base. The discrete sector walk is not that object. Direct holonomy (h\in(\mathbb Z/2)^3) in the L=3 record is a different witness on a different kernel. Nonzero (\mathfrak h_W) would imply non-descent if those hypotheses were met; the converse remains false.
+A nontrivial boundary model for (N_{W,\varepsilon}) would need a separately declared base and topology, for example suitable continuous parameters rather than only the eight sectors, together with the hypotheses used to relate diameter and boundary. Such an enlargement has not been declared. A drawn boundary on the sector cube is not a material or lithium result.
+Ensemble note, D1 again: (Z_h) and (\mathcal Z_q) are different witnesses related by a character transform. (Z_{\mathrm{full}}=\mathcal Z_{000}) while (Z_{000}=\frac18\sum_q\mathcal Z_q). Full periodic summation forcing even-parity projection is an algebraic projection, not observed confinement, and not (N_{\pi_q}).
+
+
+5 Clock
+Attempted-microtick time is part of the declared model. Switching to accepted-move time changes the sampled process. A time or driver-phase coordinate can address disagreement across times only when fixed-time descent already holds; it cannot repair an unequal-witness pair within a single time slice. TD-COS-FH-001 retains its source initialization and attempted-microtick scope, so a clock change does not inherit or refute its all-orders conclusion.
+
+
+6 Empirical gate for this application
+Frozen tuple for any numerical sector run that wants a defect-calculus readout:
+(D): named kernel, (L), current bound or “unbounded,” source convention
+(\pi): (q), or (r_m), or ((q,W)), named
+(W): next-sector law, or signed (W), or dual (\hat p(q)), named
+(d_Y): total variation on sector measures, or integer distance on (W)
+(\varepsilon), coverage, same-fiber rule
+Defect source version, explicit test and descriptive label: winding-from-sector loss, initialized-history predictive loss, or membrane/holonomy witness distinction. Use differential Kind IV only after establishing its smooth hypotheses.
+A validated same-record/different-witness pair on a restricted current box is a collision for the larger source too if the witness and kernel law are unchanged (D4). A clean box does not certify the larger domain. If truncation changes the update law, the finding concerns that new model. Neither case reruns the Bessel-tail proof or inherits its all-orders label.
+Source-reported L=3 follow-up PASS remains a separate engineering screen on holonomy counts and dual-reference probabilities. It is distinct from original-pilot UNRESOLVED and is not a measurement of (N_{W^\rightarrow_q}(\pi_q)) for TD-COS-FH-001. Historical accepted-event and replay-authority issues remain unresolved.
+
+
+7 Disposition
+The source-reported sector theorem rules out finite observed-memory Markov order under its declared kernel, initialization, source-free domain and attempted-microtick clock. Its locus restatement uses conditional future laws on positive-probability observed histories, as in §2.3; hidden-state collisions alone do not establish it.
+[
+\boxed{\text{ALL-ORDERS CLAIM: INITIALIZED-HISTORY TEST, WITH SOURCE HYPOTHESES}}
+]
+[
+\boxed{\text{STATIC }N_W(\pi_q)\text{ NONEMPTY; }N_q(\pi_W)\text{ EMPTY}}
+]
+[
+\boxed{\text{BELIEF STATE SUFFICIENT; MINIMALITY AND COMPRESSION REQUIRE SEPARATE TESTS}}
+]
+[
+\boxed{\text{ALL SOURCE STATUSES UNCHANGED}}
+]
+Point TOROIDAL Working Master at this increment for the typing. Do not paste the typing into the all-orders proof. The proof stays the proof.
