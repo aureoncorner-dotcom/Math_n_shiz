@@ -464,56 +464,56 @@
   "local_sources": [
     {
       "title": "GQG v0.13 operational instrument",
-      "path": "C:\\Users\\drewd\\Downloads\\GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "path": "external-source:GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
       "exists": true,
       "scope": "Witness fidelity, residual-observation tests, name/response coding and formal/empirical separation; selected sections.",
       "sha256": "6c7dc6f0f2f95a8ae0a776b45e25746472167075a92a28f14e43a1ae5a850e27"
     },
     {
       "title": "Hidden Quotient v1.7 local successor",
-      "path": "C:\\Users\\drewd\\Downloads\\THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md.txt",
+      "path": "external-source:THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md.txt",
       "exists": true,
       "scope": "Explicit successor/correction notice and witness-restoration boundaries; selected sections alongside native core.",
       "sha256": "93693654420c43395fec5bea31709d3088bc8431488deb956e35b03e3fce4821"
     },
     {
       "title": "Geometric Quotient Grammar public draft",
-      "path": "C:\\Users\\drewd\\Downloads\\GEOMETRIC_QUOTIENT_GRAMMAR_PUBLIC_DRAFT_v1.0.md",
+      "path": "external-source:GEOMETRIC_QUOTIENT_GRAMMAR_PUBLIC_DRAFT_v1.0.md",
       "exists": true,
       "scope": "Set/category grammar and status as a synthesis; opening definitions.",
       "sha256": "97c7556b403c48208629ff5339c33b2015a1f33ed71b43fb80bfca2b7aa20d08"
     },
     {
       "title": "Cross-artifact packet review",
-      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-18\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\Packet_comparison_review.md",
+      "path": "external-source:Packet_comparison_review.md",
       "exists": true,
       "scope": "Prior raw-monitor/NetLog/source audit. Findings attributed to that audit; captures not replayed here.",
       "sha256": "47e76601d2632eccc1ad28ced41499919560b1630b8412057c9347d4e2ddff9e"
     },
     {
       "title": "Packet verification",
-      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-18\\referenced-chatgpt-conversation-this-is-an-3\\outputs\\Packet_verification.json",
+      "path": "external-source:Packet_verification.json",
       "exists": true,
       "scope": "Companion provenance and prior verification artifact; not an independent capture.",
       "sha256": "c58dd34e3b10a95024b269501debdb001f9f0b16a69fad065fba3202e3bf905e"
     },
     {
       "title": "Name-register comparison report",
-      "path": "C:\\Users\\drewd\\Downloads\\Call_Name_Register_Comparison_2026-09-17.md",
+      "path": "external-source:Call_Name_Register_Comparison_2026-09-17.md",
       "exists": true,
       "scope": "Method, denominators, named-prompt examples and source limitations.",
       "sha256": "9f258c1b7d68273d781a77aacb8241124093e08e6ce7d2be81111cb231fc162d"
     },
     {
       "title": "Earlier geometry source inventory",
-      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\outputs\\geometry_source_inventory.md",
+      "path": "external-source:geometry_source_inventory.md",
       "exists": true,
       "scope": "Discovery/source lineage; earlier inventory count is not this review count.",
       "sha256": "d412fd18a5568e17c286609accbb56f3061f42202fd5c54f5397ba54f00033cb"
     },
     {
       "title": "Earlier geometry review",
-      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\outputs\\geometry_review.md",
+      "path": "external-source:geometry_review.md",
       "exists": true,
       "scope": "Earlier proof/status comparison; stale verifier-recovery status superseded by current Toroidal master.",
       "sha256": "15e5ad189ad86ffa10b369039bca9b4cc928e0056a8ec8f6b46c94e3bb8b0ca3"

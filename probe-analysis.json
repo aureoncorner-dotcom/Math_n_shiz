@@ -1,0 +1,4967 @@
+{
+  "raw_lines": 235,
+  "events": 131,
+  "excluded": 65,
+  "retained": 66,
+  "markers": [
+    {
+      "line": 6,
+      "time": "00:09:58.185",
+      "ms": 598185,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 7,
+      "time": "00:10:04.032",
+      "ms": 604032,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 8,
+      "time": "00:10:42.806",
+      "ms": 642806,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 9,
+      "time": "00:10:48.492",
+      "ms": 648492,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 10,
+      "time": "00:11:22.716",
+      "ms": 682716,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 11,
+      "time": "00:11:26.546",
+      "ms": 686546,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 12,
+      "time": "00:11:27.843",
+      "ms": 687843,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 13,
+      "time": "00:11:29.122",
+      "ms": 689122,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 16,
+      "time": "00:11:30.428",
+      "ms": 690428,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 17,
+      "time": "00:11:42.991",
+      "ms": 702991,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 18,
+      "time": "00:11:53.850",
+      "ms": 713850,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 50,
+      "time": "00:14:14.166",
+      "ms": 854166,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 59,
+      "time": "00:14:16.798",
+      "ms": 856798,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 67,
+      "time": "00:14:34.387",
+      "ms": 874387,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 79,
+      "time": "00:14:37.128",
+      "ms": 877128,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 93,
+      "time": "00:14:54.930",
+      "ms": 894930,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 94,
+      "time": "00:14:59.006",
+      "ms": 899006,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 95,
+      "time": "00:15:00.342",
+      "ms": 900342,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 112,
+      "time": "00:15:01.763",
+      "ms": 901763,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 113,
+      "time": "00:15:03.137",
+      "ms": 903137,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 114,
+      "time": "00:15:15.287",
+      "ms": 915287,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 115,
+      "time": "00:15:20.610",
+      "ms": 920610,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 161,
+      "time": "00:16:52.791",
+      "ms": 1012791,
+      "label": "CALL MARKER"
+    },
+    {
+      "line": 184,
+      "time": "00:16:55.703",
+      "ms": 1015703,
+      "label": "CALL MARKER"
+    }
+  ],
+  "alerts": [
+    {
+      "line": 25,
+      "time": "00:13:33.225",
+      "ms": 813225,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -40.941,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 2
+      }
+    },
+    {
+      "line": 32,
+      "time": "00:13:49.698",
+      "ms": 829698,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -24.468,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 3
+      }
+    },
+    {
+      "line": 41,
+      "time": "00:13:55.221",
+      "ms": 835221,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 5 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -18.945,
+      "printed_count": 5,
+      "corrected_count": 4,
+      "retained_states": {
+        "Established": 5
+      }
+    },
+    {
+      "line": 53,
+      "time": "00:14:15.221",
+      "ms": 855221,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 4 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": 1.055,
+      "printed_count": 4,
+      "corrected_count": 3,
+      "retained_states": {
+        "Established": 3,
+        "SynSent": 1
+      }
+    },
+    {
+      "line": 62,
+      "time": "00:14:23.210",
+      "ms": 863210,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:16.798",
+      "marker_offset_seconds": 6.412,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 2,
+        "SynSent": 1
+      }
+    },
+    {
+      "line": 70,
+      "time": "00:14:35.499",
+      "ms": 875499,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:34.387",
+      "marker_offset_seconds": 1.112,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 2
+      }
+    },
+    {
+      "line": 84,
+      "time": "00:14:45.018",
+      "ms": 885018,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 7 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:14:37.128",
+      "marker_offset_seconds": 7.89,
+      "printed_count": 7,
+      "corrected_count": 6,
+      "retained_states": {
+        "Established": 6
+      }
+    },
+    {
+      "line": 98,
+      "time": "00:15:01.451",
+      "ms": 901451,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 6 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:15:01.763",
+      "marker_offset_seconds": -0.312,
+      "printed_count": 6,
+      "corrected_count": 5,
+      "retained_states": {
+        "Established": 5
+      }
+    },
+    {
+      "line": 119,
+      "time": "00:15:27.155",
+      "ms": 927155,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 6.545,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 3,
+        "SynSent": 2
+      }
+    },
+    {
+      "line": 139,
+      "time": "00:15:50.267",
+      "ms": 950267,
+      "type": "FANOUT",
+      "text": "chrome.exe PID 30064: 3 remotes / 30s",
+      "process": "chrome.exe",
+      "pid": 30064,
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 29.657,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 2
+      }
+    },
+    {
+      "line": 157,
+      "time": "00:16:52.527",
+      "ms": 1012527,
+      "type": "FANOUT",
+      "text": "ChatGPT.exe PID 3868: 3 remotes / 30s",
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "nearest_marker": "00:16:52.791",
+      "marker_offset_seconds": -0.264,
+      "printed_count": 3,
+      "corrected_count": 2,
+      "retained_states": {
+        "Established": 2
+      }
+    },
+    {
+      "line": 168,
+      "time": "00:16:55.342",
+      "ms": 1015342,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 0.0.0.0:0  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.361,
+      "endpoint": "0.0.0.0:0",
+      "corrected_count": 0,
+      "retained_states": {},
+      "artifact": true
+    },
+    {
+      "line": 179,
+      "time": "00:16:55.408",
+      "ms": 1015408,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 104.18.32.47:443  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.295,
+      "endpoint": "104.18.32.47:443",
+      "corrected_count": 5,
+      "retained_states": {
+        "Established": 5
+      },
+      "artifact": false
+    },
+    {
+      "line": 192,
+      "time": "00:16:59.696",
+      "ms": 1019696,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 0.0.0.0:0  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 3.993,
+      "endpoint": "0.0.0.0:0",
+      "corrected_count": 0,
+      "retained_states": {},
+      "artifact": true
+    },
+    {
+      "line": 198,
+      "time": "00:16:59.729",
+      "ms": 1019729,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 104.18.32.47:443  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 4.026,
+      "endpoint": "104.18.32.47:443",
+      "corrected_count": 5,
+      "retained_states": {
+        "SynSent": 1,
+        "Established": 4
+      },
+      "artifact": false
+    },
+    {
+      "line": 209,
+      "time": "00:17:14.070",
+      "ms": 1034070,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 0.0.0.0:0  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.367,
+      "endpoint": "0.0.0.0:0",
+      "corrected_count": 0,
+      "retained_states": {},
+      "artifact": true
+    },
+    {
+      "line": 220,
+      "time": "00:17:14.134",
+      "ms": 1034134,
+      "type": "BURST",
+      "text": "codex.exe PID 56004 -> 104.18.32.47:443  5 new tuples / 3s",
+      "process": "codex.exe",
+      "pid": 56004,
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.431,
+      "endpoint": "104.18.32.47:443",
+      "corrected_count": 5,
+      "retained_states": {
+        "SynSent": 1,
+        "FinWait1": 1,
+        "Established": 3
+      },
+      "artifact": false
+    }
+  ],
+  "unparsed": [],
+  "duplicates": [],
+  "summary": [
+    {
+      "process": "ChatGPT.exe",
+      "pids": [
+        3868
+      ],
+      "retained": 4,
+      "excluded": 4,
+      "states": {
+        "Established": 4
+      },
+      "endpoints": {
+        "64.239.123.193:443": 1,
+        "64.233.178.139:443": 1,
+        "64.239.109.1:443": 1,
+        "35.190.80.1:443": 1
+      },
+      "peak3": [
+        {
+          "end": "00:11:30.170",
+          "start": "00:11:30.170",
+          "count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoint": "64.239.123.193:443",
+          "lines": [
+            15
+          ]
+        },
+        {
+          "end": "00:15:35.303",
+          "start": "00:15:35.303",
+          "count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoint": "64.233.178.139:443",
+          "lines": [
+            124
+          ]
+        },
+        {
+          "end": "00:16:30.662",
+          "start": "00:16:30.662",
+          "count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoint": "64.239.109.1:443",
+          "lines": [
+            149
+          ]
+        },
+        {
+          "end": "00:16:52.519",
+          "start": "00:16:52.519",
+          "count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoint": "35.190.80.1:443",
+          "lines": [
+            155
+          ]
+        }
+      ],
+      "qualifying3": [],
+      "peak30": [
+        {
+          "end": "00:16:52.519",
+          "start": "00:16:30.662",
+          "count": 2,
+          "tuple_count": 2,
+          "states": {
+            "Established": 2
+          },
+          "endpoints": [
+            "64.239.109.1:443",
+            "35.190.80.1:443"
+          ],
+          "lines": [
+            149,
+            155
+          ]
+        }
+      ],
+      "qualifying30": [],
+      "distinct_endpoints": 4,
+      "peak_process_3s": 1,
+      "peak_established_endpoint_3s": 1,
+      "peak_fanout_30s": 2
+    },
+    {
+      "process": "chrome.exe",
+      "pids": [
+        30064
+      ],
+      "retained": 23,
+      "excluded": 23,
+      "states": {
+        "Established": 20,
+        "SynSent": 3
+      },
+      "endpoints": {
+        "162.247.243.29:443": 2,
+        "34.51.10.38:443": 2,
+        "140.82.113.22:443": 2,
+        "140.82.114.4:443": 2,
+        "192.168.40.1:53": 8,
+        "23.223.33.24:443": 1,
+        "140.82.114.25:443": 1,
+        "140.82.113.5:443": 1,
+        "185.199.108.133:443": 1,
+        "140.82.114.26:443": 1,
+        "104.18.32.47:443": 1,
+        "74.125.197.139:443": 1
+      },
+      "peak3": [
+        {
+          "end": "00:15:01.495",
+          "start": "00:15:01.476",
+          "count": 4,
+          "states": {
+            "Established": 2,
+            "SynSent": 2
+          },
+          "endpoint": "192.168.40.1:53",
+          "lines": [
+            108,
+            109,
+            110,
+            111
+          ]
+        }
+      ],
+      "qualifying3": [],
+      "peak30": [
+        {
+          "end": "00:14:45.027",
+          "start": "00:14:15.229",
+          "count": 7,
+          "tuple_count": 7,
+          "states": {
+            "Established": 7
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76,
+            77,
+            78,
+            81,
+            92
+          ]
+        }
+      ],
+      "qualifying30": [
+        {
+          "end": "00:13:49.710",
+          "start": "00:13:33.205",
+          "count": 3,
+          "tuple_count": 4,
+          "states": {
+            "Established": 4
+          },
+          "endpoints": [
+            "34.51.10.38:443",
+            "162.247.243.29:443",
+            "140.82.113.22:443"
+          ],
+          "lines": [
+            22,
+            23,
+            29,
+            37
+          ]
+        },
+        {
+          "end": "00:13:49.717",
+          "start": "00:13:33.205",
+          "count": 4,
+          "tuple_count": 5,
+          "states": {
+            "Established": 5
+          },
+          "endpoints": [
+            "34.51.10.38:443",
+            "162.247.243.29:443",
+            "140.82.113.22:443",
+            "140.82.114.4:443"
+          ],
+          "lines": [
+            22,
+            23,
+            29,
+            37,
+            38
+          ]
+        },
+        {
+          "end": "00:13:55.236",
+          "start": "00:13:33.205",
+          "count": 5,
+          "tuple_count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoints": [
+            "34.51.10.38:443",
+            "162.247.243.29:443",
+            "140.82.113.22:443",
+            "140.82.114.4:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            22,
+            23,
+            29,
+            37,
+            38,
+            48
+          ]
+        },
+        {
+          "end": "00:13:55.243",
+          "start": "00:13:33.205",
+          "count": 5,
+          "tuple_count": 7,
+          "states": {
+            "Established": 6,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "34.51.10.38:443",
+            "162.247.243.29:443",
+            "140.82.113.22:443",
+            "140.82.114.4:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            22,
+            23,
+            29,
+            37,
+            38,
+            48,
+            49
+          ]
+        },
+        {
+          "end": "00:14:15.229",
+          "start": "00:13:49.710",
+          "count": 3,
+          "tuple_count": 5,
+          "states": {
+            "Established": 4,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "140.82.114.4:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            37,
+            38,
+            48,
+            49,
+            58
+          ]
+        },
+        {
+          "end": "00:14:23.219",
+          "start": "00:13:55.236",
+          "count": 3,
+          "tuple_count": 4,
+          "states": {
+            "Established": 3,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "192.168.40.1:53",
+            "140.82.113.22:443",
+            "23.223.33.24:443"
+          ],
+          "lines": [
+            48,
+            49,
+            58,
+            66
+          ]
+        },
+        {
+          "end": "00:14:35.519",
+          "start": "00:14:15.229",
+          "count": 3,
+          "tuple_count": 3,
+          "states": {
+            "Established": 3
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76
+          ]
+        },
+        {
+          "end": "00:14:35.524",
+          "start": "00:14:15.229",
+          "count": 4,
+          "tuple_count": 4,
+          "states": {
+            "Established": 4
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443",
+            "140.82.113.5:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76,
+            77
+          ]
+        },
+        {
+          "end": "00:14:35.532",
+          "start": "00:14:15.229",
+          "count": 5,
+          "tuple_count": 5,
+          "states": {
+            "Established": 5
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76,
+            77,
+            78
+          ]
+        },
+        {
+          "end": "00:14:38.250",
+          "start": "00:14:15.229",
+          "count": 6,
+          "tuple_count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76,
+            77,
+            78,
+            81
+          ]
+        },
+        {
+          "end": "00:14:45.027",
+          "start": "00:14:15.229",
+          "count": 7,
+          "tuple_count": 7,
+          "states": {
+            "Established": 7
+          },
+          "endpoints": [
+            "140.82.113.22:443",
+            "23.223.33.24:443",
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443"
+          ],
+          "lines": [
+            58,
+            66,
+            76,
+            77,
+            78,
+            81,
+            92
+          ]
+        },
+        {
+          "end": "00:15:01.476",
+          "start": "00:14:35.519",
+          "count": 6,
+          "tuple_count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoints": [
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            76,
+            77,
+            78,
+            81,
+            92,
+            108
+          ]
+        },
+        {
+          "end": "00:15:01.483",
+          "start": "00:14:35.519",
+          "count": 6,
+          "tuple_count": 7,
+          "states": {
+            "Established": 6,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            76,
+            77,
+            78,
+            81,
+            92,
+            108,
+            109
+          ]
+        },
+        {
+          "end": "00:15:01.489",
+          "start": "00:14:35.519",
+          "count": 6,
+          "tuple_count": 8,
+          "states": {
+            "Established": 6,
+            "SynSent": 2
+          },
+          "endpoints": [
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            76,
+            77,
+            78,
+            81,
+            92,
+            108,
+            109,
+            110
+          ]
+        },
+        {
+          "end": "00:15:01.495",
+          "start": "00:14:35.519",
+          "count": 6,
+          "tuple_count": 9,
+          "states": {
+            "Established": 7,
+            "SynSent": 2
+          },
+          "endpoints": [
+            "140.82.114.25:443",
+            "140.82.113.5:443",
+            "185.199.108.133:443",
+            "140.82.114.4:443",
+            "140.82.114.26:443",
+            "192.168.40.1:53"
+          ],
+          "lines": [
+            76,
+            77,
+            78,
+            81,
+            92,
+            108,
+            109,
+            110,
+            111
+          ]
+        },
+        {
+          "end": "00:15:51.653",
+          "start": "00:15:27.148",
+          "count": 3,
+          "tuple_count": 4,
+          "states": {
+            "Established": 4
+          },
+          "endpoints": [
+            "104.18.32.47:443",
+            "192.168.40.1:53",
+            "74.125.197.139:443"
+          ],
+          "lines": [
+            117,
+            137,
+            143,
+            145
+          ]
+        }
+      ],
+      "distinct_endpoints": 12,
+      "peak_process_3s": 4,
+      "peak_established_endpoint_3s": 2,
+      "peak_fanout_30s": 7
+    },
+    {
+      "process": "codex.exe",
+      "pids": [
+        56004
+      ],
+      "retained": 39,
+      "excluded": 38,
+      "states": {
+        "Established": 36,
+        "SynSent": 2,
+        "FinWait1": 1
+      },
+      "endpoints": {
+        "104.18.32.47:443": 33,
+        "172.64.155.209:443": 6
+      },
+      "peak3": [
+        {
+          "end": "00:16:58.278",
+          "start": "00:16:55.373",
+          "count": 10,
+          "states": {
+            "Established": 9,
+            "SynSent": 1
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186
+          ]
+        },
+        {
+          "end": "00:17:14.167",
+          "start": "00:17:14.100",
+          "count": 10,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 8
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225
+          ]
+        }
+      ],
+      "qualifying3": [
+        {
+          "end": "00:16:55.402",
+          "start": "00:16:55.373",
+          "count": 5,
+          "states": {
+            "Established": 5
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177
+          ]
+        },
+        {
+          "end": "00:16:55.414",
+          "start": "00:16:55.373",
+          "count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180
+          ]
+        },
+        {
+          "end": "00:16:55.421",
+          "start": "00:16:55.373",
+          "count": 7,
+          "states": {
+            "Established": 7
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181
+          ]
+        },
+        {
+          "end": "00:16:55.427",
+          "start": "00:16:55.373",
+          "count": 8,
+          "states": {
+            "Established": 8
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182
+          ]
+        },
+        {
+          "end": "00:16:55.434",
+          "start": "00:16:55.373",
+          "count": 9,
+          "states": {
+            "Established": 9
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183
+          ]
+        },
+        {
+          "end": "00:16:58.278",
+          "start": "00:16:55.373",
+          "count": 10,
+          "states": {
+            "Established": 9,
+            "SynSent": 1
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186
+          ]
+        },
+        {
+          "end": "00:16:59.721",
+          "start": "00:16:58.278",
+          "count": 5,
+          "states": {
+            "SynSent": 1,
+            "Established": 4
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            186,
+            193,
+            194,
+            195,
+            196
+          ]
+        },
+        {
+          "end": "00:17:01.130",
+          "start": "00:16:58.278",
+          "count": 6,
+          "states": {
+            "SynSent": 1,
+            "Established": 5
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            186,
+            193,
+            194,
+            195,
+            196,
+            200
+          ]
+        },
+        {
+          "end": "00:17:02.542",
+          "start": "00:16:59.701",
+          "count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            193,
+            194,
+            195,
+            196,
+            200,
+            202
+          ]
+        },
+        {
+          "end": "00:17:14.127",
+          "start": "00:17:14.100",
+          "count": 5,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 3
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218
+          ]
+        },
+        {
+          "end": "00:17:14.139",
+          "start": "00:17:14.100",
+          "count": 6,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 4
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221
+          ]
+        },
+        {
+          "end": "00:17:14.146",
+          "start": "00:17:14.100",
+          "count": 7,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 5
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222
+          ]
+        },
+        {
+          "end": "00:17:14.154",
+          "start": "00:17:14.100",
+          "count": 8,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 6
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223
+          ]
+        },
+        {
+          "end": "00:17:14.160",
+          "start": "00:17:14.100",
+          "count": 9,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 7
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224
+          ]
+        },
+        {
+          "end": "00:17:14.167",
+          "start": "00:17:14.100",
+          "count": 10,
+          "states": {
+            "SynSent": 1,
+            "FinWait1": 1,
+            "Established": 8
+          },
+          "endpoint": "104.18.32.47:443",
+          "lines": [
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225
+          ]
+        }
+      ],
+      "peak30": [
+        {
+          "end": "00:09:04.497",
+          "start": "00:09:04.497",
+          "count": 1,
+          "tuple_count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            5
+          ]
+        },
+        {
+          "end": "00:15:36.645",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126
+          ]
+        },
+        {
+          "end": "00:15:42.044",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 2,
+          "states": {
+            "Established": 2
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126,
+            128
+          ]
+        },
+        {
+          "end": "00:15:46.165",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 3,
+          "states": {
+            "Established": 3
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126,
+            128,
+            131
+          ]
+        },
+        {
+          "end": "00:15:46.172",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 4,
+          "states": {
+            "Established": 4
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126,
+            128,
+            131,
+            132
+          ]
+        },
+        {
+          "end": "00:15:48.891",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 5,
+          "states": {
+            "Established": 5
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126,
+            128,
+            131,
+            132,
+            134
+          ]
+        },
+        {
+          "end": "00:16:00.165",
+          "start": "00:15:36.645",
+          "count": 1,
+          "tuple_count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoints": [
+            "172.64.155.209:443"
+          ],
+          "lines": [
+            126,
+            128,
+            131,
+            132,
+            134,
+            147
+          ]
+        },
+        {
+          "end": "00:16:37.524",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 1,
+          "states": {
+            "Established": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151
+          ]
+        },
+        {
+          "end": "00:16:41.612",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 2,
+          "states": {
+            "Established": 2
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153
+          ]
+        },
+        {
+          "end": "00:16:55.373",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 3,
+          "states": {
+            "Established": 3
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173
+          ]
+        },
+        {
+          "end": "00:16:55.381",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 4,
+          "states": {
+            "Established": 4
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174
+          ]
+        },
+        {
+          "end": "00:16:55.388",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 5,
+          "states": {
+            "Established": 5
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175
+          ]
+        },
+        {
+          "end": "00:16:55.395",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 6,
+          "states": {
+            "Established": 6
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176
+          ]
+        },
+        {
+          "end": "00:16:55.402",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 7,
+          "states": {
+            "Established": 7
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177
+          ]
+        },
+        {
+          "end": "00:16:55.414",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 8,
+          "states": {
+            "Established": 8
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180
+          ]
+        },
+        {
+          "end": "00:16:55.421",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 9,
+          "states": {
+            "Established": 9
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181
+          ]
+        },
+        {
+          "end": "00:16:55.427",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 10,
+          "states": {
+            "Established": 10
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182
+          ]
+        },
+        {
+          "end": "00:16:55.434",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 11,
+          "states": {
+            "Established": 11
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183
+          ]
+        },
+        {
+          "end": "00:16:58.278",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 12,
+          "states": {
+            "Established": 11,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186
+          ]
+        },
+        {
+          "end": "00:16:59.701",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 13,
+          "states": {
+            "Established": 12,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193
+          ]
+        },
+        {
+          "end": "00:16:59.708",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 14,
+          "states": {
+            "Established": 13,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194
+          ]
+        },
+        {
+          "end": "00:16:59.715",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 15,
+          "states": {
+            "Established": 14,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195
+          ]
+        },
+        {
+          "end": "00:16:59.721",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 16,
+          "states": {
+            "Established": 15,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196
+          ]
+        },
+        {
+          "end": "00:17:01.130",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 17,
+          "states": {
+            "Established": 16,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200
+          ]
+        },
+        {
+          "end": "00:17:02.542",
+          "start": "00:16:37.524",
+          "count": 1,
+          "tuple_count": 18,
+          "states": {
+            "Established": 17,
+            "SynSent": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            151,
+            153,
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202
+          ]
+        },
+        {
+          "end": "00:17:14.100",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 17,
+          "states": {
+            "Established": 15,
+            "SynSent": 2
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214
+          ]
+        },
+        {
+          "end": "00:17:14.107",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 18,
+          "states": {
+            "Established": 15,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215
+          ]
+        },
+        {
+          "end": "00:17:14.114",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 19,
+          "states": {
+            "Established": 16,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216
+          ]
+        },
+        {
+          "end": "00:17:14.120",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 20,
+          "states": {
+            "Established": 17,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217
+          ]
+        },
+        {
+          "end": "00:17:14.127",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 21,
+          "states": {
+            "Established": 18,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218
+          ]
+        },
+        {
+          "end": "00:17:14.139",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 22,
+          "states": {
+            "Established": 19,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221
+          ]
+        },
+        {
+          "end": "00:17:14.146",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 23,
+          "states": {
+            "Established": 20,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222
+          ]
+        },
+        {
+          "end": "00:17:14.154",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 24,
+          "states": {
+            "Established": 21,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223
+          ]
+        },
+        {
+          "end": "00:17:14.160",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 25,
+          "states": {
+            "Established": 22,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224
+          ]
+        },
+        {
+          "end": "00:17:14.167",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 26,
+          "states": {
+            "Established": 23,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225
+          ]
+        },
+        {
+          "end": "00:17:20.326",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 27,
+          "states": {
+            "Established": 24,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225,
+            229
+          ]
+        },
+        {
+          "end": "00:17:20.333",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 28,
+          "states": {
+            "Established": 25,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225,
+            229,
+            230
+          ]
+        },
+        {
+          "end": "00:17:20.340",
+          "start": "00:16:55.373",
+          "count": 1,
+          "tuple_count": 29,
+          "states": {
+            "Established": 26,
+            "SynSent": 2,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            180,
+            181,
+            182,
+            183,
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225,
+            229,
+            230,
+            231
+          ]
+        },
+        {
+          "end": "00:17:26.226",
+          "start": "00:16:58.278",
+          "count": 1,
+          "tuple_count": 21,
+          "states": {
+            "SynSent": 2,
+            "Established": 18,
+            "FinWait1": 1
+          },
+          "endpoints": [
+            "104.18.32.47:443"
+          ],
+          "lines": [
+            186,
+            193,
+            194,
+            195,
+            196,
+            200,
+            202,
+            214,
+            215,
+            216,
+            217,
+            218,
+            221,
+            222,
+            223,
+            224,
+            225,
+            229,
+            230,
+            231,
+            233
+          ]
+        }
+      ],
+      "qualifying30": [],
+      "distinct_endpoints": 2,
+      "peak_process_3s": 10,
+      "peak_established_endpoint_3s": 9,
+      "peak_fanout_30s": 1
+    }
+  ],
+  "kept": [
+    {
+      "line": 3,
+      "time": "00:09:01.831",
+      "ms": 541831,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 62022,
+      "remote": "162.247.243.29",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "162.247.243.29:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|62022|162.247.243.29|443",
+      "nearest_marker": "00:09:58.185",
+      "marker_offset_seconds": -56.354
+    },
+    {
+      "line": 5,
+      "time": "00:09:04.497",
+      "ms": 544497,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 53049,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|53049|104.18.32.47|443",
+      "nearest_marker": "00:09:58.185",
+      "marker_offset_seconds": -53.688
+    },
+    {
+      "line": 15,
+      "time": "00:11:30.170",
+      "ms": 690170,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "192.168.40.7",
+      "local_port": 60486,
+      "remote": "64.239.123.193",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "64.239.123.193:443",
+      "tuple_key": "chatgpt.exe|3868|192.168.40.7|60486|64.239.123.193|443",
+      "nearest_marker": "00:11:30.428",
+      "marker_offset_seconds": -0.258
+    },
+    {
+      "line": 22,
+      "time": "00:13:33.205",
+      "ms": 813205,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 59915,
+      "remote": "34.51.10.38",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "34.51.10.38:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|59915|34.51.10.38|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -40.961
+    },
+    {
+      "line": 23,
+      "time": "00:13:33.211",
+      "ms": 813211,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 52757,
+      "remote": "162.247.243.29",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "162.247.243.29:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|52757|162.247.243.29|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -40.955
+    },
+    {
+      "line": 29,
+      "time": "00:13:33.231",
+      "ms": 813231,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 49364,
+      "remote": "34.51.10.38",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "34.51.10.38:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|49364|34.51.10.38|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -40.935
+    },
+    {
+      "line": 37,
+      "time": "00:13:49.710",
+      "ms": 829710,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 59945,
+      "remote": "140.82.113.22",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.113.22:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|59945|140.82.113.22|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -24.456
+    },
+    {
+      "line": 38,
+      "time": "00:13:49.717",
+      "ms": 829717,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 57224,
+      "remote": "140.82.114.4",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.114.4:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|57224|140.82.114.4|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -24.449
+    },
+    {
+      "line": 48,
+      "time": "00:13:55.236",
+      "ms": 835236,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 62109,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "Established",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|62109|192.168.40.1|53",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -18.93
+    },
+    {
+      "line": 49,
+      "time": "00:13:55.243",
+      "ms": 835243,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 61369,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "SynSent",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|61369|192.168.40.1|53",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": -18.923
+    },
+    {
+      "line": 58,
+      "time": "00:14:15.229",
+      "ms": 855229,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 49702,
+      "remote": "140.82.113.22",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.113.22:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|49702|140.82.113.22|443",
+      "nearest_marker": "00:14:14.166",
+      "marker_offset_seconds": 1.063
+    },
+    {
+      "line": 66,
+      "time": "00:14:23.219",
+      "ms": 863219,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 57191,
+      "remote": "23.223.33.24",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "23.223.33.24:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|57191|23.223.33.24|443",
+      "nearest_marker": "00:14:16.798",
+      "marker_offset_seconds": 6.421
+    },
+    {
+      "line": 76,
+      "time": "00:14:35.519",
+      "ms": 875519,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 64756,
+      "remote": "140.82.114.25",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.114.25:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|64756|140.82.114.25|443",
+      "nearest_marker": "00:14:34.387",
+      "marker_offset_seconds": 1.132
+    },
+    {
+      "line": 77,
+      "time": "00:14:35.524",
+      "ms": 875524,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 63166,
+      "remote": "140.82.113.5",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.113.5:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|63166|140.82.113.5|443",
+      "nearest_marker": "00:14:34.387",
+      "marker_offset_seconds": 1.137
+    },
+    {
+      "line": 78,
+      "time": "00:14:35.532",
+      "ms": 875532,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 57669,
+      "remote": "185.199.108.133",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "185.199.108.133:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|57669|185.199.108.133|443",
+      "nearest_marker": "00:14:34.387",
+      "marker_offset_seconds": 1.145
+    },
+    {
+      "line": 81,
+      "time": "00:14:38.250",
+      "ms": 878250,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 53148,
+      "remote": "140.82.114.4",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.114.4:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|53148|140.82.114.4|443",
+      "nearest_marker": "00:14:37.128",
+      "marker_offset_seconds": 1.122
+    },
+    {
+      "line": 92,
+      "time": "00:14:45.027",
+      "ms": 885027,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 57292,
+      "remote": "140.82.114.26",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "140.82.114.26:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|57292|140.82.114.26|443",
+      "nearest_marker": "00:14:37.128",
+      "marker_offset_seconds": 7.899
+    },
+    {
+      "line": 108,
+      "time": "00:15:01.476",
+      "ms": 901476,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 64729,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "Established",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|64729|192.168.40.1|53",
+      "nearest_marker": "00:15:01.763",
+      "marker_offset_seconds": -0.287
+    },
+    {
+      "line": 109,
+      "time": "00:15:01.483",
+      "ms": 901483,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 58626,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "SynSent",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|58626|192.168.40.1|53",
+      "nearest_marker": "00:15:01.763",
+      "marker_offset_seconds": -0.28
+    },
+    {
+      "line": 110,
+      "time": "00:15:01.489",
+      "ms": 901489,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 51734,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "SynSent",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|51734|192.168.40.1|53",
+      "nearest_marker": "00:15:01.763",
+      "marker_offset_seconds": -0.274
+    },
+    {
+      "line": 111,
+      "time": "00:15:01.495",
+      "ms": 901495,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 49704,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "Established",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|49704|192.168.40.1|53",
+      "nearest_marker": "00:15:01.763",
+      "marker_offset_seconds": -0.268
+    },
+    {
+      "line": 117,
+      "time": "00:15:27.148",
+      "ms": 927148,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 57743,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|57743|104.18.32.47|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 6.538
+    },
+    {
+      "line": 124,
+      "time": "00:15:35.303",
+      "ms": 935303,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "192.168.40.7",
+      "local_port": 50182,
+      "remote": "64.233.178.139",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "64.233.178.139:443",
+      "tuple_key": "chatgpt.exe|3868|192.168.40.7|50182|64.233.178.139|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 14.693
+    },
+    {
+      "line": 126,
+      "time": "00:15:36.645",
+      "ms": 936645,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 50183,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|50183|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 16.035
+    },
+    {
+      "line": 128,
+      "time": "00:15:42.044",
+      "ms": 942044,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 56393,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|56393|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 21.434
+    },
+    {
+      "line": 131,
+      "time": "00:15:46.165",
+      "ms": 946165,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 60497,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|60497|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 25.555
+    },
+    {
+      "line": 132,
+      "time": "00:15:46.172",
+      "ms": 946172,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 60495,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|60495|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 25.562
+    },
+    {
+      "line": 134,
+      "time": "00:15:48.891",
+      "ms": 948891,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 60501,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|60501|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 28.281
+    },
+    {
+      "line": 137,
+      "time": "00:15:50.260",
+      "ms": 950260,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 58521,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "Established",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|58521|192.168.40.1|53",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 29.65
+    },
+    {
+      "line": 143,
+      "time": "00:15:50.273",
+      "ms": 950273,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 50060,
+      "remote": "192.168.40.1",
+      "remote_port": 53,
+      "state": "Established",
+      "endpoint": "192.168.40.1:53",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|50060|192.168.40.1|53",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 29.663
+    },
+    {
+      "line": 145,
+      "time": "00:15:51.653",
+      "ms": 951653,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "192.168.40.7",
+      "local_port": 64848,
+      "remote": "74.125.197.139",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "74.125.197.139:443",
+      "tuple_key": "chrome.exe|30064|192.168.40.7|64848|74.125.197.139|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 31.043
+    },
+    {
+      "line": 147,
+      "time": "00:16:00.165",
+      "ms": 960165,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 49356,
+      "remote": "172.64.155.209",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "172.64.155.209:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|49356|172.64.155.209|443",
+      "nearest_marker": "00:15:20.610",
+      "marker_offset_seconds": 39.555
+    },
+    {
+      "line": 149,
+      "time": "00:16:30.662",
+      "ms": 990662,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "192.168.40.7",
+      "local_port": 60814,
+      "remote": "64.239.109.1",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "64.239.109.1:443",
+      "tuple_key": "chatgpt.exe|3868|192.168.40.7|60814|64.239.109.1|443",
+      "nearest_marker": "00:16:52.791",
+      "marker_offset_seconds": -22.129
+    },
+    {
+      "line": 151,
+      "time": "00:16:37.524",
+      "ms": 997524,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 60818,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|60818|104.18.32.47|443",
+      "nearest_marker": "00:16:52.791",
+      "marker_offset_seconds": -15.267
+    },
+    {
+      "line": 153,
+      "time": "00:16:41.612",
+      "ms": 1001612,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 60822,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|60822|104.18.32.47|443",
+      "nearest_marker": "00:16:52.791",
+      "marker_offset_seconds": -11.179
+    },
+    {
+      "line": 155,
+      "time": "00:16:52.519",
+      "ms": 1012519,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "192.168.40.7",
+      "local_port": 61925,
+      "remote": "35.190.80.1",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "35.190.80.1:443",
+      "tuple_key": "chatgpt.exe|3868|192.168.40.7|61925|35.190.80.1|443",
+      "nearest_marker": "00:16:52.791",
+      "marker_offset_seconds": -0.272
+    },
+    {
+      "line": 173,
+      "time": "00:16:55.373",
+      "ms": 1015373,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61941,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61941|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.33
+    },
+    {
+      "line": 174,
+      "time": "00:16:55.381",
+      "ms": 1015381,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61936,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61936|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.322
+    },
+    {
+      "line": 175,
+      "time": "00:16:55.388",
+      "ms": 1015388,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61935,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61935|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.315
+    },
+    {
+      "line": 176,
+      "time": "00:16:55.395",
+      "ms": 1015395,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61934,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61934|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.308
+    },
+    {
+      "line": 177,
+      "time": "00:16:55.402",
+      "ms": 1015402,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61933,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61933|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.301
+    },
+    {
+      "line": 180,
+      "time": "00:16:55.414",
+      "ms": 1015414,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61932,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61932|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.289
+    },
+    {
+      "line": 181,
+      "time": "00:16:55.421",
+      "ms": 1015421,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61931,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61931|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.282
+    },
+    {
+      "line": 182,
+      "time": "00:16:55.427",
+      "ms": 1015427,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61930,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61930|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.276
+    },
+    {
+      "line": 183,
+      "time": "00:16:55.434",
+      "ms": 1015434,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61929,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61929|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": -0.269
+    },
+    {
+      "line": 186,
+      "time": "00:16:58.278",
+      "ms": 1018278,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61945,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "SynSent",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61945|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 2.575
+    },
+    {
+      "line": 193,
+      "time": "00:16:59.701",
+      "ms": 1019701,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61954,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61954|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 3.998
+    },
+    {
+      "line": 194,
+      "time": "00:16:59.708",
+      "ms": 1019708,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61949,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61949|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 4.005
+    },
+    {
+      "line": 195,
+      "time": "00:16:59.715",
+      "ms": 1019715,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61948,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61948|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 4.012
+    },
+    {
+      "line": 196,
+      "time": "00:16:59.721",
+      "ms": 1019721,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61946,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61946|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 4.018
+    },
+    {
+      "line": 200,
+      "time": "00:17:01.130",
+      "ms": 1021130,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61961,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61961|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 5.427
+    },
+    {
+      "line": 202,
+      "time": "00:17:02.542",
+      "ms": 1022542,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 61972,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|61972|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 6.839
+    },
+    {
+      "line": 214,
+      "time": "00:17:14.100",
+      "ms": 1034100,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51821,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "SynSent",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51821|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.397
+    },
+    {
+      "line": 215,
+      "time": "00:17:14.107",
+      "ms": 1034107,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51818,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "FinWait1",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51818|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.404
+    },
+    {
+      "line": 216,
+      "time": "00:17:14.114",
+      "ms": 1034114,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51815,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51815|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.411
+    },
+    {
+      "line": 217,
+      "time": "00:17:14.120",
+      "ms": 1034120,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51814,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51814|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.417
+    },
+    {
+      "line": 218,
+      "time": "00:17:14.127",
+      "ms": 1034127,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51813,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51813|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.424
+    },
+    {
+      "line": 221,
+      "time": "00:17:14.139",
+      "ms": 1034139,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51812,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51812|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.436
+    },
+    {
+      "line": 222,
+      "time": "00:17:14.146",
+      "ms": 1034146,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51811,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51811|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.443
+    },
+    {
+      "line": 223,
+      "time": "00:17:14.154",
+      "ms": 1034154,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51810,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51810|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.451
+    },
+    {
+      "line": 224,
+      "time": "00:17:14.160",
+      "ms": 1034160,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51809,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51809|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.457
+    },
+    {
+      "line": 225,
+      "time": "00:17:14.167",
+      "ms": 1034167,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51808,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51808|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 18.464
+    },
+    {
+      "line": 229,
+      "time": "00:17:20.326",
+      "ms": 1040326,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51844,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51844|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 24.623
+    },
+    {
+      "line": 230,
+      "time": "00:17:20.333",
+      "ms": 1040333,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51833,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51833|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 24.63
+    },
+    {
+      "line": 231,
+      "time": "00:17:20.340",
+      "ms": 1040340,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51832,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51832|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 24.637
+    },
+    {
+      "line": 233,
+      "time": "00:17:26.226",
+      "ms": 1046226,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "192.168.40.7",
+      "local_port": 51858,
+      "remote": "104.18.32.47",
+      "remote_port": 443,
+      "state": "Established",
+      "endpoint": "104.18.32.47:443",
+      "tuple_key": "codex.exe|56004|192.168.40.7|51858|104.18.32.47|443",
+      "nearest_marker": "00:16:55.703",
+      "marker_offset_seconds": 30.523
+    }
+  ],
+  "excluded_rows": [
+    {
+      "line": 2,
+      "time": "00:09:01.794",
+      "ms": 541794,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 62022,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 4,
+      "time": "00:09:04.489",
+      "ms": 544489,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 53049,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 14,
+      "time": "00:11:30.160",
+      "ms": 690160,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "0.0.0.0",
+      "local_port": 60486,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 19,
+      "time": "00:13:33.182",
+      "ms": 813182,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 59915,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 20,
+      "time": "00:13:33.191",
+      "ms": 813191,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 52757,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 21,
+      "time": "00:13:33.198",
+      "ms": 813198,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 49364,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 30,
+      "time": "00:13:49.687",
+      "ms": 829687,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 59945,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 36,
+      "time": "00:13:49.703",
+      "ms": 829703,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 57224,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 39,
+      "time": "00:13:55.210",
+      "ms": 835210,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 62109,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 47,
+      "time": "00:13:55.226",
+      "ms": 835226,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 61369,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 51,
+      "time": "00:14:15.211",
+      "ms": 855211,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 49702,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 60,
+      "time": "00:14:23.199",
+      "ms": 863199,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 57191,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 68,
+      "time": "00:14:35.489",
+      "ms": 875489,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 64756,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 74,
+      "time": "00:14:35.506",
+      "ms": 875506,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 63166,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 75,
+      "time": "00:14:35.512",
+      "ms": 875512,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 57669,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 80,
+      "time": "00:14:38.240",
+      "ms": 878240,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 53148,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 82,
+      "time": "00:14:45.008",
+      "ms": 885008,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 57292,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 96,
+      "time": "00:15:01.441",
+      "ms": 901441,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 64729,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 105,
+      "time": "00:15:01.458",
+      "ms": 901458,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 58626,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 106,
+      "time": "00:15:01.463",
+      "ms": 901463,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 51734,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 107,
+      "time": "00:15:01.470",
+      "ms": 901470,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 49704,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 116,
+      "time": "00:15:27.136",
+      "ms": 927136,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 57743,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 123,
+      "time": "00:15:35.293",
+      "ms": 935293,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "0.0.0.0",
+      "local_port": 50182,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 125,
+      "time": "00:15:36.635",
+      "ms": 936635,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 50183,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 127,
+      "time": "00:15:42.033",
+      "ms": 942033,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 56393,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 129,
+      "time": "00:15:46.150",
+      "ms": 946150,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 60497,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 130,
+      "time": "00:15:46.158",
+      "ms": 946158,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 60495,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 133,
+      "time": "00:15:48.882",
+      "ms": 948882,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 60501,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 135,
+      "time": "00:15:50.244",
+      "ms": 950244,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 58521,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 136,
+      "time": "00:15:50.253",
+      "ms": 950253,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 50060,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 144,
+      "time": "00:15:51.644",
+      "ms": 951644,
+      "process": "chrome.exe",
+      "pid": 30064,
+      "local": "0.0.0.0",
+      "local_port": 64848,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 146,
+      "time": "00:16:00.155",
+      "ms": 960155,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 49356,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 148,
+      "time": "00:16:30.654",
+      "ms": 990654,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "0.0.0.0",
+      "local_port": 60814,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 150,
+      "time": "00:16:37.514",
+      "ms": 997514,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 60818,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 152,
+      "time": "00:16:41.603",
+      "ms": 1001603,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 60822,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 154,
+      "time": "00:16:52.510",
+      "ms": 1012510,
+      "process": "ChatGPT.exe",
+      "pid": 3868,
+      "local": "0.0.0.0",
+      "local_port": 61925,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 162,
+      "time": "00:16:55.303",
+      "ms": 1015303,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61941,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 163,
+      "time": "00:16:55.312",
+      "ms": 1015312,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61936,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 164,
+      "time": "00:16:55.319",
+      "ms": 1015319,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61935,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 165,
+      "time": "00:16:55.326",
+      "ms": 1015326,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61934,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 166,
+      "time": "00:16:55.332",
+      "ms": 1015332,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61933,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 169,
+      "time": "00:16:55.347",
+      "ms": 1015347,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61932,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 170,
+      "time": "00:16:55.354",
+      "ms": 1015354,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61931,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 171,
+      "time": "00:16:55.361",
+      "ms": 1015361,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61930,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 172,
+      "time": "00:16:55.367",
+      "ms": 1015367,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61929,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 185,
+      "time": "00:16:58.269",
+      "ms": 1018269,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61945,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 187,
+      "time": "00:16:59.665",
+      "ms": 1019665,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61954,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 188,
+      "time": "00:16:59.674",
+      "ms": 1019674,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61949,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 189,
+      "time": "00:16:59.681",
+      "ms": 1019681,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61948,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 190,
+      "time": "00:16:59.689",
+      "ms": 1019689,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61946,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 199,
+      "time": "00:17:01.122",
+      "ms": 1021122,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61961,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 201,
+      "time": "00:17:02.532",
+      "ms": 1022532,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 61972,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 203,
+      "time": "00:17:14.036",
+      "ms": 1034036,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51821,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 204,
+      "time": "00:17:14.043",
+      "ms": 1034043,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51815,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 205,
+      "time": "00:17:14.051",
+      "ms": 1034051,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51814,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 206,
+      "time": "00:17:14.057",
+      "ms": 1034057,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51813,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 207,
+      "time": "00:17:14.063",
+      "ms": 1034063,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51812,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 210,
+      "time": "00:17:14.076",
+      "ms": 1034076,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51811,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 211,
+      "time": "00:17:14.081",
+      "ms": 1034081,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51810,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 212,
+      "time": "00:17:14.087",
+      "ms": 1034087,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51809,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 213,
+      "time": "00:17:14.095",
+      "ms": 1034095,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51808,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 226,
+      "time": "00:17:20.304",
+      "ms": 1040304,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51844,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 227,
+      "time": "00:17:20.314",
+      "ms": 1040314,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51833,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 228,
+      "time": "00:17:20.320",
+      "ms": 1040320,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51832,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    },
+    {
+      "line": 232,
+      "time": "00:17:26.215",
+      "ms": 1046215,
+      "process": "codex.exe",
+      "pid": 56004,
+      "local": "0.0.0.0",
+      "local_port": 51858,
+      "remote": "0.0.0.0",
+      "remote_port": 0,
+      "state": "Bound"
+    }
+  ],
+  "marker_nearest_events": [
+    {
+      "marker": "00:09:58.185",
+      "source_line": 6,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 91.985
+        },
+        "chrome.exe": {
+          "time": "00:09:01.831",
+          "line": 3,
+          "state": "Established",
+          "offset_seconds": -56.354
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -53.688
+        }
+      }
+    },
+    {
+      "marker": "00:10:04.032",
+      "source_line": 7,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 86.138
+        },
+        "chrome.exe": {
+          "time": "00:09:01.831",
+          "line": 3,
+          "state": "Established",
+          "offset_seconds": -62.201
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -59.535
+        }
+      }
+    },
+    {
+      "marker": "00:10:42.806",
+      "source_line": 8,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 47.364
+        },
+        "chrome.exe": {
+          "time": "00:09:01.831",
+          "line": 3,
+          "state": "Established",
+          "offset_seconds": -100.975
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -98.309
+        }
+      }
+    },
+    {
+      "marker": "00:10:48.492",
+      "source_line": 9,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 41.678
+        },
+        "chrome.exe": {
+          "time": "00:09:01.831",
+          "line": 3,
+          "state": "Established",
+          "offset_seconds": -106.661
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -103.995
+        }
+      }
+    },
+    {
+      "marker": "00:11:22.716",
+      "source_line": 10,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 7.454
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 130.489
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -138.219
+        }
+      }
+    },
+    {
+      "marker": "00:11:26.546",
+      "source_line": 11,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 3.624
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 126.659
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -142.049
+        }
+      }
+    },
+    {
+      "marker": "00:11:27.843",
+      "source_line": 12,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 2.327
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 125.362
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -143.346
+        }
+      }
+    },
+    {
+      "marker": "00:11:29.122",
+      "source_line": 13,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": 1.048
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 124.083
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -144.625
+        }
+      }
+    },
+    {
+      "marker": "00:11:30.428",
+      "source_line": 16,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": -0.258
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 122.777
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -145.931
+        }
+      }
+    },
+    {
+      "marker": "00:11:42.991",
+      "source_line": 17,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": -12.821
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 110.214
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -158.494
+        }
+      }
+    },
+    {
+      "marker": "00:11:53.850",
+      "source_line": 18,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:11:30.170",
+          "line": 15,
+          "state": "Established",
+          "offset_seconds": -23.68
+        },
+        "chrome.exe": {
+          "time": "00:13:33.205",
+          "line": 22,
+          "state": "Established",
+          "offset_seconds": 99.355
+        },
+        "codex.exe": {
+          "time": "00:09:04.497",
+          "line": 5,
+          "state": "Established",
+          "offset_seconds": -169.353
+        }
+      }
+    },
+    {
+      "marker": "00:14:14.166",
+      "source_line": 50,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 81.137
+        },
+        "chrome.exe": {
+          "time": "00:14:15.229",
+          "line": 58,
+          "state": "Established",
+          "offset_seconds": 1.063
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 82.479
+        }
+      }
+    },
+    {
+      "marker": "00:14:16.798",
+      "source_line": 59,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 78.505
+        },
+        "chrome.exe": {
+          "time": "00:14:15.229",
+          "line": 58,
+          "state": "Established",
+          "offset_seconds": -1.569
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 79.847
+        }
+      }
+    },
+    {
+      "marker": "00:14:34.387",
+      "source_line": 67,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 60.916
+        },
+        "chrome.exe": {
+          "time": "00:14:35.519",
+          "line": 76,
+          "state": "Established",
+          "offset_seconds": 1.132
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 62.258
+        }
+      }
+    },
+    {
+      "marker": "00:14:37.128",
+      "source_line": 79,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 58.175
+        },
+        "chrome.exe": {
+          "time": "00:14:38.250",
+          "line": 81,
+          "state": "Established",
+          "offset_seconds": 1.122
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 59.517
+        }
+      }
+    },
+    {
+      "marker": "00:14:54.930",
+      "source_line": 93,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 40.373
+        },
+        "chrome.exe": {
+          "time": "00:15:01.476",
+          "line": 108,
+          "state": "Established",
+          "offset_seconds": 6.546
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 41.715
+        }
+      }
+    },
+    {
+      "marker": "00:14:59.006",
+      "source_line": 94,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 36.297
+        },
+        "chrome.exe": {
+          "time": "00:15:01.476",
+          "line": 108,
+          "state": "Established",
+          "offset_seconds": 2.47
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 37.639
+        }
+      }
+    },
+    {
+      "marker": "00:15:00.342",
+      "source_line": 95,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 34.961
+        },
+        "chrome.exe": {
+          "time": "00:15:01.476",
+          "line": 108,
+          "state": "Established",
+          "offset_seconds": 1.134
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 36.303
+        }
+      }
+    },
+    {
+      "marker": "00:15:01.763",
+      "source_line": 112,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 33.54
+        },
+        "chrome.exe": {
+          "time": "00:15:01.495",
+          "line": 111,
+          "state": "Established",
+          "offset_seconds": -0.268
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 34.882
+        }
+      }
+    },
+    {
+      "marker": "00:15:03.137",
+      "source_line": 113,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 32.166
+        },
+        "chrome.exe": {
+          "time": "00:15:01.495",
+          "line": 111,
+          "state": "Established",
+          "offset_seconds": -1.642
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 33.508
+        }
+      }
+    },
+    {
+      "marker": "00:15:15.287",
+      "source_line": 114,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 20.016
+        },
+        "chrome.exe": {
+          "time": "00:15:27.148",
+          "line": 117,
+          "state": "Established",
+          "offset_seconds": 11.861
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 21.358
+        }
+      }
+    },
+    {
+      "marker": "00:15:20.610",
+      "source_line": 115,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:15:35.303",
+          "line": 124,
+          "state": "Established",
+          "offset_seconds": 14.693
+        },
+        "chrome.exe": {
+          "time": "00:15:27.148",
+          "line": 117,
+          "state": "Established",
+          "offset_seconds": 6.538
+        },
+        "codex.exe": {
+          "time": "00:15:36.645",
+          "line": 126,
+          "state": "Established",
+          "offset_seconds": 16.035
+        }
+      }
+    },
+    {
+      "marker": "00:16:52.791",
+      "source_line": 161,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:16:52.519",
+          "line": 155,
+          "state": "Established",
+          "offset_seconds": -0.272
+        },
+        "chrome.exe": {
+          "time": "00:15:51.653",
+          "line": 145,
+          "state": "Established",
+          "offset_seconds": -61.138
+        },
+        "codex.exe": {
+          "time": "00:16:55.373",
+          "line": 173,
+          "state": "Established",
+          "offset_seconds": 2.582
+        }
+      }
+    },
+    {
+      "marker": "00:16:55.703",
+      "source_line": 184,
+      "nearest": {
+        "ChatGPT.exe": {
+          "time": "00:16:52.519",
+          "line": 155,
+          "state": "Established",
+          "offset_seconds": -3.184
+        },
+        "chrome.exe": {
+          "time": "00:15:51.653",
+          "line": 145,
+          "state": "Established",
+          "offset_seconds": -64.05
+        },
+        "codex.exe": {
+          "time": "00:16:55.434",
+          "line": 183,
+          "state": "Established",
+          "offset_seconds": -0.269
+        }
+      }
+    }
+  ],
+  "burst_windows": [
+    {
+      "start": "00:16:55.373",
+      "end": "00:16:58.278",
+      "count": 10,
+      "states": {
+        "Established": 9,
+        "SynSent": 1
+      },
+      "span_seconds": 2.905,
+      "nearest_marker_to_start": "00:16:55.703",
+      "start_offset_seconds": -0.33,
+      "lines": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        180,
+        181,
+        182,
+        183,
+        186
+      ]
+    },
+    {
+      "start": "00:16:58.278",
+      "end": "00:17:01.130",
+      "count": 6,
+      "states": {
+        "SynSent": 1,
+        "Established": 5
+      },
+      "span_seconds": 2.852,
+      "nearest_marker_to_start": "00:16:55.703",
+      "start_offset_seconds": 2.575,
+      "lines": [
+        186,
+        193,
+        194,
+        195,
+        196,
+        200
+      ]
+    },
+    {
+      "start": "00:16:59.701",
+      "end": "00:17:02.542",
+      "count": 6,
+      "states": {
+        "Established": 6
+      },
+      "span_seconds": 2.841,
+      "nearest_marker_to_start": "00:16:55.703",
+      "start_offset_seconds": 3.998,
+      "lines": [
+        193,
+        194,
+        195,
+        196,
+        200,
+        202
+      ]
+    },
+    {
+      "start": "00:17:14.100",
+      "end": "00:17:14.167",
+      "count": 10,
+      "states": {
+        "SynSent": 1,
+        "FinWait1": 1,
+        "Established": 8
+      },
+      "span_seconds": 0.067,
+      "nearest_marker_to_start": "00:16:55.703",
+      "start_offset_seconds": 18.397,
+      "lines": [
+        214,
+        215,
+        216,
+        217,
+        218,
+        221,
+        222,
+        223,
+        224,
+        225
+      ]
+    }
+  ],
+  "source": {
+    "name": "Pasted text.txt",
+    "bytes": 14689,
+    "sha256": "3ba7b0833ab195ed5913584c7c15c47ff38b15603749765ca81ba610c085c482",
+    "first": "00:09:01.794",
+    "last": "00:17:26.226",
+    "duration_seconds": 504.432,
+    "clock": "Displayed clock; no date or UTC offset in attachment.",
+    "conversation_id": "6aade996-c7e4-83ea-9084-31bda23062cf"
+  },
+  "methods": {
+    "tuple_key": "casefold(process), PID, local address, local port, remote address, remote port; state excluded from identity and retained as an observed field; process start unavailable in attachment",
+    "exclude": "State Bound AND remote_address=0.0.0.0 AND remote_port=0",
+    "burst": "At each retained NEW timestamp t: count unique tuples for same process/PID and endpoint in closed interval [t-3s,t]; threshold >=5",
+    "fanout": "At each retained NEW timestamp t: count distinct remote IP:port for same process/PID in closed interval [t-30s,t]; threshold >=3",
+    "nearest_marker": "Minimize absolute displayed-time difference; signed offset=event time-marker time; earlier marker wins any tie",
+    "alert_audit": "Use displayed alert timestamp and preceding retained NEW rows; Analyze-NewConnection timestamps are not available",
+    "overlap": "Rolling windows overlap; counts must not be summed as independent events"
+  }
+}
