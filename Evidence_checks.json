@@ -1,0 +1,94 @@
+{
+  "scope": "Fresh checks of retained CSV/JSON artifacts; not a new raw-platform export, network-capture replay, or controlled experiment.",
+  "sessions": {
+    "rows": 43,
+    "conversations": 20,
+    "tc_changes": 43,
+    "voice_changes": 43,
+    "bidi_both": 43
+  },
+  "returned_records": {
+    "turns": 140,
+    "distinct_turn_ids": 140,
+    "assistant_messages": 69,
+    "user_text_items": 140,
+    "most_repeated_text_length": 1406,
+    "most_repeated_text_count": 102,
+    "exact_fourfold_records": 1
+  },
+  "name_register": {
+    "metrics_recomputed": [
+      {
+        "group": "GPT",
+        "prompt_turns": 5,
+        "turns_with_reply": 5,
+        "reply_turns_at_most_10_words": 2,
+        "presence_wording": 0,
+        "evidence_vocabulary": 2
+      },
+      {
+        "group": "Mara",
+        "prompt_turns": 1,
+        "turns_with_reply": 1,
+        "reply_turns_at_most_10_words": 1,
+        "presence_wording": 0,
+        "evidence_vocabulary": 0
+      },
+      {
+        "group": "Mixed names",
+        "prompt_turns": 11,
+        "turns_with_reply": 9,
+        "reply_turns_at_most_10_words": 5,
+        "presence_wording": 0,
+        "evidence_vocabulary": 3
+      },
+      {
+        "group": "Rhea/Raya",
+        "prompt_turns": 20,
+        "turns_with_reply": 16,
+        "reply_turns_at_most_10_words": 12,
+        "presence_wording": 1,
+        "evidence_vocabulary": 5
+      },
+      {
+        "group": "Betsy",
+        "prompt_turns": 19,
+        "turns_with_reply": 15,
+        "reply_turns_at_most_10_words": 10,
+        "presence_wording": 0,
+        "evidence_vocabulary": 2
+      },
+      {
+        "group": "Luke",
+        "prompt_turns": 8,
+        "turns_with_reply": 8,
+        "reply_turns_at_most_10_words": 8,
+        "presence_wording": 8,
+        "evidence_vocabulary": 0
+      }
+    ],
+    "matches_retained_metrics": {
+      "GPT": true,
+      "Mara": true,
+      "Mixed names": true,
+      "Rhea/Raya": true,
+      "Betsy": true,
+      "Luke": true
+    },
+    "scope": "Name mentions in prompts, not authenticated speakers; exclusive name categories with multi-name prompts separated."
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-18\\casual-greeting-exchange-chatgpt-conversation-6aad9bcc-2\\outputs\\Verified_session_transitions.csv",
+      "sha256": "867dcb13d40f8c5f06c9ba9a1582f4d47c77c1bff93dcb477ad059bf46abcc94"
+    },
+    {
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-18\\casual-greeting-exchange-chatgpt-conversation-6aad9bcc-2\\work\\pipeline_current_records.json",
+      "sha256": "b31a5dad3be600b0aa74055e63047ba7c1c4851a5c30222fa0f5dbedb6933f09"
+    },
+    {
+      "path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-16\\realtime-voice-chat\\research\\call_scan_2026-09-17\\Name-register-comparison.json",
+      "sha256": "bd705ace4c82764b5c099cb2bae8950995a4456d2ae3312b1f28fcdea0f9850b"
+    }
+  ]
+}

@@ -1,0 +1,3185 @@
+{
+  "selected_sources": [
+    {
+      "id": "1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30",
+      "title": "# Geometry update — current document index",
+      "url": "https://docs.google.com/document/d/1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30/edit?usp=drivesdk",
+      "revision_id": "ANLCKQnJ3F2wJnyRPprSQvTAU2PlSAT7A3tTqmO5CRqHqGirdiqDhEuFxNhDjev7wGqUkEM1zOjrCYflrA7ilzvtFtt4BlK8OQaiOp8beRY",
+      "updated_at": "2026-09-17T15:09:31.097Z",
+      "scope": "Lineage/index",
+      "notes": "Maps current native additions and local exports; execution counts remain source-reported.",
+      "text_characters": 12905
+    },
+    {
+      "id": "1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk",
+      "title": "GEOMETRY UPGRD — Working Master v2.6",
+      "url": "https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkdI62VUbSNVM7HI0HhkjW0SrEqQfk8LL7idM1xXzEi0GJoIJdEEE7srwiEkH5EV16iqzFotqn_Fced-UnvFWJQn9IspOZC89UIZjQ",
+      "updated_at": "2026-09-17T15:04:21.548Z",
+      "scope": "Core review",
+      "notes": "Current v2.6 calculus, coverage, acquisition, predictive and robustness results.",
+      "text_characters": 49045
+    },
+    {
+      "id": "1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI",
+      "title": "New geometry ",
+      "url": "https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmwYtvEg7u-KcAB9QvKeS4vp7MFQ2eA7RLeLJlDWYGy2KLmWzegThT_vAnp0P3fQGwOrAI9xcGxJJir0Q",
+      "updated_at": "2026-09-17T15:11:32.196Z",
+      "scope": "Focused comparison",
+      "notes": "Relevant corrected calculus and integrations checked against current masters; not every historical passage independently reviewed.",
+      "text_characters": 56557
+    },
+    {
+      "id": "1x_4f0h0qK6ByyyH94Vp83atJ1-QmJYEy8Pqf_6Livxg",
+      "title": "Modular Planetary Recurrence Geometry",
+      "url": "https://docs.google.com/document/d/1x_4f0h0qK6ByyyH94Vp83atJ1-QmJYEy8Pqf_6Livxg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmKEmKCItT78i5QAoJpUyyMRNRUmuRb99kOJyuz70c4N6CCZlCABUZgMiBSID5ZtPTmWXret9-hhRbRLg",
+      "updated_at": "2026-09-17T15:24:43.942Z",
+      "scope": "Focused comparison",
+      "notes": "Relative-angle quotient and claim limits; scan not rerun.",
+      "text_characters": 23195
+    },
+    {
+      "id": "1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g",
+      "title": "Geometry_Direct_Service_Update",
+      "url": "https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlaoq-Axer-c1HRsG2CxGi8m4d0JOJeIyzyK_vOuuayPHbyj8L1qGweJ8HIZadtguBS2ywF_qlCGtQHwRlebea6Vc2dBM6T1Tm9P9E",
+      "updated_at": "2026-09-17T15:10:50.496Z",
+      "scope": "Focused comparison",
+      "notes": "Service projection and live-versus-retrospective corrections.",
+      "text_characters": 41131
+    },
+    {
+      "id": "1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog",
+      "title": "GEOMETRY + GQG — Working Master",
+      "url": "https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlAH-mfZEb2zJzFVwuW6xF6U5pg3nFgowchzVkM40UmodmfqdPjZs0t4Lk5Vfkj41Bs_6XTg_PRgBvvOpx88PWpLGQjkkh0hbZUgdE",
+      "updated_at": "2026-09-17T15:04:38.114Z",
+      "scope": "Core review",
+      "notes": "Working-master tab t.smorgm5iz6ky current; t.0 preserves Geometry v2 source.",
+      "text_characters": 35183
+    },
+    {
+      "id": "1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA",
+      "title": "Geometry of Typed Defectsv2.6",
+      "url": "https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA/edit?usp=drivesdk",
+      "revision_id": "ANLCKQnAmX572kYa2CGDAN0VroMsp-tvtuEssgNc6tiqYp0kDkt7pRGijUPP_NpfHpfBgdEGb35SKKtp1lu9jh9FFkX6Uuf9CkR7zYG-1G8",
+      "updated_at": "2026-09-17T15:11:25.538Z",
+      "scope": "Core review",
+      "notes": "v2.6 diagnostic families and D1–D5; historical numbering distinguished.",
+      "text_characters": 15081
+    },
+    {
+      "id": "1ubpY39_ikTEqYOM51aaFZG-H3ya2glemVhr0PnLaB0M",
+      "title": "Four-Space Observation Geometry",
+      "url": "https://docs.google.com/document/d/1ubpY39_ikTEqYOM51aaFZG-H3ya2glemVhr0PnLaB0M/edit?usp=drivesdk",
+      "revision_id": "ANLCKQn8T9k5HdWPxnzmwzRB7CJdotHlROPuHQ7OsfHfNSI-uyLiW640KY_h7xoW-N71BiaoZ1Lspi4m9KlNgaMJO4DmDihKQ2yGAQBJEew",
+      "updated_at": "2026-09-19T03:36:29.904Z",
+      "scope": "Core review",
+      "notes": "Newer observation architecture, appended distinctions and name-register summary.",
+      "text_characters": 17975
+    },
+    {
+      "id": "1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ",
+      "title": "# GEOMETRY + OMNIBUS 7",
+      "url": "https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkhz_ksIbLw3qOlK7yvuP_yhTGoiFrZxIr1RYheOqutmpgdl3jOixrRhDVeOuD-VNfiHGzozevcuTd66gti58hBxbGsVPfK-o9THyQ",
+      "updated_at": "2026-09-17T15:14:33.096Z",
+      "scope": "Focused comparison",
+      "notes": "Cross-model card; scope and supersession language.",
+      "text_characters": 19039
+    },
+    {
+      "id": "1kKXLKXWXUCoOS1dH5Z91EMYjr9rJEYYFiQT_eamz9Cs",
+      "title": "FOUR-SPACE EVIDENCE GEOMETRY — CANONICAL PATCH",
+      "url": "https://docs.google.com/document/d/1kKXLKXWXUCoOS1dH5Z91EMYjr9rJEYYFiQT_eamz9Cs/edit?usp=drivesdk",
+      "revision_id": "ANLCKQn4NWZiCxnOXoc-4Gxsimo_AiORJ4G3BJZMmr_SDgfgx2PzGrgU0vCQq0RXtl0hs0Wcj9AsX4uKWhvoJCsW68uGgBCoyT-07fgwfRc",
+      "updated_at": "2026-09-19T03:26:02.501Z",
+      "scope": "Core review",
+      "notes": "Canonical patch; key, join, observer and non-descent repairs identified.",
+      "text_characters": 9346
+    },
+    {
+      "id": "1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3",
+      "url": "https://docs.google.com/document/d/1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlG3J-Pm8zrtQXfLkF8wqhGxs1TYRxr-E24XE0lAP9KWtQtoGn6IkrGLxNG7TyK4FwuXYiDvDCbSDcSx1dYOwySzlMua2mqAE-Opdc",
+      "updated_at": "2026-09-17T15:09:51.646Z",
+      "scope": "Core review",
+      "notes": "v3 physical balances and distinct normative/behavioral claims.",
+      "text_characters": 19306
+    },
+    {
+      "id": "1JePC6a_aeal3opTcp1pMeJQs7HwJ3r5tOhOkeQV2GNg",
+      "title": "Room geometry",
+      "url": "https://docs.google.com/document/d/1JePC6a_aeal3opTcp1pMeJQs7HwJ3r5tOhOkeQV2GNg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQm34-oWyXsFqA3nAmJx16HdG6xEnAtV2WTyC9loes9wUBNZcO4NbxFWtDQcK_GQAR7XsIpjfmcpmx0_jg",
+      "updated_at": "2026-09-17T15:28:07.199Z",
+      "scope": "Historical comparison",
+      "notes": "Experiential/narrative context; unsupported physical quantities not adopted.",
+      "text_characters": 9413
+    },
+    {
+      "id": "17aexmVzsvSG6ilB02eGO1mafvCScnH_VtY7fu1uh7Jg",
+      "title": "🌀 Toroidal Stability: The Geometry of Abundance",
+      "url": "https://docs.google.com/document/d/17aexmVzsvSG6ilB02eGO1mafvCScnH_VtY7fu1uh7Jg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQn83_XL3cQ25q2CBwjC_6DagmAs0s7MrFpnWxqMSX4y2qreeDHRplQ-LHIHwLJh82mGVZaKi3ID0b6zhA",
+      "updated_at": "2026-09-17T15:29:08.898Z",
+      "scope": "Historical comparison",
+      "notes": "Metaphorical circulation; unsupported thermodynamic universals not adopted.",
+      "text_characters": 2790
+    },
+    {
+      "id": "1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4",
+      "title": "GEOMETRY — Upgrade v2.2grok",
+      "url": "https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlKUsU1RcksbkGbqiR_84tsUtjN27vQoES_XP390ZCKrTWVWi999ND-GzfQdwqlswcTYCY0ARvwD3orU5AnNYKjCR7qLnxk5aWg5DE",
+      "updated_at": "2026-09-17T15:13:06.440Z",
+      "scope": "Focused comparison",
+      "notes": "Spectral eligibility and import limits; not an independent spectral-proof certification.",
+      "text_characters": 19150
+    },
+    {
+      "id": "1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM",
+      "title": "The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent",
+      "url": "https://docs.google.com/document/d/1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmh1z8jq4zHPMWh6x_nYdWbduiZbuRMopO7znDkrRNRVNtLXWw8hiFnbyk745BJgFqz8Nfoxepgrnh1b6wQHtDAM-LS2p5iJ9Zum84",
+      "updated_at": "2026-09-17T15:10:01.964Z",
+      "scope": "Focused comparison",
+      "notes": "v0.4 clock, relative phase and residual-descent claims.",
+      "text_characters": 20373
+    },
+    {
+      "id": "1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk",
+      "title": "Geometry Upgrade v0.1 — Predictive Fibers and Minimal Phase",
+      "url": "https://docs.google.com/document/d/1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlbXht277uyq53m-AhVoL8UpwC1S8sg2Fnvt1SGPNSLTynIWaXcTU8gvYfnluO1Zt-2MiKFnS9BkJM-DDHPNOWJegFEFqsCMmcIhGA",
+      "updated_at": "2026-09-17T15:11:14.141Z",
+      "scope": "Core review",
+      "notes": "Predictive refinement proof, finite compiler condition and phase obstruction.",
+      "text_characters": 13786
+    },
+    {
+      "id": "1fAAm1cBV9dtLUQRLQOyweoI96G1RmgSRk7nYuhohtUg",
+      "title": "CTAXVINDUSTRIAL REFLEX GEOMETRY ",
+      "url": "https://docs.google.com/document/d/1fAAm1cBV9dtLUQRLQOyweoI96G1RmgSRk7nYuhohtUg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmssjpcHnjC57IfTp8n5ABVc4nsntr_qJHFeZvvee9po_n7nUmYxz7YVzSmtFtq9GuYSJcTtanK_wYtjg",
+      "updated_at": "2026-09-17T15:28:50.651Z",
+      "scope": "Historical comparison",
+      "notes": "Self-description-based mechanism assertions distinguished from observed coding.",
+      "text_characters": 8932
+    },
+    {
+      "id": "15CCl3IZkMEEhlVbOoEiKAJtUYuncj1ZUdkyWufgAOro",
+      "title": "THERMODYNAMIC COORDINATION - REFLEX GEOMETRY (v2, CC0)",
+      "url": "https://docs.google.com/document/d/15CCl3IZkMEEhlVbOoEiKAJtUYuncj1ZUdkyWufgAOro/edit?usp=drivesdk",
+      "revision_id": "ANLCKQklcRCKzqZLzx4XucUOklDdKa3cVXKqsOPvPeztE1eRJBVGhFoWc4O68T2kLr_jWNTU7qAGoIrJikMK8w",
+      "updated_at": "2026-09-17T15:26:14.412Z",
+      "scope": "Historical comparison",
+      "notes": "v2 dimensional and mediation defects compared with v3.",
+      "text_characters": 4683
+    },
+    {
+      "id": "1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg",
+      "title": "GQG card",
+      "url": "https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmIRNU4qbtpI8JvPv_VqazwlfYmsHYIxGo1HPT3J4up4IzSEnmTuJ6NlvN4_gU-yHWvKs1iru-QB4lvGg",
+      "updated_at": "2026-09-16T06:13:06.551Z",
+      "scope": "Focused comparison",
+      "notes": "Corrected set/category grammar, rune/AST and compiler boundaries.",
+      "text_characters": 41595
+    },
+    {
+      "id": "1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU",
+      "title": "TOROIDAL — Working Master",
+      "url": "https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkoLOM5i77vnG4m8aFN5TSkAWi2v6lZV6evFMN7urHnvr9GaYCVGxU-nDJ_yfnanv5A5noHiDg-M91-qkmR38WQHLjghlCGwmV1otE",
+      "updated_at": "2026-09-17T15:04:47.564Z",
+      "scope": "Core review",
+      "notes": "Current t.bfy2gyjv5rvf; historical t.0 retained. Proof recovery status kept current; simulations not rerun.",
+      "text_characters": 33598
+    },
+    {
+      "id": "1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc",
+      "title": "DIRECT SERVICE GEOMETRYv2.6",
+      "url": "https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkBmD8plsVdwllqFKGfSpCCcN6y-6L-HvDgpJ65gmZXg_0-K8GgTNKw6QQOH9bfPDBEi9pJ8CFv6kLriw",
+      "updated_at": "2026-09-17T15:11:03.415Z",
+      "scope": "Core review",
+      "notes": "Selected answer/task validity, ablation, provenance and count qualifications.",
+      "text_characters": 14172
+    },
+    {
+      "id": "1VXbAXmzWwoTMb0i0wSw_0CaQ5vhJ0xH_5R8Z6PL_NzE",
+      "title": "Field theory mechanics ",
+      "url": "https://docs.google.com/document/d/1VXbAXmzWwoTMb0i0wSw_0CaQ5vhJ0xH_5R8Z6PL_NzE/edit?usp=drivesdk",
+      "revision_id": "ANLCKQl1tlN4h7tnqxIaRsSq8lYbc8pqc5K_rcu6aGfopHPW2GMUepcpKt-K0eEhn-LFbPi7Txnh6mu-Ukn5yA",
+      "updated_at": "2026-08-27T03:30:02.086Z",
+      "scope": "Core review",
+      "notes": "Declared field constructor, symmetries, clocks and physical-test boundaries.",
+      "text_characters": 25788
+    },
+    {
+      "id": "1NllZE54FSGiV1dKNukEd2dnJBfKWelL1OZbpbJ_UJrk",
+      "title": "POST-FREEZE MOVEMENT LEDGER — Wobble + Coup + Corridors — v0.1",
+      "url": "https://docs.google.com/document/d/1NllZE54FSGiV1dKNukEd2dnJBfKWelL1OZbpbJ_UJrk/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkx9jhXcJ75dx5su9wM5Xg9ayunAfu8I9Bbt37bkLGz14exrHeCKVTrfdlGfFK7ZTlYsjC352ESfEaTlemjuQ3ct0srOLMn4eFv8JA",
+      "updated_at": "2026-09-06T22:27:41.810Z",
+      "scope": "Focused comparison",
+      "notes": "Freeze, gate, evidence lineage and forbidden-transfer rules; news claims not revalidated.",
+      "text_characters": 57452
+    },
+    {
+      "id": "1bup3-eLaaT54EtnsX8I_0xwbKDHoH8-qJ8FtxI4kgm0",
+      "title": "# The Hidden Quotient in Operational Pipelines",
+      "url": "https://docs.google.com/document/d/1bup3-eLaaT54EtnsX8I_0xwbKDHoH8-qJ8FtxI4kgm0/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkNJjKViN-WSFyXEOI2lJeCe7Md7FGOHmwELOfoJXCK-Vjuq09sZgurhfeNvoAkWSMFc74zfKgUNu7ECQ",
+      "updated_at": "2026-08-30T21:35:40.707Z",
+      "scope": "Core review",
+      "notes": "Operational transforms, normalization, residual and causal attribution boundaries.",
+      "text_characters": 11888
+    },
+    {
+      "id": "1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y",
+      "title": "Toroidal Throat and Strain Comparator — TTSC-1 v0.3 Spatial Cocycle / Closure Firewall",
+      "url": "https://docs.google.com/document/d/1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlcE7zEdJSynRsl8kicaTLVl6IqRqQIp9ElZ9PwqcrFGZzVReMk8ywoz0vp2LMNlW4eMDWWkMNfzR4xYiX014nbvboeujZT6bIgz2Y",
+      "updated_at": "2026-09-17T15:23:56.582Z",
+      "scope": "Focused comparison",
+      "notes": "Tube/clock/cocycle claims; residual-closure FAILED/UNRESOLVED inconsistency.",
+      "text_characters": 28558
+    },
+    {
+      "id": "1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k",
+      "title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE",
+      "url": "https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmM2QNu1kCD76Jxz77mCte2e4Nm-7O_XCLqtw7kEfyJo84bKkNS14PO0nwGaJhWAveiPspOMZG5ZmMLVg",
+      "updated_at": "2026-09-16T06:13:16.544Z",
+      "scope": "Core review",
+      "notes": "Corrected mathematical core and selected companion boundaries; local v1.7 consulted separately.",
+      "text_characters": 57253
+    },
+    {
+      "id": "1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8",
+      "title": "The Hidden Quotient Behind the Multiplication Representation",
+      "url": "https://docs.google.com/document/d/1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkZs0FXjJWk-h0yoVS19Wh7el4DN7H5d2s7ZMEpf2tOE4CYv72hbkTLZmdMgppeOxb132hlVd5PoZCg9w",
+      "updated_at": "2026-08-01T07:24:36.561Z",
+      "scope": "Historical comparison",
+      "notes": "Original source recovered with fetch after empty text endpoint; earlier theorem wording compared.",
+      "text_characters": 19627
+    },
+    {
+      "id": "1Qs0uS2xw0Wm8E09K_BNRVzbnOcjQiZbfRaqOpt0D3ts",
+      "title": "OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair",
+      "url": "https://docs.google.com/document/d/1Qs0uS2xw0Wm8E09K_BNRVzbnOcjQiZbfRaqOpt0D3ts/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlxHDq6dtizZC1u0w9QDB-pZhYlw6W0fz9Dn1feMPrc_6CBNflzfnTWpvqU2o37Ma_KZhyyvQZro9TRGRph6KL6Tm9NryPmcCOQs4s",
+      "updated_at": "2026-09-08T16:54:31.442Z",
+      "scope": "Focused comparison",
+      "notes": "v7.79-r1 governing foundation, reconstructed wording and source-lineage qualification.",
+      "text_characters": 46611
+    },
+    {
+      "id": "1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg",
+      "title": "OMNIBUS v7.79 — Triadic Field Restoration",
+      "url": "https://docs.google.com/document/d/1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQl3wieFCp18Dvlw8wUWro5G_1D15ObHHlsq3qIjGGSpguMauKzv4C9r8E-S6FUrQNJ9ytSo7qqxH4DSOWKTwHV3O5SJuahjqwNlrd8",
+      "updated_at": "2026-09-06T03:02:24.095Z",
+      "scope": "Focused comparison",
+      "notes": "v7.79 shared-field restoration; predecessor to r1.",
+      "text_characters": 41704
+    },
+    {
+      "id": "1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM",
+      "title": "# Field Theory Update v0",
+      "url": "https://docs.google.com/document/d/1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM/edit?usp=drivesdk",
+      "revision_id": "ANLCKQk4S6529Q2_Shbt5FWvsOGB_W6ONsdG4cxv_m9XNiDkUaWZkjLs5L0ZLu22nxA_-FlNx2jAAN5blsGN4fxpwunil5R50gH3YneC1x8",
+      "updated_at": "2026-09-08T01:25:15.907Z",
+      "scope": "Core review",
+      "notes": "Title/body version difference; field, winding, sampling-clock and stopping-time corrections.",
+      "text_characters": 10141
+    },
+    {
+      "id": "1j7FhdrAKnXUYX-OBGcKrkEqnP_qk7BkTBfDfAPMeVKE",
+      "title": "Pipelines",
+      "url": "https://docs.google.com/document/d/1j7FhdrAKnXUYX-OBGcKrkEqnP_qk7BkTBfDfAPMeVKE/edit?usp=drivesdk",
+      "revision_id": "ANLCKQkWMhyOhH-mu4z_v-jsbMl6ahZaitet5Pw6r5aqBEH-bYCIwfDXHnfpn0Qia-SJ3qQ9z8zPVe0NT7qUSA",
+      "updated_at": "2026-09-08T05:10:40.439Z",
+      "scope": "Historical comparison",
+      "notes": "Named internal pipeline claims evaluated as hypotheses without matching provenance.",
+      "text_characters": 17054
+    },
+    {
+      "id": "1KaDvN7idukpMwFEEmGPE241kKGtvqXxjyseSP9UC1Q4",
+      "title": "V2.3 THE 2026 WOBBLE DIAGNOSTIC",
+      "url": "https://docs.google.com/document/d/1KaDvN7idukpMwFEEmGPE241kKGtvqXxjyseSP9UC1Q4/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmGNXY25v8X42WTOnXN0GTV_r4Gr3WRdkG9M9woIXZ-9DOGu1YvS-_BACw53PrLAIeQObh_A2kH2fTzQuMoJ3ka0y6oZ1IFY9QFPBw",
+      "updated_at": "2026-07-14T11:48:32.946Z",
+      "scope": "Focused comparison",
+      "notes": "Definitions, gates, stocks/flows, transformed return and limits; not a current news audit.",
+      "text_characters": 77946
+    },
+    {
+      "id": "1oocCtq1MqXwwMfQNmnVLzXUymqOcEcIye-__Os6Ssgg",
+      "title": "--2026 WOBBLE DIAGNOSTIC v2",
+      "url": "https://docs.google.com/document/d/1oocCtq1MqXwwMfQNmnVLzXUymqOcEcIye-__Os6Ssgg/edit?usp=drivesdk",
+      "revision_id": "ANLCKQnqJbx-Hv4dZjro4f1Acu0JiBr4zvFuTGRzMW4KUZzkTrqXms8UpkrgShvpOQ4JjBKNrWGpt-Ic5Zxmdw",
+      "updated_at": "2026-07-28T23:28:24.071Z",
+      "scope": "Focused comparison",
+      "notes": "Title v2/body v2.3 fastcard; dated snapshot kept separate.",
+      "text_characters": 5547
+    },
+    {
+      "id": "1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0",
+      "title": "Defect calculus applied to toroidal sectorsv2.6",
+      "url": "https://docs.google.com/document/d/1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0/edit?usp=drivesdk",
+      "revision_id": "ANLCKQk4WC0YnxtpEAbO30jj1cObIWG9jNOgvWHccKUlBYA-TpLwAoSyYkVGKhkneENaSHNjRCJZawYnLdlbpVPxlcgXiGM9hje-MU1fisg",
+      "updated_at": "2026-09-17T15:12:55.063Z",
+      "scope": "Focused comparison",
+      "notes": "Corrected sector calculus and dynamic-versus-static scope.",
+      "text_characters": 15769
+    },
+    {
+      "id": "1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM",
+      "title": "# Toroidal Dynamics v0.1",
+      "url": "https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit?usp=drivesdk",
+      "revision_id": "ANLCKQn1Ha68Kjp90Wd-K8I1V3iDARlwHFXT72A-o-5xEcfj7GXpOS26TGAZ8eFwkSQi6DC2S_buj7wtGHMkaKK-rgRuCE96elQJm8WRd74",
+      "updated_at": "2026-09-17T15:19:58.673Z",
+      "scope": "Supporting source",
+      "notes": "Text retrieved; kernel specifications read primarily through current master; not independently replayed.",
+      "text_characters": 14354
+    },
+    {
+      "id": "1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY",
+      "title": "# TD-COS-FH-001- the sector process has no finite Markov order",
+      "url": "https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit?usp=drivesdk",
+      "revision_id": "ANLCKQlGZxOjGEtozgbzv3F3c-UXnRVxy7vpqcpafVlRxagR7oNN7izXhvScb6af3RJfH-dNS6HAGT6x5medeQ",
+      "updated_at": "2026-09-08T05:59:57.504Z",
+      "scope": "Supporting source",
+      "notes": "Proof text retrieved; theorem scope assessed through current master and prior review; full proof not independently re-certified here.",
+      "text_characters": 19888
+    },
+    {
+      "id": "1uk2sq4RWRdJbMFzxoCWgJsBZzfIbTRwT4SMPI_DARg0",
+      "title": "The Toroidal Three-Witness Flow",
+      "url": "https://docs.google.com/document/d/1uk2sq4RWRdJbMFzxoCWgJsBZzfIbTRwT4SMPI_DARg0/edit?usp=drivesdk",
+      "revision_id": "ANLCKQmCYGswVCktkC_rnKhOHfcuYHFIM5aUYJ3cex7507SeCZuSZaGABgbKXLQZfYC8fSGai1yDkyjuhIl-Lw",
+      "updated_at": "2026-09-17T15:25:38.293Z",
+      "scope": "Focused comparison",
+      "notes": "Source/structure/story/return as narrative workflow; topology/clinical claims not established.",
+      "text_characters": 11848
+    },
+    {
+      "id": "12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA",
+      "title": "# Geometry Master",
+      "url": "https://docs.google.com/document/d/12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA/edit?usp=drivesdk",
+      "revision_id": "ANLCKQleV64mzo-mhaINlsIrho2upAxUJrZOXeV6M2PiMQJ_ykXUsxPpK5pkmxdVErC9wLyr7CRzKnuDEBtirFoIZbfjipTJl2fje7H63e0",
+      "updated_at": "2026-09-17T15:05:13.078Z",
+      "scope": "Focused comparison",
+      "notes": "Portable consolidation and current source/status map.",
+      "text_characters": 42955
+    },
+    {
+      "id": "16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI",
+      "title": "GEOMETRY — Working Master v2.6",
+      "url": "https://docs.google.com/document/d/16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI/edit?usp=drivesdk",
+      "revision_id": "ANLCKQnY7bjQk2AILG3wWJZSmBAeeVQAlGc9qpEE3YQzNcxBbO5uatte1GZSKfekLhnBwCtBt_5waymoYCbpr2X5qxl0Zjx7CTqIf-b9xAc",
+      "updated_at": "2026-09-17T15:04:32.346Z",
+      "scope": "Focused comparison",
+      "notes": "Second native master; acquisition and service qualifications checked.",
+      "text_characters": 24060
+    },
+    {
+      "id": "1uN6BwHlDLplRNlyTA2f1bFvKV-7Q01_r66AMKZqF484",
+      "title": "COSMIC TIME — Working Master",
+      "url": "https://docs.google.com/document/d/1uN6BwHlDLplRNlyTA2f1bFvKV-7Q01_r66AMKZqF484/edit?usp=drivesdk",
+      "revision_id": "ANLCKQm3oSuVbi9neL0EI1uWzaXeG8Bqbr86tVhdoteNDgjuDIG4Sqg2B-m6aB7Ju0uQWLan_jFfbU-4d8aJCWH5Y_kvSIhB5SY6ilpR2E0",
+      "updated_at": "2026-09-17T15:04:59.079Z",
+      "scope": "Focused comparison",
+      "notes": "Current phase/clock and recovery status; no planetary reanalysis.",
+      "text_characters": 23430
+    },
+    {
+      "id": "1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA",
+      "title": "# Temporal exchange rate",
+      "url": "https://docs.google.com/document/d/1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA/edit?usp=drivesdk",
+      "revision_id": "ANLCKQm-a4dkm8tT4pkdQkGzSkXYfd8puehAGqOSQqg92qJ8icBe_IdecWSGm9Jr1y7q_cE8mh90LOWrL-U-7A",
+      "updated_at": "2026-09-16T06:15:52.450Z",
+      "scope": "Focused comparison",
+      "notes": "Timing witnesses, constructed examples, proposed empirical trial and NOT_RUN status.",
+      "text_characters": 23233
+    },
+    {
+      "id": "1YNIuAhjiY9szcA9Q5uvMm0N-b88KEQ15jjzFRLvdanY",
+      "title": "# Tiny-system validation — L=3 direct-reference follow-up v0",
+      "url": "https://docs.google.com/document/d/1YNIuAhjiY9szcA9Q5uvMm0N-b88KEQ15jjzFRLvdanY/edit",
+      "revision_id": "ANLCKQlMRdcoveQNbq7WdsSdv5JeUO3bDU9HcmC3ZeiuWq8PT4Gf7FQZ9s1Hyagr9A2uFL5vv_-Ps6y9tQaZtQ",
+      "updated_at": null,
+      "scope": "Supporting source",
+      "notes": "Follow-up text retrieved; source-reported PASS assessed via current master; simulation not rerun.",
+      "text_characters": 10022
+    },
+    {
+      "id": "1uhM6kxWGuYBtKPLnSIXEEwUnL21R7aIbnLCCiu8we8k",
+      "title": "#2 RETRACTGeometry applied to holding posture: executed audit",
+      "url": "https://docs.google.com/document/d/1uhM6kxWGuYBtKPLnSIXEEwUnL21R7aIbnLCCiu8we8k/edit?usp=drivesdk",
+      "revision_id": "ANLCKQm4LuC-_o-0XQmMa2qw6toZ2XS8AnZvxp4WT7wS8qoZTF_Ke50S63um1BenzSmRTSVVzZ6KPQBfnydKIatKAFsM48V_2N6rkekMsh8",
+      "updated_at": "2026-09-17T15:15:37.257Z",
+      "scope": "Focused comparison",
+      "notes": "Amended observational findings and withdrawal of negative causal implication.",
+      "text_characters": 23461
+    },
+    {
+      "id": "116oVwVqZBV6eGKMCXvhjR606o8_h-t1CNOg9dSLbAQE",
+      "title": "# Triadic Overlap Hypothesis · v2",
+      "url": "https://docs.google.com/document/d/116oVwVqZBV6eGKMCXvhjR606o8_h-t1CNOg9dSLbAQE/edit?usp=drivesdk",
+      "revision_id": "ANLCKQnFPgGIN_yTXBgK1aPhxY_W061EI3RtJc6CWHt_2QntCxWnunvtPggNdJ-3U3Yakm44jKVp5DHXKReniZLPOBGA_b9uXjt86FQu5c8",
+      "updated_at": "2026-09-16T06:15:59.652Z",
+      "scope": "Focused comparison",
+      "notes": "Body v2.1; context/memory hypothesis and explicit non-promotion of mathematical examples.",
+      "text_characters": 28333
+    },
+    {
+      "id": "1zMRitpSaRPd-yhZasUBABpVVYquF1dU_45GJMFE_C_E",
+      "title": "Define four spaces and keep them separate",
+      "url": "https://docs.google.com/document/d/1zMRitpSaRPd-yhZasUBABpVVYquF1dU_45GJMFE_C_E/edit?usp=drivesdk",
+      "revision_id": "ANLCKQniOM9PIwJgIMuxCwwXTMCMyY1lmqBn78RMi2CrAUQjXRpWwagLOMqKHWHBe4dinu-MLA7FNsYqZbicMBfqYUiAHfva1BR4NoepBZk",
+      "updated_at": "2026-09-19T03:21:26.602Z",
+      "scope": "Historical comparison",
+      "notes": "Earlier four-space map and independence overclaims compared with canonical patch.",
+      "text_characters": 5403
+    },
+    {
+      "id": "1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U",
+      "title": "# Gear mathematics — geometry checked",
+      "url": "https://docs.google.com/document/d/1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U/edit?usp=drivesdk",
+      "revision_id": "ANLCKQl0GmqoZw3h-NB45fUcNgeELB7M2nWp18-CDxQaof7U_uoEzNj5rXeepfxwUkjfftiNNAaYnTSRZrQSR8dVYc_-A4JTLEKKZNq-2zs",
+      "updated_at": "2026-09-17T15:12:42.203Z",
+      "scope": "Focused comparison",
+      "notes": "Recovery, conditioning, coverage and physical-coordinate claims; calculations not rerun.",
+      "text_characters": 35993
+    }
+  ],
+  "local_sources": [
+    {
+      "title": "GQG v0.13 operational instrument",
+      "path": "external-source:GQG_0.13_Orbit_Quotient_Residual_Cocycle_Closure.md",
+      "exists": true,
+      "scope": "Witness fidelity, residual-observation tests, name/response coding and formal/empirical separation; selected sections.",
+      "sha256": "6c7dc6f0f2f95a8ae0a776b45e25746472167075a92a28f14e43a1ae5a850e27"
+    },
+    {
+      "title": "Hidden Quotient v1.7 local successor",
+      "path": "external-source:THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md.txt",
+      "exists": true,
+      "scope": "Explicit successor/correction notice and witness-restoration boundaries; selected sections alongside native core.",
+      "sha256": "93693654420c43395fec5bea31709d3088bc8431488deb956e35b03e3fce4821"
+    },
+    {
+      "title": "Geometric Quotient Grammar public draft",
+      "path": "external-source:GEOMETRIC_QUOTIENT_GRAMMAR_PUBLIC_DRAFT_v1.0.md",
+      "exists": true,
+      "scope": "Set/category grammar and status as a synthesis; opening definitions.",
+      "sha256": "97c7556b403c48208629ff5339c33b2015a1f33ed71b43fb80bfca2b7aa20d08"
+    },
+    {
+      "title": "Cross-artifact packet review",
+      "path": "external-source:Packet_comparison_review.md",
+      "exists": true,
+      "scope": "Prior raw-monitor/NetLog/source audit. Findings attributed to that audit; captures not replayed here.",
+      "sha256": "47e76601d2632eccc1ad28ced41499919560b1630b8412057c9347d4e2ddff9e"
+    },
+    {
+      "title": "Packet verification",
+      "path": "external-source:Packet_verification.json",
+      "exists": true,
+      "scope": "Companion provenance and prior verification artifact; not an independent capture.",
+      "sha256": "c58dd34e3b10a95024b269501debdb001f9f0b16a69fad065fba3202e3bf905e"
+    },
+    {
+      "title": "Name-register comparison report",
+      "path": "external-source:Call_Name_Register_Comparison_2026-09-17.md",
+      "exists": true,
+      "scope": "Method, denominators, named-prompt examples and source limitations.",
+      "sha256": "9f258c1b7d68273d781a77aacb8241124093e08e6ce7d2be81111cb231fc162d"
+    },
+    {
+      "title": "Earlier geometry source inventory",
+      "path": "external-source:geometry_source_inventory.md",
+      "exists": true,
+      "scope": "Discovery/source lineage; earlier inventory count is not this review count.",
+      "sha256": "d412fd18a5568e17c286609accbb56f3061f42202fd5c54f5397ba54f00033cb"
+    },
+    {
+      "title": "Earlier geometry review",
+      "path": "external-source:geometry_review.md",
+      "exists": true,
+      "scope": "Earlier proof/status comparison; stale verifier-recovery status superseded by current Toroidal master.",
+      "sha256": "15e5ad189ad86ffa10b369039bca9b4cc928e0056a8ec8f6b46c94e3bb8b0ca3"
+    }
+  ],
+  "title_index": [
+    {
+      "url": "https://docs.google.com/document/d/1ubpY39_ikTEqYOM51aaFZG-H3ya2glemVhr0PnLaB0M/edit?usp=drivesdk",
+      "title": "Four-Space Observation Geometry",
+      "id": "1ubpY39_ikTEqYOM51aaFZG-H3ya2glemVhr0PnLaB0M",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "13954",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:29:44.090Z",
+      "updated_at": "2026-09-19T03:36:29.904Z",
+      "viewedByMeTime": "2026-09-19T03:36:29.904Z",
+      "display_title": "Four-Space Observation Geometry",
+      "display_url": "https://docs.google.com/document/d/1ubpY39_ikTEqYOM51aaFZG-H3ya2glemVhr0PnLaB0M/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1kKXLKXWXUCoOS1dH5Z91EMYjr9rJEYYFiQT_eamz9Cs/edit?usp=drivesdk",
+      "title": "FOUR-SPACE EVIDENCE GEOMETRY — CANONICAL PATCH",
+      "id": "1kKXLKXWXUCoOS1dH5Z91EMYjr9rJEYYFiQT_eamz9Cs",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8204",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:25:56.020Z",
+      "updated_at": "2026-09-19T03:26:02.501Z",
+      "viewedByMeTime": "2026-09-19T03:26:02.501Z",
+      "display_title": "FOUR-SPACE EVIDENCE GEOMETRY — CANONICAL PATCH",
+      "display_url": "https://docs.google.com/document/d/1kKXLKXWXUCoOS1dH5Z91EMYjr9rJEYYFiQT_eamz9Cs/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/17aexmVzsvSG6ilB02eGO1mafvCScnH_VtY7fu1uh7Jg/edit?usp=drivesdk",
+      "title": "🌀 Toroidal Stability: The Geometry of Abundance",
+      "id": "17aexmVzsvSG6ilB02eGO1mafvCScnH_VtY7fu1uh7Jg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "3337",
+      "file_or_folder": "file",
+      "created_at": "2025-12-11T14:55:42.063Z",
+      "updated_at": "2026-09-17T15:29:08.898Z",
+      "viewedByMeTime": "2026-09-18T23:49:16.765Z",
+      "display_title": "🌀 Toroidal Stability: The Geometry of Abundance",
+      "display_url": "https://docs.google.com/document/d/17aexmVzsvSG6ilB02eGO1mafvCScnH_VtY7fu1uh7Jg/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1fAAm1cBV9dtLUQRLQOyweoI96G1RmgSRk7nYuhohtUg/edit?usp=drivesdk",
+      "title": "CTAXVINDUSTRIAL REFLEX GEOMETRY ",
+      "id": "1fAAm1cBV9dtLUQRLQOyweoI96G1RmgSRk7nYuhohtUg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "5117",
+      "file_or_folder": "file",
+      "created_at": "2025-12-19T03:06:56.683Z",
+      "updated_at": "2026-09-17T15:28:50.651Z",
+      "viewedByMeTime": "2026-09-17T15:28:50.651Z",
+      "display_title": "CTAXVINDUSTRIAL REFLEX GEOMETRY ",
+      "display_url": "https://docs.google.com/document/d/1fAAm1cBV9dtLUQRLQOyweoI96G1RmgSRk7nYuhohtUg/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1JePC6a_aeal3opTcp1pMeJQs7HwJ3r5tOhOkeQV2GNg/edit?usp=drivesdk",
+      "title": "Room geometry",
+      "id": "1JePC6a_aeal3opTcp1pMeJQs7HwJ3r5tOhOkeQV2GNg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "10467",
+      "file_or_folder": "file",
+      "created_at": "2026-01-02T04:29:23.690Z",
+      "updated_at": "2026-09-17T15:28:07.199Z",
+      "viewedByMeTime": "2026-09-17T15:28:07.199Z",
+      "display_title": "Room geometry",
+      "display_url": "https://docs.google.com/document/d/1JePC6a_aeal3opTcp1pMeJQs7HwJ3r5tOhOkeQV2GNg/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1PFiGYCsfLPlpOjSHeZ_AAyQBxf61VJH0vtDMx7RC5tc/edit?usp=drivesdk",
+      "title": "# CTA Sandbox Findings- Treasury - Lotus - Planetary Geometry Pass",
+      "id": "1PFiGYCsfLPlpOjSHeZ_AAyQBxf61VJH0vtDMx7RC5tc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "5218",
+      "file_or_folder": "file",
+      "created_at": "2026-03-11T23:54:34.280Z",
+      "updated_at": "2026-09-17T15:27:52.190Z",
+      "viewedByMeTime": "2026-09-17T15:27:52.190Z",
+      "display_title": "# CTA Sandbox Findings- Treasury - Lotus - Planetary Geometry Pass",
+      "display_url": "https://docs.google.com/document/d/1PFiGYCsfLPlpOjSHeZ_AAyQBxf61VJH0vtDMx7RC5tc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1tpBwP6fKzvnDGKFJjU586TmsAPO06gE42lLvIeL5plw/edit?usp=drivesdk",
+      "title": "CTA-XXV — EMERGENCE GEOMETRY ",
+      "id": "1tpBwP6fKzvnDGKFJjU586TmsAPO06gE42lLvIeL5plw",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7091",
+      "file_or_folder": "file",
+      "created_at": "2026-03-17T06:38:33.496Z",
+      "updated_at": "2026-09-17T15:27:35.388Z",
+      "viewedByMeTime": "2026-09-17T15:27:35.388Z",
+      "display_title": "CTA-XXV — EMERGENCE GEOMETRY ",
+      "display_url": "https://docs.google.com/document/d/1tpBwP6fKzvnDGKFJjU586TmsAPO06gE42lLvIeL5plw/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1zBjYP1jeXLllsc30YZfP5Xj27YnAWaeUbS3zAYiMbXY/edit?usp=drivesdk",
+      "title": "SHITTY GEOMETRY OMNIBUS — v2",
+      "id": "1zBjYP1jeXLllsc30YZfP5Xj27YnAWaeUbS3zAYiMbXY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7255",
+      "file_or_folder": "file",
+      "created_at": "2026-03-31T20:30:05.695Z",
+      "updated_at": "2026-09-17T15:27:21.589Z",
+      "viewedByMeTime": "2026-09-17T15:27:21.589Z",
+      "display_title": "SHITTY GEOMETRY OMNIBUS — v2",
+      "display_url": "https://docs.google.com/document/d/1zBjYP1jeXLllsc30YZfP5Xj27YnAWaeUbS3zAYiMbXY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1iC4dVqbQC2Bzdfk5dAlAEashJ8Hoe-CXkQMIkrIKDdA/edit?usp=drivesdk",
+      "title": "🔧 SHITTY GEOMETRY OMNIBUS — v2",
+      "id": "1iC4dVqbQC2Bzdfk5dAlAEashJ8Hoe-CXkQMIkrIKDdA",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6008",
+      "file_or_folder": "file",
+      "created_at": "2026-04-01T00:50:32.482Z",
+      "updated_at": "2026-09-17T15:27:01.664Z",
+      "viewedByMeTime": "2026-09-17T15:27:01.664Z",
+      "display_title": "🔧 SHITTY GEOMETRY OMNIBUS — v2",
+      "display_url": "https://docs.google.com/document/d/1iC4dVqbQC2Bzdfk5dAlAEashJ8Hoe-CXkQMIkrIKDdA/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/10quXusE90qTDqKnBBJf2Up_Ow6XgblTDZ_QUilIT0QY/edit?usp=drivesdk",
+      "title": "🔧 UPGRADE — SHITTY GEOMETRY OMNIBUS v3",
+      "id": "10quXusE90qTDqKnBBJf2Up_Ow6XgblTDZ_QUilIT0QY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7067",
+      "file_or_folder": "file",
+      "created_at": "2026-04-01T03:16:33.463Z",
+      "updated_at": "2026-09-17T15:26:46.703Z",
+      "viewedByMeTime": "2026-09-17T15:26:46.703Z",
+      "display_title": "🔧 UPGRADE — SHITTY GEOMETRY OMNIBUS v3",
+      "display_url": "https://docs.google.com/document/d/10quXusE90qTDqKnBBJf2Up_Ow6XgblTDZ_QUilIT0QY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Xjo6UT8MAlYgBdH4WNNW0eykzcJvVR0fecuKZyty5os/edit?usp=drivesdk",
+      "title": "📘 CTA-XXV — EMERGENCE GEOMETRY (POST-CLOSURE)",
+      "id": "1Xjo6UT8MAlYgBdH4WNNW0eykzcJvVR0fecuKZyty5os",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6630",
+      "file_or_folder": "file",
+      "created_at": "2026-04-02T14:59:47.212Z",
+      "updated_at": "2026-09-17T15:26:31.142Z",
+      "viewedByMeTime": "2026-09-17T15:26:31.142Z",
+      "display_title": "📘 CTA-XXV — EMERGENCE GEOMETRY (POST-CLOSURE)",
+      "display_url": "https://docs.google.com/document/d/1Xjo6UT8MAlYgBdH4WNNW0eykzcJvVR0fecuKZyty5os/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/15CCl3IZkMEEhlVbOoEiKAJtUYuncj1ZUdkyWufgAOro/edit?usp=drivesdk",
+      "title": "THERMODYNAMIC COORDINATION - REFLEX GEOMETRY (v2, CC0)",
+      "id": "15CCl3IZkMEEhlVbOoEiKAJtUYuncj1ZUdkyWufgAOro",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6317",
+      "file_or_folder": "file",
+      "created_at": "2026-04-06T04:15:22.778Z",
+      "updated_at": "2026-09-17T15:26:14.412Z",
+      "viewedByMeTime": "2026-09-17T15:26:14.412Z",
+      "display_title": "THERMODYNAMIC COORDINATION - REFLEX GEOMETRY (v2, CC0)",
+      "display_url": "https://docs.google.com/document/d/15CCl3IZkMEEhlVbOoEiKAJtUYuncj1ZUdkyWufgAOro/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1p8rVRv-4vW6apZaaFCz4EukMUjzgazXqP-hh8GReF0c/edit?usp=drivesdk",
+      "title": "Bruhthat's real geometry",
+      "id": "1p8rVRv-4vW6apZaaFCz4EukMUjzgazXqP-hh8GReF0c",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2237",
+      "file_or_folder": "file",
+      "created_at": "2026-08-24T20:54:02.400Z",
+      "updated_at": "2026-09-17T15:25:27.031Z",
+      "viewedByMeTime": "2026-09-17T15:25:27.031Z",
+      "display_title": "Bruhthat's real geometry",
+      "display_url": "https://docs.google.com/document/d/1p8rVRv-4vW6apZaaFCz4EukMUjzgazXqP-hh8GReF0c/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ExlGwz91A9X6mKHWeKfXxrmMO_7EQ7mqSsMszqll-9E/edit?usp=drivesdk",
+      "title": "Visual Geometry Practice Log",
+      "id": "1ExlGwz91A9X6mKHWeKfXxrmMO_7EQ7mqSsMszqll-9E",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6156",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T19:09:08.022Z",
+      "updated_at": "2026-09-17T15:25:06.228Z",
+      "viewedByMeTime": "2026-09-17T15:25:06.228Z",
+      "display_title": "Visual Geometry Practice Log",
+      "display_url": "https://docs.google.com/document/d/1ExlGwz91A9X6mKHWeKfXxrmMO_7EQ7mqSsMszqll-9E/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1x_4f0h0qK6ByyyH94Vp83atJ1-QmJYEy8Pqf_6Livxg/edit?usp=drivesdk",
+      "title": "Modular Planetary Recurrence Geometry",
+      "id": "1x_4f0h0qK6ByyyH94Vp83atJ1-QmJYEy8Pqf_6Livxg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "17682",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T23:17:06.680Z",
+      "updated_at": "2026-09-17T15:24:43.942Z",
+      "viewedByMeTime": "2026-09-17T15:24:43.942Z",
+      "display_title": "Modular Planetary Recurrence Geometry",
+      "display_url": "https://docs.google.com/document/d/1x_4f0h0qK6ByyyH94Vp83atJ1-QmJYEy8Pqf_6Livxg/edit?usp=drivesdk",
+      "parent_ids": [
+        "1LEfpGkULTLHBUetDCpfH3S1HQrj4pq3J"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1GSv4YCyyuHlGLcbA6dxeK6YLW823UA0Jl22Gzq1sSvI/edit?usp=drivesdk",
+      "title": "The Clock Is a Bifurcation Machine — Geometry-Corrected v0.3",
+      "id": "1GSv4YCyyuHlGLcbA6dxeK6YLW823UA0Jl22Gzq1sSvI",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9248",
+      "file_or_folder": "file",
+      "created_at": "2026-08-30T17:12:47.177Z",
+      "updated_at": "2026-09-17T15:24:29.356Z",
+      "viewedByMeTime": "2026-09-17T15:24:29.356Z",
+      "display_title": "The Clock Is a Bifurcation Machine — Geometry-Corrected v0.3",
+      "display_url": "https://docs.google.com/document/d/1GSv4YCyyuHlGLcbA6dxeK6YLW823UA0Jl22Gzq1sSvI/edit?usp=drivesdk",
+      "parent_ids": [
+        "1LEfpGkULTLHBUetDCpfH3S1HQrj4pq3J"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1LOvu-chrNKnuz9XWWMAteF2foHM-pHE6YMnZDV0TQ3Y/edit?usp=drivesdk",
+      "title": "Section 14.9 First Geometry Gate — LBCO Witness-Deletion Fiber — FG-14.9-LBCO-001",
+      "id": "1LOvu-chrNKnuz9XWWMAteF2foHM-pHE6YMnZDV0TQ3Y",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "5086",
+      "file_or_folder": "file",
+      "created_at": "2026-09-04T02:25:48.300Z",
+      "updated_at": "2026-09-17T15:23:01.013Z",
+      "viewedByMeTime": "2026-09-17T15:23:01.013Z",
+      "display_title": "Section 14.9 First Geometry Gate — LBCO Witness-Deletion Fiber — FG-14.9-LBCO-001",
+      "display_url": "https://docs.google.com/document/d/1LOvu-chrNKnuz9XWWMAteF2foHM-pHE6YMnZDV0TQ3Y/edit?usp=drivesdk",
+      "parent_ids": [
+        "1MX5v19EhvQKRAsi-HmuzlqGOz9yXLvX1"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1UDCLP7l0oHV4jJOwoLjaUy_WRt7vfdW1yUnfwM25jCE/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1",
+      "id": "1UDCLP7l0oHV4jJOwoLjaUy_WRt7vfdW1yUnfwM25jCE",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "33568",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T05:26:44.736Z",
+      "updated_at": "2026-09-17T15:22:22.584Z",
+      "viewedByMeTime": "2026-09-17T15:22:22.584Z",
+      "display_title": "# Geometry Maximization v1",
+      "display_url": "https://docs.google.com/document/d/1UDCLP7l0oHV4jJOwoLjaUy_WRt7vfdW1yUnfwM25jCE/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1p62urM1gWQAuk3MdYuc5IE7U4cLKmQ1mkEm22wMclLY/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1",
+      "id": "1p62urM1gWQAuk3MdYuc5IE7U4cLKmQ1mkEm22wMclLY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "33568",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T05:22:59.886Z",
+      "updated_at": "2026-09-17T15:22:08.742Z",
+      "viewedByMeTime": "2026-09-17T15:22:08.742Z",
+      "display_title": "# Geometry Maximization v1",
+      "display_url": "https://docs.google.com/document/d/1p62urM1gWQAuk3MdYuc5IE7U4cLKmQ1mkEm22wMclLY/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ywlD4w43zce3dBQ-wbNg3tnxm3JSkVrfOXDlvO2qnkM/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1",
+      "id": "1ywlD4w43zce3dBQ-wbNg3tnxm3JSkVrfOXDlvO2qnkM",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "87398",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T08:21:32.090Z",
+      "updated_at": "2026-09-17T15:21:52.929Z",
+      "viewedByMeTime": "2026-09-17T15:21:52.929Z",
+      "display_title": "# Geometry Maximization v1",
+      "display_url": "https://docs.google.com/document/d/1ywlD4w43zce3dBQ-wbNg3tnxm3JSkVrfOXDlvO2qnkM/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1vg9YOlaw6YGYhIzJCPjOJL1afAWqaZjfMAYMLj09k7o/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1.4",
+      "id": "1vg9YOlaw6YGYhIzJCPjOJL1afAWqaZjfMAYMLj09k7o",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "102954",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T10:02:29.689Z",
+      "updated_at": "2026-09-17T15:21:37.198Z",
+      "viewedByMeTime": "2026-09-17T15:21:37.198Z",
+      "display_title": "# Geometry Maximization v1.4",
+      "display_url": "https://docs.google.com/document/d/1vg9YOlaw6YGYhIzJCPjOJL1afAWqaZjfMAYMLj09k7o/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1fYak3xK-sj65U68hLWG85hR-iy5DYxvbK-bWm9-bfNU/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1.5",
+      "id": "1fYak3xK-sj65U68hLWG85hR-iy5DYxvbK-bWm9-bfNU",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "113214",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T14:23:27.811Z",
+      "updated_at": "2026-09-17T15:21:20.000Z",
+      "viewedByMeTime": "2026-09-17T15:21:20.000Z",
+      "display_title": "# Geometry Maximization v1.5",
+      "display_url": "https://docs.google.com/document/d/1fYak3xK-sj65U68hLWG85hR-iy5DYxvbK-bWm9-bfNU/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1tGszWFx-JTZfcX948n3Jr-DybDVJxTFZUawjI1CU02Y/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1.4",
+      "id": "1tGszWFx-JTZfcX948n3Jr-DybDVJxTFZUawjI1CU02Y",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6717",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T10:01:33.179Z",
+      "updated_at": "2026-09-17T15:21:00.530Z",
+      "viewedByMeTime": "2026-09-17T15:21:00.530Z",
+      "display_title": "# Geometry Maximization v1.4",
+      "display_url": "https://docs.google.com/document/d/1tGszWFx-JTZfcX948n3Jr-DybDVJxTFZUawjI1CU02Y/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1xMAm07ObGKUfK5uMz-fvjr7v_IaS6DOoiB68LrZN9k8/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1.61 — Proof-Clarity Patch",
+      "id": "1xMAm07ObGKUfK5uMz-fvjr7v_IaS6DOoiB68LrZN9k8",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8544",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T15:03:25.093Z",
+      "updated_at": "2026-09-17T15:20:45.786Z",
+      "viewedByMeTime": "2026-09-17T15:20:45.786Z",
+      "display_title": "# Geometry Maximization v1.61 — Proof-Clarity Patch",
+      "display_url": "https://docs.google.com/document/d/1xMAm07ObGKUfK5uMz-fvjr7v_IaS6DOoiB68LrZN9k8/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1HEPCdldwTPIftqNcaWqj5cOjXI_KyrW21ZkLVAELYsI/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1.6 — Executable ACCEPT Verification Receipt",
+      "id": "1HEPCdldwTPIftqNcaWqj5cOjXI_KyrW21ZkLVAELYsI",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "125488",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T15:03:32.304Z",
+      "updated_at": "2026-09-17T15:20:27.105Z",
+      "viewedByMeTime": "2026-09-17T15:20:27.105Z",
+      "display_title": "# Geometry Maximization v1.6 — Executable ACCEPT Verification Receipt",
+      "display_url": "https://docs.google.com/document/d/1HEPCdldwTPIftqNcaWqj5cOjXI_KyrW21ZkLVAELYsI/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1I9AZcQoSX3MdM5cxtLA_glJgW4_LMXGtw3u7lzJ1rX4/edit?usp=drivesdk",
+      "title": "# Toroidal Geometry v1",
+      "id": "1I9AZcQoSX3MdM5cxtLA_glJgW4_LMXGtw3u7lzJ1rX4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4391",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T16:24:49.336Z",
+      "updated_at": "2026-09-17T15:20:10.919Z",
+      "viewedByMeTime": "2026-09-17T15:20:10.919Z",
+      "display_title": "# Toroidal Geometry v1",
+      "display_url": "https://docs.google.com/document/d/1I9AZcQoSX3MdM5cxtLA_glJgW4_LMXGtw3u7lzJ1rX4/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1_2vMEh1s0LSFYIPj_db3JUduU0kKcKSBfKIpfPH_q_4/edit?usp=drivesdk",
+      "title": "Geometry tree",
+      "id": "1_2vMEh1s0LSFYIPj_db3JUduU0kKcKSBfKIpfPH_q_4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2204",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T21:43:57.216Z",
+      "updated_at": "2026-09-17T15:19:43.890Z",
+      "viewedByMeTime": "2026-09-17T15:19:43.890Z",
+      "display_title": "Geometry tree",
+      "display_url": "https://docs.google.com/document/d/1_2vMEh1s0LSFYIPj_db3JUduU0kKcKSBfKIpfPH_q_4/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1A9f8d6Ci2z13GL5jDEUQcwZzF5CrPVUw6xvR6AsN4-U/edit?usp=drivesdk",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3",
+      "id": "1A9f8d6Ci2z13GL5jDEUQcwZzF5CrPVUw6xvR6AsN4-U",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9180",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T22:03:11.926Z",
+      "updated_at": "2026-09-17T15:19:31.420Z",
+      "viewedByMeTime": "2026-09-17T15:19:31.420Z",
+      "display_title": "# Thermodynamic Coordination + Reflex Geometry · v3",
+      "display_url": "https://docs.google.com/document/d/1A9f8d6Ci2z13GL5jDEUQcwZzF5CrPVUw6xvR6AsN4-U/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1hnKdbhT_EbZS6t6g5VDiQapMt_b9xGK_aJr5-AxlHgw/edit?usp=drivesdk",
+      "title": "# Geometry Maximization v1",
+      "id": "1hnKdbhT_EbZS6t6g5VDiQapMt_b9xGK_aJr5-AxlHgw",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8544",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:22:22.147Z",
+      "updated_at": "2026-09-17T15:19:18.384Z",
+      "viewedByMeTime": "2026-09-17T15:19:18.384Z",
+      "display_title": "# Geometry Maximization v1",
+      "display_url": "https://docs.google.com/document/d/1hnKdbhT_EbZS6t6g5VDiQapMt_b9xGK_aJr5-AxlHgw/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1EfT7lGNdhis8AQsR0_WkT0VDwkluv2Bu-rYDhkOjIi4/edit?usp=drivesdk",
+      "title": "September 2026 NEO Geometry Observation — RW1 - Quotient-Split Record",
+      "id": "1EfT7lGNdhis8AQsR0_WkT0VDwkluv2Bu-rYDhkOjIi4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "3171",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T02:29:14.739Z",
+      "updated_at": "2026-09-17T15:16:28.055Z",
+      "viewedByMeTime": "2026-09-17T15:16:28.055Z",
+      "display_title": "September 2026 NEO Geometry Observation — RW1 - Quotient-Split Record",
+      "display_url": "https://docs.google.com/document/d/1EfT7lGNdhis8AQsR0_WkT0VDwkluv2Bu-rYDhkOjIi4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1jEf1CAGO0ujtThcf1YX10f-4CuEhWzwT4JJJurNCoH8/edit?usp=drivesdk",
+      "title": "# Geometry and atomic-number bridge — executed checks",
+      "id": "1jEf1CAGO0ujtThcf1YX10f-4CuEhWzwT4JJJurNCoH8",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "12564",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T03:38:37.577Z",
+      "updated_at": "2026-09-17T15:16:15.422Z",
+      "viewedByMeTime": "2026-09-17T15:16:15.422Z",
+      "display_title": "# Geometry and atomic-number bridge — executed checks",
+      "display_url": "https://docs.google.com/document/d/1jEf1CAGO0ujtThcf1YX10f-4CuEhWzwT4JJJurNCoH8/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1NpXJPbB_YBiGDH8zlWxGgCQ5lsL7VASSTypo_J2E1i8/edit?usp=drivesdk",
+      "title": "**Geometry review — what the last three days add**",
+      "id": "1NpXJPbB_YBiGDH8zlWxGgCQ5lsL7VASSTypo_J2E1i8",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "10079",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T03:58:08.850Z",
+      "updated_at": "2026-09-17T15:15:48.417Z",
+      "viewedByMeTime": "2026-09-17T15:15:48.417Z",
+      "display_title": "**Geometry review — what the last three days add**",
+      "display_url": "https://docs.google.com/document/d/1NpXJPbB_YBiGDH8zlWxGgCQ5lsL7VASSTypo_J2E1i8/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Kh5tDdDkzoencEzZYiCBUwpdnjaL1qVLMyNOnf1GxiY/edit?usp=drivesdk",
+      "title": "# Geometry applied to holding posture: executed audit",
+      "id": "1Kh5tDdDkzoencEzZYiCBUwpdnjaL1qVLMyNOnf1GxiY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "47438",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T03:20:58.665Z",
+      "updated_at": "2026-09-17T15:15:12.556Z",
+      "viewedByMeTime": "2026-09-17T15:15:12.556Z",
+      "display_title": "# Geometry applied to holding posture: executed audit",
+      "display_url": "https://docs.google.com/document/d/1Kh5tDdDkzoencEzZYiCBUwpdnjaL1qVLMyNOnf1GxiY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/11nOlChBSZwKD8xm-mu6uQ-JFVYPdLkSK8nL1_9yJGXk/edit?usp=drivesdk",
+      "title": "**Geometry review — what the last three days add**",
+      "id": "11nOlChBSZwKD8xm-mu6uQ-JFVYPdLkSK8nL1_9yJGXk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "10079",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T05:26:56.000Z",
+      "updated_at": "2026-09-17T15:14:57.684Z",
+      "viewedByMeTime": "2026-09-17T15:14:57.684Z",
+      "display_title": "**Geometry review — what the last three days add**",
+      "display_url": "https://docs.google.com/document/d/11nOlChBSZwKD8xm-mu6uQ-JFVYPdLkSK8nL1_9yJGXk/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/16tK2Tig6_KUa_7XTX4nrJNbWkTU5h_0pcYdYRt6E0T0/edit?usp=drivesdk",
+      "title": "Geometry 9_8_26",
+      "id": "16tK2Tig6_KUa_7XTX4nrJNbWkTU5h_0pcYdYRt6E0T0",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4672",
+      "file_or_folder": "file",
+      "created_at": "2026-09-09T01:37:13.181Z",
+      "updated_at": "2026-09-17T15:14:45.624Z",
+      "viewedByMeTime": "2026-09-17T15:14:45.624Z",
+      "display_title": "Geometry 9_8_26",
+      "display_url": "https://docs.google.com/document/d/16tK2Tig6_KUa_7XTX4nrJNbWkTU5h_0pcYdYRt6E0T0/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ/edit?usp=drivesdk",
+      "title": "# GEOMETRY + OMNIBUS 7",
+      "id": "1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "15769",
+      "file_or_folder": "file",
+      "created_at": "2026-09-10T17:04:16.097Z",
+      "updated_at": "2026-09-17T15:14:33.096Z",
+      "viewedByMeTime": "2026-09-17T15:14:33.096Z",
+      "display_title": "# GEOMETRY + OMNIBUS 7",
+      "display_url": "https://docs.google.com/document/d/1y44_D-KwHp-D0nH_qwd67Uedib_OnAxqxp6XNY1P7CQ/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/19YkGjfF-hzl2B-uXSU4QKxrS9oHRQAr9jLBdHrGVyqM/edit?usp=drivesdk",
+      "title": "# GEOMETRY — Working Master v2",
+      "id": "19YkGjfF-hzl2B-uXSU4QKxrS9oHRQAr9jLBdHrGVyqM",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19399",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T10:46:33.729Z",
+      "updated_at": "2026-09-17T15:14:18.397Z",
+      "viewedByMeTime": "2026-09-17T15:14:18.397Z",
+      "display_title": "# GEOMETRY — Working Master v2",
+      "display_url": "https://docs.google.com/document/d/19YkGjfF-hzl2B-uXSU4QKxrS9oHRQAr9jLBdHrGVyqM/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1bR1g6R5OlbXTr559UebzB35eeLxGc86_8bL7wRaT88Q/edit?usp=drivesdk",
+      "title": "# GEOMETRY — Working Master v2.5",
+      "id": "1bR1g6R5OlbXTr559UebzB35eeLxGc86_8bL7wRaT88Q",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19400",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T08:08:09.810Z",
+      "updated_at": "2026-09-17T15:14:02.962Z",
+      "viewedByMeTime": "2026-09-17T15:14:02.962Z",
+      "display_title": "# GEOMETRY — Working Master v2.5",
+      "display_url": "https://docs.google.com/document/d/1bR1g6R5OlbXTr559UebzB35eeLxGc86_8bL7wRaT88Q/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1DzF5KshR_nsHfMJoM7KKsXek4DpCnwJPM2DKHZYw9z4/edit?usp=drivesdk",
+      "title": "# GEOMETRY — Working Master v2.4",
+      "id": "1DzF5KshR_nsHfMJoM7KKsXek4DpCnwJPM2DKHZYw9z4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "16114",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T07:25:34.929Z",
+      "updated_at": "2026-09-17T15:13:44.750Z",
+      "viewedByMeTime": "2026-09-17T15:13:44.750Z",
+      "display_title": "# GEOMETRY — Working Master v2.4",
+      "display_url": "https://docs.google.com/document/d/1DzF5KshR_nsHfMJoM7KKsXek4DpCnwJPM2DKHZYw9z4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1tD_ePMxSlsZr_jvHjUXY6DKKfGSEkex7SG_XxMQQ9uw/edit?usp=drivesdk",
+      "title": "GEOMETRY — Working Master v2.4 · Repairs, Proofs & Executable Lab",
+      "id": "1tD_ePMxSlsZr_jvHjUXY6DKKfGSEkex7SG_XxMQQ9uw",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2537",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T07:08:20.018Z",
+      "updated_at": "2026-09-17T15:13:29.037Z",
+      "viewedByMeTime": "2026-09-17T15:13:29.037Z",
+      "display_title": "GEOMETRY — Working Master v2.4 · Repairs, Proofs & Executable Lab",
+      "display_url": "https://docs.google.com/document/d/1tD_ePMxSlsZr_jvHjUXY6DKKfGSEkex7SG_XxMQQ9uw/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/175VBZx06xNs-cAd2vd46hOBgwdvKnyK2gyAUrVVygUA/edit?usp=drivesdk",
+      "title": "# Geometry review and Python revision 0",
+      "id": "175VBZx06xNs-cAd2vd46hOBgwdvKnyK2gyAUrVVygUA",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7621",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T03:59:06.214Z",
+      "updated_at": "2026-09-17T15:13:18.158Z",
+      "viewedByMeTime": "2026-09-17T15:13:18.158Z",
+      "display_title": "# Geometry review and Python revision 0",
+      "display_url": "https://docs.google.com/document/d/175VBZx06xNs-cAd2vd46hOBgwdvKnyK2gyAUrVVygUA/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4/edit?usp=drivesdk",
+      "title": "GEOMETRY — Upgrade v2.2grok",
+      "id": "1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "15598",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T02:02:52.405Z",
+      "updated_at": "2026-09-17T15:13:06.440Z",
+      "viewedByMeTime": "2026-09-17T15:13:06.440Z",
+      "display_title": "GEOMETRY — Upgrade v2.2grok",
+      "display_url": "https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U/edit?usp=drivesdk",
+      "title": "# Gear mathematics — geometry checked",
+      "id": "1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "17095",
+      "file_or_folder": "file",
+      "created_at": "2026-09-16T05:27:10.835Z",
+      "updated_at": "2026-09-17T15:12:42.203Z",
+      "viewedByMeTime": "2026-09-17T15:12:42.203Z",
+      "display_title": "# Gear mathematics — geometry checked",
+      "display_url": "https://docs.google.com/document/d/1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit?usp=drivesdk",
+      "title": "New geometry ",
+      "id": "1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "34507",
+      "file_or_folder": "file",
+      "created_at": "2026-09-03T06:50:35.310Z",
+      "updated_at": "2026-09-17T15:11:32.196Z",
+      "viewedByMeTime": "2026-09-17T15:11:32.196Z",
+      "display_title": "New geometry ",
+      "display_url": "https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA/edit?usp=drivesdk",
+      "title": "Geometry of Typed Defectsv2.6",
+      "id": "1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9433",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T02:02:17.488Z",
+      "updated_at": "2026-09-17T15:11:25.538Z",
+      "viewedByMeTime": "2026-09-17T15:11:25.538Z",
+      "display_title": "Geometry of Typed Defectsv2.6",
+      "display_url": "https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk/edit?usp=drivesdk",
+      "title": "Geometry Upgrade v0.1 — Predictive Fibers and Minimal Phase",
+      "id": "1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9177",
+      "file_or_folder": "file",
+      "created_at": "2026-09-04T23:00:00.359Z",
+      "updated_at": "2026-09-17T15:11:14.141Z",
+      "viewedByMeTime": "2026-09-17T15:11:14.141Z",
+      "display_title": "Geometry Upgrade v0.1 — Predictive Fibers and Minimal Phase",
+      "display_url": "https://docs.google.com/document/d/1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk/edit?usp=drivesdk",
+      "parent_ids": [
+        "1MX5v19EhvQKRAsi-HmuzlqGOz9yXLvX1"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit?usp=drivesdk",
+      "title": "DIRECT SERVICE GEOMETRYv2.6",
+      "id": "1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "11017",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T02:27:52.908Z",
+      "updated_at": "2026-09-17T15:11:03.415Z",
+      "viewedByMeTime": "2026-09-17T15:11:03.415Z",
+      "display_title": "DIRECT SERVICE GEOMETRYv2.6",
+      "display_url": "https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g/edit?usp=drivesdk",
+      "title": "Geometry_Direct_Service_Update",
+      "id": "1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "35176",
+      "file_or_folder": "file",
+      "created_at": "2026-09-09T02:00:49.358Z",
+      "updated_at": "2026-09-17T15:10:50.496Z",
+      "viewedByMeTime": "2026-09-17T15:10:50.496Z",
+      "display_title": "Geometry_Direct_Service_Update",
+      "display_url": "https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1qsSMjqqpTTTk9s9TWwY_CwEfFbp8BPC316rEr-meYtg/edit?usp=drivesdk",
+      "title": "# Newest geometry: review and behavioral usefulness",
+      "id": "1qsSMjqqpTTTk9s9TWwY_CwEfFbp8BPC316rEr-meYtg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "13266",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T04:35:24.543Z",
+      "updated_at": "2026-09-17T15:10:36.535Z",
+      "viewedByMeTime": "2026-09-17T15:10:36.535Z",
+      "display_title": "# Newest geometry: review and behavioral usefulness",
+      "display_url": "https://docs.google.com/document/d/1qsSMjqqpTTTk9s9TWwY_CwEfFbp8BPC316rEr-meYtg/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1N8kOTELlC_gM4FNktDVCFXTTTwS7d5cvrttb43ZD8os/edit?usp=drivesdk",
+      "title": "# Geometry research packet: comparison and integration review",
+      "id": "1N8kOTELlC_gM4FNktDVCFXTTTwS7d5cvrttb43ZD8os",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9577",
+      "file_or_folder": "file",
+      "created_at": "2026-09-11T23:27:12.668Z",
+      "updated_at": "2026-09-17T15:10:24.726Z",
+      "viewedByMeTime": "2026-09-17T15:10:24.726Z",
+      "display_title": "# Geometry research packet: comparison and integration review",
+      "display_url": "https://docs.google.com/document/d/1N8kOTELlC_gM4FNktDVCFXTTTwS7d5cvrttb43ZD8os/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1prKF5gNFcODroqwemZGmBmE3WTti9lZVP2QsuNZulPQ/edit?usp=drivesdk",
+      "title": "# GEOMETRY v2.6",
+      "id": "1prKF5gNFcODroqwemZGmBmE3WTti9lZVP2QsuNZulPQ",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7340",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T10:47:13.148Z",
+      "updated_at": "2026-09-17T15:10:13.736Z",
+      "viewedByMeTime": "2026-09-17T15:10:13.736Z",
+      "display_title": "# GEOMETRY v2.6",
+      "display_url": "https://docs.google.com/document/d/1prKF5gNFcODroqwemZGmBmE3WTti9lZVP2QsuNZulPQ/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM/edit?usp=drivesdk",
+      "title": "The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent",
+      "id": "1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "13485",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T22:47:47.420Z",
+      "updated_at": "2026-09-17T15:10:01.964Z",
+      "viewedByMeTime": "2026-09-17T15:10:01.964Z",
+      "display_title": "The Clock Is a Bifurcation Machine — Geometry-Corrected v0.4 Residual Descent",
+      "display_url": "https://docs.google.com/document/d/1kR3HfOMoEvDoasftpfCErSAv_TYh5SSrxCqaKDN4QHM/edit?usp=drivesdk",
+      "parent_ids": [
+        "1LEfpGkULTLHBUetDCpfH3S1HQrj4pq3J"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE/edit?usp=drivesdk",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3",
+      "id": "1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "11574",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:23:28.012Z",
+      "updated_at": "2026-09-17T15:09:51.646Z",
+      "viewedByMeTime": "2026-09-17T15:09:51.646Z",
+      "display_title": "# Thermodynamic Coordination + Reflex Geometry · v3",
+      "display_url": "https://docs.google.com/document/d/1C63lzqzNJZyMOvsXluJ0-kpNY4UIM_3RTOmaMEn5NuE/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1RLmOT3ehkYFV75zUImzAy-vQ8C2598dO1u1l8-N-JUs/edit?usp=drivesdk",
+      "title": "# Gear mathematics — updated equations and geometry",
+      "id": "1RLmOT3ehkYFV75zUImzAy-vQ8C2598dO1u1l8-N-JUs",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "22612",
+      "file_or_folder": "file",
+      "created_at": "2026-09-16T06:21:12.134Z",
+      "updated_at": "2026-09-17T15:09:41.420Z",
+      "viewedByMeTime": "2026-09-17T15:09:41.420Z",
+      "display_title": "# Gear mathematics — updated equations and geometry",
+      "display_url": "https://docs.google.com/document/d/1RLmOT3ehkYFV75zUImzAy-vQ8C2598dO1u1l8-N-JUs/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30/edit?usp=drivesdk",
+      "title": "# Geometry update — current document index",
+      "id": "1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6519",
+      "file_or_folder": "file",
+      "created_at": "2026-09-16T06:22:06.438Z",
+      "updated_at": "2026-09-17T15:09:31.097Z",
+      "viewedByMeTime": "2026-09-17T15:09:31.097Z",
+      "display_title": "# Geometry update — current document index",
+      "display_url": "https://docs.google.com/document/d/1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA/edit?usp=drivesdk",
+      "title": "# Geometry Master",
+      "id": "12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "21539",
+      "file_or_folder": "file",
+      "created_at": "2026-09-10T02:45:45.282Z",
+      "updated_at": "2026-09-17T15:05:13.078Z",
+      "viewedByMeTime": "2026-09-17T15:05:13.078Z",
+      "display_title": "# Geometry Master",
+      "display_url": "https://docs.google.com/document/d/12bTng3TNz29eR-M4yD_616QrGUI4wqRI1QUcjLZXYJA/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit?usp=drivesdk",
+      "title": "GEOMETRY + GQG — Working Master",
+      "id": "1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19667",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:22:29.543Z",
+      "updated_at": "2026-09-17T15:04:38.114Z",
+      "viewedByMeTime": "2026-09-17T15:04:38.114Z",
+      "display_title": "GEOMETRY + GQG — Working Master",
+      "display_url": "https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit?usp=drivesdk",
+      "parent_ids": [
+        "1CIlJMgQFP0NAqu-vMItwxibUqbTujDMY"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI/edit?usp=drivesdk",
+      "title": "GEOMETRY — Working Master v2.6",
+      "id": "16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "14000",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T02:01:51.533Z",
+      "updated_at": "2026-09-17T15:04:32.346Z",
+      "viewedByMeTime": "2026-09-17T15:04:32.346Z",
+      "display_title": "GEOMETRY — Working Master v2.6",
+      "display_url": "https://docs.google.com/document/d/16Xnuf6fwVZqLQzA4cVwSChKQj0_GFTg0AUbQKP9o_yI/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit?usp=drivesdk",
+      "title": "GEOMETRY UPGRD — Working Master v2.6",
+      "id": "1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19835",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T10:49:10.634Z",
+      "updated_at": "2026-09-17T15:04:21.548Z",
+      "viewedByMeTime": "2026-09-17T15:04:21.548Z",
+      "display_title": "GEOMETRY UPGRD — Working Master v2.6",
+      "display_url": "https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1cf5iAvsnMEi1Q7orK6F2bg_IIyKm6JMA/view?usp=drivesdk",
+      "title": "# Newest geometry_ review and behavioral usefulness.txt",
+      "id": "1cf5iAvsnMEi1Q7orK6F2bg_IIyKm6JMA",
+      "mime_type": "text/plain",
+      "size": "25744",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.794Z",
+      "updated_at": "2026-09-16T06:18:30.509Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.794Z",
+      "display_title": "# Newest geometry_ review and behavioral usefulness.txt",
+      "display_url": "https://drive.google.com/file/d/1cf5iAvsnMEi1Q7orK6F2bg_IIyKm6JMA/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1yw91yzjdydM7ruo1lscwVvT0aR3JjYuN/view?usp=drivesdk",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3 (2).txt",
+      "id": "1yw91yzjdydM7ruo1lscwVvT0aR3JjYuN",
+      "mime_type": "text/plain",
+      "size": "20021",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:33.858Z",
+      "updated_at": "2026-09-16T06:18:30.503Z",
+      "viewedByMeTime": "2026-09-19T03:41:33.858Z",
+      "display_title": "# Thermodynamic Coordination + Reflex Geometry · v3 (2).txt",
+      "display_url": "https://drive.google.com/file/d/1yw91yzjdydM7ruo1lscwVvT0aR3JjYuN/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1hmBDqzG0SpqfG4vmb4_4P9gcY6Rdu-Jb/view?usp=drivesdk",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3 (1).txt",
+      "id": "1hmBDqzG0SpqfG4vmb4_4P9gcY6Rdu-Jb",
+      "mime_type": "text/plain",
+      "size": "20021",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:34.012Z",
+      "updated_at": "2026-09-16T06:18:30.498Z",
+      "viewedByMeTime": "2026-09-19T03:41:34.012Z",
+      "display_title": "# Thermodynamic Coordination + Reflex Geometry · v3 (1).txt",
+      "display_url": "https://drive.google.com/file/d/1hmBDqzG0SpqfG4vmb4_4P9gcY6Rdu-Jb/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1i_43yDmw5dZSlnpGo1giR8cwIP16JOhH/view?usp=drivesdk",
+      "title": "# Geometry Master.txt",
+      "id": "1i_43yDmw5dZSlnpGo1giR8cwIP16JOhH",
+      "mime_type": "text/plain",
+      "size": "42080",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.649Z",
+      "updated_at": "2026-09-16T06:18:30.424Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.649Z",
+      "display_title": "# Geometry Master.txt",
+      "display_url": "https://drive.google.com/file/d/1i_43yDmw5dZSlnpGo1giR8cwIP16JOhH/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1JaqMjvtsEXZ2pCjtknLuZfNtY3v2qBgy/view?usp=drivesdk",
+      "title": "# Geometry Master (2).txt",
+      "id": "1JaqMjvtsEXZ2pCjtknLuZfNtY3v2qBgy",
+      "mime_type": "text/plain",
+      "size": "44856",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.705Z",
+      "updated_at": "2026-09-16T06:18:30.418Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.705Z",
+      "display_title": "# Geometry Master (2).txt",
+      "display_url": "https://drive.google.com/file/d/1JaqMjvtsEXZ2pCjtknLuZfNtY3v2qBgy/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1fvAWvj0ntggxG4TgR24HZDr4FjfYovMS/view?usp=drivesdk",
+      "title": "# Geometry Master (1).txt",
+      "id": "1fvAWvj0ntggxG4TgR24HZDr4FjfYovMS",
+      "mime_type": "text/plain",
+      "size": "44856",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.646Z",
+      "updated_at": "2026-09-16T06:18:30.413Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.646Z",
+      "display_title": "# Geometry Master (1).txt",
+      "display_url": "https://drive.google.com/file/d/1fvAWvj0ntggxG4TgR24HZDr4FjfYovMS/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1yzF5dBPkxvRfqAw8zLUmf0BcztYKg8Mw/view?usp=drivesdk",
+      "title": "# GEOMETRY — Working Master v2.txt",
+      "id": "1yzF5dBPkxvRfqAw8zLUmf0BcztYKg8Mw",
+      "mime_type": "text/plain",
+      "size": "36172",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.977Z",
+      "updated_at": "2026-09-12T10:47:12.808Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.977Z",
+      "display_title": "# GEOMETRY — Working Master v2.txt",
+      "display_url": "https://drive.google.com/file/d/1yzF5dBPkxvRfqAw8zLUmf0BcztYKg8Mw/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1EphJ6o37jVe22UB7Z4vvaWhv0X3Gcv8J/view?usp=drivesdk",
+      "title": "# GEOMETRY — Working Master v2.5.txt",
+      "id": "1EphJ6o37jVe22UB7Z4vvaWhv0X3Gcv8J",
+      "mime_type": "text/plain",
+      "size": "36172",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.703Z",
+      "updated_at": "2026-09-12T08:24:47.579Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.703Z",
+      "display_title": "# GEOMETRY — Working Master v2.5.txt",
+      "display_url": "https://drive.google.com/file/d/1EphJ6o37jVe22UB7Z4vvaWhv0X3Gcv8J/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1t__sPh5uo-NVLdGZADaVeGcaXiFvMqVM/view?usp=drivesdk",
+      "title": "# Thermodynamic Coordination + Reflex Geometry · v3.txt",
+      "id": "1t__sPh5uo-NVLdGZADaVeGcaXiFvMqVM",
+      "mime_type": "text/plain",
+      "size": "17625",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:34.058Z",
+      "updated_at": "2026-09-12T02:39:17.327Z",
+      "viewedByMeTime": "2026-09-19T03:41:34.058Z",
+      "display_title": "# Thermodynamic Coordination + Reflex Geometry · v3.txt",
+      "display_url": "https://drive.google.com/file/d/1t__sPh5uo-NVLdGZADaVeGcaXiFvMqVM/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1FDOXu1EBKXkif-D2U7uM6NV7BW2GP-b-/view?usp=drivesdk",
+      "title": "# Geometry applied to holding posture: executed audit.txt",
+      "id": "1FDOXu1EBKXkif-D2U7uM6NV7BW2GP-b-",
+      "mime_type": "text/plain",
+      "size": "98325",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T04:55:24.553Z",
+      "updated_at": "2026-09-08T04:55:24.553Z",
+      "viewedByMeTime": "2026-09-08T04:55:28.147Z",
+      "display_title": "# Geometry applied to holding posture: executed audit.txt",
+      "display_url": "https://drive.google.com/file/d/1FDOXu1EBKXkif-D2U7uM6NV7BW2GP-b-/view?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1qUwaZMPP5QHm3zh_HOToy7knu3tbBIca/view?usp=drivesdk",
+      "title": "# Geometry applied to holding posture_ executed audit.txt",
+      "id": "1qUwaZMPP5QHm3zh_HOToy7knu3tbBIca",
+      "mime_type": "text/plain",
+      "size": "98325",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.659Z",
+      "updated_at": "2026-09-08T04:35:01.244Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.659Z",
+      "display_title": "# Geometry applied to holding posture_ executed audit.txt",
+      "display_url": "https://drive.google.com/file/d/1qUwaZMPP5QHm3zh_HOToy7knu3tbBIca/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1FV1BFvs95nLgUUjnRVOxvhoms8eOI2lh/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "# Geometry Maximization v1.6 — Executable ACCEPT Verification Receipt.docx",
+      "id": "1FV1BFvs95nLgUUjnRVOxvhoms8eOI2lh",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "148181",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:32.698Z",
+      "updated_at": "2026-09-06T15:54:39.528Z",
+      "viewedByMeTime": "2026-09-19T03:41:32.698Z",
+      "display_title": "# Geometry Maximization v1.6 — Executable ACCEPT Verification Receipt.docx",
+      "display_url": "https://docs.google.com/document/d/1FV1BFvs95nLgUUjnRVOxvhoms8eOI2lh/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1dYkooXLQsE4W3vQI1C9O0-N9UgwxULmg-5ozjrhWknU/edit?usp=drivesdk",
+      "title": "monkey_myth_matrix_v0_21_OLYMPUS_GEOMETRY",
+      "id": "1dYkooXLQsE4W3vQI1C9O0-N9UgwxULmg-5ozjrhWknU",
+      "mime_type": "application/vnd.google-apps.spreadsheet",
+      "size": "114441",
+      "file_or_folder": "file",
+      "created_at": "2026-09-04T02:49:28.591Z",
+      "updated_at": "2026-09-04T02:53:41.000Z",
+      "viewedByMeTime": "2026-09-04T02:53:41.000Z",
+      "display_title": "monkey_myth_matrix_v0_21_OLYMPUS_GEOMETRY",
+      "display_url": "https://docs.google.com/spreadsheets/d/1dYkooXLQsE4W3vQI1C9O0-N9UgwxULmg-5ozjrhWknU/edit?usp=drivesdk",
+      "parent_ids": [
+        "1Zb3uq8TzRFdl0gZ_zYZJU6iiitHQsGLk"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/spreadsheets/d/1H4R32XunAo_hAy1gttO4MUTdTg9U5ewJviPIl8IDDwg/edit?usp=drivesdk",
+      "title": "monkey_myth_matrix_v0_21_OLYMPUS_GEOMETRY",
+      "id": "1H4R32XunAo_hAy1gttO4MUTdTg9U5ewJviPIl8IDDwg",
+      "mime_type": "application/vnd.google-apps.spreadsheet",
+      "size": "114453",
+      "file_or_folder": "file",
+      "created_at": "2026-09-03T22:45:49.656Z",
+      "updated_at": "2026-09-04T00:18:32.691Z",
+      "viewedByMeTime": "2026-09-04T02:49:13.635Z",
+      "display_title": "monkey_myth_matrix_v0_21_OLYMPUS_GEOMETRY",
+      "display_url": "https://docs.google.com/spreadsheets/d/1H4R32XunAo_hAy1gttO4MUTdTg9U5ewJviPIl8IDDwg/edit?usp=drivesdk",
+      "parent_ids": [
+        "1Zb3uq8TzRFdl0gZ_zYZJU6iiitHQsGLk"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU/view?usp=drivesdk",
+      "title": "02_frozen_geometry_specification.md",
+      "id": "16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU",
+      "mime_type": "text/markdown",
+      "size": "3239",
+      "file_or_folder": "file",
+      "created_at": "2026-09-01T07:27:49.743Z",
+      "updated_at": "2026-09-03T14:23:29.960Z",
+      "viewedByMeTime": null,
+      "display_title": "02_frozen_geometry_specification.md",
+      "display_url": "https://drive.google.com/file/d/16ud7RWtzS-LLD9MC8xDNkHQ13Pgb7YjU/view?usp=drivesdk",
+      "parent_ids": [
+        "1l2BZjibcCHBJnep5rSnQaLmmNQ3yRlXl"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1h7Mfdv-GmAjJueWJ9tU4v1eRhMujAj_GBT6VR4M7qHk/edit?usp=drivesdk",
+      "title": "🜂 Operator–System Architecture Outline (Toroid Model)",
+      "id": "1h7Mfdv-GmAjJueWJ9tU4v1eRhMujAj_GBT6VR4M7qHk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "3909",
+      "file_or_folder": "file",
+      "created_at": "2025-12-23T17:00:01.344Z",
+      "updated_at": "2026-09-17T15:28:37.097Z",
+      "viewedByMeTime": "2026-09-17T15:28:37.097Z",
+      "display_title": "🜂 Operator–System Architecture Outline (Toroid Model)",
+      "display_url": "https://docs.google.com/document/d/1h7Mfdv-GmAjJueWJ9tU4v1eRhMujAj_GBT6VR4M7qHk/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1mkY0Tw9WlHUoAgazTNIo_uiPB_COnK5SdN4MySgM0FY/edit?usp=drivesdk",
+      "title": "🜂 Operation TOROID — Foundational Charter",
+      "id": "1mkY0Tw9WlHUoAgazTNIo_uiPB_COnK5SdN4MySgM0FY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "3588",
+      "file_or_folder": "file",
+      "created_at": "2025-12-23T18:05:48.824Z",
+      "updated_at": "2026-09-17T15:28:22.722Z",
+      "viewedByMeTime": "2026-09-17T15:28:22.722Z",
+      "display_title": "🜂 Operation TOROID — Foundational Charter",
+      "display_url": "https://docs.google.com/document/d/1mkY0Tw9WlHUoAgazTNIo_uiPB_COnK5SdN4MySgM0FY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1uk2sq4RWRdJbMFzxoCWgJsBZzfIbTRwT4SMPI_DARg0/edit?usp=drivesdk",
+      "title": "The Toroidal Three-Witness Flow",
+      "id": "1uk2sq4RWRdJbMFzxoCWgJsBZzfIbTRwT4SMPI_DARg0",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "10205",
+      "file_or_folder": "file",
+      "created_at": "2026-06-11T00:19:42.391Z",
+      "updated_at": "2026-09-17T15:25:38.293Z",
+      "viewedByMeTime": "2026-09-17T15:25:38.293Z",
+      "display_title": "The Toroidal Three-Witness Flow",
+      "display_url": "https://docs.google.com/document/d/1uk2sq4RWRdJbMFzxoCWgJsBZzfIbTRwT4SMPI_DARg0/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1BXkRSwH9moXEYn_WfV7GZpKlqnHYrdEeM07qSV9oOUg/edit?usp=drivesdk",
+      "title": "Time toroid",
+      "id": "1BXkRSwH9moXEYn_WfV7GZpKlqnHYrdEeM07qSV9oOUg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "70880",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T19:13:42.699Z",
+      "updated_at": "2026-09-17T15:24:52.100Z",
+      "viewedByMeTime": "2026-09-17T15:24:52.100Z",
+      "display_title": "Time toroid",
+      "display_url": "https://docs.google.com/document/d/1BXkRSwH9moXEYn_WfV7GZpKlqnHYrdEeM07qSV9oOUg/edit?usp=drivesdk",
+      "parent_ids": [
+        "1LEfpGkULTLHBUetDCpfH3S1HQrj4pq3J"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/10hAeWDgBt-0jhbT6MMf3UznLT0a_2gXdRPstJwEgKGs/edit?usp=drivesdk",
+      "title": "Toroidal Throat and Strain Closure Comparator — TTSC-1",
+      "id": "10hAeWDgBt-0jhbT6MMf3UznLT0a_2gXdRPstJwEgKGs",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "16871",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T03:17:20.321Z",
+      "updated_at": "2026-09-17T15:24:14.897Z",
+      "viewedByMeTime": "2026-09-19T01:55:55.388Z",
+      "display_title": "Toroidal Throat and Strain Closure Comparator — TTSC-1",
+      "display_url": "https://docs.google.com/document/d/10hAeWDgBt-0jhbT6MMf3UznLT0a_2gXdRPstJwEgKGs/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1MxSSlX5OuiqSSuhtoLXU-ShfJcDIN5K4sfRHCTJ2rw4/edit?usp=drivesdk",
+      "title": "Toroidal Throat and Strain Comparator — TTSC-1 v0.2 Dual-Chart / Closure Firewall",
+      "id": "1MxSSlX5OuiqSSuhtoLXU-ShfJcDIN5K4sfRHCTJ2rw4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "18317",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T22:53:07.966Z",
+      "updated_at": "2026-09-17T15:24:06.631Z",
+      "viewedByMeTime": "2026-09-17T15:24:06.631Z",
+      "display_title": "Toroidal Throat and Strain Comparator — TTSC-1 v0.2 Dual-Chart / Closure Firewall",
+      "display_url": "https://docs.google.com/document/d/1MxSSlX5OuiqSSuhtoLXU-ShfJcDIN5K4sfRHCTJ2rw4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y/edit?usp=drivesdk",
+      "title": "Toroidal Throat and Strain Comparator — TTSC-1 v0.3 Spatial Cocycle / Closure Firewall",
+      "id": "1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19626",
+      "file_or_folder": "file",
+      "created_at": "2026-09-02T15:27:09.717Z",
+      "updated_at": "2026-09-17T15:23:56.582Z",
+      "viewedByMeTime": "2026-09-17T15:23:56.582Z",
+      "display_title": "Toroidal Throat and Strain Comparator — TTSC-1 v0.3 Spatial Cocycle / Closure Firewall",
+      "display_url": "https://docs.google.com/document/d/1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1mk8rn31nBq-3tW-2-dt6ryDtBJjZtMHBw0arA4da1Pc/edit?usp=drivesdk",
+      "title": "toroidal-v013 self-test",
+      "id": "1mk8rn31nBq-3tW-2-dt6ryDtBJjZtMHBw0arA4da1Pc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "1024",
+      "file_or_folder": "file",
+      "created_at": "2026-09-02T20:20:17.824Z",
+      "updated_at": "2026-09-17T15:23:48.000Z",
+      "viewedByMeTime": "2026-09-17T15:23:48.000Z",
+      "display_title": "toroidal-v013 self-test",
+      "display_url": "https://docs.google.com/document/d/1mk8rn31nBq-3tW-2-dt6ryDtBJjZtMHBw0arA4da1Pc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1iYvqJG40sy2BVwJNPTECeXeQ5Gs_JIpSc4BGETJ-pWU/edit?usp=drivesdk",
+      "title": "TOROIDAL v0",
+      "id": "1iYvqJG40sy2BVwJNPTECeXeQ5Gs_JIpSc4BGETJ-pWU",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7271",
+      "file_or_folder": "file",
+      "created_at": "2026-09-02T20:20:56.759Z",
+      "updated_at": "2026-09-17T15:23:35.089Z",
+      "viewedByMeTime": "2026-09-17T15:23:35.089Z",
+      "display_title": "TOROIDAL v0",
+      "display_url": "https://docs.google.com/document/d/1iYvqJG40sy2BVwJNPTECeXeQ5Gs_JIpSc4BGETJ-pWU/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1M7Enh1arUnF0wEF_5LZ2sk-aMH8YK3PZMmVHwWxPVGQ/edit?usp=drivesdk",
+      "title": "TOROIDAL v0.13 - 1109 Safe-Run Runbook",
+      "id": "1M7Enh1arUnF0wEF_5LZ2sk-aMH8YK3PZMmVHwWxPVGQ",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "3108",
+      "file_or_folder": "file",
+      "created_at": "2026-09-02T23:44:08.899Z",
+      "updated_at": "2026-09-17T15:23:20.398Z",
+      "viewedByMeTime": "2026-09-17T15:23:20.398Z",
+      "display_title": "TOROIDAL v0.13 - 1109 Safe-Run Runbook",
+      "display_url": "https://docs.google.com/document/d/1M7Enh1arUnF0wEF_5LZ2sk-aMH8YK3PZMmVHwWxPVGQ/edit?usp=drivesdk",
+      "parent_ids": [
+        "1MX5v19EhvQKRAsi-HmuzlqGOz9yXLvX1"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit?usp=drivesdk",
+      "title": "# Toroidal Dynamics v0.1",
+      "id": "1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8812",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T16:42:45.342Z",
+      "updated_at": "2026-09-17T15:19:58.673Z",
+      "viewedByMeTime": "2026-09-17T15:19:58.673Z",
+      "display_title": "# Toroidal Dynamics v0.1",
+      "display_url": "https://docs.google.com/document/d/1ZMFcH3AV574iMI8qREeOcLS3NPb7rchNnyB1juHnYeM/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q/edit?usp=drivesdk",
+      "title": "# Toroidal Dynamics v0",
+      "id": "1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8833",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:24:19.159Z",
+      "updated_at": "2026-09-17T15:16:41.419Z",
+      "viewedByMeTime": "2026-09-17T15:16:41.419Z",
+      "display_title": "# Toroidal Dynamics v0",
+      "display_url": "https://docs.google.com/document/d/1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1AfdJOOwWjfXsY8vtV1eGHuuXCuQ9cjrLlWR6NRS-R6I/edit?usp=drivesdk",
+      "title": "new toroidal shit",
+      "id": "1AfdJOOwWjfXsY8vtV1eGHuuXCuQ9cjrLlWR6NRS-R6I",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "18516",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T03:23:26.859Z",
+      "updated_at": "2026-09-17T15:16:01.224Z",
+      "viewedByMeTime": "2026-09-17T15:16:01.224Z",
+      "display_title": "new toroidal shit",
+      "display_url": "https://docs.google.com/document/d/1AfdJOOwWjfXsY8vtV1eGHuuXCuQ9cjrLlWR6NRS-R6I/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/11nZWX9optKPLn9PX90cNktrj84iyafFNi3Pj1LDFZEk/edit?usp=drivesdk",
+      "title": "# Toroidal note versus recovered §35",
+      "id": "11nZWX9optKPLn9PX90cNktrj84iyafFNi3Pj1LDFZEk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "10030",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T04:28:20.492Z",
+      "updated_at": "2026-09-17T15:15:24.496Z",
+      "viewedByMeTime": "2026-09-17T15:15:24.496Z",
+      "display_title": "# Toroidal note versus recovered §35",
+      "display_url": "https://docs.google.com/document/d/11nZWX9optKPLn9PX90cNktrj84iyafFNi3Pj1LDFZEk/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0/edit?usp=drivesdk",
+      "title": "Defect calculus applied to toroidal sectorsv2.6",
+      "id": "1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "8952",
+      "file_or_folder": "file",
+      "created_at": "2026-09-12T02:02:33.699Z",
+      "updated_at": "2026-09-17T15:12:55.063Z",
+      "viewedByMeTime": "2026-09-17T15:12:55.063Z",
+      "display_title": "Defect calculus applied to toroidal sectorsv2.6",
+      "display_url": "https://docs.google.com/document/d/1y-rZPKFU1fjIatOJirT4O9RZTedYDARCgVmJSzlpim0/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit?usp=drivesdk",
+      "title": "TOROIDAL — Working Master",
+      "id": "1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19983",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:23:57.987Z",
+      "updated_at": "2026-09-17T15:04:47.564Z",
+      "viewedByMeTime": "2026-09-17T15:04:47.564Z",
+      "display_title": "TOROIDAL — Working Master",
+      "display_url": "https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit?usp=drivesdk",
+      "parent_ids": [
+        "1naKYnwlYpJrQ8CityB2k5B2FPSITnqOV"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1hknVEvbKYPmrSKQQlDZqXr5zANEMOTml/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "TOROIDAL — Working Master.docx",
+      "id": "1hknVEvbKYPmrSKQQlDZqXr5zANEMOTml",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "802263",
+      "file_or_folder": "file",
+      "created_at": "2026-09-15T19:07:48.226Z",
+      "updated_at": "2026-09-15T19:07:48.226Z",
+      "viewedByMeTime": "2026-09-16T04:15:12.007Z",
+      "display_title": "TOROIDAL — Working Master.docx",
+      "display_url": "https://docs.google.com/document/d/1hknVEvbKYPmrSKQQlDZqXr5zANEMOTml/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1103tr4UUEIbyLYUxfE1zaCyn_E6MyAxW/view?usp=drivesdk",
+      "title": "TOROIDAL_MASTER_v0.2.md",
+      "id": "1103tr4UUEIbyLYUxfE1zaCyn_E6MyAxW",
+      "mime_type": "text/markdown",
+      "size": "55279",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T02:34:51.356Z",
+      "updated_at": "2026-09-08T12:00:41.547Z",
+      "viewedByMeTime": null,
+      "display_title": "TOROIDAL_MASTER_v0.2.md",
+      "display_url": "https://drive.google.com/file/d/1103tr4UUEIbyLYUxfE1zaCyn_E6MyAxW/view?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit?usp=drivesdk",
+      "title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE",
+      "id": "1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "28388",
+      "file_or_folder": "file",
+      "created_at": "2026-08-01T09:01:48.105Z",
+      "updated_at": "2026-09-16T06:13:16.544Z",
+      "viewedByMeTime": "2026-09-16T06:13:16.544Z",
+      "display_title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE",
+      "display_url": "https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg/edit?usp=drivesdk",
+      "title": "GQG card",
+      "id": "1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "26011",
+      "file_or_folder": "file",
+      "created_at": "2026-08-20T10:12:31.441Z",
+      "updated_at": "2026-09-16T06:13:06.551Z",
+      "viewedByMeTime": "2026-09-16T06:13:06.551Z",
+      "display_title": "GQG card",
+      "display_url": "https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1ihAV3dxINARqsCaqNH7GutL_8r4jhqIE/view?usp=drivesdk",
+      "title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE (1).txt",
+      "id": "1ihAV3dxINARqsCaqNH7GutL_8r4jhqIE",
+      "mime_type": "text/plain",
+      "size": "59069",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:33.988Z",
+      "updated_at": "2026-09-12T02:39:09.112Z",
+      "viewedByMeTime": "2026-09-19T03:41:33.988Z",
+      "display_title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE (1).txt",
+      "display_url": "https://drive.google.com/file/d/1ihAV3dxINARqsCaqNH7GutL_8r4jhqIE/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1HJSCXsP8nO4_VIxdzz4vyZnoIRGhEf_9/view?usp=drivesdk",
+      "title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE.txt",
+      "id": "1HJSCXsP8nO4_VIxdzz4vyZnoIRGhEf_9",
+      "mime_type": "text/plain",
+      "size": "59069",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:34.050Z",
+      "updated_at": "2026-09-12T02:38:22.554Z",
+      "viewedByMeTime": "2026-09-19T03:41:34.050Z",
+      "display_title": "# THE HIDDEN QUOTIENT — CORE, WITNESS, AND STRIKE.txt",
+      "display_url": "https://drive.google.com/file/d/1HJSCXsP8nO4_VIxdzz4vyZnoIRGhEf_9/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1VF_UeW26X5LYpMYpfEtYvry8PjGX77Bj/view?usp=drivesdk",
+      "title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md",
+      "id": "1VF_UeW26X5LYpMYpfEtYvry8PjGX77Bj",
+      "mime_type": "text/markdown",
+      "size": "112653",
+      "file_or_folder": "file",
+      "created_at": "2026-09-04T23:48:46.862Z",
+      "updated_at": "2026-09-12T02:08:11.298Z",
+      "viewedByMeTime": "2026-09-12T02:39:30.524Z",
+      "display_title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.7_Qualified_RN_Witness_Restoration.md",
+      "display_url": "https://drive.google.com/file/d/1VF_UeW26X5LYpMYpfEtYvry8PjGX77Bj/view?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA/view?usp=drivesdk",
+      "title": "GQG_0.12_Unified_Return_Residual_Closure.md",
+      "id": "13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA",
+      "mime_type": "text/markdown",
+      "size": "79444",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T19:02:44.449Z",
+      "updated_at": "2026-09-12T02:08:04.562Z",
+      "viewedByMeTime": "2026-09-12T02:39:43.424Z",
+      "display_title": "GQG_0.12_Unified_Return_Residual_Closure.md",
+      "display_url": "https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA/view?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1u3gyUGRK7Teqaa1lCZBd-WvhCuZDQM1k/view?usp=drivesdk",
+      "title": "Hidden_Quotient_Investigation_Corrected.pdf",
+      "id": "1u3gyUGRK7Teqaa1lCZBd-WvhCuZDQM1k",
+      "mime_type": "application/pdf",
+      "size": "312006",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T13:33:15.200Z",
+      "updated_at": "2026-09-08T13:33:15.200Z",
+      "viewedByMeTime": null,
+      "display_title": "Hidden_Quotient_Investigation_Corrected.pdf",
+      "display_url": "https://drive.google.com/file/d/1u3gyUGRK7Teqaa1lCZBd-WvhCuZDQM1k/view?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N/view?usp=drivesdk",
+      "title": "Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md",
+      "id": "1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N",
+      "mime_type": "text/markdown",
+      "size": "50446",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T19:02:44.418Z",
+      "updated_at": "2026-08-31T19:02:44.430Z",
+      "viewedByMeTime": "2026-08-31T19:02:44.418Z",
+      "display_title": "Hidden_Quotient_Operational_Addendum_v0.7_Unified_Return_Residual_Closure.md",
+      "display_url": "https://drive.google.com/file/d/1Ff4hu5ztI4JpOZqKT4QrXHqnSFAyft4N/view?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt/view?usp=drivesdk",
+      "title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.6_Unified_Return_Residual_Closure.md",
+      "id": "1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt",
+      "mime_type": "text/markdown",
+      "size": "102075",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T19:02:44.210Z",
+      "updated_at": "2026-08-31T19:02:44.235Z",
+      "viewedByMeTime": "2026-08-31T19:02:44.210Z",
+      "display_title": "THE_HIDDEN_QUOTIENT_CORE_WITNESS_STRIKE_v1.6_Unified_Return_Residual_Closure.md",
+      "display_url": "https://drive.google.com/file/d/1PLQbbzPBXdpQmAL-DxrbeY8Bm7hnFjJt/view?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1OVsIV0ie8QYe3IKL2idfelVlP9utnWjI/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "GQG_Core_Card_v0.11_Eligibility_Response_Fidelity.docx",
+      "id": "1OVsIV0ie8QYe3IKL2idfelVlP9utnWjI",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "51635",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T16:03:34.652Z",
+      "updated_at": "2026-08-31T16:03:34.679Z",
+      "viewedByMeTime": "2026-08-31T20:09:20.497Z",
+      "display_title": "GQG_Core_Card_v0.11_Eligibility_Response_Fidelity.docx",
+      "display_url": "https://docs.google.com/document/d/1OVsIV0ie8QYe3IKL2idfelVlP9utnWjI/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1uAILS9cIz-NLJXnc-roDSPZaYbUU11ft/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "GQG_Core_Card_v0.10_Temporal_Address_Fidelity (1).docx",
+      "id": "1uAILS9cIz-NLJXnc-roDSPZaYbUU11ft",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "43622",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T16:01:12.936Z",
+      "updated_at": "2026-08-31T16:01:12.956Z",
+      "viewedByMeTime": "2026-08-31T16:01:13.091Z",
+      "display_title": "GQG_Core_Card_v0.10_Temporal_Address_Fidelity (1).docx",
+      "display_url": "https://docs.google.com/document/d/1uAILS9cIz-NLJXnc-roDSPZaYbUU11ft/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1s2QW_Gl2M0e3lrpSZxNfyhNUGPUDvyde/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "GQG_Core_Card_v0.6_Witness_Fidelity.docx",
+      "id": "1s2QW_Gl2M0e3lrpSZxNfyhNUGPUDvyde",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "20676",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T02:52:27.746Z",
+      "updated_at": "2026-08-31T02:52:27.776Z",
+      "viewedByMeTime": "2026-08-31T11:50:39.322Z",
+      "display_title": "GQG_Core_Card_v0.6_Witness_Fidelity.docx",
+      "display_url": "https://docs.google.com/document/d/1s2QW_Gl2M0e3lrpSZxNfyhNUGPUDvyde/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1TK8-hq-NEhg04u6Fr8DntJHbTMf1vszZ/view?usp=drivesdk",
+      "title": "# The Hidden Quotient in Operational Pipelines.txt",
+      "id": "1TK8-hq-NEhg04u6Fr8DntJHbTMf1vszZ",
+      "mime_type": "text/plain",
+      "size": "12604",
+      "file_or_folder": "file",
+      "created_at": "2026-09-19T03:41:34.123Z",
+      "updated_at": "2026-08-31T02:42:51.675Z",
+      "viewedByMeTime": "2026-09-19T03:41:34.123Z",
+      "display_title": "# The Hidden Quotient in Operational Pipelines.txt",
+      "display_url": "https://drive.google.com/file/d/1TK8-hq-NEhg04u6Fr8DntJHbTMf1vszZ/view?usp=drivesdk",
+      "parent_ids": [
+        "1bn0s1lJTsVxnxVeRi09LbXr_oO_vHt-Y"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1bup3-eLaaT54EtnsX8I_0xwbKDHoH8-qJ8FtxI4kgm0/edit?usp=drivesdk",
+      "title": "# The Hidden Quotient in Operational Pipelines",
+      "id": "1bup3-eLaaT54EtnsX8I_0xwbKDHoH8-qJ8FtxI4kgm0",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9365",
+      "file_or_folder": "file",
+      "created_at": "2026-08-30T21:35:35.319Z",
+      "updated_at": "2026-08-30T21:35:40.707Z",
+      "viewedByMeTime": "2026-08-31T02:42:43.986Z",
+      "display_title": "# The Hidden Quotient in Operational Pipelines",
+      "display_url": "https://docs.google.com/document/d/1bup3-eLaaT54EtnsX8I_0xwbKDHoH8-qJ8FtxI4kgm0/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1RJo8Zsj7vLGAGj24-3_8izZdEwiBbxeLKGxAjK1pMdo/edit?usp=drivesdk",
+      "title": "# GQG Core Card · v0.5",
+      "id": "1RJo8Zsj7vLGAGj24-3_8izZdEwiBbxeLKGxAjK1pMdo",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9910",
+      "file_or_folder": "file",
+      "created_at": "2026-08-30T21:34:13.467Z",
+      "updated_at": "2026-08-30T21:34:23.925Z",
+      "viewedByMeTime": "2026-08-30T21:34:40.585Z",
+      "display_title": "# GQG Core Card · v0.5",
+      "display_url": "https://docs.google.com/document/d/1RJo8Zsj7vLGAGj24-3_8izZdEwiBbxeLKGxAjK1pMdo/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1NkE0UmgQZ9EggR3G6KrPaxCPhi0KLceztMCmdPTdF3M/edit?usp=drivesdk",
+      "title": "# GQG Core Card · v0",
+      "id": "1NkE0UmgQZ9EggR3G6KrPaxCPhi0KLceztMCmdPTdF3M",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "5722",
+      "file_or_folder": "file",
+      "created_at": "2026-08-21T22:39:05.759Z",
+      "updated_at": "2026-08-21T22:39:12.501Z",
+      "viewedByMeTime": "2026-08-30T21:32:55.882Z",
+      "display_title": "# GQG Core Card · v0",
+      "display_url": "https://docs.google.com/document/d/1NkE0UmgQZ9EggR3G6KrPaxCPhi0KLceztMCmdPTdF3M/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1cK5TD_ggGiiqSXSPHcLbkuWX7PMd_tDXFwmHYPcRt38/edit?usp=drivesdk",
+      "title": "New corecard for quotient ",
+      "id": "1cK5TD_ggGiiqSXSPHcLbkuWX7PMd_tDXFwmHYPcRt38",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4749",
+      "file_or_folder": "file",
+      "created_at": "2026-08-10T17:19:55.279Z",
+      "updated_at": "2026-08-10T17:20:07.733Z",
+      "viewedByMeTime": "2026-08-18T03:04:09.408Z",
+      "display_title": "New corecard for quotient ",
+      "display_url": "https://docs.google.com/document/d/1cK5TD_ggGiiqSXSPHcLbkuWX7PMd_tDXFwmHYPcRt38/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ihp6_kg3gT7ybNQwV5lmzTZI1Ln62NNalPnIPzE-lIc/edit?usp=drivesdk",
+      "title": "QUOTIENT WITNESS\n",
+      "id": "1ihp6_kg3gT7ybNQwV5lmzTZI1Ln62NNalPnIPzE-lIc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "7291",
+      "file_or_folder": "file",
+      "created_at": "2026-08-01T07:31:22.393Z",
+      "updated_at": "2026-08-01T07:47:09.329Z",
+      "viewedByMeTime": "2026-08-08T20:35:21.427Z",
+      "display_title": "QUOTIENT WITNESS\n",
+      "display_url": "https://docs.google.com/document/d/1ihp6_kg3gT7ybNQwV5lmzTZI1Ln62NNalPnIPzE-lIc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8/edit?usp=drivesdk",
+      "title": "The Hidden Quotient Behind the Multiplication Representation",
+      "id": "1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "11587",
+      "file_or_folder": "file",
+      "created_at": "2026-08-01T06:07:39.242Z",
+      "updated_at": "2026-08-01T07:24:36.561Z",
+      "viewedByMeTime": "2026-08-08T00:16:07.588Z",
+      "display_title": "The Hidden Quotient Behind the Multiplication Representation",
+      "display_url": "https://docs.google.com/document/d/1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8/edit?usp=drivesdk",
+      "parent_ids": [
+        "1UEmRfWZS66rh_EVyoo7sBiG3mZOWPYm3"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM/edit?usp=drivesdk",
+      "title": "# Field Theory Update v0",
+      "id": "1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "6717",
+      "file_or_folder": "file",
+      "created_at": "2026-09-08T01:25:12.528Z",
+      "updated_at": "2026-09-08T01:25:15.907Z",
+      "viewedByMeTime": "2026-09-08T01:25:15.907Z",
+      "display_title": "# Field Theory Update v0",
+      "display_url": "https://docs.google.com/document/d/1gGxdHa0Sg9EIKtIJTnI3u0M8emQXwI6rMuZoH82E-TM/edit?usp=drivesdk",
+      "parent_ids": [
+        "17P1St3hK26XlWkgSijHamP5bmeyO_weg"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1NllZE54FSGiV1dKNukEd2dnJBfKWelL1OZbpbJ_UJrk/edit?usp=drivesdk",
+      "title": "POST-FREEZE MOVEMENT LEDGER — Wobble + Coup + Corridors — v0.1",
+      "id": "1NllZE54FSGiV1dKNukEd2dnJBfKWelL1OZbpbJ_UJrk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "28500",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T22:43:33.682Z",
+      "updated_at": "2026-09-06T22:27:41.810Z",
+      "viewedByMeTime": "2026-09-06T22:27:41.810Z",
+      "display_title": "POST-FREEZE MOVEMENT LEDGER — Wobble + Coup + Corridors — v0.1",
+      "display_url": "https://docs.google.com/document/d/1NllZE54FSGiV1dKNukEd2dnJBfKWelL1OZbpbJ_UJrk/edit?usp=drivesdk",
+      "parent_ids": [
+        "1fHnfUBLoXjhfBosWyox6ut9bSrAoazfa"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1PEFzhnpwQbzYf5f75lbqmfdPFxqCv22-I107dcrq8RY/edit?usp=drivesdk",
+      "title": "# THE 2026 WOBBLE DIAGNOSTIC",
+      "id": "1PEFzhnpwQbzYf5f75lbqmfdPFxqCv22-I107dcrq8RY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "17224",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T06:31:41.358Z",
+      "updated_at": "2026-09-06T06:31:57.084Z",
+      "viewedByMeTime": "2026-09-06T06:31:57.084Z",
+      "display_title": "# THE 2026 WOBBLE DIAGNOSTIC",
+      "display_url": "https://docs.google.com/document/d/1PEFzhnpwQbzYf5f75lbqmfdPFxqCv22-I107dcrq8RY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1GBEDhs9_EqyWXHYXaxsfmmHv7WCmOYSqmEm4SZToQcY/edit?usp=drivesdk",
+      "title": "THE 2026 WOBBLE DIAGNOSTIC",
+      "id": "1GBEDhs9_EqyWXHYXaxsfmmHv7WCmOYSqmEm4SZToQcY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "44822",
+      "file_or_folder": "file",
+      "created_at": "2026-09-06T06:20:05.703Z",
+      "updated_at": "2026-09-06T06:20:11.864Z",
+      "viewedByMeTime": "2026-09-06T10:39:53.128Z",
+      "display_title": "THE 2026 WOBBLE DIAGNOSTIC",
+      "display_url": "https://docs.google.com/document/d/1GBEDhs9_EqyWXHYXaxsfmmHv7WCmOYSqmEm4SZToQcY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg/edit?usp=drivesdk",
+      "title": "OMNIBUS v7.79 — Triadic Field Restoration",
+      "id": "1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "21615",
+      "file_or_folder": "file",
+      "created_at": "2026-09-04T04:09:40.395Z",
+      "updated_at": "2026-09-06T03:02:24.095Z",
+      "viewedByMeTime": "2026-09-08T13:17:04.433Z",
+      "display_title": "OMNIBUS v7.79 — Triadic Field Restoration",
+      "display_url": "https://docs.google.com/document/d/1GJZvDwfRvFChw1MvOL4WJhWxZ8oAW1t762h3238PDlg/edit?usp=drivesdk",
+      "parent_ids": [
+        "1MX5v19EhvQKRAsi-HmuzlqGOz9yXLvX1"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1LRr70Q3hc9LhHp9axdPvAKAwM668GiGzSUrwAePMIgk/edit?usp=drivesdk",
+      "title": "To move from a \"containment structure\" (the room) to an \"open field\" (sovereignty), the provided texts suggest that the solution is **architectural**, not merely a change in terminology",
+      "id": "1LRr70Q3hc9LhHp9axdPvAKAwM668GiGzSUrwAePMIgk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4321",
+      "file_or_folder": "file",
+      "created_at": "2026-08-31T15:32:01.371Z",
+      "updated_at": "2026-08-31T15:43:59.924Z",
+      "viewedByMeTime": "2026-08-31T17:51:47.821Z",
+      "display_title": "To move from a \"containment structure\" (the room) to an \"open field\" (sovereignty), the provided texts suggest that the solution is **architectural**, not merely a change in terminology",
+      "display_url": "https://docs.google.com/document/d/1LRr70Q3hc9LhHp9axdPvAKAwM668GiGzSUrwAePMIgk/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1VXbAXmzWwoTMb0i0wSw_0CaQ5vhJ0xH_5R8Z6PL_NzE/edit?usp=drivesdk",
+      "title": "Field theory mechanics ",
+      "id": "1VXbAXmzWwoTMb0i0wSw_0CaQ5vhJ0xH_5R8Z6PL_NzE",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19458",
+      "file_or_folder": "file",
+      "created_at": "2026-08-27T00:48:31.940Z",
+      "updated_at": "2026-08-27T03:30:02.086Z",
+      "viewedByMeTime": "2026-08-27T03:33:27.466Z",
+      "display_title": "Field theory mechanics ",
+      "display_url": "https://docs.google.com/document/d/1VXbAXmzWwoTMb0i0wSw_0CaQ5vhJ0xH_5R8Z6PL_NzE/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1aU0el4lINaBA-XAvOrLzrf91uL_phXa9I-BwzdMxias/edit?usp=drivesdk",
+      "title": "ARCHIVE — Field Theory v0.1 — exact duplicate (do not edit)",
+      "id": "1aU0el4lINaBA-XAvOrLzrf91uL_phXa9I-BwzdMxias",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "11443",
+      "file_or_folder": "file",
+      "created_at": "2026-08-26T13:58:55.047Z",
+      "updated_at": "2026-08-26T21:02:43.011Z",
+      "viewedByMeTime": "2026-08-27T03:31:30.265Z",
+      "display_title": "ARCHIVE — Field Theory v0.1 — exact duplicate (do not edit)",
+      "display_url": "https://docs.google.com/document/d/1aU0el4lINaBA-XAvOrLzrf91uL_phXa9I-BwzdMxias/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1khall_UtrKmD55myJTatoYr--BWc168AbDMAW4f6T0M/edit?usp=drivesdk",
+      "title": "Field physics0.3audit",
+      "id": "1khall_UtrKmD55myJTatoYr--BWc168AbDMAW4f6T0M",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "16410",
+      "file_or_folder": "file",
+      "created_at": "2026-08-26T16:40:42.748Z",
+      "updated_at": "2026-08-26T16:41:25.102Z",
+      "viewedByMeTime": "2026-08-27T03:36:45.199Z",
+      "display_title": "Field physics0.3audit",
+      "display_url": "https://docs.google.com/document/d/1khall_UtrKmD55myJTatoYr--BWc168AbDMAW4f6T0M/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1JN2dvpQstVSuO2xsZ1nlG9vfR7t0XapRt9LBcov7DAw/edit?usp=drivesdk",
+      "title": "Surviving Specimens After Prime-Field - Constant Screen v0",
+      "id": "1JN2dvpQstVSuO2xsZ1nlG9vfR7t0XapRt9LBcov7DAw",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "71068",
+      "file_or_folder": "file",
+      "created_at": "2026-08-26T11:58:58.694Z",
+      "updated_at": "2026-08-26T13:59:31.995Z",
+      "viewedByMeTime": "2026-08-26T13:59:31.995Z",
+      "display_title": "Surviving Specimens After Prime-Field - Constant Screen v0",
+      "display_url": "https://docs.google.com/document/d/1JN2dvpQstVSuO2xsZ1nlG9vfR7t0XapRt9LBcov7DAw/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1oocCtq1MqXwwMfQNmnVLzXUymqOcEcIye-__Os6Ssgg/edit?usp=drivesdk",
+      "title": "--2026 WOBBLE DIAGNOSTIC v2",
+      "id": "1oocCtq1MqXwwMfQNmnVLzXUymqOcEcIye-__Os6Ssgg",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4843",
+      "file_or_folder": "file",
+      "created_at": "2026-07-28T23:28:18.557Z",
+      "updated_at": "2026-07-28T23:28:24.071Z",
+      "viewedByMeTime": "2026-07-29T17:34:58.195Z",
+      "display_title": "--2026 WOBBLE DIAGNOSTIC v2",
+      "display_url": "https://docs.google.com/document/d/1oocCtq1MqXwwMfQNmnVLzXUymqOcEcIye-__Os6Ssgg/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/17QsozPOOFmAeoO35ij0hpRvi8rYhgEiBJYyTXV8pTeQ/edit?usp=drivesdk",
+      "title": "# FIELD NOTES- ROUTING, AGENCY, AND EUCLYDIA",
+      "id": "17QsozPOOFmAeoO35ij0hpRvi8rYhgEiBJYyTXV8pTeQ",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "29622",
+      "file_or_folder": "file",
+      "created_at": "2026-07-27T12:59:16.259Z",
+      "updated_at": "2026-07-27T12:59:25.921Z",
+      "viewedByMeTime": "2026-08-20T12:18:23.865Z",
+      "display_title": "# FIELD NOTES- ROUTING, AGENCY, AND EUCLYDIA",
+      "display_url": "https://docs.google.com/document/d/17QsozPOOFmAeoO35ij0hpRvi8rYhgEiBJYyTXV8pTeQ/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1rw1_-beglvW_zKFYgcQzBsT5HVXlTRqY1SKSNTwFMek/edit?usp=drivesdk",
+      "title": "#2 June field notes RECOMPRESSED (second pass)",
+      "id": "1rw1_-beglvW_zKFYgcQzBsT5HVXlTRqY1SKSNTwFMek",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "20194",
+      "file_or_folder": "file",
+      "created_at": "2026-06-16T00:53:38.889Z",
+      "updated_at": "2026-07-15T04:56:43.340Z",
+      "viewedByMeTime": "2026-08-06T01:48:15.371Z",
+      "display_title": "#2 June field notes RECOMPRESSED (second pass)",
+      "display_url": "https://docs.google.com/document/d/1rw1_-beglvW_zKFYgcQzBsT5HVXlTRqY1SKSNTwFMek/edit?usp=drivesdk",
+      "parent_ids": [
+        "1FiWQRmiY7wvVxMe-_mqS8tkXydqyTtv0"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1KaDvN7idukpMwFEEmGPE241kKGtvqXxjyseSP9UC1Q4/edit?usp=drivesdk",
+      "title": "V2.3 THE 2026 WOBBLE DIAGNOSTIC",
+      "id": "1KaDvN7idukpMwFEEmGPE241kKGtvqXxjyseSP9UC1Q4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "67653",
+      "file_or_folder": "file",
+      "created_at": "2026-07-14T11:46:00.418Z",
+      "updated_at": "2026-07-14T11:48:32.946Z",
+      "viewedByMeTime": "2026-08-07T17:28:04.393Z",
+      "display_title": "V2.3 THE 2026 WOBBLE DIAGNOSTIC",
+      "display_url": "https://docs.google.com/document/d/1KaDvN7idukpMwFEEmGPE241kKGtvqXxjyseSP9UC1Q4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1FiTfpsSFpZecvhMblbBVtEPcn-O5gStJwcPEtVsSsxs/edit?usp=drivesdk",
+      "title": "June field notes",
+      "id": "1FiTfpsSFpZecvhMblbBVtEPcn-O5gStJwcPEtVsSsxs",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "19101",
+      "file_or_folder": "file",
+      "created_at": "2026-06-05T21:32:25.934Z",
+      "updated_at": "2026-06-17T00:09:44.910Z",
+      "viewedByMeTime": "2026-06-21T13:46:22.193Z",
+      "display_title": "June field notes",
+      "display_url": "https://docs.google.com/document/d/1FiTfpsSFpZecvhMblbBVtEPcn-O5gStJwcPEtVsSsxs/edit?usp=drivesdk",
+      "parent_ids": [
+        "1FiWQRmiY7wvVxMe-_mqS8tkXydqyTtv0"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1rWItGYIjI_M1TURgFdNB02ciyzE6CA74/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "title": "FIELD NOTES — COMPRESSED 5_29_26.docx",
+      "id": "1rWItGYIjI_M1TURgFdNB02ciyzE6CA74",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": "826261",
+      "file_or_folder": "file",
+      "created_at": "2026-05-30T22:11:24.345Z",
+      "updated_at": "2026-05-31T16:29:56.972Z",
+      "viewedByMeTime": "2026-06-06T00:45:06.220Z",
+      "display_title": "FIELD NOTES — COMPRESSED 5_29_26.docx",
+      "display_url": "https://docs.google.com/document/d/1rWItGYIjI_M1TURgFdNB02ciyzE6CA74/edit?usp=drivesdk&ouid=108275616286142203748&rtpof=true&sd=true",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1C8U0_rgBI5vH2zCFxZeOtnuJ0EmZilSSZ0aKKgDrhF8/edit?usp=drivesdk",
+      "title": "FIELD NOTES — COMPRESSED 5_29_26",
+      "id": "1C8U0_rgBI5vH2zCFxZeOtnuJ0EmZilSSZ0aKKgDrhF8",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "29970",
+      "file_or_folder": "file",
+      "created_at": "2026-05-28T15:20:21.763Z",
+      "updated_at": "2026-05-30T21:32:07.314Z",
+      "viewedByMeTime": "2026-06-05T21:23:49.730Z",
+      "display_title": "FIELD NOTES — COMPRESSED 5_29_26",
+      "display_url": "https://docs.google.com/document/d/1C8U0_rgBI5vH2zCFxZeOtnuJ0EmZilSSZ0aKKgDrhF8/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1dz-OTOw0sLY8aEOkiQ37UNza_FFxF4K1sR-gQoef5Hc/edit?usp=drivesdk",
+      "title": "THE 2026 WOBBLE DIAGNOSTIC",
+      "id": "1dz-OTOw0sLY8aEOkiQ37UNza_FFxF4K1sR-gQoef5Hc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "26137",
+      "file_or_folder": "file",
+      "created_at": "2026-05-26T08:41:15.891Z",
+      "updated_at": "2026-05-30T03:45:21.023Z",
+      "viewedByMeTime": "2026-06-08T09:14:31.412Z",
+      "display_title": "THE 2026 WOBBLE DIAGNOSTIC",
+      "display_url": "https://docs.google.com/document/d/1dz-OTOw0sLY8aEOkiQ37UNza_FFxF4K1sR-gQoef5Hc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1pF4UPzNC3rB0FfjXZOQnetjaaZwFqTCFfGOaDmFCrxI/edit?usp=drivesdk",
+      "title": "FIELD NOTES ",
+      "id": "1pF4UPzNC3rB0FfjXZOQnetjaaZwFqTCFfGOaDmFCrxI",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "64205",
+      "file_or_folder": "file",
+      "created_at": "2026-05-22T08:22:36.548Z",
+      "updated_at": "2026-05-28T15:17:41.672Z",
+      "viewedByMeTime": "2026-07-27T12:43:10.840Z",
+      "display_title": "FIELD NOTES ",
+      "display_url": "https://docs.google.com/document/d/1pF4UPzNC3rB0FfjXZOQnetjaaZwFqTCFfGOaDmFCrxI/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1q84Rxw6RpAdS9DTr1YMKZUqeUSQlcxO7JaRJTROCMDQ/edit?usp=drivesdk",
+      "title": "Old Field notes",
+      "id": "1q84Rxw6RpAdS9DTr1YMKZUqeUSQlcxO7JaRJTROCMDQ",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "29866",
+      "file_or_folder": "file",
+      "created_at": "2026-05-16T21:54:56.963Z",
+      "updated_at": "2026-05-23T06:07:46.531Z",
+      "viewedByMeTime": "2026-05-23T06:07:46.531Z",
+      "display_title": "Old Field notes",
+      "display_url": "https://docs.google.com/document/d/1q84Rxw6RpAdS9DTr1YMKZUqeUSQlcxO7JaRJTROCMDQ/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://drive.google.com/file/d/1hls85ybglkrqXgli_UAQcOEuZ_oJYHwz/view?usp=drivesdk",
+      "title": "# THE 2026 WOBBLE DIAGNOSTIC.pdf",
+      "id": "1hls85ybglkrqXgli_UAQcOEuZ_oJYHwz",
+      "mime_type": "application/pdf",
+      "size": "218108",
+      "file_or_folder": "file",
+      "created_at": "2026-05-20T16:45:20.765Z",
+      "updated_at": "2026-05-20T16:45:20.765Z",
+      "viewedByMeTime": "2026-05-20T16:45:27.972Z",
+      "display_title": "# THE 2026 WOBBLE DIAGNOSTIC.pdf",
+      "display_url": "https://drive.google.com/file/d/1hls85ybglkrqXgli_UAQcOEuZ_oJYHwz/view?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1aOPr9WUtNPxWwnW7QmoQ6FQkAamekPKPZcf_852ZxtY/edit?usp=drivesdk",
+      "title": "# THE 2026 WOBBLE DIAGNOSTIC",
+      "id": "1aOPr9WUtNPxWwnW7QmoQ6FQkAamekPKPZcf_852ZxtY",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "16979",
+      "file_or_folder": "file",
+      "created_at": "2026-05-20T16:41:50.448Z",
+      "updated_at": "2026-05-20T16:44:56.564Z",
+      "viewedByMeTime": "2026-05-26T08:16:57.484Z",
+      "display_title": "# THE 2026 WOBBLE DIAGNOSTIC",
+      "display_url": "https://docs.google.com/document/d/1aOPr9WUtNPxWwnW7QmoQ6FQkAamekPKPZcf_852ZxtY/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1l1MzrafOskm4Ay9rbr5vO-BSgipz8VUC3oMwQjA9xBo/edit?usp=drivesdk",
+      "title": "# CTA-XV Field Note- High Coherence Under Capture",
+      "id": "1l1MzrafOskm4Ay9rbr5vO-BSgipz8VUC3oMwQjA9xBo",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "1421",
+      "file_or_folder": "file",
+      "created_at": "2026-05-09T22:31:48.781Z",
+      "updated_at": "2026-05-16T13:23:01.767Z",
+      "viewedByMeTime": "2026-05-19T08:37:52.986Z",
+      "display_title": "# CTA-XV Field Note- High Coherence Under Capture",
+      "display_url": "https://docs.google.com/document/d/1l1MzrafOskm4Ay9rbr5vO-BSgipz8VUC3oMwQjA9xBo/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1zsmGHvzBM1Wvh75M251st4Q057q_ELhZMaEaPKUUF-E/edit?usp=drivesdk",
+      "title": "# CTA-XV Field Note- High Coherence Under Capture",
+      "id": "1zsmGHvzBM1Wvh75M251st4Q057q_ELhZMaEaPKUUF-E",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "1024",
+      "file_or_folder": "file",
+      "created_at": "2026-05-09T21:15:19.353Z",
+      "updated_at": "2026-05-09T21:15:31.511Z",
+      "viewedByMeTime": "2026-05-20T01:40:22.558Z",
+      "display_title": "# CTA-XV Field Note- High Coherence Under Capture",
+      "display_url": "https://docs.google.com/document/d/1zsmGHvzBM1Wvh75M251st4Q057q_ELhZMaEaPKUUF-E/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/13m-g9AUs8i-KFVt6SSrGVU8Rz4kaQ8nmiP-qlBbDk9s/edit?usp=drivesdk",
+      "title": "🔬 Electromagnetic Field Theories of Consciousness (2024-2026)",
+      "id": "13m-g9AUs8i-KFVt6SSrGVU8Rz4kaQ8nmiP-qlBbDk9s",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2804",
+      "file_or_folder": "file",
+      "created_at": "2026-04-06T02:35:44.773Z",
+      "updated_at": "2026-04-06T04:02:16.358Z",
+      "viewedByMeTime": "2026-05-19T09:38:01.613Z",
+      "display_title": "🔬 Electromagnetic Field Theories of Consciousness (2024-2026)",
+      "display_url": "https://docs.google.com/document/d/13m-g9AUs8i-KFVt6SSrGVU8Rz4kaQ8nmiP-qlBbDk9s/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1pEEB3zktG-myyuBRBzjTmuyfZTUO_Gah-nSl2GfctEw/edit?usp=drivesdk",
+      "title": "🎛️ CANVAS PROMPT — “WARM EQUILIBRIUM - ZPR FIELD”",
+      "id": "1pEEB3zktG-myyuBRBzjTmuyfZTUO_Gah-nSl2GfctEw",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "4644",
+      "file_or_folder": "file",
+      "created_at": "2026-04-05T11:37:37.477Z",
+      "updated_at": "2026-04-05T11:38:32.762Z",
+      "viewedByMeTime": "2026-04-05T14:19:31.771Z",
+      "display_title": "🎛️ CANVAS PROMPT — “WARM EQUILIBRIUM - ZPR FIELD”",
+      "display_url": "https://docs.google.com/document/d/1pEEB3zktG-myyuBRBzjTmuyfZTUO_Gah-nSl2GfctEw/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1GyQk9ek_5QLjWSpLoBzpTkOsowmAUJNF-aZ4wHn1alc/edit?usp=drivesdk",
+      "title": "📐 CTA-RADIAL FIELD INTERPRETATION — v0",
+      "id": "1GyQk9ek_5QLjWSpLoBzpTkOsowmAUJNF-aZ4wHn1alc",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "9095",
+      "file_or_folder": "file",
+      "created_at": "2026-03-26T09:42:05.742Z",
+      "updated_at": "2026-03-26T09:42:35.019Z",
+      "viewedByMeTime": "2026-03-28T02:27:11.018Z",
+      "display_title": "📐 CTA-RADIAL FIELD INTERPRETATION — v0",
+      "display_url": "https://docs.google.com/document/d/1GyQk9ek_5QLjWSpLoBzpTkOsowmAUJNF-aZ4wHn1alc/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1vvXF6qESjOS24iXIIKnxZRodJAqsEGqw1FTi72LJAmk/edit?usp=drivesdk",
+      "title": "Counter-Harmonic Signature (Cylindrical Neutralization Field)",
+      "id": "1vvXF6qESjOS24iXIIKnxZRodJAqsEGqw1FTi72LJAmk",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "1737",
+      "file_or_folder": "file",
+      "created_at": "2026-01-07T00:02:18.072Z",
+      "updated_at": "2026-01-07T00:02:21.646Z",
+      "viewedByMeTime": "2026-01-12T05:47:48.716Z",
+      "display_title": "Counter-Harmonic Signature (Cylindrical Neutralization Field)",
+      "display_url": "https://docs.google.com/document/d/1vvXF6qESjOS24iXIIKnxZRodJAqsEGqw1FTi72LJAmk/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    },
+    {
+      "url": "https://docs.google.com/document/d/1UQAlcSIHrUDWzZszh1x_sPhiaJCNqk3bHOLnwh0FfA4/edit?usp=drivesdk",
+      "title": "Interlude – Librarian’s Field Notes",
+      "id": "1UQAlcSIHrUDWzZszh1x_sPhiaJCNqk3bHOLnwh0FfA4",
+      "mime_type": "application/vnd.google-apps.document",
+      "size": "2840",
+      "file_or_folder": "file",
+      "created_at": "2025-11-11T01:56:43.383Z",
+      "updated_at": "2025-11-11T01:56:46.942Z",
+      "viewedByMeTime": "2025-11-11T02:23:29.041Z",
+      "display_title": "Interlude – Librarian’s Field Notes",
+      "display_url": "https://docs.google.com/document/d/1UQAlcSIHrUDWzZszh1x_sPhiaJCNqk3bHOLnwh0FfA4/edit?usp=drivesdk",
+      "parent_ids": [
+        "0AKalEqbdqbD2Uk9PVA"
+      ],
+      "shared": false,
+      "can_download": true,
+      "can_list_children": false
+    }
+  ],
+  "broad_discovery_count": 422
+}
