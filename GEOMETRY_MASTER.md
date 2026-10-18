@@ -1,26 +1,33 @@
 # Geometry Master
 
 **A portable working reference for Geometry, Geometry Maximization, Hidden Quotient, GQG, and Toroidal**  
-Consolidation 1.0 · Sources read 9 September 2026 · Latest incorporated source updates 8 September 2026
+Consolidation 2.0 · Live source review: 18 October 2026 · Incorporates the later v2.6, September 28 integration, and current direct-service correction
 
 This file carries the definitions, worked examples, mathematical results, evidence limits, and next work needed to continue the geometry projects in another chat or workspace. Its organizing question is: **which distinctions must a retained description preserve for the particular observation, recovery, or prediction being made?**
 
-The projects share this question while keeping their mathematical objects distinct. A multiplication representation, a phase rotation, a toroidal Markov kernel, a material measurement, and an empirical coding instrument are not automatically the same system. This consolidation adds no new experiment or simulation run. Full proofs, frozen instruments, and execution records remain linked at the end.
+The projects share this question while keeping their mathematical objects distinct. A multiplication representation, a phase rotation, a toroidal Markov kernel, a material measurement, and an empirical coding instrument are not automatically the same system. This consolidation includes small independent mathematical checks, but no new empirical experiment, historical sampler replay, or physical validation. Full proofs, frozen instruments, and execution records remain linked at the end.
+
+**What changed in 2.0.** Added exact finite measurement repair and acquisition costs, the unbounded batch/sequential query gap, coverage and approximation guarantees, geometric stability examples, and claim/delivery checks. Updated toroidal verifier recovery and preserved the unresolved sampler discrepancy. Corrected source precedence for Hidden Quotient and FAILED versus UNRESOLVED closure. The core hypotheses, source domains, and original phase formulas remain explicit.
+
+**Read route.** §§2–4 give the core and Hidden Quotient; §5 gives the phase model; §§7–9 give Toroidal; §§11–13 give practical acquisition, timing, and quantitative examples; §14 resolves evidence and version issues. This is one self-contained drop-in reference; source links are in §16.
 
 ## 1 Current position
 
 | Area | Current result | Limit that remains operative |
 |---|---|---|
-| Witness-relative geometry | Exact descent criterion, non-descent locus, witness-resolving refinement, and conditional geometric extensions | The bare definition determines no global shape, topology, or physical mechanism |
+| Witness-relative geometry | Exact descent, typed calculus, coverage envelope, canonical refinement, and available-coordinate repair | Set-level recovery does not supply regularity, causal availability, or a mechanism |
+| Acquisition and approximation | Exact finite hitting-set and sequential formulations; n−1 versus ceil(log₂ n) query gap; uniform path-error bound | Declared menus, costs, complete domains, and uniform premises are required |
+| Geometric and timing bounds | Recovery/conditioning distinction, global sampling bounds, optimal causal padding | Mathematical examples do not establish manufacturing or human benefit |
 | Geometry Maximization | Exact 39-screen phases and counts; deterministic predictive refinement; finite-horizon loss | Practical prediction requires available present coordinates and an error assessment |
 | Hidden Quotient | Correct locally null kernel and norm; qualified structural theorem; explicit restoration and incompleteness examples | Recovery, completion, and predictive autonomy are different problems |
 | GQG | Claim-relative witness fidelity and a typed empirical constraint-response instrument | Observable differences do not identify hidden actors, motives, or implementations |
 | Toroidal geometry | Integer or modular cut flux, membrane constraints, ensemble distinctions, and circular-throat kinematics | Geometry and ensemble projection do not establish confinement or critical behavior |
 | Toroidal sector dynamics | No exact finite Markov order for the specified sector process at any fixed attempted-microtick spacing | The theorem does not exclude every augmented or finite-dimensional hidden-state model |
 | L=3 follow-up | Separate source-reported engineering-validation **PASS** | Original pilot **UNRESOLVED**; physical Q2 **NOT_RUN**; production **NOT_AUTHORIZED** |
-| Reproduction | Historical accepted-event discrepancy remains −1,352; replacement profile defined prospectively | Historical cause **UNRESOLVED**; replacement full replay **NOT_RUN** |
+| Proof verifier | Complete all-orders source and rational certificate package recovered | Current access verified; historical successful reruns remain source-reported |
+| Reproduction | Historical accepted-event discrepancy remains −1,352; replacement inputs recovered | Historical cause **UNRESOLVED**; adapter/recorder/validation and full replacement replay remain outstanding |
 
-The current online entry points are **GEOMETRY + GQG — Working Master** [S1] and **TOROIDAL — Working Master** [S2]. Their first tabs contain newer consolidations; their other tabs preserve earlier bodies. Hidden Quotient v1.7 [S4] remains the mathematical core. **Corrected investigation 1.1** [S5] explains and repairs its applications; the investigation's edition number does not supersede the core's version number.
+The current online entry points are **GEOMETRY — Working Master v2.6** [S16], **Geometry — Curated Upgrades** [S17], **GEOMETRY + GQG — Working Master** [S1], and **TOROIDAL — Working Master** [S2]. S1 and S2 have current working tabs and preserved earlier source tabs. Hidden Quotient v1.7 [S4] remains the mathematical core. **Corrected investigation 1.1** [S5] explains and repairs its applications; the investigation's edition number does not supersede the core's version number.
 
 ## 2 The common geometry
 
@@ -54,13 +61,29 @@ Any record determining both π and W maps to R. This is the precise sense in whi
 
 Without additional assumptions, any subset of Q can occur as N_W(π). A local collision therefore cannot determine a global shape. Openness, smoothness, derivative tests, connectedness, boundaries, and holonomy require their stated extra hypotheses. In particular, vanishing vertical derivatives need suitable connected fibers before they establish fiberwise constancy; disconnected components can retain different constant values.
 
-Transport requires a declared lifting rule or connection. Under the appropriate transport hypotheses, nonzero witness holonomy implies non-descent; non-descent alone does not establish holonomy. A finite sector-label set has no continuous boundary unless a separate parameter space or refined base has been defined.
+Transport requires a declared lifting rule or connection. Under the appropriate transport hypotheses, nonzero witness holonomy implies non-descent; non-descent alone does not establish holonomy. In the discrete topology on Q=(ℤ/2)³, every subset is clopen and has empty topological boundary. Smooth transport requires a separate base or refinement; graph transport and gauge holonomy can still be defined with their own structure.
 
 Restricting D can remove a collision by excluding source states. Adding an observation can distinguish states that remain in D. These operations must be recorded separately. [S3, S6]
+
+### Rules for changing a claim
+
+Write Eq(f) for pairs with equal f-values. Exact descent is Eq(π)⊆Eq(W). The corrected set-level calculus is:
+
+| Change | Exact rule |
+|---|---|
+| Joint witnesses | N_(W₁,W₂)(π)=N_W₁(π)∪N_W₂(π) |
+| Coarsened witness | N_(f∘W)(π)⊆N_W(π), with an actual coarsening f |
+| Refined observation π=r∘π′ | r(N_W(π′))⊆N_W(π) |
+| Restricted source C⊆D | N_(W restricted to C)(π restricted to C)⊆N_W(π)∩π(C) |
+| Next output B under U | Test N_(B∘U)(π); retained-state autonomy tests N_(π∘U)(π) |
+
+The diagnostic type numbers are versioned examples, not an exhaustive partition. A discrete membrane collision does not establish a smooth disconnected-fiber or holonomy defect. Set factorization does not automatically give measurable or continuous factorization; the quotient structure must support that conclusion. [S3, S16, S18]
 
 ### Empirical use
 
 Before comparison, fix the source domain, witness, projection, same-fiber rule, distance, tolerance, uncertainty treatment, and coverage. A pair whose distance lower bound exceeds the tolerance certifies a discrepancy at the observed fiber. An empirical search does not certify all unobserved fibers.
+
+A useful exact coverage envelope is available. Suppose W is total on D but validated only on C⊆D. Put L_C=N_(W restricted to C)(π restricted to C) and G_C={q:π⁻¹(q) is not contained in C}. Then L_C⊆N_W(π)⊆L_C∪G_C. A validated collision remains a failure; a fully examined clean fiber is clear; incomplete fibers remain open absent another proof. This is a deterministic envelope, not a confidence interval or prevalence estimate. If W is genuinely partial, first define the intended target. Different witnesses may have different coverage. [S16]
 
 The isotope/material work in **New geometry** remains a separate freeze-ready synthesis. Its central lesson is that atomic number or isotope mass alone need not determine a material response; pressure, material state, and the specific response witness can matter. This consolidation does not change its chemistry freeze or turn its literature examples into new measurements. [S3]
 
@@ -93,6 +116,8 @@ This characterizes required information. It does not permit future outcomes to b
 
 On a complete finite domain of N states, partition refinement supplies an exact stopping rule. Start with the B-classes and split a class whenever its members' successors fall in different current classes. Stability on the entire domain gives the predictive quotient. With k₀ initial classes there are at most N−k₀ strict refinements. A finite sampled trace is not a complete finite domain. [S1, S6]
 
+For a finite stochastic chain, split blocks by each state's exact vector of transition masses into the current blocks. The stable partition is the coarsest strongly lumpable refinement preserving the initial labels. This is not universally the smallest realization of observable future laws. A causal posterior is sufficient, not automatically minimal: different hidden-state posteriors can induce the same law of every future output. Under a fixed initialization, finite Markov order concerns admissible observed histories and their final m symbols. A hidden-state collision refutes universal lumpability; alone it does not refute every initialized finite-order law. [S16, S17]
+
 ### Finite-horizon loss
 
 Fix a kernel, clock, output B, retained record r, and horizon h≥1. Write
@@ -110,6 +135,20 @@ where TV(P,Q)=sup_A |P(A)−Q(A)|. A singleton fiber has diameter zero.
 - Any single law used for every state in a fiber has worst-case error at least half the fiber diameter, by the triangle inequality.
 - When B=r, zero one-step diameter on every fiber is universal predictive closure. For a different output B, matching its next value or law alone does not establish autonomy of r.
 - A tested pair certifies a lower bound. A useful finite approximation needs an output, horizon, clock, tolerance, and justified error assessment. [S1, S2, S5]
+
+### Achievable error needs a center and a uniform premise
+
+For metric witness values F_q=W(π⁻¹(q)), let δ=diam F_q and r(q)=inf_(a∈Y) sup_(w∈F_q)d(a,w), with allowed answer space Y declared. For finite diameter, δ/2≤r(q)≤δ. Half-diameter need not be attainable: in a three-point answer space with all distinct distances one, δ=r=1. For bounded real witnesses and unrestricted real answers, the midpoint of inf F_q and sup F_q attains δ/2. An infimum need not be achieved in a general answer space, so require an actual center or an attainment argument. [S16]
+
+For a finite model and approximate retained transition kernel K, suppose every full-state row satisfies TV(π_#P(x,·),K(π(x),·))≤ε, with 0≤ε≤1 and matching initial retained laws. Then
+
+\[
+\operatorname{TV}(\text{true joint retained path through }h,
+\text{approximate joint retained path through }h)
+\le1-(1-\varepsilon)^h\le\min(1,h\varepsilon).
+\]
+
+Conditional next-label laws are mixtures of certified rows. Couple each step while histories agree; the chance of any disagreement gives the bound. A fitted trace or sampled maximum does not establish the required uniform row premise. Joint-path distances have the horizon monotonicity above; terminal-only distances need not. Refinement comparisons keep the target B fixed: changing B along with the retained record is a different problem. This guarantee was already in v2.4 and is recovered here from the current v2.6 source. [S16, §7]
 
 ### The clock correction
 
@@ -252,6 +291,12 @@ The bracket is [f,g]_D=fD_hg−gD_hf. For the degree-k phase inclusion J_k, D_hJ
 
 The recovered §35 audit reports 36,237 exact assertions, including expected nonzero defects. That complete verifier was not rerun in this consolidation. The phase algebra supplies no physical central charge, Hamiltonian, vacuum representation, or Q2 verdict. [S2, S13]
 
+### Tensor densities and the limits of finite sampling
+
+The v1.61 proof-clarity patch extends the smooth phase frame to density weight λ: ρ_λ(f)a=fD_h a+λ(D_h f)a. For the existing smooth conjugate rotation F and h′>0, time acts by T_λa=(F′)^λ(a∘F); multiplication by (h′)^λ intertwines this with Koopman action. Its natural squared Hilbert norm integrates |a|² against (h′)^(1−2Re λ)dx. Positivity supplies a definite logarithm for complex powers. These are specified representation maps, not a physical field identification. [S31]
+
+Uniform q-point phase averaging exactly integrates the products needed for the stated cocycle identity when each input frequency has absolute value at most B and q>3B. Thus q=39 suffices for B=12. Outside that band, aliasing can destroy the sampled formula's antisymmetry; antisymmetrizing does not generally restore the cocycle identity. These uniform phase samples are different from bin indicators. Brackets add frequencies, so a finite band is a test domain rather than a closed finite-dimensional Lie algebra or a finite predictive state. The patch's analytical extension and the separate v1.6 executable receipt retain distinct provenance. [S31]
+
 ## 6 GQG and empirical interpretation
 
 GQG v0.12 keeps theorem geometry, dyadic admissibility, retained context, and empirical instrumentation separately typed. **Witness fidelity is relative to the claim.** Fidelity, resolution, and provenance strength are different properties; they are not one authority ranking.
@@ -301,6 +346,12 @@ Z_h=\frac18\sum_q(-1)^{h\cdot q}\mathcal Z_q,
 Thus Z_full=𝒵_000, while Z_000=(1/8)Σ_q𝒵_q. Full periodic ensemble summation forces an even-parity projection; that algebraic projection is not observed confinement. The three scientific questions stay separate: **Q1** is charge-two critical scaling, **Q2** is charge-one/confinement behavior under a specified ensemble and estimator, and **Q3** is anisotropy flow. The canonical Q2 branch remains source-free, cubic, and fixed-reference Z000. Fixed-reference loop conditions do not imply path-independent holonomy.
 
 The field constructor uses local sign identification z∼−z and physical composite Φ=z². Together with the declared threefold symmetry, invariant onsite monomials require p−r divisible by six, giving leading phase-dependent anisotropy of degree six. This classifies allowed terms; it does not derive a unique continuum theory or establish XY* criticality. [S2, S8]
+
+### Explicit topological witnesses
+
+The periodic cell complex has H₁(T³;ℤ)≅ℤ³. Choose reference cycles Γα and dual cuts Σα with intersection δαβ; Wα=⟨Σα,I⟩. In every sector q, I=Σα(qα+2kα)Γα with M=0 gives W=q+2k for arbitrary k∈ℤ³. Thus q loses winding in every sector, while W determines q. This static observation loss is distinct from temporal memory.
+
+With charge-six sources, a₆=[I mod 6]∈H₁(T³;ℤ₆)≅ℤ₆³ and q=a₆ mod 2. Forced q=0 permits components 0,2,4 of a₆, not only zero. For direct gauge loops bounding a plaquette strip A, H(Γ′)H(Γ)=∏_(p∈A)B_p. Reference-loop signs therefore need not be path-independent when plaquette flux is present. [S2]
 
 ## 8 The declared toroidal dynamics
 
@@ -398,7 +449,9 @@ The prospective replacement amendment defines profile **TD-COS-FH-001-L2-REPLAY-
 
 The old CLI's `--dynamics` argument hashes a file but does **not** load or enforce its settings. A configuration-enforcing adapter, lossless recorder, and new-schema conformance checks remain required. The recovered 512-event tracer is not a full implementation of the replacement envelope. Full replacement replay remains **NOT_RUN**; production stays **NOT_AUTHORIZED**. Hashes identify bytes, not mathematical truth or an externally attested date. [S14]
 
-The all-orders proof Doc's embedded code still ends at `assert a`. Its readable proof is present, but that listing is not a complete runnable verifier. Do not silently fill the missing code and call it the original artifact.
+**Complete proof verifier recovered.** The native listing ending at `assert a` remains a historical copy. The complete proof, original verifier, and separate rational certificate checker are available at immutable commit `e8623fa88a6e049e17e7564222356a6675d6b29d`. The recovery reports byte-for-byte output reproduction, six exact character/convolution comparisons and three 70-digit local calculations; the separate checker adds nine exact clock checks for L=2,3,4 at d=1,2,B and outward-rational local enclosures at N=10,100,1000 with disjoint ratio intervals. The October review confirmed accessible complete source and receipts; it did not rerun those programs. These support the analytical proof and do not replay the historical sampler. [S24]
+
+The historical recovery preserves reproduction-side code, reconstructed non-authoritative configuration, 80,000 retained measurements, 4,096 detailed prefix events, and 32 full state/RNG snapshots. Those differ from 88 digest-only checkpoints and from the missing companion's 96 reported post-initial full checkpoints. The original companion executable, authoritative configuration and complete event streams remain missing. The later handoff recovers exact replacement inputs, but configuration enforcement, lossless recording, restart/conformance validation, and full replay remain outstanding. Recovering a proof verifier does not close that execution gap. [S2, S25]
 
 ### What the earlier review independently checked
 
@@ -436,22 +489,128 @@ The later compact comparison in the same source uses 1.75-inch string centers, a
 
 These acoustic examples connect to witness-relative geometry. They remain outside the toroidal field master. [S3, S15]
 
-## 11 Continue from here
+## 11 Choosing measurements that actually repair the claim
+
+The abstract pair (π,W) specifies information, but W may be precisely what is unavailable. The newer master supplies an exact finite acquisition problem. Fix a nonempty complete finite domain D, an attained initial observation π, a total target W, and available total coordinates c₁,…,c_m with fixed nonnegative costs a_j. The initial-label cost is common or already paid. Queries reveal the same unchanged state. Availability, cost, and the intended target must be declared before optimization. [S16]
+
+For every pair with π(x)=π(y) and W(x)≠W(y), form S_xy={j:c_j(x)≠c_j(y)}. A chosen coordinate set J repairs W exactly if and only if J meets every S_xy. A bad pair survives precisely when all selected coordinates agree on it. An empty S_xy means the entire menu cannot repair that pair. This is a hitting-set problem; inclusion-minimal, minimum-cardinality, and minimum-cost repairs are different objectives. Exhaustive search is exact for small menus but generally exponential. Matching and assignment prototypes are not general hitting-set solvers.
+
+For example, take constant π, W=(0,1,1,0), c₁=(0,0,1,1), and c₂=(0,1,0,1) over four states. Neither coordinate alone suffices; together they do. A coordinate c₃=W would suffice alone only if it is actually available.
+
+### Fixed batches, label-dependent batches, and sequential queries
+
+Let H_q contain the separating sets S_xy within initial label q, and let τ_a(H) be the minimum cost of a set meeting every member of H. Assuming every required pair is repairable, independent choices across labels, and no shared installation budget,
+
+\[
+C_{\mathrm{fixed}}=\tau_a\!\left(\bigcup_qH_q\right),\quad
+C_{\mathrm{label,worst}}=\max_q\tau_a(H_q),\quad
+C_{\mathrm{label,expected}}=\sum_qp(q)\tau_a(H_q).
+\]
+
+A label-dependent batch is selected after observing q but before seeing its extra measurements. Expected cost needs a declared distribution. Exactness still covers states and labels assigned probability zero. With k attained labels, C_fixed≤k C_label,worst, sharply; no distribution-free k-factor comparison with expected cost follows. The cheapest potential inventory costs C_fixed, although a policy minimizing per-case cost can use a more expensive inventory. [S16, §§5–5.1]
+
+Sequential acquisition can do much better. On D={1,…,n}, with constant π, target W(x)=x, and unit-cost thresholds c_t(x)=1[x≥t], t=2,…,n,
+
+\[
+C_{\mathrm{batch}}=n-1,\qquad
+C_{\mathrm{sequential,worst}}=\lceil\log_2n\rceil.
+\]
+
+Each adjacent pair needs its unique threshold, so a batch must acquire all cuts. Binary search achieves the sequential upper bound; a depth-d binary tree has at most 2ᵈ leaves, proving optimality. At n=1024 this is 1023 batch queries versus 10 sequential queries. All 1023 thresholds remain necessary in the possible inventory. These are formal query costs, not measured time, energy, or labor savings.
+
+For sequential expected cost, supply a state prior p(x) on D and define P(S)=Σ_(x∈S)p(x); label probabilities alone are insufficient. For a candidate set S with constant W, put V(S)=F(S)=0. Otherwise consider informative queries, with nonempty answer blocks S_jv:
+
+\[
+V(S)=\min_j\{a_j+\max_v V(S_{jv})\},\qquad
+F(S)=\min_j\{a_jP(S)+\sum_vF(S_{jv})\}.
+\]
+
+V is worst-case remaining cost; F uses unnormalized prior mass. Maximize V, or sum F, over initial-label fibers for the overall objective. Every informative branch strictly shrinks S; repeated and uninformative queries can be removed with nonnegative costs. Zero-prior states still require exact recovery. If no informative query can resolve a nonconstant target, the menu is infeasible.
+
+The source reports an exact finite sequential solver checked against exhaustive tree enumeration on 2,348 small models. Its documented defaults are 64 states, 16 coordinates, and 100,000 evaluated subproblems; exceeding bounds returns LIMIT. That source suite was not rerun here. Fresh October checks independently reproduce threshold costs for n=1,…,32 and the four-state prior (0.7,0.1,0.1,0.1): fixed batch cost 3, optimal sequential worst cost 2, optimal expected cost 1.5. An expected-optimal tree can have worst cost 3. [S16, §5.2]
+
+For pre-answer use, optimize from available π_pre toward an independently specified target A_task. A policy using the pair (request, answer) to acquire that same answer is circular. Post-answer audits may use that pair to recover a different compliance or provenance witness.
+
+## 12 Timing: a solvable scheduling problem with explicit limits
+
+Mean delay, spread, number of distinct durations, current delay, and next-delay law are different witnesses. Cyclic records (40,40,160,160) and (40,160,40,160) share mean 100, population SD 60, and current entry 40, but their next entries are 40 and 160. This finite collision refutes that particular retained-state closure; it is not an infinite-memory theorem. [S23]
+
+In the add-only scheduling model, readiness R≥0 has finite second moment. A release Y must obey Y≥R almost surely and E[Y]=m≥E[R]. Readiness is fixed; changing content, feedback, or queue dynamics changes the model. If m=E[R], only Y=R is feasible. Otherwise choose T with E[max(R,T)]=m. Then Y*=max(R,T) uniquely minimizes variance up to almost-sure equality:
+
+\[
+\operatorname{Var}(Y)-\operatorname{Var}(Y^*)
+\ge E[(Y-Y^*)^2]\ge0.
+\]
+
+Indeed, Y²−Y*²−2T(Y−Y*)=(Y−Y*)²+2(Y−Y*)(Y*−T). The last term is nonnegative: when R>T both differences are nonnegative; otherwise Y*−T=0. Equal means eliminate the linear term after expectation. [S16, §9]
+
+With m(T)=E[max(R,T)], v(T)=Var(max(R,T)), and a(T)=E[(R−T)_+], the differentiable frontier has −dv/dm=2a(T) wherever m′>0. For positive SD s, −ds/dm=a(T)/s. The two slopes have different units and are not preference coefficients.
+
+For equally likely readiness 40/400 ms, mean readiness is 220 ms and SD is 180 ms. A 290-ms mean budget permits T=180 ms, giving releases 180/400 ms and SD 110 ms. A constant 180-ms release is infeasible. These are model calculations, independently checked in October; they do not demonstrate that padding benefits people. A favorable regularity/delay tradeoff is also distinct from an experimentally established interaction. The source's human timing experiment remains NOT_RUN; a separately executed toy mediation comparison is a different experiment. [S16, S23]
+
+## 13 Worked additions: arithmetic, spectra, and geometric stability
+
+### Arithmetic witnesses and a failed predictive repair
+
+On y²=x³+2x+2 over F₁₃, P=(2,1) and Q=(3,3) give the same retained x-coordinates for (P,Q) and (P,−Q), but x(P+Q)=12 and x(P−Q)=11. Keeping both y-coordinates restores the signed inputs on the declared affine domain; no minimality is claimed. An existential signed-sum relation is a different target and requires its own domain, candidate x₃, and retained record. It cannot be called a coarsening of a specified sum without an actual factor map. [S3, §15]
+
+For D={n∈ℤ:n≥2}, U(n)=2n+1, and primality bit q, let r(n)=(q(n),q(n)∧q(U(n))). Then r(3)=r(5)=(true,true), whereas r(7)=(true,false) and r(11)=(true,true). Thus the proposed Sophie Germain label is not autonomous. Even the genuine one-step window (q(n),q(U(n))) has the same counterexample. One additional future label is not automatically exact predictive closure. [S1, S3]
+
+### Spectral witnesses need a declared observation
+
+The spectral increment supplies exact examples in which equal squared spectra lose an eta witness, and equal endpoint spectra lose spectral flow. To reuse either, declare the domain-to-operator or domain-to-path map, domain and boundary conventions, spectral assumptions, and which output is retained. A computed eta, heat density, or spectral-flow number alone is not a same-fiber collision. The source keeps KPZ, Connes–Kreimer, GHY, APS, and the native constructions distinct until a correspondence is proved. These examples do not supply a toroidal sampler theorem or a physical central charge. [S20]
+
+### Exact geometric recovery does not guarantee stable recovery
+
+On [−1,1]², use G_w(x,y;t)=20[(1−w)x²+wx⁴]+10y²+tx, with 0≤w≤1. At t=0 every w gives endpoint readings (20,20), yet its δ=2 near-gap area changes from approximately 0.4442882938 at w=0 to 0.8792167529 at w=1. Endpoint readings lose the area witness. Within this calibrated family, G_w(1/2,0;0)=5−15w/4 recovers w exactly. A measurement error bounded by ε gives parameter error at most 4ε/15 before any clipping to [0,1]. [S19]
+
+At w=1, the constrained minimizer is x*(t)=clip(−cuberoot(t/80),−1,1), y*=0. It is interior only for |t|<80; near zero its derivative is unbounded. The shorter GQG summary omits that tilt condition, so this master retains the corrected full-domain formula. A unique answer need not be Lipschitz-stable.
+
+For a μ-strongly convex objective on a fixed nonempty compact convex domain, changing a linear tilt by Δℓ moves the constrained minimizer by at most ||Δℓ||/μ. If continuous fields f,g on the same nonempty compact domain differ uniformly by at most ε, their minimum-subtracted fields differ by at most 2ε. Consequently their near-gap sets obey Ω_f(δ−2ε)⊆Ω_g(δ)⊆Ω_f(δ+2ε), with negative-threshold sets empty. These bounds need the stated uniform and convexity assumptions.
+
+A sampled violation v has global upper bound max_i v_i+Lh only when L is a valid Lipschitz constant and the sample is an h-net in the declared metric. Local tangency needs end caps, trimming, and a global interference check. Units, coordinate metric, active branch, and physical clock must be retained when the witness depends on them. A compact-domain bound cannot be applied to unbounded toroidal current space without additional tail control. [S16, S19]
+
+## 14 Evidence, service, and version precedence
+
+### Preserve a finding while keeping its cause open
+
+Claim closure records the proposition, domain, criterion version, relevant evidence r_i, finding, disposition D_i, and action. Require D_i=g_i(r_i), with g_i independently declared and calibrated. Equal relevant evidence must give compatible dispositions, but a constant wrong classification is still wrong. If the defect criterion is b, substituting b∧k for “defect b and known cause k” wrongly erases a known defect at b=1,k=0. Unknown cause and observed defect belong in separate fields. A successful repair likewise need not identify the original cause. [S17]
+
+For deterministic residual closure, a valid same-retained-state/different-successor pair establishes FAILED on the declared domain. An untested, underspecified, or insufficiently covered claim is UNRESOLVED. CLOSED requires a proof or complete applicable check. TTSC §20 still groups a valid failure with an untested claim; this master corrects that rule without inventing an executed TTSC failure. Stochastic closure compares successor laws, not two individual random outcomes. Within-time closure and cross-time homogeneity remain separate; adding a clock cannot repair the former. [S22]
+
+### Selected text, a valid answer, and delivered work
+
+Direct Service Geometry's text-preserving ablations concern a declared selected-text witness. They do not establish equal correctness, completion, latency, implementation, or service history. The current AS-001 contract separately checks faithful source selection S, task completion C, applicable content constraints K, claim-disposition fidelity P, historical service compliance H, and exact bytes B for a specified payload pair. A validated candidate requires S,C,K,P; delivery needs its own comparison with what was actually delivered. Its integration suite remains source-reported as unexecuted. [S17, S21]
+
+The current recurrence correction uses one window of 198 eligible assistant replies after n334: 69 case-sensitive whole-word Checking recurrences, versus 70 case-insensitive recurrences. The extra match is n739. The stricter CORRECTION-BINDING RATE remains 129/198≈65.2%. These are alternative codings of one window, not independent cohorts. The literal DROP_IT baseline was already 0/16, so a 0/64 marker-free follow-up is not a measured reduction. These reconciled source counts establish no actor, intent, or mechanism and were not recounted from the raw transcript in this pass. [S21]
+
+Transport observations, request records, session metadata, and returned records remain distinct spaces. Link them only with compatible identifiers, times, scope, and evidence for the actual relation. A process ID, endpoint, repeated answer, or file hash alone is not that join. [S17]
+
+### Which source controls
+
+The governing Hidden Quotient statement is qualified v1.7. The standalone multiplication document, despite its later Drive modification date, still omits the relative-semifiniteness condition in its RN paragraph, omits normalization in its dual-norm test, and says the quotient “trivializes” at semifiniteness. Use §4 here: normalize the finite-set test by 1/μ(A), and say local-null equivalence becomes ordinary almost-everywhere equivalence. The quotient of actual functions remains. Enlarging a codomain alone does not make a missing object enter the representation's image. Keep algebraic kernel, kernel pair Eq(π), and stochastic transition kernel distinct. [S4, S26, S33]
+
+The restored Full-Packet Audit v0.2 is dated September 3. Its q-only closure label is historical; the later TD-COS-FH-001 theorem governs that specifically declared kernel. Neither theorem nor audit silently activates another protocol. Likewise, the October-modified Cos-Tim architecture's cross-domain coherence and approximately 43-day-cycle proposals remain hypotheses; its modification date supplies no test result or map identifying consciousness, governance, and heliophysics. [S29, S32]
+
+The v2.6 receiving note and September 28 collection review report different recovery scopes for earlier repair-engine files. The latter ran locally recovered files but explicitly did not establish identity with earlier originals. Preserve that distinction rather than treating matching filenames or accumulated pass counts as release identity. The repeat-call matching bug and original vine conditioning defect are distinct from separately corrected derivatives and the finite geometry engine. [S16, S27]
+
+
+## 15 Continue from here
 
 1. **Choose the claim.** State the domain, retained record, witness or output, dynamics, clock, and required comparison. Separate static recovery, representability, exact autonomy, and approximate prediction.
 2. **For mathematics, locate the obstruction.** Use same-fiber witnesses for non-descent, missing objects or suprema for completeness, and successor laws for predictive closure. Preserve the corrected examples and theorem hypotheses above.
-3. **For toroidal replay, recover or implement the declared evidence path.** Recover the original authority if available. Otherwise work under the already defined prospective replacement profile, implement configuration enforcement and lossless recording, and validate replay without claiming the historical mismatch is solved.
+3. **For toroidal replay, close the execution gap.** The complete proof verifier is recovered. Seek the original companion authority and comparable event prefixes if available. Otherwise work under the already defined prospective replacement profile, implement configuration enforcement and lossless recording, and validate replay without claiming the historical mismatch is solved.
 4. **For useful prediction, specify an approximation problem.** Choose B, r, horizon, clock, tolerance, and evaluation domain. Compare full-state or causal-filter behavior with candidate retained coordinates. Report pairwise lower bounds separately from uniform guarantees.
 5. **For empirical work, use the complete frozen instrument.** Preserve eligibility, denominator, uncertainty, coverage, holdouts, and independent confirmation. Fit validity, scale admissibility, accessibility, stationarity, and mixing remain separate conditions.
 
 No new physical Q1/Q2/Q3 result, global non-descent geometry, holonomy, or mechanism attribution follows from assembling this file. Add future changes with the source, affected claim, evidence scope, and date. Do not promote a historical unresolved result by editing a summary label.
 
-## 12 Source links
+## 16 Sources, review coverage, and verification
 
 These are the sources behind this consolidation. The equations and distinctions above can be read without opening them; execution and proof-level continuation require the relevant complete source.
 
 - **S1 — [GEOMETRY + GQG — Working Master](https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit)**. Current first tab; earlier Geometry v2 body in its source tab.
-- **S2 — [TOROIDAL — Working Master](https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit)**. Current consolidation v0.3 first tab; earlier geometry release retained separately.
+- **S2 — [TOROIDAL — Working Master](https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit)**. Current consolidation v0.4 first tab, with September 28 integration and recovered verifier; earlier release retained separately.
 - **S3 — [New geometry](https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit)**. Isotope synthesis, witness-relative geometry, and the geometry integration note.
 - **S4 — [Hidden Quotient v1.7 master](https://drive.google.com/file/d/1VF_UeW26X5LYpMYpfEtYvry8PjGX77Bj/view)**. Qualified theorem, witness restoration, seven companion bridges, and current geometry addition.
 - **S5 — [Hidden Quotient Corrected Investigation 1.1](https://drive.google.com/file/d/1u3gyUGRK7Teqaa1lCZBd-WvhCuZDQM1k/view)**. Precise theorem qualifications, examples A–C, and identity/swap dynamics.
@@ -459,11 +618,33 @@ These are the sources behind this consolidation. The equations and distinctions 
 - **S7 — [GQG v0.12 instrument](https://drive.google.com/file/d/13g-nyjUeMrtQRECXugx7DAdX5RrN0OzA/view)**. Complete empirical eligibility/response instrument and typed residual framework; apply the later clock correction when discussing autonomy.
 - **S8 — [Toroidal Master v0.2 with dynamics integration](https://drive.google.com/file/d/1103tr4UUEIbyLYUxfE1zaCyn_E6MyAxW/view)**. Detailed field, topology, throat, protocol, and lineage reference.
 - **S9 — [Toroidal Dynamics v0.1](https://docs.google.com/document/d/1jDBi4zR7W4fkJ_1F_gKU-RQPfkBgiBllXF5Pw1onP1Q/edit)**. Drive title v0; body v0.1. Full ideal kernel and numerical policy.
-- **S10 — [TD-COS-FH-001 sector process has no finite Markov order](https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit)**. All-orders proof; embedded verifier remains truncated.
+- **S10 — [TD-COS-FH-001 sector process has no finite Markov order](https://docs.google.com/document/d/1ON-nOrXUCCixHFm4WYIbihKtY47wQ2p0ylgR4r4opiY/edit)**. Historical native all-orders proof copy; its truncated embedded verifier is superseded for runnable access by S24.
 - **S11 — [L=3 direct-reference follow-up](https://docs.google.com/document/d/1YNIuAhjiY9szcA9Q5uvMm0N-b88KEQ15jjzFRLvdanY/edit)**. Separate PASS record, counts, uncertainty screens, and reported replay.
 - **S12 — [Deterministic mismatch investigation](https://docs.google.com/document/d/1G88zvSUXi78R6uCMJYBEZpOmFpIiyP8OAK8_gtd9Hxw/edit)**. Historical discrepancy and missing authority.
 - **S13 — [Toroidal note versus recovered Section 35](https://docs.google.com/document/d/11nZWX9optKPLn9PX90cNktrj84iyafFNi3Pj1LDFZEk/edit)**. Corrected phase algebra and source-reported exact audit.
 - **S14 — [Prospective replacement amendment](https://docs.google.com/document/d/1gXUSaFvix1R_7-sqtkO5m8VqZqxGnDbl2JiLXas8KF4/edit)**. Replacement profile, hashes, configuration issue, event/restart contract, and preserved statuses.
 - **S15 — [Five String Acoustic Resonator Rev B](https://docs.google.com/document/d/1U05hPPHklm9yZBUcNHkLMYwDaUaaftbLBFkmeEbv_zQ/edit?tab=t.a4ezxd7jm5ha)**. Use the Geometry update G1 tab for the stated dimensions.
+- **S16 — [GEOMETRY — Working Master v2.6](https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit)**. Exact repair, acquisition, path bounds, conditioning and causal padding.
+- **S17 — [Geometry — Curated Upgrades](https://docs.google.com/document/d/1YGYq8OqNGejONtHdEidubFazE7BIEgfcvN_fxQS48ds/edit)**. Claim closure, AS-001, four-space evidence and September 28 integration.
+- **S18 — [Geometry of Typed Defects](https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA/edit)**. Versioned diagnostics; corrected calculus is also in New geometry §16.
+- **S19 — [Gear mathematics — geometry checked](https://docs.google.com/document/d/1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U/edit)**. Recovery, conditioning, coverage and geometric examples.
+- **S20 — [GEOMETRY — Upgrade v2.2grok](https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4/edit)**. Spectral witnesses and limits on imported correspondences.
+- **S21 — [DIRECT SERVICE GEOMETRYv2.6](https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit)**. Current recurrence correction and selected-text/service-history distinction.
+- **S22 — [TTSC-1 v0.3](https://docs.google.com/document/d/1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y/edit)**. Spatial comparator; §20 status wording corrected in this portable reference.
+- **S23 — [Temporal exchange rate](https://docs.google.com/document/d/1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA/edit)**. Timing witnesses and empirical limits.
+- **S24 — [Complete TD-COS-FH-001 proof and verifiers](https://github.com/MailanPatternMonkey-ai/Gettin-Started/tree/e8623fa88a6e049e17e7564222356a6675d6b29d/corpus/mathematics/TD-COS-FH-001)**. Immutable recovered package and independent rational certificates.
+- **S25 — [Toroidal Replay Handoff — Source Edition](https://docs.google.com/document/d/1BaTdiLY1HkwOe0Ums1rnM3WjCpx-CpAof6bE9i3qix0/edit)**. Recovered inputs and outstanding replacement implementation.
+- **S26 — [Hidden Quotient Behind the Multiplication Representation](https://docs.google.com/document/d/1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8/edit)**. Recovered standalone text; older qualifications do not supersede v1.7.
+- **S27 — [Geometry collection review — September 28](https://docs.google.com/document/d/1FN4txPFFJdZKMXg2xg2BpoYslPNXBGjJ8dvTInFlvZc/edit)**. Historical 62-text review and scoped software receipts; not fresh October executions.
+- **S28 — [Geometry update — current document index](https://docs.google.com/document/d/1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30/edit)**. Routes current geometric additions and versions.
+- **S29 — [Cos-Tim Architecture](https://docs.google.com/document/d/1mb_4itn1aFOkYHZbbOt_ysbzNYz11NirtW3CfM2-c0k/edit)**. Screened proposed cross-domain architecture; no new mechanism adopted.
+- **S30 — [GQG card](https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg/edit)**. Current condensed GQG reference.
+- **S31 — [Geometry Maximization v1.61 — Proof-Clarity Patch](https://docs.google.com/document/d/1xMAm07ObGKUfK5uMz-fvjr7v_IaS6DOoiB68LrZN9k8/edit)**. Screened proof-clarity lineage; detailed claims retain their original scope.
+- **S32 — [Toroidal Full-Packet Audit v0.2](https://drive.google.com/file/d/1dkJr1shU0Rzf0jn55Ud_QT6-qHzWL4Pz/view)**. September 3 audit; read as historical protocol assessment, with later kernel theorem kept separate.
+- **S33 — [Hidden Quotient — Core, Witness, and Strike](https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit)**. Current native precedence notice and later integrations.
 
-**Version note.** This file consolidates the source state read on 9 September 2026. The 8 September working-master tabs and Corrected Investigation 1.1 are included. A future edit to a linked document does not silently update this portable snapshot.
+**Review coverage, 18 October 2026.** The direct Drive connector was unavailable; authenticated browser access recovered the current Docs. This pass searched geometry, toroidal, hidden quotient, and the full-packet audit, screened current indexes and version relationships, and read the current mathematical, Hidden Quotient, Toroidal, predictive, typed-defect, gear, spectral, timing, service, and integration texts listed below. The restored September packet was read in Drive's preview. Exported text represents selected working tabs, not every historical tab, native element, comment, revision, or file in Drive. Historical source links S4–S5 and S7–S15 are carried from the earlier consolidation unless specifically refreshed through their current receiving masters. This is a broad current-source upgrade, not a claim that every Drive file or every theorem was exhaustively re-proved.
+
+**Verification in this pass.** The definitions, finite acquisition arguments, uniform path bound, and causal-padding proof received mathematical review. Independent exact checks cover n=1,…,32 threshold models, the skew-prior expected optimum, timing and prime-label examples, and a sharp path-law fixture through horizon 12. Large source suites and historical sampler receipts remain source-reported. The experimental rectangular-torus extension explored locally was not adopted into the governing theorem. Source export hashes and review depth are recorded in the accompanying review receipt.
+
+**Version note.** This updates the portable file; online source bodies were not edited in this pass. Section 14 identifies older source wording that still needs synchronization. A linked document changing later does not silently update this snapshot. The pre-upgrade file is preserved in the review workspace.

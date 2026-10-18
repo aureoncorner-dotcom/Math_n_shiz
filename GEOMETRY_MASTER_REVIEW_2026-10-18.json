@@ -1,0 +1,219 @@
+{
+  "review_date": "2026-10-18",
+  "output": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\outputs\\GEOMETRY_MASTER.md",
+  "output_sha256": "47e81e3830e210bf42c7281fa6d2e6383b460b83b8aa52c2378edfb14bf8efbc",
+  "words": 8614,
+  "native_doc_exports": [
+    {
+      "key": "geometry",
+      "url": "https://docs.google.com/document/d/1Cn00U9Cj37QRrK2Xg3bX1417xYKstkFzednitR9xjog/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_geometry.md",
+      "sha256": "589769bbd058c2e49778006590f98b8c7595ae2830c6ebea92cca1a036b09def",
+      "bytes": 23903,
+      "review_depth": "Current working tab and later integrations reviewed"
+    },
+    {
+      "key": "toroidal",
+      "url": "https://docs.google.com/document/d/1NV7JsFuqJJVjFzYcqCAuC22y_rrjCSqqcZWZKobcGoU/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_toroidal.md",
+      "sha256": "82953172bedeaabf07b712a57b8af0417bd0316bd5210e79d645ceba872c1130",
+      "bytes": 30461,
+      "review_depth": "Full current working tab reviewed"
+    },
+    {
+      "key": "new_geometry",
+      "url": "https://docs.google.com/document/d/1DVgC8ia4Z1suHmLbcrDbvw1ETuSjkTm25_5DH8OOQNI/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_new_geometry.md",
+      "sha256": "194934323752fe134dd3fb8855da0acb890cbdcac8d6daa008d667ccc988b6df",
+      "bytes": 65662,
+      "review_depth": "Arithmetic, typed defects, predictive, and later integration sections reviewed"
+    },
+    {
+      "key": "v26",
+      "url": "https://docs.google.com/document/d/1S-mqz0aK_vCnmZiRVDPAr7rzTBgfoVuDDEyXEgHmkAk/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_v26.md",
+      "sha256": "0c92dfa032c29db4812272c14c398b8ce120fb051c87b72db18ad6a6525fb3d8",
+      "bytes": 53449,
+      "review_depth": "Core proofs, acquisition, timing, quantitative and receiving sections reviewed"
+    },
+    {
+      "key": "upgraded",
+      "url": "https://docs.google.com/document/d/1YGYq8OqNGejONtHdEidubFazE7BIEgfcvN_fxQS48ds/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_upgraded.md",
+      "sha256": "37251825a46e44da38730729cd4811b44b1a993be7aae9b8cf30ba5c488e05e5",
+      "bytes": 26507,
+      "review_depth": "Claim closure, answer selection, evidence graph and current integration reviewed"
+    },
+    {
+      "key": "typed",
+      "url": "https://docs.google.com/document/d/1rkYnCM7JWL6uJaTagpIaYIDIzbX6MdcNCiiaydISJGA/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_typed.md",
+      "sha256": "04650d1f8703ee808bc05dbfa73fa48ba51e43521676f639ba656f8ec09b337b",
+      "bytes": 18325,
+      "review_depth": "Calculus and versioned examples reviewed"
+    },
+    {
+      "key": "hidden",
+      "url": "https://docs.google.com/document/d/1WhRhyVqrz7lZXPawJfjs8GBnnCis3oMCFYk6fnvFH7k/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_hidden.md",
+      "sha256": "bceb29ae0906a6279cca50a08569e891cb7670ec51536086d60791e95b42a4fe",
+      "bytes": 64036,
+      "review_depth": "Current qualification and later mathematical integrations reviewed"
+    },
+    {
+      "key": "multiplication",
+      "url": "https://docs.google.com/document/d/1fdVBmS2i3lz0a8o2EAV5NP5Z1S_6kM7Vvgg_z0h9XW8/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_multiplication.md",
+      "sha256": "c57bbd646e011884fa72c8df5de9eee9ccec78f77427c6525e08475321193730",
+      "bytes": 20819,
+      "review_depth": "Full mathematical text reviewed; three missing predecessor corrections located"
+    },
+    {
+      "key": "predictive",
+      "url": "https://docs.google.com/document/d/1dwlILms8z6YWJ_EFRCeoky6Fku9ND6A2xugZ008zOhk/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_predictive.md",
+      "sha256": "e4991e6f553f10d399862ec889babf1a3672fcb12b5a1822d03f7da04ddf1a92",
+      "bytes": 17252,
+      "review_depth": "Export recovered; predictive claims reconciled through current receiving masters"
+    },
+    {
+      "key": "gear",
+      "url": "https://docs.google.com/document/d/1A2dGTW1cYhKV3nOs6at9GhjNX4ZWAoNp74013Gq2a4U/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_gear.md",
+      "sha256": "83d35c2b62e238fe69f7259cff928228a982818f147497e27cb21019283fe8ac",
+      "bytes": 40822,
+      "review_depth": "Recovery and quantitative transfer examples screened; no manufacturing certification"
+    },
+    {
+      "key": "spectral",
+      "url": "https://docs.google.com/document/d/1bhllDANiLCIVGuTb_cFqi3UZ3rgkS-yd-I6iCHdEdx4/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_spectral.md",
+      "sha256": "90f2f099498b90f2641fbd6d643182a56dc94ad62893ca5cb2290c00516d61a0",
+      "bytes": 22635,
+      "review_depth": "Eligibility, examples and import boundaries screened"
+    },
+    {
+      "key": "temporal",
+      "url": "https://docs.google.com/document/d/1obKlNpy47T8Km074kHQ499KUH3Z1Q47nhRC8GUEE7rA/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_temporal.md",
+      "sha256": "b7ed2e5dd2fe1e62c671b926e471d7ccc550c368c6bb0868f486cfd4c4de1556",
+      "bytes": 27652,
+      "review_depth": "Timing claims reconciled with current v2.6 proof and integration"
+    },
+    {
+      "key": "direct",
+      "url": "https://docs.google.com/document/d/1vVy2Bk01klLgyfVDkOoxdOddlXEc02wIydAofFY59Bc/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_direct.md",
+      "sha256": "0cf20388dc852a1f1f7eb06dfcc355871c51e6f40e8914fa0c96cedbbe930769",
+      "bytes": 18280,
+      "review_depth": "Opening recurrence correction and selected-text/service-history scope reviewed"
+    },
+    {
+      "key": "service",
+      "url": "https://docs.google.com/document/d/1ODDPPfGKTKx8jSy_yp5leVww6w-pSXqfNgLFHmEs17g/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_service.md",
+      "sha256": "959ec9d6b1450931fb0b24493ea8dc1aba0edec806892bee55fe5dd4ee74c975",
+      "bytes": 61387,
+      "review_depth": "Export recovered; later integration screened through index and current masters"
+    },
+    {
+      "key": "gqgcard",
+      "url": "https://docs.google.com/document/d/1Mrm8KAaUsh5e2izR9K4VZqNKEn5enEFshnskHuBznGg/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_gqgcard.md",
+      "sha256": "2f7d6d4eca53bc5526dbed4298e43272db1fd9b3f94c1f0e0df793f05fe3234d",
+      "bytes": 46505,
+      "review_depth": "Export recovered; current-card integration screened through index"
+    },
+    {
+      "key": "ttsc",
+      "url": "https://docs.google.com/document/d/1M4B5m4fPfS1W7JBffL7B02hlq-86oKTDwyJZPeaL33Y/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_ttsc.md",
+      "sha256": "4c090020d919f2631c5e83c231edec6b3ec98b99e0a2f39c38f2790f3a681198",
+      "bytes": 33046,
+      "review_depth": "Closure and kinematic scope reviewed; specific status defect located"
+    },
+    {
+      "key": "handoff",
+      "url": "https://docs.google.com/document/d/1BaTdiLY1HkwOe0Ums1rnM3WjCpx-CpAof6bE9i3qix0/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_handoff.md",
+      "sha256": "8ac88fc83c431ca48daa096dc9a41d73554c59bbe78875415cb9c9c2cd86425f",
+      "bytes": 39401,
+      "review_depth": "Full replacement-replay handoff reviewed"
+    },
+    {
+      "key": "max161",
+      "url": "https://docs.google.com/document/d/1xMAm07ObGKUfK5uMz-fvjr7v_IaS6DOoiB68LrZN9k8/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_max161.md",
+      "sha256": "acb0bbe8b5b5fcd9c455ed54e2cfad471e28fd368b9941a16180ff2e4968d10b",
+      "bytes": 15877,
+      "review_depth": "Adoptable density/aliasing extension and proof-versus-receipt distinction reviewed"
+    },
+    {
+      "key": "collection_review",
+      "url": "https://docs.google.com/document/d/1FN4txPFFJdZKMXg2xg2BpoYslPNXBGjJ8dvTInFlvZc/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_collection_review.md",
+      "sha256": "43fdac3353a344f2babdebdeaeafd5b9ce5df641403731f173d15d829fdafb23",
+      "bytes": 18693,
+      "review_depth": "Full collection review read as historical evidence, not a current rerun"
+    },
+    {
+      "key": "index",
+      "url": "https://docs.google.com/document/d/1XK-iCWufDUcsrumwR_1OP3_25XKutio4KePOm1KXQ30/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_index.md",
+      "sha256": "3f8a64edc55119f9c734e19840bd9e4a0b178fb56ef1f1ce1cc048394579860b",
+      "bytes": 24970,
+      "review_depth": "Source/version index screened; counts are originating review claims"
+    },
+    {
+      "key": "cta",
+      "url": "https://docs.google.com/document/d/1mb_4itn1aFOkYHZbbOt_ysbzNYz11NirtW3CfM2-c0k/edit",
+      "export_path": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\live_cta.md",
+      "sha256": "ffe89d537dd7bfeaa5643f2d5d5d2eb99fbe008384b8f54794240dd3578458ef",
+      "bytes": 12390,
+      "review_depth": "Opening model, coherence and cross-domain claims screened; hypotheses not promoted"
+    }
+  ],
+  "drive_preview_read": {
+    "url": "https://drive.google.com/file/d/1dkJr1shU0Rzf0jn55Ud_QT6-qHzWL4Pz/view",
+    "title": "TOROIDAL_NON_DESCENT_FULL_PACKET_AUDIT_v0.2.md",
+    "printed_audit_date": "2026-09-03",
+    "scope": "Full visible preview text read; attempted download timed out; no downloaded-file hash claimed"
+  },
+  "immutable_public_package_review": "https://github.com/MailanPatternMonkey-ai/Gettin-Started/tree/e8623fa88a6e049e17e7564222356a6675d6b29d/corpus/mathematics/TD-COS-FH-001",
+  "discovery": {
+    "queries": [
+      "geometry",
+      "toroidal",
+      "hidden quotient",
+      "TOROIDAL_NON_DESCENT_FULL_PACKET_AUDIT"
+    ],
+    "scope": "Browser-result metadata screened plus linked current indexes. Not an exhaustive Drive inventory; original older source tabs and arbitrary full-text matches not all reread."
+  },
+  "access": {
+    "drive_connector": "unavailable",
+    "authenticated_browser": "successful",
+    "native_source_edits": false
+  },
+  "new_checks": [
+    "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\predictive\\v26_example_checks.json",
+    "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\predictive\\predictive_contract_check.json"
+  ],
+  "independent_review": [
+    "static/Hidden Quotient and coverage",
+    "predictive/acquisition/timing",
+    "toroidal/TTSC and replay status"
+  ],
+  "verification": {
+    "all_33_source_labels_resolve": true,
+    "sections_1_to_16": true,
+    "display_math_delimiters_balanced": true,
+    "no_replacement_characters": true
+  },
+  "pre_upgrade_text_snapshot": "C:\\Users\\drewd\\Documents\\Codex\\2026-09-08\\che\\work\\oct18\\GEOMETRY_MASTER_before_oct18.md",
+  "limits": [
+    "Selected-tab text exports are not provider-original bytes or exhaustive native-element exports.",
+    "No historical sampler, large source suite, human timing experiment, or physical Q2 run was performed.",
+    "The rectangular/general-parameter toroidal draft was excluded from governing claims.",
+    "Hashes bind retrieved export bytes, not original Drive revisions or truth."
+  ]
+}

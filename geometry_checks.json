@@ -1,0 +1,78 @@
+{
+  "scope": "Independent arithmetic and reported aggregate-count consistency; no historical sampler replay, physical experiment, or formal proof verification.",
+  "g1": {
+    "string_diameter_gap_2_in": 12.63014581273465,
+    "bar_diameter_gap_2_in": 14.5,
+    "string_diameter_gap_3_in": 14.041594578792296,
+    "bar_diameter_gap_3_in": 15.793114224133722,
+    "foot_half_square_in": 4.949747468305833,
+    "foot_square_width_in": 9.899494936611665,
+    "outer_foot_base_margin_in": 0.25,
+    "axis_offset_reduction_fraction": 0.2222222222222222,
+    "tension_ratio_32in_to_0_65m_same_pitch_density": 1.5636540591715973
+  },
+  "sector_return_checks": [
+    {
+      "L": 2,
+      "d": 1,
+      "return_probability": 0.9788732394366197,
+      "derivative": -0.02112676056338028,
+      "exact_methods_agree": true
+    },
+    {
+      "L": 2,
+      "d": 71,
+      "return_probability": 0.317122381314087,
+      "derivative": -0.2586849521830965,
+      "exact_methods_agree": true
+    },
+    {
+      "L": 3,
+      "d": 1,
+      "return_probability": 0.9932735426008968,
+      "derivative": -0.006726457399103139,
+      "exact_methods_agree": true
+    },
+    {
+      "L": 3,
+      "d": 223,
+      "return_probability": 0.3190377260997798,
+      "derivative": -0.2583082979720758,
+      "exact_methods_agree": true
+    },
+    {
+      "L": 4,
+      "d": 1,
+      "return_probability": 0.9971098265895953,
+      "derivative": -0.002890173410404624,
+      "exact_methods_agree": true
+    },
+    {
+      "L": 4,
+      "d": 519,
+      "return_probability": 0.31954626339414355,
+      "derivative": -0.2582050107233998,
+      "exact_methods_agree": true
+    }
+  ],
+  "phase_reference": {
+    "departures": 10000,
+    "theta0": 0,
+    "slips": 1034,
+    "exact_branch_checks": true
+  },
+  "l3_aggregate_check": {
+    "total": 320000,
+    "minimum": 104,
+    "fourier_probabilities_encoding_x_plus_2y_plus_4z": [
+      0.13009356980007872,
+      0.12648022089888153,
+      0.12634687498983643,
+      0.12325552653746207,
+      0.12651599663057655,
+      0.12350270432008222,
+      0.12331732098311711,
+      0.12048778583996539
+    ]
+  }
+}
