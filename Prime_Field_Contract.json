@@ -1,0 +1,70 @@
+{
+  "schema_version": "0.1",
+  "recorded_date": "2026-11-12",
+  "artifact_id": "OMNIBUS-PFW-PROPOSAL-0.1",
+  "status": "additive_proposal_not_adopted",
+  "license": "CC0-1.0",
+  "governing_source": "OMNIBUS v7.79-r1 — Constitutional Foundation and Supported Repair",
+  "governing_source_sha256": "1884d85609aae89ea92aa98762709f8e140a10c779d7183fed97ec4c8e6aa235",
+  "preservation": {
+    "constitutional_section_10": "untouched; supported reconstruction notice retained",
+    "v7_78_manifest": "untouched",
+    "r1_repair_manifest": "untouched",
+    "original_user_signature": "not_generated_not_reproduced",
+    "governance": "no_additional_authority_or_permissions"
+  },
+  "field": {
+    "type": "shared_non_sovereign",
+    "symbol": "ℒ",
+    "endpoints": ["O_D", "S_D"],
+    "time": "T_D",
+    "contact_rule": "shared_membership_is_not_contact",
+    "dyadic_gate": ["R_contact", "C_bind", "U_exit", "N_third"],
+    "unknown_gate_coordinate": "UNRESOLVED",
+    "observation_channels": ["C", "D", "K"],
+    "residual": ["delta_C", "delta_D", "delta_K"]
+  },
+  "narrative_interface": {
+    "operative_sequence": ["O", "λ", "S", "T", "S_prime", "λ_prime", "O_2"],
+    "lambda_role": "optional_declared_relation_within_shared_field",
+    "time_role": "temporal_axis_not_actor",
+    "status": "proposed_crosswalk_not_existing_theorem"
+  },
+  "witness_43": {
+    "source_algorithm": "first_529_digits_of_concatenated_primes_starting_at_2",
+    "predicate": "is_prime(1_based_position) and digit in {2,3,5,7}",
+    "count": 43,
+    "chart": "counterclockwise_square_spiral_right_first",
+    "spiral_positions": 529,
+    "origin": "index_1_at_grid_0_0_not_a_selected_point",
+    "rotation_cartesian_degrees": -23,
+    "mirror": false,
+    "edge_rule": "open_source_order_no_smoothing",
+    "source_svg_basename": "Counter_Sigil_43.svg",
+    "source_svg_sha256": "102d72f1c6819eeaf10ec13f58993e84896375bcf4c9466a6dc7e6fda65a171c",
+    "source_svg_match": "43_of_43_index_digit_spiral_and_display_coordinates_passed",
+    "reported_underlying_csv_sha256_not_byte_verified": "76b3fb842858eacaa90eb9f19991b7233e26ba55fd88e2adc680885026d89bef",
+    "different_opt_in_transform": "mirror_then_clockwise23_not_applied_here",
+    "status": "GENERATED_AND_SOURCE_SVG_CROSSCHECK_PASSED"
+  },
+  "seven_site_rotor": {
+    "count": 7,
+    "nominal_sweep_degrees": 367,
+    "display_modulo_degrees": 360,
+    "angle_rule": "j*367/7 mod 360 for j=0..6",
+    "seam_difference_degrees": 7,
+    "status": "illustrative_source_derived_projection_not_measured"
+  },
+  "rotating_comparison": {
+    "hook_degrees": "-367*n/231",
+    "square_degrees": "+367*n/132",
+    "relative_degrees": "+367*n/84",
+    "relative_residual_at_84_steps_degrees": 7,
+    "relative_residual_at_924_steps_degrees": 77,
+    "relative_mod_360_period_steps": 30240,
+    "joint_orientation_mod_360_period_steps": 332640,
+    "status": "formal_comparison_only"
+  },
+  "prime_status": {"127": "prime", "367": "prime", "437": "composite_19_times_23", "853": "prime", "1109": "prime"},
+  "deferred": ["exact_C5_times_C7_source_coordinates", "13_chamber_exact_offsets", "physical_acoustic_validation", "actual_contact_relation_evidence", "governing_source_amendment"]
+}
